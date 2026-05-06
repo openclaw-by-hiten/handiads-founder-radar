@@ -5,8 +5,10 @@ import { config } from "./config.mjs";
 const sponsoredTerms = [
   "fully funded",
   "sponsored",
-  "scholarship",
   "travel grant",
+  "startup grant",
+  "business grant",
+  "innovation grant",
   "accommodation",
   "stay covered",
   "food covered",
@@ -14,11 +16,31 @@ const sponsoredTerms = [
 ];
 
 const aiTerms = ["ai", "artificial intelligence", "machine learning", "genai", "automation"];
-const marketTerms = ["startup", "founder", "summit", "accelerator", "delegation", "government"];
+const marketTerms = ["startup", "founder", "summit", "accelerator", "delegation", "government", "incubator", "conference", "investor"];
 const adTerms = ["ad tech", "performance marketing", "attribution", "media buying", "privacy"];
+const gujaratTerms = ["gujarat", "ahmedabad", "gandhinagar", "surat", "rajkot", "gift city", "gift-city"];
 const nearIndiaTerms = ["india", "uae", "dubai", "abu dhabi", "singapore", "nepal", "sri lanka", "qatar"];
 const mediumDistanceTerms = ["japan", "thailand", "malaysia", "vietnam", "indonesia", "south korea"];
 const influencerTerms = ["minister", "government", "investor", "top founder", "influencer", "ceo", "global leader"];
+const founderTerms = ["founder", "startup", "accelerator", "incubator", "investor", "vc", "venture capital", "saas", "agency", "business", "enterprise"];
+const academicBlockTerms = [
+  "scholarship",
+  "master",
+  "master's",
+  "masters",
+  "university admission",
+  "admission",
+  "student",
+  "undergraduate",
+  "phd",
+  "doctoral",
+  "research fellowship",
+  "academic fellowship",
+  "exchange program",
+  "study abroad",
+  "tuition",
+  "campus"
+];
 const opportunityTerms = [
   ...sponsoredTerms,
   "application open",
@@ -30,7 +52,12 @@ const opportunityTerms = [
   "delegation",
   "hackathon",
   "accelerator",
-  "startup competition"
+  "startup competition",
+  "founder meetup",
+  "investor meetup",
+  "business conference",
+  "innovation program",
+  "incubation"
 ];
 
 function textOf(value = "") {
@@ -105,6 +132,7 @@ function includesAny(text, terms) {
 
 function inferLocation(text) {
   const lower = text.toLowerCase();
+  if (includesAny(lower, gujaratTerms)) return "Gujarat";
   if (lower.includes("japan")) return "Japan";
   if (lower.includes("uae") || lower.includes("dubai") || lower.includes("abu dhabi")) return "UAE";
   if (lower.includes("singapore")) return "Singapore";
@@ -121,6 +149,8 @@ function classify(item) {
   if (includesAny(text, aiTerms)) tags.add("ai");
   if (includesAny(text, marketTerms)) tags.add("market");
   if (includesAny(text, adTerms)) tags.add("ads");
+  if (includesAny(text, gujaratTerms)) tags.add("gujarat");
+  if (includesAny(text, founderTerms)) tags.add("founder");
 
   const distanceFromIndia = includesAny(text, nearIndiaTerms)
     ? "near"
@@ -191,13 +221,20 @@ function scoreSignal(signal) {
   let score = 0;
   const reasons = [];
 
-  if (signal.tags.includes("funded")) {
-    score += 45;
-    reasons.push("Sponsored or partly sponsored program");
+  if (signal.tags.includes("gujarat")) {
+    score += 55;
+    reasons.push("Gujarat priority");
+  } else if (signal.location === "India" || signal.distanceFromIndia === "near") {
+    score += 35;
+    reasons.push("India or nearby market priority");
   }
-  if (signal.distanceFromIndia === "near") {
+  if (signal.tags.includes("founder")) {
     score += 25;
-    reasons.push("Close to India");
+    reasons.push("Founder and business growth relevance");
+  }
+  if (signal.tags.includes("funded")) {
+    score += 30;
+    reasons.push("Sponsored or partly sponsored business opportunity");
   } else if (signal.distanceFromIndia === "medium") {
     score += 15;
     reasons.push("Reachable from India");
@@ -261,6 +298,12 @@ function dedupe(items) {
     seen.add(key);
     return true;
   });
+}
+
+function isBusinessRelevant(item) {
+  const text = `${item.title} ${item.summary} ${item.source}`.toLowerCase();
+  if (includesAny(text, academicBlockTerms)) return false;
+  return includesAny(text, [...gujaratTerms, ...founderTerms, ...aiTerms, ...adTerms, "summit", "conference", "delegation", "innovation"]);
 }
 
 function parseArticleDate(value) {
@@ -429,6 +472,7 @@ async function run() {
   const fetched = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
   const items = dedupe(fetched)
     .filter(isRecentEnough)
+    .filter(isBusinessRelevant)
     .map(classify)
     .filter((item) => item.tags.length > 0)
     .map((item) => ({ ...item, priority: scoreSignal(item) }))

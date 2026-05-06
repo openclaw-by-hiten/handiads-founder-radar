@@ -5,7 +5,7 @@ export const config = {
   maxArticleAgeDays: 10,
   requestTimeoutMs: 12000,
   companyContext:
-    "HandiAds is a performance marketing company in India. The founder wants sponsored founder trips, AI summits, startup programs, government-backed opportunities, ad tech updates, and international expansion signals.",
+    "HandiAds is a performance marketing company in Gujarat, India. The founder wants founder-focused startup events, AI summits, accelerator programs, business conferences, government-backed innovation opportunities, investor networking, and sponsored business opportunities. Avoid academic scholarships, university admissions, masters programs, student exchanges, and research fellowships.",
 
   officialPages: [
     {
@@ -32,16 +32,6 @@ export const config = {
       name: "Startup SG Programmes",
       url: "https://www.startupsg.gov.sg/programmes/",
       sourceType: "Official"
-    },
-    {
-      name: "Opportunity Desk",
-      url: "https://opportunitydesk.org/",
-      sourceType: "Opportunity"
-    },
-    {
-      name: "Youth Opportunities",
-      url: "https://www.youthop.com/",
-      sourceType: "Opportunity"
     },
     {
       name: "Devpost Hackathons",
@@ -81,24 +71,19 @@ export const config = {
       url: "https://martech.org/feed/",
       sourceType: "Trusted Marketing"
     },
-    {
-      name: "Opportunity Desk Feed",
-      url: "https://opportunitydesk.org/feed/",
-      sourceType: "Opportunity"
-    }
   ],
 
   googleBackupFeeds: [
     {
-      name: "Google Backup - Sponsored AI programs",
+      name: "Google Backup - Gujarat startup AI events",
       url:
-        "https://news.google.com/rss/search?q=%22sponsored%20travel%22%20AI%20summit%20OR%20%22fully%20funded%22%20AI%20program&hl=en-IN&gl=IN&ceid=IN:en",
+        "https://news.google.com/rss/search?q=Gujarat%20Ahmedabad%20Gandhinagar%20GIFT%20City%20startup%20AI%20summit%20founder%20investor&hl=en-IN&gl=IN&ceid=IN:en",
       sourceType: "Aggregator Backup"
     },
     {
-      name: "Google Backup - Youth founder programs",
+      name: "Google Backup - India founder programs",
       url:
-        "https://news.google.com/rss/search?q=%22youth%20program%22%20%22fully%20funded%22%20startup%20OR%20AI&hl=en-IN&gl=IN&ceid=IN:en",
+        "https://news.google.com/rss/search?q=India%20startup%20founder%20accelerator%20AI%20summit%20government%20program%20investor&hl=en-IN&gl=IN&ceid=IN:en",
       sourceType: "Aggregator Backup"
     },
     {
@@ -116,15 +101,17 @@ export const config = {
   ],
 
   newsApiQueries: [
-    "fully funded AI summit startup founder",
-    "sponsored travel startup program AI",
+    "Gujarat Ahmedabad GIFT City startup AI founder investor event",
+    "India startup founder accelerator AI summit government program",
+    "sponsored startup founder program accelerator AI summit",
     "performance marketing AI ad tech",
     "startup delegation India Japan UAE Singapore"
   ],
 
   gdeltQueries: [
-    "fully funded AI summit startup founder",
-    "sponsored travel startup program",
+    "Gujarat startup AI founder investor event",
+    "India startup founder accelerator AI summit",
+    "sponsored startup founder program accelerator",
     "startup delegation India Japan UAE Singapore",
     "performance marketing AI ad tech"
   ]
