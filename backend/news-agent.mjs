@@ -44,10 +44,15 @@ const academicBlockTerms = [
 const opportunityTerms = [
   ...sponsoredTerms,
   "application open",
+  "applications open",
   "apply now",
+  "register now",
+  "registration open",
   "deadline",
   "program",
-  "fellowship",
+  "open call",
+  "call for startups",
+  "founder fellowship",
   "summit",
   "delegation",
   "hackathon",
@@ -59,6 +64,58 @@ const opportunityTerms = [
   "innovation program",
   "incubation"
 ];
+const actionableTerms = [
+  "application open",
+  "applications open",
+  "apply now",
+  "register now",
+  "registration open",
+  "deadline",
+  "open call",
+  "call for startups",
+  "nomination",
+  "pitch",
+  "demo day",
+  "cohort",
+  "accelerator",
+  "incubator",
+  "challenge",
+  "grant",
+  "startup competition",
+  "summit",
+  "conference",
+  "delegation",
+  "meetup",
+  "expo"
+];
+const genericTitleTerms = [
+  "programs and challenges",
+  "explore startup programs and challenges",
+  "corporate/accelerators",
+  "startup directory",
+  "startup careers",
+  "i am a startup",
+  "i am astartup",
+  "programmes",
+  "programs",
+  "challenges",
+  "home",
+  "about",
+  "search",
+  "jobs"
+];
+const genericUrlPatterns = [
+  "/content/sih/en/reources/startup_india_notes.html",
+  "/content/sih/en/ams-application/application-listing.html",
+  "/content/sih/en/search.html",
+  "/startup_india_notes",
+  "/startups",
+  "/jobs",
+  "/en/startup/",
+  "/programmes/"
+];
+const currentYear = new Date().getFullYear();
+const nextYear = currentYear + 1;
 
 function textOf(value = "") {
   return decodeEntities(value)
@@ -300,10 +357,66 @@ function dedupe(items) {
   });
 }
 
+function isGenericListingPage(item) {
+  const title = (item.title || "").toLowerCase().trim();
+  const url = (item.sourceUrl || "").toLowerCase();
+  if (genericTitleTerms.includes(title)) return true;
+  if (title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
+  if (genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
+
+  try {
+    const parsed = new URL(item.sourceUrl);
+    const pathName = parsed.pathname.replace(/\/+$/, "").toLowerCase();
+    return pathName === "" || pathName === "/" || pathName.split("/").filter(Boolean).length < 2;
+  } catch {
+    return true;
+  }
+}
+
+function hasOldStaticYear(text) {
+  const years = [...text.matchAll(/\b(20\d{2})\b/g)].map((match) => Number(match[1]));
+  if (years.length === 0) return false;
+  const hasCurrentWindow = years.some((year) => year >= currentYear && year <= nextYear);
+  const hasOldYear = years.some((year) => year < currentYear - 1);
+  return hasOldYear && !hasCurrentWindow;
+}
+
+function hasFounderOpportunityFocus(text) {
+  return includesAny(text, [
+    ...gujaratTerms,
+    ...founderTerms,
+    "startup event",
+    "startup summit",
+    "ai summit",
+    "business conference",
+    "investor networking",
+    "innovation mission",
+    "trade mission",
+    "market access",
+    "go-to-market",
+    "gtm",
+    "startup grant",
+    "startup credits",
+    "business grant",
+    "founder program",
+    "delegate pass"
+  ]);
+}
+
+function hasActionableOpportunity(text) {
+  return includesAny(text, actionableTerms);
+}
+
 function isBusinessRelevant(item) {
-  const text = `${item.title} ${item.summary} ${item.source}`.toLowerCase();
+  const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
   if (includesAny(text, academicBlockTerms)) return false;
-  return includesAny(text, [...gujaratTerms, ...founderTerms, ...aiTerms, ...adTerms, "summit", "conference", "delegation", "innovation"]);
+  if (isGenericListingPage(item)) return false;
+  if (hasOldStaticYear(text)) return false;
+  if (!hasFounderOpportunityFocus(text)) return false;
+
+  const isMarketingIntel =
+    item.sourceType?.includes("Trusted") && includesAny(text, [...adTerms, "performance marketing"]);
+  return isMarketingIntel || hasActionableOpportunity(text);
 }
 
 function parseArticleDate(value) {
@@ -318,6 +431,95 @@ function isRecentEnough(item) {
   const ageMs = Date.now() - parsed.getTime();
   const maxAgeMs = config.maxArticleAgeDays * 24 * 60 * 60 * 1000;
   return ageMs <= maxAgeMs && ageMs >= -30 * 24 * 60 * 60 * 1000;
+}
+
+function metaContent(html, name) {
+  const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const patterns = [
+    new RegExp(`<meta[^>]+name=["']${escapedName}["'][^>]+content=["']([^"']+)["']`, "i"),
+    new RegExp(`<meta[^>]+property=["']${escapedName}["'][^>]+content=["']([^"']+)["']`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${escapedName}["']`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${escapedName}["']`, "i")
+  ];
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (match?.[1]) return textOf(match[1]);
+  }
+  return "";
+}
+
+function htmlTitle(html) {
+  return textOf(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "");
+}
+
+function readablePageText(html) {
+  return textOf(
+    html
+      .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
+      .replace(/<noscript\b[\s\S]*?<\/noscript>/gi, " ")
+      .replace(/<\/(p|li|h1|h2|h3|section|article|div)>/gi, ". ")
+  );
+}
+
+function opportunitySentence(text) {
+  const sentences = text
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.length > 45 && sentence.length < 280);
+  return (
+    sentences.find((sentence) =>
+      includesAny(sentence, [...actionableTerms, ...founderTerms, ...sponsoredTerms])
+    ) || sentences[0] || ""
+  );
+}
+
+function shouldVerifyCandidatePage(item) {
+  return item.sourceType === "Official" || item.sourceType === "Opportunity";
+}
+
+async function verifyCandidatePage(item) {
+  if (!shouldVerifyCandidatePage(item)) return item;
+
+  const response = await fetchWithTimeout(item.sourceUrl, {
+    headers: {
+      "user-agent": "HandiAds-Founder-Radar/0.1"
+    }
+  });
+  if (!response.ok) return null;
+
+  const html = await response.text();
+  const pageTitle = metaContent(html, "og:title") || htmlTitle(html);
+  const description =
+    metaContent(html, "description") ||
+    metaContent(html, "og:description") ||
+    opportunitySentence(readablePageText(html));
+  const pageText = `${item.title} ${pageTitle} ${description} ${readablePageText(html).slice(0, 2400)}`;
+  const lowerPageText = pageText.toLowerCase();
+
+  if (includesAny(lowerPageText, academicBlockTerms)) return null;
+  if (hasOldStaticYear(lowerPageText)) return null;
+  if (!hasFounderOpportunityFocus(lowerPageText)) return null;
+  if (!hasActionableOpportunity(lowerPageText)) return null;
+
+  return {
+    ...item,
+    title: genericTitleTerms.includes(item.title.toLowerCase().trim()) && pageTitle ? pageTitle : item.title,
+    summary: description || item.summary
+  };
+}
+
+async function verifyCandidatePages(items) {
+  const verified = [];
+  for (const item of items.slice(0, config.maxCandidatePagesToVerify || 40)) {
+    try {
+      const result = await verifyCandidatePage(item);
+      if (result) verified.push(result);
+    } catch {
+      if (!shouldVerifyCandidatePage(item)) verified.push(item);
+    }
+  }
+  return verified;
 }
 
 async function fetchFeed(feed) {
@@ -470,8 +672,11 @@ async function run() {
   }
 
   const fetched = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
-  const items = dedupe(fetched)
+  const candidates = dedupe(fetched)
     .filter(isRecentEnough)
+    .filter(isBusinessRelevant);
+  const verifiedCandidates = await verifyCandidatePages(candidates);
+  const items = verifiedCandidates
     .filter(isBusinessRelevant)
     .map(classify)
     .filter((item) => item.tags.length > 0)
@@ -489,6 +694,7 @@ async function run() {
       trustedRssFeeds: config.trustedRssFeeds.length,
       gdeltQueries: config.gdeltQueries.length,
       googleBackupFeeds: config.googleBackupFeeds.length,
+      candidatePagesVerified: verifiedCandidates.length,
       newsApiEnabled: Boolean(process.env.NEWS_API_KEY),
       theNewsApiEnabled: Boolean(process.env.THENEWSAPI_KEY)
     },
