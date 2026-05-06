@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HandiAds Founder Radar</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="App navigation">
+        <div class="brand-block">
+          <img class="brand-mark" src="assets/favicon.png" alt="HandiAds" />
+          <div>
+            <p class="eyebrow">HandiAds</p>
+            <h1>Founder Radar</h1>
+          </div>
+        </div>
+
+        <nav class="nav-tabs" aria-label="Sections">
+          <button class="tab-button active" type="button" data-section="radar">
+            <span>Radar</span>
+          </button>
+          <button class="tab-button" type="button" data-section="growth">
+            <span>Growth</span>
+          </button>
+          <button class="tab-button" type="button" data-section="content">
+            <span>Content</span>
+          </button>
+          <button class="tab-button" type="button" data-section="saved">
+            <span>Saved Leads</span>
+          </button>
+        </nav>
+
+        <section class="mini-panel">
+          <p class="panel-title">Agent Focus</p>
+          <label class="check-row">
+            <input type="checkbox" checked data-filter="funded" />
+            Funded trips
+          </label>
+          <label class="check-row">
+            <input type="checkbox" checked data-filter="ai" />
+            AI events
+          </label>
+          <label class="check-row">
+            <input type="checkbox" checked data-filter="market" />
+            New markets
+          </label>
+          <label class="check-row">
+            <input type="checkbox" checked data-filter="ads" />
+            Ad tech
+          </label>
+        </section>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Daily intelligence for the founder</p>
+            <h2 id="sectionTitle">Opportunity Radar</h2>
+          </div>
+          <div class="actions">
+            <button class="icon-button" type="button" id="refreshBtn" title="Refresh feed">
+              Refresh
+            </button>
+          </div>
+        </header>
+
+        <section class="summary-strip" aria-label="Daily summary">
+          <article>
+            <span class="metric">9</span>
+            <p>signals found</p>
+          </article>
+          <article>
+            <span class="metric">3</span>
+            <p>high-fit founder trips</p>
+          </article>
+          <article>
+            <span class="metric">5</span>
+            <p>content angles ready</p>
+          </article>
+        </section>
+
+        <section class="section-view active" id="radarSection">
+          <div class="feed-status" id="feedStatus">
+            <strong>Demo feed</strong>
+            <span>These cards are sample content for UI testing. Live AI fetching is not connected yet.</span>
+          </div>
+          <div class="phone-feed" id="newsStack" aria-live="polite"></div>
+        </section>
+
+        <section class="section-view" id="growthSection">
+          <div class="growth-grid" id="growthGrid"></div>
+        </section>
+
+        <section class="section-view" id="contentSection">
+          <div class="content-tools">
+            <section class="composer">
+              <p class="panel-title">Instagram Creator</p>
+              <label for="contentSignal">News topic</label>
+              <select id="contentSignal">
+                <option value="custom">Custom topic</option>
+              </select>
+              <label for="contentTone">Tone</label>
+              <select id="contentTone">
+                <option>Founder story</option>
+                <option>Performance marketing insight</option>
+                <option>Behind the scenes</option>
+                <option>Client education</option>
+              </select>
+              <button class="primary-button" type="button" id="generatePostBtn">
+                Generate Ideas
+              </button>
+            </section>
+            <section class="post-output" id="postOutput"></section>
+          </div>
+        </section>
+
+        <section class="section-view" id="savedSection">
+          <div class="saved-shell">
+            <section class="composer">
+              <p class="panel-title">Saved Leads</p>
+              <label for="savedSearch">Search saved leads</label>
+              <input
+                id="savedSearch"
+                type="search"
+                placeholder="Search by title, source, location, or notes"
+                autocomplete="off"
+              />
+            </section>
+            <section class="saved-list" id="savedList"></section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

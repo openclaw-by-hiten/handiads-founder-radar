@@ -1,0 +1,33 @@
+name: Refresh Founder Radar News
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Refresh news feed
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          THENEWSAPI_KEY: ${{ secrets.THENEWSAPI_KEY }}
+        run: node backend/news-agent.mjs
+
+      - name: Commit refreshed feed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh Founder Radar daily feed"
+          file_pattern: data/daily-feed.json

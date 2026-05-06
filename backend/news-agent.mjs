@@ -1,0 +1,483 @@
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { config } from "./config.mjs";
+
+const sponsoredTerms = [
+  "fully funded",
+  "sponsored",
+  "scholarship",
+  "travel grant",
+  "accommodation",
+  "stay covered",
+  "food covered",
+  "delegate support"
+];
+
+const aiTerms = ["ai", "artificial intelligence", "machine learning", "genai", "automation"];
+const marketTerms = ["startup", "founder", "summit", "accelerator", "delegation", "government"];
+const adTerms = ["ad tech", "performance marketing", "attribution", "media buying", "privacy"];
+const nearIndiaTerms = ["india", "uae", "dubai", "abu dhabi", "singapore", "nepal", "sri lanka", "qatar"];
+const mediumDistanceTerms = ["japan", "thailand", "malaysia", "vietnam", "indonesia", "south korea"];
+const influencerTerms = ["minister", "government", "investor", "top founder", "influencer", "ceo", "global leader"];
+const opportunityTerms = [
+  ...sponsoredTerms,
+  "application open",
+  "apply now",
+  "deadline",
+  "program",
+  "fellowship",
+  "summit",
+  "delegation",
+  "hackathon",
+  "accelerator",
+  "startup competition"
+];
+
+function textOf(value = "") {
+  return decodeEntities(value)
+    .replace(/<!\[CDATA\[(.*?)\]\]>/gs, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function decodeEntities(value = "") {
+  return value
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
+}
+
+function firstMatch(block, tag) {
+  const match = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
+  return match ? textOf(match[1]) : "";
+}
+
+function parseRss(xml, feed) {
+  return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(([block]) => ({
+    title: firstMatch(block, "title"),
+    summary: firstMatch(block, "description"),
+    source: feed.name,
+    sourceUrl: firstMatch(block, "link"),
+    date: firstMatch(block, "pubDate") || "Recent",
+    location: inferLocation(`${firstMatch(block, "title")} ${firstMatch(block, "description")}`),
+    sourceType: feed.sourceType || "RSS"
+  }));
+}
+
+function parseHtmlLinks(html, page) {
+  const links = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((match) => {
+      const url = normalizeUrl(match[1], page.url);
+      const title = textOf(match[2]);
+      return {
+        title,
+        summary: `${page.name} official/opportunity page signal.`,
+        source: page.name,
+        sourceUrl: url,
+        date: "Recent",
+        location: inferLocation(`${title} ${page.name}`),
+        sourceType: page.sourceType || "Official"
+      };
+    })
+    .filter((item) => item.title.length > 12 && item.sourceUrl)
+    .filter((item) => includesAny(`${item.title} ${item.summary}`, opportunityTerms));
+
+  return links.slice(0, config.maxItemsPerFeed);
+}
+
+function normalizeUrl(value, base) {
+  try {
+    return new URL(value, base).toString();
+  } catch {
+    return "";
+  }
+}
+
+function includesAny(text, terms) {
+  const lower = text.toLowerCase();
+  return terms.some((term) => lower.includes(term));
+}
+
+function inferLocation(text) {
+  const lower = text.toLowerCase();
+  if (lower.includes("japan")) return "Japan";
+  if (lower.includes("uae") || lower.includes("dubai") || lower.includes("abu dhabi")) return "UAE";
+  if (lower.includes("singapore")) return "Singapore";
+  if (lower.includes("india")) return "India";
+  if (lower.includes("qatar")) return "Qatar";
+  if (lower.includes("saudi")) return "Saudi Arabia";
+  return "Global";
+}
+
+function classify(item) {
+  const text = `${item.title} ${item.summary} ${item.location}`;
+  const tags = new Set();
+  if (includesAny(text, sponsoredTerms)) tags.add("funded");
+  if (includesAny(text, aiTerms)) tags.add("ai");
+  if (includesAny(text, marketTerms)) tags.add("market");
+  if (includesAny(text, adTerms)) tags.add("ads");
+
+  const distanceFromIndia = includesAny(text, nearIndiaTerms)
+    ? "near"
+    : includesAny(text, mediumDistanceTerms)
+      ? "medium"
+      : "remote";
+
+  const sponsorship = tags.has("funded")
+    ? "Possible sponsored or partly sponsored support. Needs official verification."
+    : "No sponsorship found in headline or snippet.";
+
+  const airTravel = tags.has("funded") && distanceFromIndia !== "remote" ? "self-funded" : "unknown";
+  const influencerValue = includesAny(text, influencerTerms) ? "high" : tags.has("market") ? "medium" : "low";
+
+  return {
+    ...item,
+    id: slugify(item.title),
+    tags: [...tags],
+    sponsorship,
+    distanceFromIndia,
+    airTravel,
+    influencerValue,
+    authenticity: buildAuthenticity(item.sourceType),
+    fit: tags.has("funded") || tags.has("ai") ? "High fit" : "Watch",
+    why: buildWhy(tags, item.location),
+    cost: buildCost(sponsorship, airTravel),
+    nextMoves: buildNextMoves(tags)
+  };
+}
+
+function buildAuthenticity(sourceType = "RSS") {
+  if (sourceType === "Official") return "Official source scan. Verify exact eligibility and dates before applying.";
+  if (sourceType === "Opportunity") return "Opportunity platform scan. Verify with the organizer or official page.";
+  if (sourceType.includes("Trusted")) return "Trusted publication scan. Use as news intelligence, then verify original source.";
+  if (sourceType === "News API") return "News API scan. Verify original publisher and program source.";
+  if (sourceType === "Global News") return "Global news scan. Verify the original publisher and official program source.";
+  if (sourceType === "Aggregator Backup") return "Aggregator backup scan. Open and verify the original publisher.";
+  return "Fetched from web source. Verify before applying.";
+}
+
+function buildWhy(tags, location) {
+  if (tags.has("funded")) {
+    return `This can help HandiAds build international presence in ${location} while keeping founder travel cost controlled.`;
+  }
+  if (tags.has("ads")) {
+    return "This can become a new service, client alert, or content angle for performance marketing clients.";
+  }
+  return "This may reveal a market, partnership, or founder network that HandiAds can use for growth.";
+}
+
+function buildCost(sponsorship, airTravel) {
+  if (airTravel === "self-funded") {
+    return `${sponsorship} Flight may still need to be paid by the founder.`;
+  }
+  return sponsorship;
+}
+
+function buildNextMoves(tags) {
+  const moves = ["Open the source and verify the official application page."];
+  if (tags.has("funded")) moves.push("Check eligibility, deadline, covered costs, visa needs, and flight cost.");
+  if (tags.has("ai")) moves.push("Prepare an AI and performance marketing partnership angle for HandiAds.");
+  if (tags.has("ads")) moves.push("Turn the signal into a client-facing ad growth insight.");
+  moves.push("Save the lead if it can create meetings, content, or revenue.");
+  return moves;
+}
+
+function scoreSignal(signal) {
+  let score = 0;
+  const reasons = [];
+
+  if (signal.tags.includes("funded")) {
+    score += 45;
+    reasons.push("Sponsored or partly sponsored program");
+  }
+  if (signal.distanceFromIndia === "near") {
+    score += 25;
+    reasons.push("Close to India");
+  } else if (signal.distanceFromIndia === "medium") {
+    score += 15;
+    reasons.push("Reachable from India");
+  }
+  if (signal.airTravel === "self-funded") {
+    score += 10;
+    reasons.push("Only air travel may be self-funded");
+  }
+  if (signal.influencerValue === "high") {
+    score += 20;
+    reasons.push("Strong influencer and networking value");
+  } else if (signal.influencerValue === "medium") {
+    score += 12;
+    reasons.push("Useful founder network value");
+  }
+  if (signal.tags.includes("ai")) {
+    score += 8;
+    reasons.push("AI relevance for HandiAds positioning");
+  }
+  if (signal.tags.includes("ads")) {
+    score += 8;
+    reasons.push("Performance marketing relevance");
+  }
+  if (signal.sourceType === "Official") {
+    score += 14;
+    reasons.push("Official source");
+  } else if (signal.sourceType === "Opportunity") {
+    score += 10;
+    reasons.push("Opportunity platform source");
+  } else if (signal.sourceType?.includes("Trusted")) {
+    score += 6;
+    reasons.push("Trusted publisher source");
+  } else if (signal.sourceType === "Global News") {
+    score += 4;
+    reasons.push("Global news intelligence source");
+  } else if (signal.sourceType === "Aggregator Backup") {
+    score -= 8;
+    reasons.push("Aggregator backup source");
+  }
+
+  return {
+    score: Math.min(score, 100),
+    reasons,
+    label: score >= 80 ? "Priority 1" : score >= 60 ? "Priority 2" : "Watchlist"
+  };
+}
+
+function slugify(value) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "")
+    .slice(0, 80);
+}
+
+function dedupe(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = `${item.title}|${item.sourceUrl}`.toLowerCase();
+    if (seen.has(key) || !item.title || !item.sourceUrl) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function parseArticleDate(value) {
+  if (!value || value === "Recent") return null;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function isRecentEnough(item) {
+  const parsed = parseArticleDate(item.date);
+  if (!parsed) return item.sourceType === "Official" || item.sourceType === "Opportunity";
+  const ageMs = Date.now() - parsed.getTime();
+  const maxAgeMs = config.maxArticleAgeDays * 24 * 60 * 60 * 1000;
+  return ageMs <= maxAgeMs && ageMs >= -30 * 24 * 60 * 60 * 1000;
+}
+
+async function fetchFeed(feed) {
+  const response = await fetchWithTimeout(feed.url, {
+    headers: {
+      "user-agent": "HandiAds-Founder-Radar/0.1"
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`${feed.name} failed with ${response.status}`);
+  }
+  const xml = await response.text();
+  return parseRss(xml, feed).slice(0, config.maxItemsPerFeed);
+}
+
+async function fetchHtmlPage(page) {
+  const response = await fetchWithTimeout(page.url, {
+    headers: {
+      "user-agent": "HandiAds-Founder-Radar/0.1"
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`${page.name} failed with ${response.status}`);
+  }
+  const html = await response.text();
+  return parseHtmlLinks(html, page);
+}
+
+async function fetchWithTimeout(url, options = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), config.requestTimeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchNewsApi() {
+  const apiKey = process.env.NEWS_API_KEY;
+  if (!apiKey) return [];
+
+  const results = await Promise.allSettled(
+    config.newsApiQueries.map(async (query) => {
+      const url = new URL("https://newsapi.org/v2/everything");
+      url.searchParams.set("q", query);
+      url.searchParams.set("language", "en");
+      url.searchParams.set("sortBy", "publishedAt");
+      url.searchParams.set("pageSize", "10");
+      url.searchParams.set("apiKey", apiKey);
+      const response = await fetchWithTimeout(url);
+      if (!response.ok) throw new Error(`NewsAPI ${query} failed with ${response.status}`);
+      const data = await response.json();
+      return (data.articles || []).map((article) => ({
+        title: article.title || "",
+        summary: article.description || article.content || "",
+        source: article.source?.name || "NewsAPI",
+        sourceUrl: article.url,
+        date: article.publishedAt || "Recent",
+        location: inferLocation(`${article.title} ${article.description}`),
+        sourceType: "News API"
+      }));
+    })
+  );
+
+  return results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
+}
+
+async function fetchTheNewsApi() {
+  const apiKey = process.env.THENEWSAPI_KEY;
+  if (!apiKey) return [];
+
+  const results = await Promise.allSettled(
+    config.newsApiQueries.map(async (query) => {
+      const url = new URL("https://api.thenewsapi.com/v1/news/all");
+      url.searchParams.set("api_token", apiKey);
+      url.searchParams.set("search", query);
+      url.searchParams.set("language", "en");
+      url.searchParams.set("limit", "10");
+      const response = await fetchWithTimeout(url);
+      if (!response.ok) throw new Error(`TheNewsAPI ${query} failed with ${response.status}`);
+      const data = await response.json();
+      return (data.data || []).map((article) => ({
+        title: article.title || "",
+        summary: article.description || article.snippet || "",
+        source: article.source || article.domain || "TheNewsAPI",
+        sourceUrl: article.url,
+        date: article.published_at || "Recent",
+        location: inferLocation(`${article.title} ${article.description}`),
+        sourceType: "News API"
+      }));
+    })
+  );
+
+  return results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
+}
+
+async function fetchGdelt() {
+  const results = await Promise.allSettled(
+    config.gdeltQueries.map(async (query) => {
+      const url = new URL("https://api.gdeltproject.org/api/v2/doc/doc");
+      url.searchParams.set("query", query);
+      url.searchParams.set("mode", "ArtList");
+      url.searchParams.set("format", "json");
+      url.searchParams.set("maxrecords", "20");
+      url.searchParams.set("sort", "HybridRel");
+      const response = await fetchWithTimeout(url, {
+        headers: {
+          "user-agent": "HandiAds-Founder-Radar/0.1"
+        }
+      });
+      if (!response.ok) throw new Error(`GDELT ${query} failed with ${response.status}`);
+      const data = await response.json();
+      return (data.articles || []).map((article) => ({
+        title: article.title || "",
+        summary: article.seendate ? `GDELT article seen ${article.seendate}.` : "GDELT global news signal.",
+        source: article.domain || "GDELT",
+        sourceUrl: article.url,
+        date: article.seendate || "Recent",
+        location: inferLocation(`${article.title} ${article.domain}`),
+        sourceType: "Global News"
+      }));
+    })
+  );
+
+  return results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
+}
+
+async function run() {
+  const sourceJobs = [
+    ...config.officialPages.map((source) => ({ source, type: "html", job: fetchHtmlPage(source) })),
+    ...config.trustedRssFeeds.map((source) => ({ source, type: "rss", job: fetchFeed(source) })),
+    { source: { name: "GDELT Global News" }, type: "api", job: fetchGdelt() },
+    { source: { name: "TheNewsAPI optional" }, type: "api", job: fetchTheNewsApi() },
+    ...config.googleBackupFeeds.map((source) => ({ source, type: "rss", job: fetchFeed(source) })),
+    { source: { name: "NewsAPI optional" }, type: "api", job: fetchNewsApi() }
+  ];
+
+  const results = await Promise.allSettled(sourceJobs.map((entry) => entry.job));
+  const failedFeeds = results
+    .map((result, index) => ({ result, feed: sourceJobs[index].source }))
+    .filter(({ result }) => result.status === "rejected")
+    .map(({ result, feed }) => ({
+      name: feed.name,
+      error: result.reason?.message || "Unknown error"
+    }));
+
+  for (const failure of failedFeeds) {
+    console.warn(`Feed failed: ${failure.name} - ${failure.error}`);
+  }
+
+  const fetched = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
+  const items = dedupe(fetched)
+    .filter(isRecentEnough)
+    .map(classify)
+    .filter((item) => item.tags.length > 0)
+    .map((item) => ({ ...item, priority: scoreSignal(item) }))
+    .sort((a, b) => b.priority.score - a.priority.score)
+    .slice(0, config.maxDailyItems);
+
+  const output = {
+    generatedAt: new Date().toISOString(),
+    timezone: "Asia/Kolkata",
+    status: "multi-source-fetched-needs-human-verification",
+    searchedFeeds: sourceJobs.length,
+    sourcePlan: {
+      officialPages: config.officialPages.length,
+      trustedRssFeeds: config.trustedRssFeeds.length,
+      gdeltQueries: config.gdeltQueries.length,
+      googleBackupFeeds: config.googleBackupFeeds.length,
+      newsApiEnabled: Boolean(process.env.NEWS_API_KEY),
+      theNewsApiEnabled: Boolean(process.env.THENEWSAPI_KEY)
+    },
+    failedFeeds,
+    items
+  };
+
+  if (items.length === 0 && failedFeeds.length > 0) {
+    try {
+      const previous = JSON.parse(await readFile(config.outputPath, "utf8"));
+      if (Array.isArray(previous.items) && previous.items.length > 0) {
+        previous.status = "using-last-successful-feed";
+        previous.lastFailedRefreshAt = output.generatedAt;
+        previous.failedFeeds = failedFeeds;
+        await writeOutput(previous);
+        console.warn("No fresh items fetched. Kept the last successful feed.");
+        return;
+      }
+    } catch {
+      console.warn("No fresh items fetched and no previous feed was available.");
+    }
+  }
+
+  await writeOutput(output);
+  console.log(`Saved ${items.length} items to ${config.outputPath}`);
+}
+
+async function writeOutput(output) {
+  await mkdir(path.dirname(config.outputPath), { recursive: true });
+  await writeFile(config.outputPath, JSON.stringify(output, null, 2), "utf8");
+}
+
+run().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

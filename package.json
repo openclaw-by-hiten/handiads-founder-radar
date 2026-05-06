@@ -1,0 +1,11 @@
+{
+  "name": "handiads-founder-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh-news": "node backend/news-agent.mjs",
+    "start": "node backend/serve.mjs",
+    "check": "node --check app.js && node --check backend/news-agent.mjs"
+  }
+}
