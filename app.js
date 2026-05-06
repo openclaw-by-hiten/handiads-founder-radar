@@ -630,7 +630,7 @@ contentSignal?.addEventListener("change", () => {
 
 async function loadDailyFeed() {
   try {
-    const response = await fetch("data/daily-feed.json", { cache: "no-store" });
+    const response = await fetch(`data/daily-feed.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) return;
     const feed = await response.json();
     if (!Array.isArray(feed.items) || feed.items.length === 0) return;
