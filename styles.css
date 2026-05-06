@@ -629,6 +629,9 @@ h3 {
   }
 
   .sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
@@ -660,7 +663,34 @@ h3 {
   }
 
   .nav-tabs {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, minmax(96px, 1fr));
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .tab-button {
+    min-width: 96px;
+    text-align: center;
+  }
+
+  .mini-panel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 12px;
+  }
+
+  .mini-panel .panel-title {
+    display: none;
+  }
+
+  .check-row {
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    padding: 8px 10px;
+    white-space: nowrap;
   }
 
   .news-card h3 {

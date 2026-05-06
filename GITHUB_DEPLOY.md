@@ -143,6 +143,8 @@ data/daily-feed.json
 
 The `generatedAt` value should update.
 
+On the live website, the `Refresh` button cannot secretly run the scanner by itself because GitHub Pages is static and exposing a GitHub token in the browser would be unsafe. If the feed is older than one day, the button opens the GitHub Actions workflow page so you can press `Run workflow`.
+
 ## Optional API Keys
 
 Go to:

@@ -168,6 +168,9 @@ const sectionTitles = {
 };
 
 const savedStorageKey = "handiads-saved-leads";
+const refreshWorkflowUrl =
+  "https://github.com/openclaw-by-hiten/handiads-founder-radar/actions/workflows/refresh-news.yml";
+let latestFeedAgeHours = Infinity;
 const newsStack = document.querySelector("#newsStack");
 const growthGrid = document.querySelector("#growthGrid");
 const sectionTitle = document.querySelector("#sectionTitle");
@@ -600,6 +603,16 @@ document.querySelectorAll("[data-filter]").forEach((input) => {
 });
 
 document.querySelector("#refreshBtn").addEventListener("click", () => {
+  if (latestFeedAgeHours > 24) {
+    window.open(refreshWorkflowUrl, "_blank", "noopener,noreferrer");
+    document.querySelector("#refreshBtn").textContent = "Open Actions";
+    setTimeout(() => {
+      document.querySelector("#refreshBtn").textContent = "Refresh";
+    }, 1600);
+    return;
+  }
+
+  loadDailyFeed();
   renderSignals();
   document.querySelector("#refreshBtn").textContent = "Updated";
   setTimeout(() => {
@@ -638,12 +651,13 @@ async function loadDailyFeed() {
     if (feedStatus) {
       const generatedAt = new Date(feed.generatedAt);
       const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
+      latestFeedAgeHours = ageHours;
       const isStale = ageHours > 36;
       feedStatus.innerHTML = `
         <strong>${isStale ? "Backend stale" : "Backend active"}</strong>
         <span>Updated ${generatedAt.toLocaleString("en-IN", {
           timeZone: "Asia/Kolkata"
-        })}. ${isStale ? "Run refresh-news or check the 3:30 AM cron." : "Verify source links before applying."}</span>
+        })}. ${isStale ? "Use Refresh to open the GitHub manual scanner." : "Verify source links before applying."}</span>
       `;
     }
   } catch (error) {
