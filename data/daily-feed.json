@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-06T22:53:00.243Z",
+  "generatedAt": "2026-05-07T06:07:52.377Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
-  "searchedFeeds": 21,
+  "searchedFeeds": 22,
   "sourcePlan": {
     "officialPages": 4,
     "trustedRssFeeds": 6,
-    "gdeltQueries": 5,
-    "googleBackupFeeds": 8,
-    "candidatePagesVerified": 22,
+    "gdeltQueries": 6,
+    "googleBackupFeeds": 9,
+    "candidatePagesVerified": 5,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -54,197 +54,8 @@
       }
     },
     {
-      "title": "Vibrant Gujarat regional conference: Surat to host startup session May 1-2 - MSN",
-      "summary": "Vibrant Gujarat regional conference: Surat to host startup session May 1-2 MSN",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNODhqTS1PQVBJcTRhaUlwMlBCLVdOX3F5d0xJZ3FlbXZoaENLOEc2TEtuVkJFdEJEMXFjZzBIM19uc29mMG13M2Q4dlBSb29SMXhub2pJYzF4WFpHRUtCTktDcFNaVjh1ekJsT2x5cWxxN1FTM00xZE5GRFRHRFpWSTloUUF2S1l2WnlxbWZEWnhKSWZqVzAwTGV5aGhCNjkyQTVyWFEwaWluQnNOQVlGS0FkTzZId2QyYkFmR05iYw?oc=5",
-      "date": "Tue, 05 May 2026 00:25:56 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "vibrant-gujarat-regional-conference-surat-to-host-startup-session-may-1-2-msn",
-      "tags": [
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 84,
-        "reasons": [
-          "Gujarat priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Surat to host startup session at Vibrant Gujarat conference May 1-2 - The News Mill",
-      "summary": "Surat to host startup session at Vibrant Gujarat conference May 1-2 The News Mill",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcEtoVmNoQW1ISmptb0NrU25seTByRFRBZWxNMTVvcTc1bmVZU2pGM3BXQ0pOcGhzVmNvSHhNVXJVSFFoWHNpZGhJOHBPd01DaFFNeGYxaVF4YWdwQXpILVNndG54T3VnUDJBVG5Mb1lKS09iVTB4UU9qanJrN3RHRExRR1JOY0VuNFhHU0tFWGtpOGZkY1IwY0pKNWxSaDkxZXc?oc=5",
-      "date": "Fri, 01 May 2026 12:12:34 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "surat-to-host-startup-session-at-vibrant-gujarat-conference-may-1-2-the-news-mil",
-      "tags": [
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 84,
-        "reasons": [
-          "Gujarat priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "🌐 Vibrant Gujarat Regional Conference: Surat to Host Startup-Focused Events - indiaherald.com",
-      "summary": "🌐 Vibrant Gujarat Regional Conference: Surat to Host Startup-Focused Events indiaherald.com",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2VTWVVaT3Z6M0JsTkoxcmdKYW84RnhMbGNQcVV1UzN5M0xWT0Y2cGllYmVzaE9Za1RaSHR1LWJiQWVxbmtReVN4S2VLQ0p2YVRtdjQ0cHdGTkl0d1A0aWZTUkYyaER3MkJfNU5UVTZET28tcXB6bVRMb3NDYlltTE04SkpHM1pkVEFFcGtqS2RJLWc2eXBFQjJuVnRCWVIyZ29EUmlOS2hQZjRtRDljTF9YZlA3ajltUUVkN3p3?oc=5",
-      "date": "Thu, 30 Apr 2026 09:07:35 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "vibrant-gujarat-regional-conference-surat-to-host-startup-focused-events-indiahe",
-      "tags": [
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 84,
-        "reasons": [
-          "Gujarat priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "AI Impact Summit 2026: MIB pavilion showcases India’s AI capabilities, startup depth - DD News",
-      "summary": "AI Impact Summit 2026: MIB pavilion showcases India’s AI capabilities, startup depth DD News",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGU0ZnpLWkRHdHRzSVVpYm1iOEVIVXgxcmwtaUZZc2FGdWlrXzg0WXlzWTJ2VTRnQ1RmTTg5T09MalVKM2toNEpBTUdBaUxvT1g1YlpGN3pKckRIbl9mNDhtRFp2aEtLTDFkalJqa2FYelh4b0wybGJSUGZSWGRnOUp1R1RQOXIxUHlNZEdkNzFlbjItaWIxOE1PNjFpcGpUR0lsb3V6anZ2ZEE?oc=5",
-      "date": "Wed, 06 May 2026 11:06:18 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "ai-impact-summit-2026-mib-pavilion-showcases-india-s-ai-capabilities-startup-dep",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 72,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "MeitY Launches AI Impact Startup Book at India AI Impact Summit 2026 - DD News",
-      "summary": "MeitY Launches AI Impact Startup Book at India AI Impact Summit 2026 DD News",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFF1RjBuUkEzQTFQS2pMZU1ZXzJJMUZ6c1J4VjlxRDR5VUUwbmV3WE9Vamt1MHR2eFdEZFNPNTViUkQyRThwc2pkQWdjZjRUVnZJalo1ZXJaS2V6UVk2RWNxSFdvN0JZZWNYenlxWktPMXk2ODhCSmdQUUpXaHFiQnR4VThfQjg1dm05WkRONDhsMlZJUjhWekZn?oc=5",
-      "date": "Wed, 06 May 2026 10:34:33 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "meity-launches-ai-impact-startup-book-at-india-ai-impact-summit-2026-dd-news",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 72,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "Google Invites Indian AI Startups For Third Play Accelerator Cohort - IndiaWest",
-      "summary": "Google Invites Indian AI Startups For Third Play Accelerator Cohort IndiaWest",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - MNC startup credits and founder programs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcHhqaG9QZ2U0Q0JsMEVNRTA2S0tacjUtTTFjaVFvNW9mWHM4cEtJbmpPazg4VGtSWkZ3SGVHaDFQOGkwQlE2V0d6N2JSOTh5UXQwTi1kVzI4UG9HazBuR1RUWVJaNmFFOHpSSnhFaUp1UFN0cF9aR2lDZ0pCZ0x2d29FeWRLSEZ5RURJY2xlR2NidXZM?oc=5",
       "date": "Wed, 06 May 2026 17:41:38 GMT",
@@ -283,7 +94,7 @@
     },
     {
       "title": "Google Opens Play Accelerator India Applications for AI Startups, May Deadline Set - APAC Media",
-      "summary": "Google Opens Play Accelerator India Applications for AI Startups, May Deadline Set APAC Media",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - MNC startup credits and founder programs",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSERYTDE5YWJPWXpVdUk0TUJETDlLVDRqRWlOZHZfWW9qZ2h0VmppRGNwckpzckhOdUZQbDFJMzFrNGtmUzFKNkc5M18xWHRGYnRkdjB6ZGpZU0Rrd0ZEN3Z3SDEteFNGd2xhMjJOTVZsZ0hva0pqM2FrWW1BQldXelJOSlRxV1pWa3h5SEVTSXlON2IwbW1HUnBoVXdVMnowaVhMRmRrakJXM2RQemxhV21BMzlYM04ySWc?oc=5",
       "date": "Mon, 04 May 2026 07:00:00 GMT",
@@ -322,7 +133,7 @@
     },
     {
       "title": "Empowering Indian app innovators: Applications open for Google Play Accelerator India - blog.google",
-      "summary": "Empowering Indian app innovators: Applications open for Google Play Accelerator India blog.google",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeVcycGp5alVtX2pxc3JzRzFremU3ZFVDZVZaelRHMXBCclV0bW9HSXQ2Ty1hOXlaU0dxdGxfVEY5dmc3UXJEckh2X3dOQW10eXdlaC1iM0JWTllpR0pvSDhfU215QWJtbHZrWVB5RWQzU0o1R21aSlpLSHZMR0tRZnh0N29xRlBtTHFJemFsclBFMElhLVotNldYSTMzU0F4TU03cm9GY2ZXMWlFaHdHMks1X2FUblBxU2otV0VJSGxBaGMtQXJGaw?oc=5",
       "date": "Mon, 04 May 2026 06:24:18 GMT",
@@ -358,7 +169,7 @@
     },
     {
       "title": "Samsung invites applications for 2026 startup programme with $50,000 grant - The Times of India",
-      "summary": "Samsung invites applications for 2026 startup programme with $50,000 grant The Times of India",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUjhhbmNkTGgwSWJlUFNpTDhHbDVfeWhmWV9XanlnTVpOS2U4T2pxSno3enMyeldwRnJidmN6aF9KcUl2VXdaRlBoOHM1T3daOF93blBSLVY0LTl4SWFHa0dqNU8tbmoyV3V1cG5TblppVlROa0d2dXZ5SGZHMlBpdy1sandtSk5KUTUtSkF5RmlReUJHR0cwT0R5Z2dOS2lUUTNzSnMzZE01SHlmeURMcnFSYVVmQUF5UXdiZWVhb0dlSGxSRnN3UmtCb3djTnZNUFhaaGxBUHpNZHpJQlByaERuMVkyVS1YQkkw0gHwAUFVX3lxTE9pRElrdWM4THB6dmpLQmZPeTZWVzVyZm1Ta1hiTWZlY0RkVVU1V0hRSDFiR0lYbHplNHAxMmZvTXRYcVZNZlNTc3hqVkpsdnJiZ0I1NlBHYlpBSTItVWpJcGVHeUVnRm1RMW9hNG9yTjltazVfSFpzT0x6bnNCN1NXSHdjTXIyTFA0NGp3M0d0RTBBTUpCN0NXS0tzbmI5ZTFGWXJQZ1NiQ0h0RWlPMll3dHkwNVNxMmt3Ujl0M0MzR0hHRldhbFJIbmdmU251T1BiLTJ3SUZhQUZRUnQzRUg2bFdXOHl0WHVKMjR6OVNYcA?oc=5",
       "date": "Tue, 05 May 2026 08:29:00 GMT",
@@ -390,296 +201,6 @@
           "Aggregator backup source"
         ],
         "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Fortune India Startup Summit 2026 | The Second-Time Founders bet on Ground-Up Learning - Fortune India",
-      "summary": "Fortune India Startup Summit 2026 | The Second-Time Founders bet on Ground-Up Learning Fortune India",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSlQyZXRGQ25Pd1kwUXRWNHlwNkF3Z1B2QkE3LUptTjhfRmlfdjRmZDEtTnhqeENkRDJ5aXpyZFRzMl9EOTFmQ3lxdGo1dGJacHNTMHg4Qm5Ba241U1ctRTc3ZEFDeGVoT3luamdxQUprR1FmMnVUV2NOODFyLUhqUVV6UGtiQXhBaUI5QjNBQjNyOFluVjM5amVlTkk0NlJGMkg0VHdZV3h1ZlQ5bjVES0RPWHhqbUhjZDJDVjNRQXE1Y0s1R1BmandB0gHXAUFVX3lxTFBkbTJuYWF0RXJWZHRWcFltUWltakFvdlNjTEhlOVpPRWFBaXFDODQ0NmFBSlc5MmhYbGRuR0JIaWo0SXNKak1zTk1YLUpLQndoUWJFVnJDNGdvQ3ZmVzhQMmJoZlZNeEQxN2V3T3FmanlSZ3RkT3owTHZYaXlzV1dUWE44Q2kxMWNwRWZIbGVxYkZONnI0UUQxdEd4Vkh6OHRlT2RBUkxTMXZadkJ2YUFEU3J5TGo5Z2syZHdGVUtjMFVUS1NBZzY1cFVrSERZaGlSdXdqYXVz?oc=5",
-      "date": "Wed, 29 Apr 2026 09:06:35 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "fortune-india-startup-summit-2026-the-second-time-founders-bet-on-ground-up-lear",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 64,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Fortune India Startup Summit 2026 | Small towns can go global - Fortune India",
-      "summary": "Fortune India Startup Summit 2026 | Small towns can go global Fortune India",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSm4wdnpDaGNRLU9ZLUx1QTVTYUtLc3FPM0RNbFh6MGdxQTRUUUhPUGd2SHdCdXZXSi1GbWxOT1QwRTY4aVdUQ3J1ZjMxbER5WVdGdkFUc1h6eTBPOXZDVTFPUHhjM0VGVzc0STNSakk4TnNueEJBSzJTTVdTXy10NENLalA3TnhIdkxIMmpRckUxdXljOWlrcWU2VVZMOGttOEFIb3VJWWfSAbYBQVVfeXFMTnNnQndURmh4bTJfQXo0RDh4aFZfdlVFWlBGYUVyTFcxVk9TQnBHb2hvTEZPUm5vMmFENVIzaXdkRkU1WXVJc1V4ZnozYTVLc2Q4MTU5SkdMc05jUWd3d3VicHQwVWxwWFQyaF9ELXV0Z29pLVlQN0hHbjhuUEVLeWVXTDNGYzhsNWQ4aEZpWTZlWlQxejZRNFY1M0VlTVZfbGhyU0RURnFxTnd4SnVCY0ZaQ2FLaHc?oc=5",
-      "date": "Wed, 29 Apr 2026 12:03:28 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "fortune-india-startup-summit-2026-small-towns-can-go-global-fortune-india",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 64,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Startup Moldova Summit 2026 spotlights Moldova's rise as a startup gateway to European markets - Thailand Business News",
-      "summary": "Startup Moldova Summit 2026 spotlights Moldova's rise as a startup gateway to European markets Thailand Business News",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQmFLS1pCSnRKQy0tRXJHNkxYZWtxQ21NTWVpcFZyZUtwRFBiSE5QcEdNTzQwYUpiTUJha0htc3NPc05uYnF1UWFxSG9PRnItbGxmU2tVSm5YNUpkcmp1b3lRT1JCbUtVTERKYVhoSHBRa0lFdU9kLU5mNHhBdjJ5Ym9HUVVpYzJBVEt6MWdJaWlKbkdNZll5ZEd5cnZSem03NmQzeXFBYlFkUmlZOHBBeS1ZRXBjbmFIVHpmTmVCT1Z3OXNXREVjajV0QUp5dzc4R0lmSFJTWQ?oc=5",
-      "date": "Thu, 30 Apr 2026 23:00:39 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "startup-moldova-summit-2026-spotlights-moldova-s-rise-as-a-startup-gateway-to-eu",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Reachable from India",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "India’s first GenAI unicorn shifts to cloud services as AI model ambitions face reality",
-      "summary": "Krutrim's pivot to cloud after layoffs and limited product updates reflects the economic challenges of building AI models in India.",
-      "source": "TechCrunch Startups",
-      "sourceUrl": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
-      "date": "Tue, 05 May 2026 13:18:50 +0000",
-      "location": "India",
-      "sourceType": "Trusted Tech",
-      "id": "india-s-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-",
-      "tags": [
-        "ai"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 49,
-        "reasons": [
-          "India or nearby market priority",
-          "AI relevance for HandiAds positioning",
-          "Trusted publisher source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Pakistan’s Startup delegation engages Japanese Innovation Ecosystem at GoGlobal event in Tokyo - | Associated Press Of Pakistan",
-      "summary": "Pakistan’s Startup delegation engages Japanese Innovation Ecosystem at GoGlobal event in Tokyo | Associated Press Of Pakistan",
-      "source": "Google Backup - Government startup delegations",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYi1nUnNOWUYyUm5waHVrZF9OcDcxU1FQNDlqSUpzeW9QNTN6NHdxY0pnS0ZldV9GSllVc0E1a2gxR1V6ajZkZEJOcmhVdVFSNEJPMlRjWEd2S2ZrQnd3eW9Wd05jdHRoWlBvUmpjQmZOb2t4NWxzcFp1WmI5SHFaSHNJaFNOWUtPMXY3d05Da1BNd3lpSkhfUE9mTURqME5YU3RTaldTeTA0WkUxLTd5bXdwZm1BSGpMTkxRdElaX21MYWFxenFWRFJja3hPVEplRFJCNURR?oc=5",
-      "date": "Fri, 01 May 2026 14:40:16 GMT",
-      "location": "Japan",
-      "sourceType": "Aggregator Backup",
-      "id": "pakistan-s-startup-delegation-engages-japanese-innovation-ecosystem-at-goglobal-",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 44,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Reachable from India",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Google launches second startup accelerator for AI and energy firms - Data Center Dynamics",
-      "summary": "Google launches second startup accelerator for AI and energy firms Data Center Dynamics",
-      "source": "Google Backup - MNC startup credits and founder programs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT2F5ZjZmUDMzRzhXWDBoMmVHeHlGcFliN0kzVmN5YTVtcHNEdHRFOEhmLVFoa1UyM1NFdHoybmR1NmRXQzBqNEJKYUFVdWZnNTBXQnA1Uk1EV2NNbTFtOURpT2t5QzdQUWd2YUFDRkRfdVBhbk9IZmcyTjU3Sl9NMl9hdlBjZzFGNmFTR3RueTFyYWRXb0lrRk1oajRoT2tId1ViV0RoRzJsbXpZbmU4?oc=5",
-      "date": "Wed, 06 May 2026 10:55:17 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "google-launches-second-startup-accelerator-for-ai-and-energy-firms-data-center-d",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 37,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Atal Innovation Mission inks pact with CFA Institute India to boost financial literacy - Dailyhunt",
-      "summary": "Atal Innovation Mission inks pact with CFA Institute India to boost financial literacy Dailyhunt",
-      "source": "Google Backup - Government startup delegations",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUS1wWmR1Y1JiQU90NEpoUVl5elpMZ1FWeHQ3ajA1Y2dqcXFrWnFOSEQ4N1pDSkE5WmtqMnl0RnhKVGEyQWFuUVVRSEhmSjFoNHBPY0E5ZFlZVWlvblFMWjhKVDVpTkxjcFUyMVM1cGxueEVBSEE3OHVZc0tQTmJObGFMbE4xWEIwOFZxeUM3UmhHWV9XSlVTZ0Vxc0lIRWl0NUpSTE1CclY0aTVZOVV5VVpOeHg0Ymx5RUR3YnlmVUFtb0JUMHI2WG5hUzBfZC1KYWhBNFp0cjd0UGJiU1M1Y0Njb0tZbEExUF9HV2txbkxVMnd1b0p2LTJjN3RBaE1B?oc=5",
-      "date": "Tue, 28 Apr 2026 03:58:17 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "atal-innovation-mission-inks-pact-with-cfa-institute-india-to-boost-financial-li",
-      "tags": [
-        "ai"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 35,
-        "reasons": [
-          "India or nearby market priority",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Cradle Fund launches $2.53M elevate & startup accelerator program to spur early-stage growth - TNGlobal",
-      "summary": "Cradle Fund launches $2.53M elevate & startup accelerator program to spur early-stage growth TNGlobal",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPanhad2ZHaFBxZE16cGlsQ3p6RENBWllEazEtOTBUQ0p5RDdDS2dlZktxQUEwcmMtRzBPTTVibjJsdHVUQXZjZ2JIR3hmbW9kdk92V01VMXp3eGw0QS1HZjEzcTVSeHdybzR4NEZsWWxRTG5ZNjFhVFpwd0xqTk4zZER6ZEZCMFlweVhrejRLdWRqRy1LMGg3cVo5SmFfOUlXZWtvNlNoYTYwcE9xdGNHYkY4c21CbW5FVkRPZll3d2wyUQ?oc=5",
-      "date": "Tue, 28 Apr 2026 06:26:25 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "cradle-fund-launches-2-53m-elevate-startup-accelerator-program-to-spur-early-sta",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 29,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
       }
     }
   ]
