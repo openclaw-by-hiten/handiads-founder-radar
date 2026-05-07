@@ -88,6 +88,61 @@ const actionableTerms = [
   "meetup",
   "expo"
 ];
+const registrationActiveTerms = [
+  "application open",
+  "applications open",
+  "apply now",
+  "apply here",
+  "register now",
+  "register here",
+  "registration open",
+  "registrations open",
+  "rsvp",
+  "invite",
+  "invitation",
+  "invited",
+  "book now",
+  "book your seat",
+  "confirm your seat",
+  "reserve your seat",
+  "tickets",
+  "delegate pass",
+  "nominate",
+  "nominations open",
+  "submission open",
+  "submissions open",
+  "deadline",
+  "open call",
+  "call for startups",
+  "join the cohort"
+];
+const eventTerms = [
+  "event",
+  "session",
+  "summit",
+  "conference",
+  "meetup",
+  "workshop",
+  "bootcamp",
+  "expo",
+  "forum",
+  "webinar",
+  "demo day",
+  "ai days"
+];
+const passiveCoverageTerms = [
+  "held",
+  "hosted",
+  "was held",
+  "took place",
+  "concluded",
+  "wrapped up",
+  "wraps up",
+  "kicked off",
+  "inaugurated",
+  "attended by",
+  "speakers included"
+];
 const genericTitleTerms = [
   "programs and challenges",
   "explore startup programs and challenges",
@@ -185,6 +240,69 @@ function normalizeUrl(value, base) {
 function includesAny(text, terms) {
   const lower = text.toLowerCase();
   return terms.some((term) => lower.includes(term));
+}
+
+const monthIndex = new Map(
+  [
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december"
+  ].flatMap((month, index) => [
+    [month, index],
+    [month.slice(0, 3), index]
+  ])
+);
+
+function endOfLocalDay(year, month, day) {
+  const date = new Date(year, month, day);
+  date.setHours(23, 59, 59, 999);
+  return date;
+}
+
+function inferredYear(yearText) {
+  return yearText ? Number(yearText) : currentYear;
+}
+
+function extractEventEndDate(text) {
+  const lower = text.toLowerCase();
+  const monthFirst = [
+    ...lower.matchAll(
+      /\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+(\d{1,2})(?:\s*(?:-|to|–|—)\s*(\d{1,2}))?(?:,?\s*(20\d{2}))?\b/g
+    )
+  ];
+  const dayFirst = [
+    ...lower.matchAll(
+      /\b(\d{1,2})(?:\s*(?:-|to|–|—)\s*(\d{1,2}))?\s+(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?(?:,?\s*(20\d{2}))?\b/g
+    )
+  ];
+  const dates = [
+    ...monthFirst.map((match) =>
+      endOfLocalDay(
+        inferredYear(match[4]),
+        monthIndex.get(match[1].slice(0, 3)),
+        Number(match[3] || match[2])
+      )
+    ),
+    ...dayFirst.map((match) =>
+      endOfLocalDay(
+        inferredYear(match[4]),
+        monthIndex.get(match[3].slice(0, 3)),
+        Number(match[2] || match[1])
+      )
+    )
+  ].filter((date) => !Number.isNaN(date.getTime()));
+
+  if (dates.length === 0) return null;
+  return new Date(Math.max(...dates.map((date) => date.getTime())));
 }
 
 function inferLocation(text) {
@@ -347,12 +465,29 @@ function slugify(value) {
     .slice(0, 80);
 }
 
+function canonicalTitleKey(value = "") {
+  return value
+    .toLowerCase()
+    .replace(/\s+-\s+[^-]+$/g, "")
+    .replace(/\b(20\d{2})\b/g, "")
+    .replace(/\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+\d{1,2}(?:\s*(?:-|to|–|—)\s*\d{1,2})?/g, "")
+    .replace(/\b\d{1,2}(?:\s*(?:-|to|–|—)\s*\d{1,2})?\s+(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .slice(0, 12)
+    .join(" ");
+}
+
 function dedupe(items) {
   const seen = new Set();
   return items.filter((item) => {
-    const key = `${item.title}|${item.sourceUrl}`.toLowerCase();
-    if (seen.has(key) || !item.title || !item.sourceUrl) return false;
-    seen.add(key);
+    const urlKey = (item.sourceUrl || "").toLowerCase().replace(/[?#].*$/, "");
+    const titleKey = canonicalTitleKey(item.title);
+    if (!item.title || !item.sourceUrl || !titleKey) return false;
+    if (seen.has(urlKey) || seen.has(titleKey)) return false;
+    seen.add(urlKey);
+    seen.add(titleKey);
     return true;
   });
 }
@@ -407,12 +542,45 @@ function hasActionableOpportunity(text) {
   return includesAny(text, actionableTerms);
 }
 
+function hasConfirmedRegistration(text) {
+  return includesAny(text, registrationActiveTerms);
+}
+
+function isPastEvent(text) {
+  const dateSensitiveTerms = [
+    ...eventTerms,
+    "deadline",
+    "last date",
+    "apply by",
+    "applications close",
+    "registration closes",
+    "submissions close"
+  ];
+  if (!includesAny(text, dateSensitiveTerms)) return false;
+  const eventEndDate = extractEventEndDate(text);
+  if (!eventEndDate) return false;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return eventEndDate < today;
+}
+
+function needsRegistrationProof(text) {
+  return includesAny(text, [...eventTerms, "accelerator", "incubator", "program", "challenge", "grant"]);
+}
+
+function hasPassiveEventCoverage(text) {
+  return includesAny(text, passiveCoverageTerms);
+}
+
 function isBusinessRelevant(item) {
   const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
   if (includesAny(text, academicBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (!hasFounderOpportunityFocus(text)) return false;
+  if (isPastEvent(text)) return false;
+  if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
+  if (needsRegistrationProof(text) && !hasConfirmedRegistration(text)) return false;
 
   const isMarketingIntel =
     item.sourceType?.includes("Trusted") && includesAny(text, [...adTerms, "performance marketing"]);
@@ -475,7 +643,7 @@ function opportunitySentence(text) {
 }
 
 function shouldVerifyCandidatePage(item) {
-  return item.sourceType === "Official" || item.sourceType === "Opportunity";
+  return ["Official", "Opportunity", "Aggregator Backup", "Global News", "News API"].includes(item.sourceType);
 }
 
 async function verifyCandidatePage(item) {
@@ -501,6 +669,9 @@ async function verifyCandidatePage(item) {
   if (hasOldStaticYear(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
   if (!hasActionableOpportunity(lowerPageText)) return null;
+  if (isPastEvent(lowerPageText)) return null;
+  if (hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
+  if (needsRegistrationProof(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
 
   return {
     ...item,
@@ -702,7 +873,7 @@ async function run() {
     items
   };
 
-  if (items.length === 0 && failedFeeds.length > 0) {
+  if (items.length === 0 && fetched.length === 0 && failedFeeds.length > 0) {
     try {
       const previous = JSON.parse(await readFile(config.outputPath, "utf8"));
       if (Array.isArray(previous.items) && previous.items.length > 0) {

@@ -108,6 +108,12 @@ export const config = {
       sourceType: "Aggregator Backup"
     },
     {
+      name: "Google Backup - Google AI startup events India",
+      url:
+        "https://news.google.com/rss/search?q=%28Google%20OR%20%22Google%20for%20Startups%22%29%20%28%22AI%20Days%22%20OR%20%22AI%20Day%22%20OR%20startup%20event%20OR%20founder%20event%29%20%28Ahmedabad%20OR%20Gujarat%20OR%20India%29%20%28register%20OR%20registration%20OR%20invite%20OR%20RSVP%29&hl=en-IN&gl=IN&ceid=IN:en",
+      sourceType: "Aggregator Backup"
+    },
+    {
       name: "Google Backup - Ad tech and performance marketing intelligence",
       url:
         "https://news.google.com/rss/search?q=%28%22performance%20marketing%22%20OR%20%22ad%20tech%22%20OR%20%22marketing%20automation%22%20OR%20attribution%29%20%28AI%20OR%20startup%20OR%20founder%20OR%20conference%29&hl=en-IN&gl=IN&ceid=IN:en",
@@ -120,6 +126,7 @@ export const config = {
     "India startup founder accelerator applications open government innovation grant",
     "sponsored startup founder program accelerator AI summit applications open",
     "startup founder delegation India UAE Singapore Japan applications open",
+    "Google AI Days for Startups Ahmedabad registration",
     "performance marketing AI ad tech",
     "business conference founder startup investor India Gujarat"
   ],
@@ -129,6 +136,7 @@ export const config = {
     "India startup founder accelerator government innovation grant",
     "sponsored startup founder program applications open",
     "startup delegation founder India UAE Singapore Japan",
+    "Google AI Days Startups Ahmedabad registration",
     "performance marketing AI ad tech"
   ]
 };
