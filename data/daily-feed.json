@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T23:00:29.021Z",
+  "generatedAt": "2026-05-08T08:08:28.918Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 22,
@@ -8,7 +8,7 @@
     "trustedRssFeeds": 6,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "candidatePagesVerified": 4,
+    "candidatePagesVerified": 5,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -51,6 +51,45 @@
           "Trusted publisher source"
         ],
         "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Google Opens Play Accelerator India Applications for AI Startups, May Deadline Set - APAC Media",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - MNC startup credits and founder programs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSERYTDE5YWJPWXpVdUk0TUJETDlLVDRqRWlOZHZfWW9qZ2h0VmppRGNwckpzckhOdUZQbDFJMzFrNGtmUzFKNkc5M18xWHRGYnRkdjB6ZGpZU0Rrd0ZEN3Z3SDEteFNGd2xhMjJOTVZsZ0hva0pqM2FrWW1BQldXelJOSlRxV1pWa3h5SEVTSXlON2IwbW1HUnBoVXdVMnowaVhMRmRrakJXM2RQemxhV21BMzlYM04ySWc?oc=5",
+      "date": "Mon, 04 May 2026 07:00:00 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "google-opens-play-accelerator-india-applications-for-ai-startups-may-deadline-se",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 72,
+        "reasons": [
+          "India or nearby market priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
       }
     },
     {
