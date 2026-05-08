@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T08:08:28.918Z",
+  "generatedAt": "2026-05-08T22:54:39.243Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 22,
@@ -8,7 +8,7 @@
     "trustedRssFeeds": 6,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "candidatePagesVerified": 5,
+    "candidatePagesVerified": 6,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -162,6 +162,41 @@
           "Aggregator backup source"
         ],
         "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+      "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+      "date": "Fri, 08 May 2026 14:00:00 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 43,
+        "reasons": [
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Trusted publisher source"
+        ],
+        "label": "Watchlist"
       }
     }
   ]
