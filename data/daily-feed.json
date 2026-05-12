@@ -1,18 +1,22 @@
 {
-  "generatedAt": "2026-05-12T13:41:13.374Z",
+  "generatedAt": "2026-05-12T13:56:42.536Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
-  "searchedFeeds": 22,
+  "searchedFeeds": 34,
   "sourcePlan": {
-    "officialPages": 4,
+    "officialPages": 16,
     "trustedRssFeeds": 6,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "candidatePagesVerified": 1,
+    "candidatePagesVerified": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
   "failedFeeds": [
+    {
+      "name": "Adobe Business Events",
+      "error": "Adobe Business Events failed with 404"
+    },
     {
       "name": "Startup SG Programmes",
       "error": "Startup SG Programmes failed with 403"
