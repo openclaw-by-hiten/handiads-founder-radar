@@ -650,7 +650,7 @@ async function loadDailyFeed() {
     const response = await fetch(`data/daily-feed.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) return;
     const feed = await response.json();
-    if (!Array.isArray(feed.items) || feed.items.length === 0) return;
+    if (!Array.isArray(feed.items)) return;
 
     feedMode = "live";
     signals = feed.items.map((item) => ({
@@ -670,11 +670,16 @@ async function loadDailyFeed() {
       const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
       latestFeedAgeHours = ageHours;
       const isStale = ageHours > 36;
+      const sourcePlan = feed.sourcePlan || {};
+      const emptyNote =
+        feed.items.length === 0
+          ? ` No active leads passed the strict filters. Scanned ${feed.searchedFeeds || 0} sources, ${sourcePlan.fetchedSignals || 0} raw signals, ${sourcePlan.candidatePagesQueued || 0} candidates, and ${sourcePlan.candidatePagesVerified || 0} verified pages.`
+          : "";
       feedStatus.innerHTML = `
         <strong>${isStale ? "Backend stale" : "Backend active"}</strong>
         <span>Updated ${generatedAt.toLocaleString("en-IN", {
           timeZone: "Asia/Kolkata"
-        })}. ${isStale ? "Use Refresh to open the GitHub manual scanner." : "Verify source links before applying."}</span>
+        })}. ${isStale ? "Use Refresh to open the GitHub manual scanner." : "Verify source links before applying."}${emptyNote}</span>
       `;
     }
   } catch (error) {
