@@ -74,7 +74,9 @@ const actionableTerms = [
   "open call",
   "call for startups",
   "nomination",
-  "pitch",
+  "pitch competition",
+  "pitch event",
+  "pitch day",
   "demo day",
   "cohort",
   "accelerator",
@@ -93,6 +95,10 @@ const registrationActiveTerms = [
   "applications open",
   "apply now",
   "apply here",
+  "accepting applications",
+  "invites applications",
+  "inviting applications",
+  "applications are open",
   "register now",
   "register here",
   "registration open",
@@ -112,6 +118,10 @@ const registrationActiveTerms = [
   "submission open",
   "submissions open",
   "deadline",
+  "last date",
+  "apply by",
+  "applications close",
+  "registration closes",
   "open call",
   "call for startups",
   "join the cohort"
@@ -580,11 +590,13 @@ function isBusinessRelevant(item) {
   if (!hasFounderOpportunityFocus(text)) return false;
   if (isPastEvent(text)) return false;
   if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
-  if (needsRegistrationProof(text) && !hasConfirmedRegistration(text)) return false;
+  if (!hasConfirmedRegistration(text)) return false;
 
   const isMarketingIntel =
-    item.sourceType?.includes("Trusted") && includesAny(text, [...adTerms, "performance marketing"]);
-  return isMarketingIntel || hasActionableOpportunity(text);
+    item.sourceType?.includes("Trusted") &&
+    includesAny(text, [...adTerms, "performance marketing"]) &&
+    hasActionableOpportunity(text);
+  return isMarketingIntel || (hasActionableOpportunity(text) && needsRegistrationProof(text));
 }
 
 function parseArticleDate(value) {
@@ -671,7 +683,8 @@ async function verifyCandidatePage(item) {
   if (!hasActionableOpportunity(lowerPageText)) return null;
   if (isPastEvent(lowerPageText)) return null;
   if (hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
-  if (needsRegistrationProof(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
+  if (!hasConfirmedRegistration(lowerPageText)) return null;
+  if (!needsRegistrationProof(lowerPageText)) return null;
 
   return {
     ...item,
