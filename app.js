@@ -179,6 +179,9 @@ const feedStatus = document.querySelector("#feedStatus");
 const contentSignal = document.querySelector("#contentSignal");
 const savedList = document.querySelector("#savedList");
 const savedSearch = document.querySelector("#savedSearch");
+const metricSignals = document.querySelector("#metricSignals");
+const metricPriority = document.querySelector("#metricPriority");
+const metricContent = document.querySelector("#metricContent");
 
 function scoreSignal(signal) {
   if (signal.priority) return signal.priority;
@@ -276,6 +279,8 @@ function renderSignals() {
       </article>
     `;
   }
+
+  updateSummaryMetrics();
 }
 
 function getRankedSignals() {
@@ -286,6 +291,16 @@ function getRankedSignals() {
     .filter((signal) => signal.tags.some((tag) => activeFilters.includes(tag)))
     .map((signal) => ({ ...signal, priority: scoreSignal(signal) }))
     .sort((a, b) => b.priority.score - a.priority.score);
+}
+
+function updateSummaryMetrics() {
+  const ranked = getRankedSignals();
+  const priorityLeads = ranked.filter((signal) => signal.priority.score >= 60).length;
+  const contentAngles = ranked.filter((signal) => signal.summary && signal.sourceUrl).length;
+
+  if (metricSignals) metricSignals.textContent = String(ranked.length);
+  if (metricPriority) metricPriority.textContent = String(priorityLeads);
+  if (metricContent) metricContent.textContent = String(contentAngles);
 }
 
 function renderInlineDetail(signal) {

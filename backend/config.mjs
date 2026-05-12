@@ -4,11 +4,71 @@ export const config = {
   maxDailyItems: 18,
   maxArticleAgeDays: 10,
   requestTimeoutMs: 18000,
-  maxCandidatePagesToVerify: 45,
+  maxCandidatePagesToVerify: 90,
   companyContext:
     "HandiAds is a performance marketing company in Gujarat, India. The founder wants founder-focused startup events, AI summits, accelerator programs, business conferences, government-backed innovation opportunities, investor networking, and sponsored business opportunities. Avoid academic scholarships, university admissions, masters programs, student exchanges, and research fellowships.",
 
   officialPages: [
+    {
+      name: "Meta Business News",
+      url: "https://www.facebook.com/business/news",
+      sourceType: "Official"
+    },
+    {
+      name: "Meta Company News",
+      url: "https://about.fb.com/news/",
+      sourceType: "Official"
+    },
+    {
+      name: "Meta Connect",
+      url: "https://www.meta.com/en-gb/connect/",
+      sourceType: "Official"
+    },
+    {
+      name: "Google for Startups Programs",
+      url: "https://startup.google.com/programs/",
+      sourceType: "Official"
+    },
+    {
+      name: "Google Cloud Events",
+      url: "https://cloud.google.com/events",
+      sourceType: "Official"
+    },
+    {
+      name: "Microsoft for Startups",
+      url: "https://www.microsoft.com/en-us/startups",
+      sourceType: "Official"
+    },
+    {
+      name: "AWS Startup Events",
+      url: "https://aws.amazon.com/startups/events/",
+      sourceType: "Official"
+    },
+    {
+      name: "AWS Startups",
+      url: "https://aws.amazon.com/startups/",
+      sourceType: "Official"
+    },
+    {
+      name: "NVIDIA Inception",
+      url: "https://www.nvidia.com/en-us/startups/",
+      sourceType: "Official"
+    },
+    {
+      name: "NVIDIA Events",
+      url: "https://www.nvidia.com/en-us/events/",
+      sourceType: "Official"
+    },
+    {
+      name: "Adobe Business Events",
+      url: "https://business.adobe.com/events.html",
+      sourceType: "Official"
+    },
+    {
+      name: "Salesforce Events",
+      url: "https://www.salesforce.com/events/",
+      sourceType: "Official"
+    },
     {
       name: "Hub71 Programs",
       url: "https://www.hub71.com/",

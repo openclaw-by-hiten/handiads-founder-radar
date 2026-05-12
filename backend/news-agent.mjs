@@ -582,6 +582,31 @@ function hasPassiveEventCoverage(text) {
   return includesAny(text, passiveCoverageTerms);
 }
 
+function isCandidateRelevant(item) {
+  const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
+  if (includesAny(text, academicBlockTerms)) return false;
+  if (isGenericListingPage(item)) return false;
+  if (hasOldStaticYear(text)) return false;
+  if (isPastEvent(text)) return false;
+
+  if (item.sourceType === "Official" || item.sourceType === "Opportunity") {
+    return includesAny(text, [
+      ...opportunityTerms,
+      ...eventTerms,
+      ...registrationActiveTerms,
+      ...founderTerms,
+      ...adTerms,
+      ...aiTerms,
+      "marketing",
+      "advertising",
+      "business news",
+      "connect"
+    ]);
+  }
+
+  return isBusinessRelevant(item);
+}
+
 function isBusinessRelevant(item) {
   const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
   if (includesAny(text, academicBlockTerms)) return false;
@@ -858,7 +883,7 @@ async function run() {
   const fetched = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
   const candidates = dedupe(fetched)
     .filter(isRecentEnough)
-    .filter(isBusinessRelevant);
+    .filter(isCandidateRelevant);
   const verifiedCandidates = await verifyCandidatePages(candidates);
   const items = verifiedCandidates
     .filter(isBusinessRelevant)
