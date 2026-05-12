@@ -294,7 +294,9 @@ function getRankedSignals() {
 }
 
 function updateSummaryMetrics() {
-  const ranked = getRankedSignals();
+  const ranked = signals
+    .map((signal) => ({ ...signal, priority: scoreSignal(signal) }))
+    .sort((a, b) => b.priority.score - a.priority.score);
   const priorityLeads = ranked.filter((signal) => signal.priority.score >= 60).length;
   const contentAngles = ranked.filter((signal) => signal.summary && signal.sourceUrl).length;
 
