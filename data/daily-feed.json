@@ -1,63 +1,27 @@
 {
-  "generatedAt": "2026-05-12T13:56:42.536Z",
+  "generatedAt": "2026-05-12T14:24:19.895Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
-  "searchedFeeds": 34,
+  "searchedFeeds": 36,
   "sourcePlan": {
     "officialPages": 16,
-    "trustedRssFeeds": 6,
+    "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "candidatePagesVerified": 3,
+    "fetchedSignals": 507,
+    "uniqueSignals": 466,
+    "recentSignals": 277,
+    "candidatePagesQueued": 158,
+    "candidatePagesVerified": 8,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
   "failedFeeds": [
     {
-      "name": "Adobe Business Events",
-      "error": "Adobe Business Events failed with 404"
-    },
-    {
       "name": "Startup SG Programmes",
       "error": "Startup SG Programmes failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "Samsung invites applications for 2026 startup programme with $50,000 grant - The Times of India",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUjhhbmNkTGgwSWJlUFNpTDhHbDVfeWhmWV9XanlnTVpOS2U4T2pxSno3enMyeldwRnJidmN6aF9KcUl2VXdaRlBoOHM1T3daOF93blBSLVY0LTl4SWFHa0dqNU8tbmoyV3V1cG5TblppVlROa0d2dXZ5SGZHMlBpdy1sandtSk5KUTUtSkF5RmlReUJHR0cwT0R5Z2dOS2lUUTNzSnMzZE01SHlmeURMcnFSYVVmQUF5UXdiZWVhb0dlSGxSRnN3UmtCb3djTnZNUFhaaGxBUHpNZHpJQlByaERuMVkyVS1YQkkw0gHwAUFVX3lxTE9pRElrdWM4THB6dmpLQmZPeTZWVzVyZm1Ta1hiTWZlY0RkVVU1V0hRSDFiR0lYbHplNHAxMmZvTXRYcVZNZlNTc3hqVkpsdnJiZ0I1NlBHYlpBSTItVWpJcGVHeUVnRm1RMW9hNG9yTjltazVfSFpzT0x6bnNCN1NXSHdjTXIyTFA0NGp3M0d0RTBBTUpCN0NXS0tzbmI5ZTFGWXJQZ1NiQ0h0RWlPMll3dHkwNVNxMmt3Ujl0M0MzR0hHRldhbFJIbmdmU251T1BiLTJ3SUZhQUZRUnQzRUg2bFdXOHl0WHVKMjR6OVNYcA?oc=5",
-      "date": "Tue, 05 May 2026 08:29:00 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "samsung-invites-applications-for-2026-startup-programme-with-50-000-grant-the-ti",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 64,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
