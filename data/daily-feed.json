@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T14:33:51.046Z",
+  "generatedAt": "2026-05-12T23:01:36.754Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 36,
@@ -8,20 +8,15 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "fetchedSignals": 507,
-    "uniqueSignals": 466,
-    "recentSignals": 276,
-    "candidatePagesQueued": 159,
+    "fetchedSignals": 513,
+    "uniqueSignals": 473,
+    "recentSignals": 282,
+    "candidatePagesQueued": 160,
     "candidatePagesVerified": 8,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
-  "failedFeeds": [
-    {
-      "name": "Startup SG Programmes",
-      "error": "Startup SG Programmes failed with 403"
-    }
-  ],
+  "failedFeeds": [],
   "items": []
 }
