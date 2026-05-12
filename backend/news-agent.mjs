@@ -179,6 +179,26 @@ const genericUrlPatterns = [
   "/en/startup/",
   "/programmes/"
 ];
+const officialDiscoveryTerms = [
+  ...opportunityTerms,
+  ...eventTerms,
+  ...registrationActiveTerms,
+  ...founderTerms,
+  ...adTerms,
+  ...aiTerms,
+  "marketing",
+  "advertising",
+  "business",
+  "business news",
+  "connect",
+  "developer",
+  "developers",
+  "cloud",
+  "calendar",
+  "events",
+  "apply",
+  "register"
+];
 const currentYear = new Date().getFullYear();
 const nextYear = currentYear + 1;
 
@@ -219,6 +239,22 @@ function parseRss(xml, feed) {
 }
 
 function parseHtmlLinks(html, page) {
+  const pageTitle = metaContent(html, "og:title") || htmlTitle(html) || page.name;
+  const pageSummary =
+    metaContent(html, "description") ||
+    metaContent(html, "og:description") ||
+    opportunitySentence(readablePageText(html)) ||
+    `${page.name} official page scan.`;
+  const pageCandidate = {
+    title: pageTitle,
+    summary: pageSummary,
+    source: page.name,
+    sourceUrl: page.url,
+    date: "Recent",
+    location: inferLocation(`${pageTitle} ${pageSummary} ${page.name}`),
+    sourceType: page.sourceType || "Official"
+  };
+
   const links = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
     .map((match) => {
       const url = normalizeUrl(match[1], page.url);
@@ -234,9 +270,9 @@ function parseHtmlLinks(html, page) {
       };
     })
     .filter((item) => item.title.length > 12 && item.sourceUrl)
-    .filter((item) => includesAny(`${item.title} ${item.summary}`, opportunityTerms));
+    .filter(isLikelyOfficialOpportunityLink);
 
-  return links.slice(0, config.maxItemsPerFeed);
+  return dedupe([pageCandidate, ...links]).slice(0, config.maxItemsPerFeed);
 }
 
 function normalizeUrl(value, base) {
@@ -250,6 +286,16 @@ function normalizeUrl(value, base) {
 function includesAny(text, terms) {
   const lower = text.toLowerCase();
   return terms.some((term) => lower.includes(term));
+}
+
+function isLikelyOfficialOpportunityLink(item) {
+  const text = `${item.title} ${item.summary} ${item.sourceUrl}`.toLowerCase();
+  if (!item.sourceUrl || !/^https?:\/\//i.test(item.sourceUrl)) return false;
+  if (item.sourceUrl.includes("#")) return false;
+  if (includesAny(text, ["privacy", "cookie", "terms of use", "contact us", "sign in", "login"])) {
+    return false;
+  }
+  return includesAny(text, officialDiscoveryTerms);
 }
 
 const monthIndex = new Map(
@@ -505,6 +551,22 @@ function dedupe(items) {
 function isGenericListingPage(item) {
   const title = (item.title || "").toLowerCase().trim();
   const url = (item.sourceUrl || "").toLowerCase();
+  const officialEventLanding =
+    item.sourceType === "Official" &&
+    includesAny(`${title} ${url}`, [
+      "event",
+      "events",
+      "connect",
+      "startup",
+      "program",
+      "accelerator",
+      "inception",
+      "summit",
+      "conference",
+      "register",
+      "apply"
+    ]);
+  if (officialEventLanding) return false;
   if (genericTitleTerms.includes(title)) return true;
   if (title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
   if (genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
@@ -881,9 +943,9 @@ async function run() {
   }
 
   const fetched = results.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
-  const candidates = dedupe(fetched)
-    .filter(isRecentEnough)
-    .filter(isCandidateRelevant);
+  const uniqueFetched = dedupe(fetched);
+  const recentCandidates = uniqueFetched.filter(isRecentEnough);
+  const candidates = recentCandidates.filter(isCandidateRelevant);
   const verifiedCandidates = await verifyCandidatePages(candidates);
   const items = verifiedCandidates
     .filter(isBusinessRelevant)
@@ -903,7 +965,12 @@ async function run() {
       trustedRssFeeds: config.trustedRssFeeds.length,
       gdeltQueries: config.gdeltQueries.length,
       googleBackupFeeds: config.googleBackupFeeds.length,
+      fetchedSignals: fetched.length,
+      uniqueSignals: uniqueFetched.length,
+      recentSignals: recentCandidates.length,
+      candidatePagesQueued: candidates.length,
       candidatePagesVerified: verifiedCandidates.length,
+      finalItems: items.length,
       newsApiEnabled: Boolean(process.env.NEWS_API_KEY),
       theNewsApiEnabled: Boolean(process.env.THENEWSAPI_KEY)
     },

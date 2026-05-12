@@ -61,7 +61,7 @@ export const config = {
     },
     {
       name: "Adobe Business Events",
-      url: "https://business.adobe.com/events.html",
+      url: "https://business.adobe.com/resources/events.html",
       sourceType: "Official"
     },
     {
@@ -92,6 +92,16 @@ export const config = {
   ],
 
   trustedRssFeeds: [
+    {
+      name: "Meta Newsroom Feed",
+      url: "https://about.fb.com/news/feed/",
+      sourceType: "Official"
+    },
+    {
+      name: "AWS Startups Blog",
+      url: "https://aws.amazon.com/blogs/startups/feed/",
+      sourceType: "Official"
+    },
     {
       name: "TechCrunch Startups",
       url: "https://techcrunch.com/category/startups/feed/",
