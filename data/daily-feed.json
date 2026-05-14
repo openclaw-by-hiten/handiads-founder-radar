@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T23:05:46.324Z",
+  "generatedAt": "2026-05-14T22:57:01.327Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 36,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "fetchedSignals": 508,
-    "uniqueSignals": 471,
-    "recentSignals": 286,
-    "candidatePagesQueued": 161,
-    "candidatePagesVerified": 8,
+    "fetchedSignals": 524,
+    "uniqueSignals": 481,
+    "recentSignals": 289,
+    "candidatePagesQueued": 163,
+    "candidatePagesVerified": 9,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
