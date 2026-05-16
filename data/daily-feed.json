@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T22:55:03.910Z",
+  "generatedAt": "2026-05-16T22:44:46.672Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 36,
@@ -9,8 +9,8 @@
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
     "fetchedSignals": 529,
-    "uniqueSignals": 483,
-    "recentSignals": 289,
+    "uniqueSignals": 482,
+    "recentSignals": 281,
     "candidatePagesQueued": 161,
     "candidatePagesVerified": 9,
     "finalItems": 0,
