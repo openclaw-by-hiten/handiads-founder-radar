@@ -788,7 +788,7 @@ function isBusinessRelevant(item) {
   if (!hasFounderOpportunityFocus(text)) return false;
   if (isPastEvent(text)) return false;
   if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
-  const isIntel = (item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType)) && includesAny(text, [...adTerms, "performance marketing", ...aiTerms]);
+  const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
   if (isIntel) return true;
   if (!hasConfirmedRegistration(text)) return false;
 
@@ -878,7 +878,7 @@ async function verifyCandidatePage(item) {
   if (includesAny(lowerPageText, academicBlockTerms)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
-  const isIntel = (item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType)) && includesAny(lowerPageText, [...adTerms, "performance marketing", ...aiTerms]);
+  const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
   if (!isIntel && !hasActionableOpportunity(lowerPageText)) return null;
   if (isPastEvent(lowerPageText)) return null;
   if (hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
