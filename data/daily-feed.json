@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-19T12:14:15.104Z",
+  "generatedAt": "2026-05-19T12:45:12.709Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
-  "searchedFeeds": 36,
+  "searchedFeeds": 44,
   "sourcePlan": {
-    "officialPages": 16,
+    "officialPages": 22,
     "trustedRssFeeds": 8,
-    "gdeltQueries": 6,
-    "googleBackupFeeds": 9,
-    "fetchedSignals": 509,
-    "uniqueSignals": 465,
-    "recentSignals": 282,
-    "candidatePagesQueued": 184,
-    "candidatePagesVerified": 28,
+    "gdeltQueries": 8,
+    "googleBackupFeeds": 11,
+    "fetchedSignals": 590,
+    "uniqueSignals": 528,
+    "recentSignals": 308,
+    "candidatePagesQueued": 198,
+    "candidatePagesVerified": 21,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -50,8 +50,35 @@
       "type": "html",
       "fetched": 15,
       "candidates": 14,
-      "verified": 4,
-      "final": 4,
+      "verified": 2,
+      "final": 2,
+      "error": ""
+    },
+    {
+      "name": "Google India Company News",
+      "type": "html",
+      "fetched": 1,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Google Play Accelerator India",
+      "type": "html",
+      "fetched": 16,
+      "candidates": 13,
+      "verified": 1,
+      "final": 1,
+      "error": ""
+    },
+    {
+      "name": "Google for Startups Immersion",
+      "type": "html",
+      "fetched": 16,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -68,8 +95,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 8,
-      "final": 4,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -78,7 +105,7 @@
       "fetched": 13,
       "candidates": 12,
       "verified": 10,
-      "final": 9,
+      "final": 10,
       "error": ""
     },
     {
@@ -87,7 +114,7 @@
       "fetched": 20,
       "candidates": 10,
       "verified": 3,
-      "final": 1,
+      "final": 3,
       "error": ""
     },
     {
@@ -163,6 +190,33 @@
       "error": ""
     },
     {
+      "name": "Apple Newsroom",
+      "type": "html",
+      "fetched": 8,
+      "candidates": 1,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "JETRO Startups",
+      "type": "html",
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "JETRO Startups failed with 404"
+    },
+    {
+      "name": "YouthJapan Opportunities",
+      "type": "html",
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "fetch failed"
+    },
+    {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
@@ -184,7 +238,7 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -211,7 +265,7 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -265,7 +319,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -334,6 +388,24 @@
       "error": ""
     },
     {
+      "name": "Google Backup - Japan AI Summit and Sponsored Programs",
+      "type": "rss",
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Google Backup - Apple Entrepreneur Camp",
+      "type": "rss",
+      "fetched": 20,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
       "name": "NewsAPI optional",
       "type": "api",
       "fetched": 0,
@@ -355,180 +427,17 @@
     {
       "name": "Adobe Business Events",
       "error": "This operation was aborted"
+    },
+    {
+      "name": "JETRO Startups",
+      "error": "JETRO Startups failed with 404"
+    },
+    {
+      "name": "YouthJapan Opportunities",
+      "error": "fetch failed"
     }
   ],
   "items": [
-    {
-      "title": "Trade-in for cash",
-      "summary": "The Microsoft Store Trade-in Program lets you trade in eligible used devices like laptops, tablets, phones, and game consoles. Find your trade-in value and get cash back. Plus, your used device gets a new home, or it’s recycled in a responsible way.",
-      "source": "Microsoft for Startups",
-      "sourceUrl": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "trade-in-for-cash",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 100,
-        "reasons": [
-          "India or nearby market priority",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Find programs available to you",
-      "summary": "Find Google for Startups programs available in your region and apply for the opportunity to get access to the people, products and best practices you need to take your startup to the next level.",
-      "source": "Google for Startups Programs",
-      "sourceUrl": "https://startup.google.com/programs/directory/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "find-programs-available-to-you",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 97,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Sponsored or partly sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Learn More Build and deploy faster with Kiro credits designed for startups Apply today",
-      "summary": "Accelerate from idea to production with free startup credits, community support, and structured AI coding.",
-      "source": "AWS Startups",
-      "sourceUrl": "https://kiro.dev/startups/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "learn-more-build-and-deploy-faster-with-kiro-credits-designed-for-startups-apply",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 97,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Sponsored or partly sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Programs - Google for Startups",
-      "summary": "From Accelerator to our Funds, discover the Google for Startups programs that can help your business move forward.",
-      "source": "Google for Startups Programs",
-      "sourceUrl": "https://startup.google.com/programs/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "programs-google-for-startups",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 89,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Sponsored or partly sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
     {
       "title": "Find out more",
       "summary": "Google for Startups Accelerators are three-month programs that provides early stage startups with Google products, people, and best practices.",
@@ -559,10 +468,11 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 89,
+        "score": 100,
         "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
           "Founder and business growth relevance",
-          "Sponsored or partly sponsored business opportunity",
+          "Sponsored business opportunity",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
@@ -600,12 +510,97 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 89,
+        "score": 100,
         "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
           "Founder and business growth relevance",
-          "Sponsored or partly sponsored business opportunity",
+          "Sponsored business opportunity",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Empowering Indian app innovators: Applications open for Google Play Accelerator India",
+      "summary": "Applications are now open for the third cohort of Google Play Accelerator India. This three-month, equity-free program is designed to support high-potential, AI-powered Indian startups in the apps and games space, providing them with the tools, mentorship, and technology needed to build world-class products for India and the world. Apply by June 1, 2026.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/empowering-indian-app-innovators-applications-open-for-google-play-accelerator-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "empowering-indian-app-innovators-applications-open-for-google-play-accelerator-i",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Microsoft Security",
+      "summary": "Defend your data from cyberattacks using cloud data security solutions. Safeguard your infrastructure, apps, and data with Microsoft Security solutions.",
+      "source": "Microsoft for Startups",
+      "sourceUrl": "https://www.microsoft.com/en-us/security",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "microsoft-security",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
           "Official source"
         ],
         "label": "Priority 1"
@@ -641,13 +636,176 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 82,
+        "score": 100,
         "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "AWS for Startups",
+      "summary": "AWS for Startups - Amazon Web Services (AWS) Skip to main content .",
+      "source": "AWS Startups",
+      "sourceUrl": "https://aws.amazon.com/startups/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "aws-for-startups",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Learn More Build and deploy faster with Kiro credits designed for startups Apply today",
+      "summary": "Accelerate from idea to production with free startup credits, community support, and structured AI coding.",
+      "source": "AWS Startups",
+      "sourceUrl": "https://kiro.dev/startups/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "learn-more-build-and-deploy-faster-with-kiro-credits-designed-for-startups-apply",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Startups Fuel your startup's growth with up to $100,000 in AWS Activate Credits Apply today",
+      "summary": "Fuel your startup's growth with AWS Activate Credits.",
+      "source": "AWS Startups",
+      "sourceUrl": "https://aws.amazon.com/startups/credits/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "startups-fuel-your-startup-s-growth-with-up-to-100-000-in-aws-activate-credits-a",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Microsoft Teams",
+      "summary": "Working together is easier with Microsoft Teams. Tools and files are always available in one place that's designed to help you connect naturally, stay organized, and bring ideas to life.",
+      "source": "Microsoft for Startups",
+      "sourceUrl": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "microsoft-teams",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 95,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
           "Official source"
         ],
         "label": "Priority 1"
@@ -681,10 +839,10 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 82,
+        "score": 88,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
@@ -720,10 +878,10 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 82,
+        "score": 88,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
@@ -759,138 +917,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 82,
+        "score": 88,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Microsoft for Startups | Microsoft",
-      "summary": "Build fast, scale smart, and sell more with the cutting-edge AI, global customer experience, and deep enterprise experience of Microsoft. Get started today.",
-      "source": "Microsoft for Startups",
-      "sourceUrl": "https://www.microsoft.com/en-us/startups",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "microsoft-for-startups-microsoft",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 75,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Microsoft for Startups",
-      "summary": "Build fast, scale smart, and sell more with the cutting-edge AI, global customer experience, and deep enterprise experience of Microsoft. Get started today.",
-      "source": "Microsoft for Startups",
-      "sourceUrl": "https://www.microsoft.com/en-us/startups/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "microsoft-for-startups",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 75,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Microsoft Security",
-      "summary": "Defend your data from cyberattacks using cloud data security solutions. Safeguard your infrastructure, apps, and data with Microsoft Security solutions.",
-      "source": "Microsoft for Startups",
-      "sourceUrl": "https://www.microsoft.com/en-us/security",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "microsoft-security",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 75,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 2"
       }
     },
     {
@@ -921,15 +956,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 74,
+        "score": 80,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 2"
+        "label": "Priority 1"
       }
     },
     {
@@ -960,15 +995,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 74,
+        "score": 80,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 2"
+        "label": "Priority 1"
       }
     },
     {
@@ -999,15 +1034,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 74,
+        "score": 80,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 2"
+        "label": "Priority 1"
       }
     },
     {
@@ -1038,15 +1073,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 74,
+        "score": 80,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 2"
+        "label": "Priority 1"
       }
     },
     {
@@ -1077,15 +1112,54 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 74,
+        "score": 80,
         "reasons": [
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Reachable from India",
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 2"
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Choose Your Path",
+      "summary": "Ship your AI product faster. AWS gives startups credits, AI tools, and expert guidance to go from idea to production. No lock-in. 350,000+ startups are already building with AWS.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/ai-for-startups",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "choose-your-path",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 35,
+        "reasons": [
+          "Global un-sponsored penalty",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Watchlist"
       }
     }
   ]
