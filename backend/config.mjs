@@ -30,6 +30,21 @@ export const config = {
       sourceType: "Official"
     },
     {
+      name: "Google India Company News",
+      url: "https://blog.google/intl/en-in/company-news/",
+      sourceType: "Official"
+    },
+    {
+      name: "Google Play Accelerator India",
+      url: "https://blog.google/intl/en-in/company-news/empowering-indian-app-innovators-applications-open-for-google-play-accelerator-india/",
+      sourceType: "Official"
+    },
+    {
+      name: "Google for Startups Immersion",
+      url: "https://blog.google/intl/en-in/company-news/helping-founders-build-stronger-ai-products-introducing-google-for-startups-immersion/",
+      sourceType: "Official"
+    },
+    {
       name: "Google Cloud Events",
       url: "https://cloud.google.com/events",
       sourceType: "Official"
@@ -88,6 +103,21 @@ export const config = {
       name: "Devpost Hackathons",
       url: "https://devpost.com/hackathons",
       sourceType: "Opportunity"
+    },
+    {
+      name: "Apple Newsroom",
+      url: "https://www.apple.com/newsroom/",
+      sourceType: "Official"
+    },
+    {
+      name: "JETRO Startups",
+      url: "https://www.jetro.go.jp/en/invest/startups/",
+      sourceType: "Official"
+    },
+    {
+      name: "YouthJapan Opportunities",
+      url: "https://youthjapan.org/",
+      sourceType: "Official"
     }
   ],
 
@@ -188,6 +218,18 @@ export const config = {
       url:
         "https://news.google.com/rss/search?q=%28%22performance%20marketing%22%20OR%20%22ad%20tech%22%20OR%20%22marketing%20automation%22%20OR%20attribution%29%20%28AI%20OR%20startup%20OR%20founder%20OR%20conference%29&hl=en-IN&gl=IN&ceid=IN:en",
       sourceType: "Aggregator Backup"
+    },
+    {
+      name: "Google Backup - Japan AI Summit and Sponsored Programs",
+      url:
+        "https://news.google.com/rss/search?q=%28Japan%20OR%20Tokyo%29%20%28%22AI%20summit%22%20OR%20%22startup%20program%22%20OR%20%22youthjapan%22%29%20%28sponsored%20OR%20grant%20OR%20applications%20open%29&hl=en-IN&gl=IN&ceid=IN:en",
+      sourceType: "Aggregator Backup"
+    },
+    {
+      name: "Google Backup - Apple Entrepreneur Camp",
+      url:
+        "https://news.google.com/rss/search?q=%22Apple%20Entrepreneur%20Camp%22%20OR%20%28Apple%20startup%20founder%29&hl=en-IN&gl=IN&ceid=IN:en",
+      sourceType: "Aggregator Backup"
     }
   ],
 
@@ -198,7 +240,9 @@ export const config = {
     "startup founder delegation India UAE Singapore Japan applications open",
     "Google AI Days for Startups Ahmedabad registration",
     "performance marketing AI ad tech",
-    "business conference founder startup investor India Gujarat"
+    "business conference founder startup investor India Gujarat",
+    "Japan AI summit sponsored youth japan startup program",
+    "Apple Entrepreneur Camp founder"
   ],
 
   gdeltQueries: [
@@ -207,6 +251,8 @@ export const config = {
     "sponsored startup founder program applications open",
     "startup delegation founder India UAE Singapore Japan",
     "Google AI Days Startups Ahmedabad registration",
-    "performance marketing AI ad tech"
+    "performance marketing AI ad tech",
+    "Japan AI summit sponsored youth japan startup program",
+    "Apple Entrepreneur Camp founder"
   ]
 };

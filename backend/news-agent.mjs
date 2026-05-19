@@ -43,7 +43,32 @@ const academicBlockTerms = [
   "exchange program",
   "study abroad",
   "tuition",
-  "campus"
+  "campus",
+  "internship",
+  "internships"
+];
+const consumerBlockTerms = [
+  "trade-in",
+  "trade in",
+  "cashback",
+  "hardware exchange",
+  "consumer offer",
+  "used device",
+  "recycle",
+  "trade-in value",
+  "consumer discount",
+  "device exchange"
+];
+const genericBlockTerms = [
+  "startup directory",
+  "resource page",
+  "mass listing",
+  "startup blog",
+  "startup newsletter",
+  "find programs in your region",
+  "find programs available to you",
+  "student scholarship",
+  "find programs"
 ];
 const opportunityTerms = [
   ...sponsoredTerms,
@@ -530,28 +555,39 @@ function scoreSignal(signal) {
   let score = 0;
   const reasons = [];
 
+  const txt = businessText(signal).toLowerCase();
+  const topTierBoost = includesAny(txt, ["google for startups", "microsoft for startups", "nvidia inception", "startup mahakumbh", "gitex", "web summit", "g20", "aws startups", "apple", "youthjapan"]);
+  
+  if (topTierBoost) {
+    score += 40;
+    reasons.push("Top-Tier Ecosystem / Sponsored Priority");
+  }
+
   if (signal.tags.includes("gujarat")) {
     score += 55;
-    reasons.push("Gujarat priority");
-  } else if (signal.location === "India" || signal.distanceFromIndia === "near") {
-    score += 35;
-    reasons.push("India or nearby market priority");
+    reasons.push("Gujarat / Priority 1");
+  } else if (signal.location === "India") {
+    score += 40;
+    reasons.push("India / Priority 2");
+  } else if (signal.distanceFromIndia === "near" || signal.distanceFromIndia === "medium") {
+    score += 25;
+    reasons.push("Cheaper Flights / Priority 3");
+  } else {
+    if (!signal.tags.includes("funded") && !topTierBoost) {
+      score -= 20;
+      reasons.push("Global un-sponsored penalty");
+    }
   }
+
   if (signal.tags.includes("founder")) {
     score += 25;
     reasons.push("Founder and business growth relevance");
   }
   if (signal.tags.includes("funded")) {
     score += 30;
-    reasons.push("Sponsored or partly sponsored business opportunity");
-  } else if (signal.distanceFromIndia === "medium") {
-    score += 15;
-    reasons.push("Reachable from India");
+    reasons.push("Sponsored business opportunity");
   }
-  if (signal.airTravel === "self-funded") {
-    score += 10;
-    reasons.push("Only air travel may be self-funded");
-  }
+
   if (signal.influencerValue === "high") {
     score += 20;
     reasons.push("Strong influencer and networking value");
@@ -568,19 +604,13 @@ function scoreSignal(signal) {
     reasons.push("Performance marketing relevance");
   }
   if (signal.sourceType === "Official") {
-    score += 14;
+    score += 10;
     reasons.push("Official source");
   } else if (signal.sourceType === "Opportunity") {
-    score += 10;
+    score += 5;
     reasons.push("Opportunity platform source");
-  } else if (signal.sourceType?.includes("Trusted")) {
-    score += 6;
-    reasons.push("Trusted publisher source");
-  } else if (signal.sourceType === "Global News") {
-    score += 4;
-    reasons.push("Global news intelligence source");
   } else if (signal.sourceType === "Aggregator Backup") {
-    score -= 8;
+    score -= 10;
     reasons.push("Aggregator backup source");
   }
 
@@ -783,6 +813,8 @@ function isCandidateRelevant(item) {
 function isBusinessRelevant(item) {
   const text = businessText(item);
   if (includesAny(text, academicBlockTerms)) return false;
+  if (includesAny(text, consumerBlockTerms)) return false;
+  if (includesAny(text, genericBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (!hasFounderOpportunityFocus(text)) return false;
@@ -876,6 +908,8 @@ async function verifyCandidatePage(item) {
   const lowerPageText = pageText.toLowerCase();
 
   if (includesAny(lowerPageText, academicBlockTerms)) return null;
+  if (includesAny(lowerPageText, consumerBlockTerms)) return null;
+  if (includesAny(lowerPageText, genericBlockTerms)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
   const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
