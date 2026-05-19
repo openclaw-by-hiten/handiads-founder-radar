@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:02:24.693Z",
+  "generatedAt": "2026-05-19T12:05:47.578Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 36,
@@ -8,20 +8,15 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 9,
-    "fetchedSignals": 508,
-    "uniqueSignals": 470,
-    "recentSignals": 283,
-    "candidatePagesQueued": 159,
+    "fetchedSignals": 509,
+    "uniqueSignals": 469,
+    "recentSignals": 286,
+    "candidatePagesQueued": 160,
     "candidatePagesVerified": 9,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
-  "failedFeeds": [
-    {
-      "name": "Meta Connect",
-      "error": "This operation was aborted"
-    }
-  ],
+  "failedFeeds": [],
   "items": []
 }
