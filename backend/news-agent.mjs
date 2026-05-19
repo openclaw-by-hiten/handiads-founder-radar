@@ -12,7 +12,11 @@ const sponsoredTerms = [
   "accommodation",
   "stay covered",
   "food covered",
-  "delegate support"
+  "delegate support",
+  "equity-free",
+  "startup credits",
+  "cloud credits",
+  "product credits"
 ];
 
 const aiTerms = ["ai", "artificial intelligence", "machine learning", "genai", "automation"];
@@ -65,11 +69,17 @@ const opportunityTerms = [
   "incubation"
 ];
 const actionableTerms = [
+  "apply",
+  "apply today",
   "application open",
   "applications open",
   "apply now",
+  "submit your application",
   "register now",
   "registration open",
+  "sign up",
+  "join now",
+  "get started",
   "deadline",
   "open call",
   "call for startups",
@@ -91,10 +101,14 @@ const actionableTerms = [
   "expo"
 ];
 const registrationActiveTerms = [
+  "apply",
+  "apply today",
   "application open",
   "applications open",
   "apply now",
   "apply here",
+  "submit your application",
+  "complete the form",
   "accepting applications",
   "invites applications",
   "inviting applications",
@@ -103,6 +117,12 @@ const registrationActiveTerms = [
   "register here",
   "registration open",
   "registrations open",
+  "sign up",
+  "sign-up",
+  "join now",
+  "join today",
+  "get started",
+  "request invite",
   "rsvp",
   "invite",
   "invitation",
@@ -199,6 +219,12 @@ const officialDiscoveryTerms = [
   "apply",
   "register"
 ];
+const defaultFetchHeaders = {
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-IN,en;q=0.9",
+  "user-agent":
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 HandiAds-Founder-Radar/0.1"
+};
 const currentYear = new Date().getFullYear();
 const nextYear = currentYear + 1;
 
@@ -272,7 +298,58 @@ function parseHtmlLinks(html, page) {
     .filter((item) => item.title.length > 12 && item.sourceUrl)
     .filter(isLikelyOfficialOpportunityLink);
 
-  return dedupe([pageCandidate, ...links]).slice(0, config.maxItemsPerFeed);
+  const embeddedLinks = extractEmbeddedOfficialLinks(html, page);
+
+  return dedupe([pageCandidate, ...links, ...embeddedLinks]).slice(0, config.maxItemsPerFeed);
+}
+
+function extractEmbeddedOfficialLinks(html, page) {
+  const pageHost = new URL(page.url).hostname.replace(/^www\./, "");
+  const rawUrls = [
+    ...html.matchAll(/https?:\\?\/\\?\/[^"'<>\\\s]+/gi),
+    ...html.matchAll(/"url"\s*:\s*"([^"]+)"/gi),
+    ...html.matchAll(/"href"\s*:\s*"([^"]+)"/gi)
+  ]
+    .map((match) => match[1] || match[0])
+    .map((url) => url.replace(/\\\//g, "/").replace(/[),.;]+$/g, ""))
+    .filter((url) => /^https?:\/\//i.test(url));
+
+  return [...new Set(rawUrls)]
+    .map((url) => normalizeUrl(url, page.url))
+    .filter((url) => {
+      try {
+        const host = new URL(url).hostname.replace(/^www\./, "");
+        return host === pageHost || host.endsWith(`.${pageHost}`);
+      } catch {
+        return false;
+      }
+    })
+    .map((url) => ({
+      title: titleFromUrl(url),
+      summary: `${page.name} embedded official link found in page data.`,
+      source: page.name,
+      sourceUrl: url,
+      date: "Recent",
+      location: inferLocation(`${url} ${page.name}`),
+      sourceType: page.sourceType || "Official"
+    }))
+    .filter((item) => item.title.length > 8)
+    .filter(isLikelyOfficialOpportunityLink);
+}
+
+function titleFromUrl(url) {
+  try {
+    const parsed = new URL(url);
+    const segments = parsed.pathname.split("/").filter(Boolean);
+    const lastUseful = [...segments].reverse().find((segment) => !/^(en|en-us|en-in|intl)$/i.test(segment));
+    return decodeURIComponent(lastUseful || parsed.hostname)
+      .replace(/\.(html|aspx|php)$/i, "")
+      .replace(/[-_]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  } catch {
+    return "";
+  }
 }
 
 function normalizeUrl(value, base) {
@@ -374,7 +451,7 @@ function inferLocation(text) {
 }
 
 function classify(item) {
-  const text = `${item.title} ${item.summary} ${item.location}`;
+  const text = businessText(item);
   const tags = new Set();
   if (includesAny(text, sponsoredTerms)) tags.add("funded");
   if (includesAny(text, aiTerms)) tags.add("ai");
@@ -397,7 +474,8 @@ function classify(item) {
   const influencerValue = includesAny(text, influencerTerms) ? "high" : tags.has("market") ? "medium" : "low";
 
   return {
-    ...item,
+    ...Object.fromEntries(Object.entries(item).filter(([key]) => key !== "searchText")),
+    searchText: undefined,
     id: slugify(item.title),
     tags: [...tags],
     sponsorship,
@@ -604,10 +682,24 @@ function hasFounderOpportunityFocus(text) {
     "gtm",
     "startup grant",
     "startup credits",
+    "cloud credits",
+    "equity-free",
     "business grant",
     "founder program",
-    "delegate pass"
+    "startup program",
+    "startup programme",
+    "delegate pass",
+    "activate",
+    "inception",
+    "launchpad"
   ]);
+}
+
+function countBySource(items) {
+  return items.reduce((counts, item) => {
+    counts[item.source] = (counts[item.source] || 0) + 1;
+    return counts;
+  }, {});
 }
 
 function hasActionableOpportunity(text) {
@@ -637,15 +729,34 @@ function isPastEvent(text) {
 }
 
 function needsRegistrationProof(text) {
-  return includesAny(text, [...eventTerms, "accelerator", "incubator", "program", "challenge", "grant"]);
+  return includesAny(text, [
+    ...eventTerms,
+    "accelerator",
+    "incubator",
+    "program",
+    "programme",
+    "challenge",
+    "grant",
+    "credits",
+    "startup credits",
+    "cloud credits",
+    "activate",
+    "inception",
+    "launchpad",
+    "hackathon"
+  ]);
 }
 
 function hasPassiveEventCoverage(text) {
   return includesAny(text, passiveCoverageTerms);
 }
 
+function businessText(item) {
+  return `${item.title} ${item.summary} ${item.source} ${item.sourceUrl} ${item.searchText || ""}`.toLowerCase();
+}
+
 function isCandidateRelevant(item) {
-  const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
+  const text = businessText(item);
   if (includesAny(text, academicBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
@@ -670,20 +781,22 @@ function isCandidateRelevant(item) {
 }
 
 function isBusinessRelevant(item) {
-  const text = `${item.title} ${item.summary} ${item.source} ${item.sourceUrl}`.toLowerCase();
+  const text = businessText(item);
   if (includesAny(text, academicBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (!hasFounderOpportunityFocus(text)) return false;
   if (isPastEvent(text)) return false;
   if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
+  const isIntel = (item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType)) && includesAny(text, [...adTerms, "performance marketing", ...aiTerms]);
+  if (isIntel) return true;
   if (!hasConfirmedRegistration(text)) return false;
 
   const isMarketingIntel =
     item.sourceType?.includes("Trusted") &&
     includesAny(text, [...adTerms, "performance marketing"]) &&
     hasActionableOpportunity(text);
-  return isMarketingIntel || (hasActionableOpportunity(text) && needsRegistrationProof(text));
+  return hasActionableOpportunity(text) && needsRegistrationProof(text);
 }
 
 function parseArticleDate(value) {
@@ -749,9 +862,7 @@ async function verifyCandidatePage(item) {
   if (!shouldVerifyCandidatePage(item)) return item;
 
   const response = await fetchWithTimeout(item.sourceUrl, {
-    headers: {
-      "user-agent": "HandiAds-Founder-Radar/0.1"
-    }
+    headers: defaultFetchHeaders
   });
   if (!response.ok) return null;
 
@@ -767,16 +878,18 @@ async function verifyCandidatePage(item) {
   if (includesAny(lowerPageText, academicBlockTerms)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
-  if (!hasActionableOpportunity(lowerPageText)) return null;
+  const isIntel = (item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType)) && includesAny(lowerPageText, [...adTerms, "performance marketing", ...aiTerms]);
+  if (!isIntel && !hasActionableOpportunity(lowerPageText)) return null;
   if (isPastEvent(lowerPageText)) return null;
   if (hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
-  if (!hasConfirmedRegistration(lowerPageText)) return null;
-  if (!needsRegistrationProof(lowerPageText)) return null;
+  if (!isIntel && !hasConfirmedRegistration(lowerPageText)) return null;
+  if (!isIntel && !needsRegistrationProof(lowerPageText)) return null;
 
   return {
     ...item,
     title: genericTitleTerms.includes(item.title.toLowerCase().trim()) && pageTitle ? pageTitle : item.title,
-    summary: description || item.summary
+    summary: description || item.summary,
+    searchText: pageText.slice(0, 5000)
   };
 }
 
@@ -795,9 +908,7 @@ async function verifyCandidatePages(items) {
 
 async function fetchFeed(feed) {
   const response = await fetchWithTimeout(feed.url, {
-    headers: {
-      "user-agent": "HandiAds-Founder-Radar/0.1"
-    }
+    headers: defaultFetchHeaders
   });
   if (!response.ok) {
     throw new Error(`${feed.name} failed with ${response.status}`);
@@ -808,9 +919,7 @@ async function fetchFeed(feed) {
 
 async function fetchHtmlPage(page) {
   const response = await fetchWithTimeout(page.url, {
-    headers: {
-      "user-agent": "HandiAds-Founder-Radar/0.1"
-    }
+    headers: defaultFetchHeaders
   });
   if (!response.ok) {
     throw new Error(`${page.name} failed with ${response.status}`);
@@ -898,9 +1007,7 @@ async function fetchGdelt() {
       url.searchParams.set("maxrecords", "20");
       url.searchParams.set("sort", "HybridRel");
       const response = await fetchWithTimeout(url, {
-        headers: {
-          "user-agent": "HandiAds-Founder-Radar/0.1"
-        }
+        headers: defaultFetchHeaders
       });
       if (!response.ok) throw new Error(`GDELT ${query} failed with ${response.status}`);
       const data = await response.json();
@@ -954,6 +1061,20 @@ async function run() {
     .map((item) => ({ ...item, priority: scoreSignal(item) }))
     .sort((a, b) => b.priority.score - a.priority.score)
     .slice(0, config.maxDailyItems);
+  const fetchedBySource = countBySource(fetched);
+  const candidatesBySource = countBySource(candidates);
+  const verifiedBySource = countBySource(verifiedCandidates);
+  const finalBySource = countBySource(items);
+  const failedBySource = Object.fromEntries(failedFeeds.map((failure) => [failure.name, failure.error]));
+  const sourceStats = sourceJobs.map(({ source, type }) => ({
+    name: source.name,
+    type,
+    fetched: fetchedBySource[source.name] || 0,
+    candidates: candidatesBySource[source.name] || 0,
+    verified: verifiedBySource[source.name] || 0,
+    final: finalBySource[source.name] || 0,
+    error: failedBySource[source.name] || ""
+  }));
 
   const output = {
     generatedAt: new Date().toISOString(),
@@ -974,6 +1095,7 @@ async function run() {
       newsApiEnabled: Boolean(process.env.NEWS_API_KEY),
       theNewsApiEnabled: Boolean(process.env.THENEWSAPI_KEY)
     },
+    sourceStats,
     failedFeeds,
     items
   };
