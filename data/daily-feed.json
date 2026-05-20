@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T07:56:01.919Z",
+  "generatedAt": "2026-05-20T23:13:53.574Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 44,
@@ -9,9 +9,9 @@
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
     "fetchedSignals": 590,
-    "uniqueSignals": 530,
+    "uniqueSignals": 528,
     "recentSignals": 314,
-    "candidatePagesQueued": 151,
+    "candidatePagesQueued": 152,
     "candidatePagesVerified": 5,
     "finalItems": 4,
     "newsApiEnabled": false,
@@ -238,7 +238,7 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -247,7 +247,7 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -319,7 +319,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -328,7 +328,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -382,7 +382,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
