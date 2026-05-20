@@ -619,22 +619,57 @@ document.querySelectorAll("[data-filter]").forEach((input) => {
   });
 });
 
-document.querySelector("#refreshBtn").addEventListener("click", () => {
-  if (latestFeedAgeHours > 24) {
-    window.open(refreshWorkflowUrl, "_blank", "noopener,noreferrer");
-    document.querySelector("#refreshBtn").textContent = "Open Actions";
-    setTimeout(() => {
-      document.querySelector("#refreshBtn").textContent = "Refresh";
-    }, 1600);
-    return;
+document.querySelector("#refreshBtn").addEventListener("click", async () => {
+  const btn = document.querySelector("#refreshBtn");
+  const originalText = btn.textContent;
+  
+  // First, do a soft refresh to see if new data is already available
+  await loadDailyFeed();
+  renderSignals();
+  
+  // Ask for confirmation to run the heavy backend scanner
+  const confirmScan = confirm("Do you want to run the background AI scanner to find new news? (This takes ~2 minutes)");
+  if (!confirmScan) return;
+
+  // We need a GitHub Personal Access Token (PAT) to trigger workflows from the frontend securely
+  let token = localStorage.getItem("github_action_token");
+  if (!token) {
+    token = prompt("Please enter your GitHub Personal Access Token (PAT) with 'repo' or 'actions' permissions to allow automatic scanning:");
+    if (!token) return;
+    localStorage.setItem("github_action_token", token);
   }
 
-  loadDailyFeed();
-  renderSignals();
-  document.querySelector("#refreshBtn").textContent = "Updated";
-  setTimeout(() => {
-    document.querySelector("#refreshBtn").textContent = "Refresh";
-  }, 1200);
+  btn.textContent = "Scanning... (takes ~2 mins)";
+  btn.disabled = true;
+
+  try {
+    const response = await fetch("https://api.github.com/repos/openclaw-by-hiten/handiads-founder-radar/actions/workflows/refresh-news.yml/dispatches", {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${token}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ ref: "main" })
+    });
+
+    if (response.ok) {
+      alert("Scan started successfully in the background! Please come back and refresh the page in 2-3 minutes.");
+    } else {
+      if (response.status === 401 || response.status === 403 || response.status === 404) {
+        alert("Authentication failed! Your GitHub token might be invalid, expired, or lacking permissions. Clearing token...");
+        localStorage.removeItem("github_action_token");
+      } else {
+        alert("Failed to start scan. Please check your GitHub Actions tab.");
+      }
+    }
+  } catch (error) {
+    alert("Network error: Could not reach GitHub API.");
+  } finally {
+    btn.textContent = originalText;
+    btn.disabled = false;
+  }
 });
 
 document.querySelector("#generatePostBtn").addEventListener("click", renderPosts);
