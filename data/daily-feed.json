@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T06:37:43.808Z",
+  "generatedAt": "2026-05-20T06:47:16.777Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 44,
@@ -9,9 +9,9 @@
     "gdeltQueries": 8,
     "googleBackupFeeds": 11,
     "fetchedSignals": 590,
-    "uniqueSignals": 532,
-    "recentSignals": 315,
-    "candidatePagesQueued": 203,
+    "uniqueSignals": 530,
+    "recentSignals": 314,
+    "candidatePagesQueued": 202,
     "candidatePagesVerified": 21,
     "finalItems": 18,
     "newsApiEnabled": false,
@@ -319,7 +319,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
