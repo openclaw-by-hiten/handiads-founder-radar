@@ -79,7 +79,13 @@ const productSalesBlockTerms = [
   "request a demo",
   "pricing plan",
   "buy now",
-  "software solution"
+  "software solution",
+  "teams",
+  "choose your path",
+  "business guidance",
+  "download now",
+  "platform for work",
+  "events | aws"
 ];
 const opportunityTerms = [
   ...sponsoredTerms,
@@ -574,8 +580,23 @@ function scoreSignal(signal) {
   ]);
   
   if (topTierBoost) {
-    score += 40;
+    score += 30;
     reasons.push("Top-Tier Ecosystem / Sponsored Priority");
+  }
+
+  // Duration Boost Calculation
+  const rangeMatch = txt.match(/\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+(\d{1,2})\s*(?:-|to|–|—)\s*(\d{1,2})\b/);
+  if (rangeMatch) {
+    const startDay = parseInt(rangeMatch[1], 10);
+    const endDay = parseInt(rangeMatch[2], 10);
+    if (endDay >= startDay && (endDay - startDay) <= 30) {
+      const days = (endDay - startDay) + 1;
+      const durationScore = Math.min(days * 3, 15);
+      if (durationScore > 0) {
+        score += durationScore;
+        reasons.push(`Event Duration Bonus (${days} days)`);
+      }
+    }
   }
 
   if (signal.tags.includes("gujarat")) {
@@ -595,11 +616,11 @@ function scoreSignal(signal) {
   }
 
   if (signal.tags.includes("founder")) {
-    score += 25;
+    score += 20;
     reasons.push("Founder and business growth relevance");
   }
   if (signal.tags.includes("funded")) {
-    score += 30;
+    score += 25;
     reasons.push("Sponsored business opportunity");
   }
 
@@ -674,22 +695,7 @@ function dedupe(items) {
 function isGenericListingPage(item) {
   const title = (item.title || "").toLowerCase().trim();
   const url = (item.sourceUrl || "").toLowerCase();
-  const officialEventLanding =
-    item.sourceType === "Official" &&
-    includesAny(`${title} ${url}`, [
-      "event",
-      "events",
-      "connect",
-      "startup",
-      "program",
-      "accelerator",
-      "inception",
-      "summit",
-      "conference",
-      "register",
-      "apply"
-    ]);
-  if (officialEventLanding) return false;
+
   if (genericTitleTerms.includes(title)) return true;
   if (title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
   if (genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
@@ -833,6 +839,16 @@ function isBusinessRelevant(item) {
   if (includesAny(text, productSalesBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
+
+  const isMNC = includesAny(text, ["aws", "amazon", "microsoft", "google", "meta", "salesforce", "adobe", "apple", "nvidia"]);
+  if (isMNC) {
+    const hasDate = extractEventEndDate(text) !== null;
+    const hasLocation = includesAny(text, [...gujaratTerms, ...nearIndiaTerms, ...mediumDistanceTerms, "san francisco", "new york", "london", "online", "virtual", "taipei", "osaka"]);
+    if (!hasDate && !hasLocation) {
+      return false; // Strict block: if it's an MNC page without dates or locations, it's a generic product page
+    }
+  }
+
   if (!hasFounderOpportunityFocus(text)) return false;
   if (isPastEvent(text)) return false;
   if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
@@ -995,16 +1011,30 @@ async function fetchNewsApi() {
 
   const results = await Promise.allSettled(
     config.newsApiQueries.map(async (query) => {
-      const url = new URL("https://newsapi.org/v2/everything");
-      url.searchParams.set("q", query);
-      url.searchParams.set("language", "en");
-      url.searchParams.set("sortBy", "publishedAt");
-      url.searchParams.set("pageSize", "10");
-      url.searchParams.set("apiKey", apiKey);
-      const response = await fetchWithTimeout(url);
-      if (!response.ok) throw new Error(`NewsAPI ${query} failed with ${response.status}`);
-      const data = await response.json();
-      return (data.articles || []).map((article) => ({
+      let allArticles = [];
+      for (let page = 1; page <= 3; page++) {
+        const url = new URL("https://newsapi.org/v2/everything");
+        url.searchParams.set("q", query);
+        url.searchParams.set("language", "en");
+        url.searchParams.set("sortBy", "publishedAt");
+        url.searchParams.set("pageSize", "100");
+        url.searchParams.set("page", page.toString());
+        url.searchParams.set("apiKey", apiKey);
+        
+        try {
+          const response = await fetchWithTimeout(url);
+          if (!response.ok) break;
+          const data = await response.json();
+          if (data.articles && data.articles.length > 0) {
+            allArticles.push(...data.articles);
+          }
+          if (!data.articles || data.articles.length < 100) break;
+        } catch {
+          break;
+        }
+      }
+      
+      return allArticles.map((article) => ({
         title: article.title || "",
         summary: article.description || article.content || "",
         source: article.source?.name || "NewsAPI",
