@@ -28,7 +28,6 @@ const mediumDistanceTerms = ["japan", "thailand", "malaysia", "vietnam", "indone
 const influencerTerms = ["minister", "government", "investor", "top founder", "influencer", "ceo", "global leader"];
 const founderTerms = ["founder", "startup", "accelerator", "incubator", "investor", "vc", "venture capital", "saas", "agency", "business", "enterprise"];
 const academicBlockTerms = [
-  "scholarship",
   "master",
   "master's",
   "masters",
@@ -69,6 +68,18 @@ const genericBlockTerms = [
   "find programs available to you",
   "student scholarship",
   "find programs"
+];
+const productSalesBlockTerms = [
+  "cyberattacks",
+  "data security solutions",
+  "safeguard your infrastructure",
+  "microsoft security solutions",
+  "cybersecurity",
+  "enterprise security",
+  "request a demo",
+  "pricing plan",
+  "buy now",
+  "software solution"
 ];
 const opportunityTerms = [
   ...sponsoredTerms,
@@ -556,7 +567,11 @@ function scoreSignal(signal) {
   const reasons = [];
 
   const txt = businessText(signal).toLowerCase();
-  const topTierBoost = includesAny(txt, ["google for startups", "microsoft for startups", "nvidia inception", "startup mahakumbh", "gitex", "web summit", "g20", "aws startups", "apple", "youthjapan"]);
+  const topTierBoost = includesAny(txt, [
+    "google for startups", "microsoft for startups", "nvidia", "aws startups", "apple", "meta", "amazon", "salesforce", "accenture", "adobe",
+    "startup mahakumbh", "gitex", "web summit", "g20", "youthjapan", "japan youth summit",
+    "fully funded", "all expenses paid", "travel grant", "100% sponsored", "delegate pass included"
+  ]);
   
   if (topTierBoost) {
     score += 40;
@@ -815,6 +830,7 @@ function isBusinessRelevant(item) {
   if (includesAny(text, academicBlockTerms)) return false;
   if (includesAny(text, consumerBlockTerms)) return false;
   if (includesAny(text, genericBlockTerms)) return false;
+  if (includesAny(text, productSalesBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (!hasFounderOpportunityFocus(text)) return false;
@@ -910,6 +926,7 @@ async function verifyCandidatePage(item) {
   if (includesAny(lowerPageText, academicBlockTerms)) return null;
   if (includesAny(lowerPageText, consumerBlockTerms)) return null;
   if (includesAny(lowerPageText, genericBlockTerms)) return null;
+  if (includesAny(lowerPageText, productSalesBlockTerms)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
   const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);

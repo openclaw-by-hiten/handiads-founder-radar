@@ -220,39 +220,34 @@ export const config = {
       sourceType: "Aggregator Backup"
     },
     {
-      name: "Google Backup - Japan AI Summit and Sponsored Programs",
+      name: "Google Backup - Global Funded Founder Travel",
       url:
-        "https://news.google.com/rss/search?q=%28Japan%20OR%20Tokyo%29%20%28%22AI%20summit%22%20OR%20%22startup%20program%22%20OR%20%22youthjapan%22%29%20%28sponsored%20OR%20grant%20OR%20applications%20open%29&hl=en-IN&gl=IN&ceid=IN:en",
+        "https://news.google.com/rss/search?q=%22fully%20funded%22%20%28summit%20OR%20delegation%20OR%20startup%29%20applications%20open&hl=en-US&gl=US&ceid=US:en",
       sourceType: "Aggregator Backup"
     },
     {
-      name: "Google Backup - Apple Entrepreneur Camp",
+      name: "Google Backup - Top MNC Startup Events",
       url:
-        "https://news.google.com/rss/search?q=%22Apple%20Entrepreneur%20Camp%22%20OR%20%28Apple%20startup%20founder%29&hl=en-IN&gl=IN&ceid=IN:en",
+        "https://news.google.com/rss/search?q=%28Meta%20OR%20Google%20OR%20Amazon%20OR%20Salesforce%20OR%20Accenture%20OR%20Adobe%20OR%20Apple%20OR%20NVIDIA%29%20sponsored%20%28summit%20OR%20accelerator%20OR%20event%29%20founder&hl=en-US&gl=US&ceid=US:en",
       sourceType: "Aggregator Backup"
     }
   ],
 
   newsApiQueries: [
-    "Gujarat Ahmedabad Gandhinagar GIFT City startup founder accelerator applications open",
-    "India startup founder accelerator applications open government innovation grant",
-    "sponsored startup founder program accelerator AI summit applications open",
-    "startup founder delegation India UAE Singapore Japan applications open",
-    "Google AI Days for Startups Ahmedabad registration",
-    "performance marketing AI ad tech",
-    "business conference founder startup investor India Gujarat",
-    "Japan AI summit sponsored youth japan startup program",
-    "Apple Entrepreneur Camp founder"
+    '"fully funded" (summit OR delegation OR startup) applications open',
+    '"all expenses paid" (founder OR business) travel',
+    '"fully sponsored" international summit apply',
+    '(Meta OR Google OR Amazon OR Salesforce OR Accenture OR Adobe OR Apple OR NVIDIA) sponsored (summit OR event OR accelerator) founder',
+    '(marketing OR adtech) founder networking event sponsored',
+    'Japan Youth Summit apply'
   ],
 
   gdeltQueries: [
-    "Gujarat startup founder accelerator applications open",
-    "India startup founder accelerator government innovation grant",
-    "sponsored startup founder program applications open",
-    "startup delegation founder India UAE Singapore Japan",
-    "Google AI Days Startups Ahmedabad registration",
-    "performance marketing AI ad tech",
-    "Japan AI summit sponsored youth japan startup program",
-    "Apple Entrepreneur Camp founder"
+    '"fully funded" summit OR delegation OR startup applications open',
+    '"all expenses paid" founder OR business travel',
+    '"fully sponsored" international summit apply',
+    'Meta OR Google OR Amazon OR Salesforce OR Accenture OR Adobe OR Apple OR NVIDIA sponsored summit OR event OR accelerator founder',
+    'marketing OR adtech founder networking event sponsored',
+    'Japan Youth Summit'
   ]
 };
