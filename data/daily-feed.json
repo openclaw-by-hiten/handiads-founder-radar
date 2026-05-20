@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-20T06:47:16.777Z",
+  "generatedAt": "2026-05-20T07:27:07.927Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 44,
   "sourcePlan": {
     "officialPages": 22,
     "trustedRssFeeds": 8,
-    "gdeltQueries": 8,
+    "gdeltQueries": 6,
     "googleBackupFeeds": 11,
     "fetchedSignals": 590,
     "uniqueSignals": 530,
     "recentSignals": 314,
-    "candidatePagesQueued": 202,
-    "candidatePagesVerified": 21,
+    "candidatePagesQueued": 204,
+    "candidatePagesVerified": 19,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,8 +86,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 13,
-      "verified": 3,
-      "final": 0,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -95,8 +95,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 2,
-      "final": 2,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -328,7 +328,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -382,22 +382,22 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
+      "candidates": 4,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Google Backup - Global Funded Founder Travel",
+      "type": "rss",
+      "fetched": 20,
       "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
     },
     {
-      "name": "Google Backup - Japan AI Summit and Sponsored Programs",
-      "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
-      "final": 0,
-      "error": ""
-    },
-    {
-      "name": "Google Backup - Apple Entrepreneur Camp",
+      "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
       "candidates": 1,
@@ -565,48 +565,6 @@
       }
     },
     {
-      "title": "Microsoft Security",
-      "summary": "Defend your data from cyberattacks using cloud data security solutions. Safeguard your infrastructure, apps, and data with Microsoft Security solutions.",
-      "source": "Microsoft for Startups",
-      "sourceUrl": "https://www.microsoft.com/en-us/security",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "microsoft-security",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 100,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "Events | AWS Startups | AWS Startups",
       "summary": "AWS hosts events, both online and in-person, bringing the cloud computing community together to connect, collaborate, and learn from AWS experts.",
       "source": "AWS Startup Events",
@@ -644,6 +602,326 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Prompt & Agent Library",
+      "summary": "Transform your startup idea into production-ready AWS architecture using AI-powered prompts.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/prompt-library",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "prompt-agent-library",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Generative AI Articles",
+      "summary": "With AWS, startups can build new ideas or pivot their existing product to harness the benefits of generative AI.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/learn/generative-ai",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "generative-ai-articles",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Activate Providers",
+      "summary": "AWS Activate Providers are venture capital firms that partner with AWS to offer startups access to AWS credits and support resources.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/providers",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "activate-providers",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Learning Resources",
+      "summary": "All about AWS, tailored for startups. Gain the skills and knowledge to establish a strong cloud infrastructure, optimize your cloud architecture, monitor your a",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/learn",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "learning-resources",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Building Solutions",
+      "summary": "Build your startup&#x27;s MVP with guides & templates",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/build",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "building-solutions",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Founders Stories",
+      "summary": "Discover success stories of featured AWS customers. Learn how AWS has empowered startups to achieve their goals.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/learn/featured-customers",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "founders-stories",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Startup Resources",
+      "summary": "Need more technical know-how to take your startup to the next level? Explore topics startups are interested in most, like AI/ML, security, data, and more!",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/learn/technical-resources",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "startup-resources",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Business Guidance",
+      "summary": "Use our startup business advice to unlock strategies for success. From idea validation to scaling, gain valuable insights to drive your business forward.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/startups/learn/business-guidance",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "business-guidance",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
           "Official source"
         ],
         "label": "Priority 1"
@@ -812,318 +1090,6 @@
       }
     },
     {
-      "title": "Activate Providers",
-      "summary": "AWS Activate Providers are venture capital firms that partner with AWS to offer startups access to AWS credits and support resources.",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/providers",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "activate-providers",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 88,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Learning Resources",
-      "summary": "All about AWS, tailored for startups. Gain the skills and knowledge to establish a strong cloud infrastructure, optimize your cloud architecture, monitor your a",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/learn",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "learning-resources",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 88,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Founders Stories",
-      "summary": "Discover success stories of featured AWS customers. Learn how AWS has empowered startups to achieve their goals.",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/learn/featured-customers",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "founders-stories",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 88,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Prompt & Agent Library",
-      "summary": "Transform your startup idea into production-ready AWS architecture using AI-powered prompts.",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/prompt-library",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "prompt-agent-library",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Generative AI Articles",
-      "summary": "With AWS, startups can build new ideas or pivot their existing product to harness the benefits of generative AI.",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/learn/generative-ai",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "generative-ai-articles",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Building Solutions",
-      "summary": "Build your startup&#x27;s MVP with guides & templates",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/build",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "building-solutions",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Startup Resources",
-      "summary": "Need more technical know-how to take your startup to the next level? Explore topics startups are interested in most, like AI/ML, security, data, and more!",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/learn/technical-resources",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "startup-resources",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Business Guidance",
-      "summary": "Use our startup business advice to unlock strategies for success. From idea validation to scaling, gain valuable insights to drive your business forward.",
-      "source": "AWS Startup Events",
-      "sourceUrl": "https://aws.amazon.com/startups/learn/business-guidance",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "business-guidance",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "Choose Your Path",
       "summary": "Ship your AI product faster. AWS gives startups credits, AI tools, and expert guidance to go from idea to production. No lock-in. 350,000+ startups are already building with AWS.",
       "source": "AWS Startup Events",
@@ -1151,11 +1117,48 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 35,
+        "score": 95,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Agentic Work: Live + Labs [Ottawa]Jun 3Join us for Agentic Work: Live + Labs, an immersive event series designed to provide you with the expert knowledge and hands-on experience needed to build and deploy AI agents, fundamentally transforming the way your organization works.1 Vimy Pl, Ottawa, ON K1A 0M85 hr",
+      "summary": "Agentic Work: Live + Labs [Ottawa] on June 3, 2026. Transform your organization with AI Agents. Register now!",
+      "source": "Google Cloud Events",
+      "sourceUrl": "https://cloud.google.com/events/agentic-work-live-labs-ottawa",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "agentic-work-live-labs-ottawa-jun-3join-us-for-agentic-work-live-labs-an-immersi",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 23,
         "reasons": [
           "Global un-sponsored penalty",
           "Founder and business growth relevance",
-          "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
