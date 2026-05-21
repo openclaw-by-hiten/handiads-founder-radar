@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "generatedAt": "2026-05-21T13:26:08.275Z",
-=======
-  "generatedAt": "2026-05-21T13:30:20.294Z",
->>>>>>> b99fe61 (fix: exempt flagship hubs from strict location filter)
+  "generatedAt": "2026-05-21T13:49:50.388Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 54,
@@ -12,21 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-<<<<<<< HEAD
     "fetchedSignals": 725,
-    "uniqueSignals": 633,
-    "recentSignals": 418,
+    "uniqueSignals": 631,
+    "recentSignals": 417,
     "candidatePagesQueued": 224,
     "candidatePagesVerified": 5,
-    "finalItems": 4,
-=======
-    "fetchedSignals": 729,
-    "uniqueSignals": 638,
-    "recentSignals": 422,
-    "candidatePagesQueued": 231,
-    "candidatePagesVerified": 4,
-    "finalItems": 3,
->>>>>>> b99fe61 (fix: exempt flagship hubs from strict location filter)
+    "finalItems": 5,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -64,7 +51,7 @@
       "fetched": 15,
       "candidates": 9,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -98,9 +85,9 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 13,
-      "verified": 0,
-      "final": 0,
+      "candidates": 12,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -151,17 +138,17 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 4,
-      "candidates": 3,
-      "verified": 1,
-      "final": 1,
-      "error": ""
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "This operation was aborted"
     },
     {
       "name": "Salesforce Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -422,7 +409,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -528,6 +515,10 @@
       "error": "Meta Connect failed with 400"
     },
     {
+      "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "JETRO Startups",
       "error": "JETRO Startups failed with 404"
     },
@@ -550,6 +541,48 @@
       "location": "Global",
       "sourceType": "Official",
       "id": "find-out-more",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Startup Perks from Google Cloud Get access to the best of the Google Cloud ecosystem through the Startup Perks program, which offers partner benefits and discounts to startups.",
+      "summary": "Get preferred access to the best of the Google Cloud ecosystem through our Perks program, which offers partner benefits and discounts to startups.",
+      "source": "Google for Startups Programs",
+      "sourceUrl": "https://cloud.google.com/startup/perks?e=48754805&amp;hl=en&amp;utm_source=GFS&amp;utm_medium=website&amp;utm_content=SGC_Perks",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "startup-perks-from-google-cloud-get-access-to-the-best-of-the-google-cloud-ecosy",
       "tags": [
         "funded",
         "ai",
@@ -626,23 +659,22 @@
       }
     },
     {
-      "title": "Adobe for Business Events | Marketing Experience &#x26; Webinars",
-      "summary": "Explore in-person and on-demand events and webinars in generative AI, content scaling, and marketing efficiency available to you on Adobe for Business.",
-      "source": "Adobe Business Events",
-      "sourceUrl": "https://business.adobe.com/resources/events.html",
+      "title": "Agentic Work: Live + Labs [Ottawa]Jun 3Join us for Agentic Work: Live + Labs, an immersive event series designed to provide you with the expert knowledge and hands-on experience needed to build and deploy AI agents, fundamentally transforming the way your organization works.1 Vimy Pl, Ottawa, ON K1A 0M85 hr",
+      "summary": "Agentic Work: Live + Labs [Ottawa] on June 3, 2026. Transform your organization with AI Agents. Register now!",
+      "source": "Google Cloud Events",
+      "sourceUrl": "https://cloud.google.com/events/agentic-work-live-labs-ottawa",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "adobe-for-business-events-marketing-experience-x26-webinars",
+      "id": "agentic-work-live-labs-ottawa-jun-3join-us-for-agentic-work-live-labs-an-immersi",
       "tags": [
         "ai",
-        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "medium",
+      "influencerValue": "low",
       "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
@@ -653,15 +685,51 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 80,
+        "score": 18,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global un-sponsored penalty",
           "Founder and business growth relevance",
-          "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Priority 1"
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Building AI Applications with AlloyDB AI [SF]Jun 11Building AI Applications with AlloyDB AI in SF345 Spear St9 hr 30 min",
+      "summary": "AlloyDB Labs SF.",
+      "source": "Google Cloud Events",
+      "sourceUrl": "https://cloud.google.com/events/alloydb-labs-sf",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "building-ai-applications-with-alloydb-ai-sf-jun-11building-ai-applications-with-",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 18,
+        "reasons": [
+          "Global un-sponsored penalty",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Watchlist"
       }
     }
   ]
