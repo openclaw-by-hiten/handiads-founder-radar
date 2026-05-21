@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T13:49:50.388Z",
+  "generatedAt": "2026-05-21T23:04:17.551Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 54,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 725,
-    "uniqueSignals": 631,
-    "recentSignals": 417,
-    "candidatePagesQueued": 224,
+    "fetchedSignals": 715,
+    "uniqueSignals": 624,
+    "recentSignals": 411,
+    "candidatePagesQueued": 220,
     "candidatePagesVerified": 5,
     "finalItems": 5,
     "newsApiEnabled": false,
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 3,
+      "fetched": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -337,7 +337,7 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
