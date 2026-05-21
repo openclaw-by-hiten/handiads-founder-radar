@@ -118,6 +118,56 @@ export const config = {
       name: "YouthJapan Opportunities",
       url: "https://youthjapan.org/",
       sourceType: "Official"
+    },
+    {
+      name: "Japan Youth Summit",
+      url: "https://japanyouthsummit.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "Google Developers Events Directory",
+      url: "https://developers.google.com/events",
+      sourceType: "Official"
+    },
+    {
+      name: "Adobe Summit",
+      url: "https://summit.adobe.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "NVIDIA GTC Hub",
+      url: "https://www.nvidia.com/en-us/gtc/",
+      sourceType: "Official"
+    },
+    {
+      name: "Meta Connect",
+      url: "https://about.meta.com/connect/",
+      sourceType: "Official"
+    },
+    {
+      name: "Microsoft Events",
+      url: "https://events.microsoft.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "Microsoft Virtual Training Days",
+      url: "https://events.microsoft.com/en-us/mvtd",
+      sourceType: "Official"
+    },
+    {
+      name: "Apple Developer Events",
+      url: "https://developer.apple.com/events/",
+      sourceType: "Official"
+    },
+    {
+      name: "AWS Events and Conferences",
+      url: "https://aws.amazon.com/events/",
+      sourceType: "Official"
+    },
+    {
+      name: "Salesforce Dreamforce",
+      url: "https://www.salesforce.com/dreamforce/",
+      sourceType: "Official"
     }
   ],
 

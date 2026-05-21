@@ -696,14 +696,20 @@ function isGenericListingPage(item) {
   const title = (item.title || "").toLowerCase().trim();
   const url = (item.sourceUrl || "").toLowerCase();
 
-  if (genericTitleTerms.includes(title)) return true;
-  if (title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
-  if (genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
+  // Allow flagship event root domains like japanyouthsummit.com or summit.adobe.com
+  const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent"]);
+
+  if (!isFlagshipRoot && genericTitleTerms.includes(title)) return true;
+  if (!isFlagshipRoot && title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
+  if (!isFlagshipRoot && genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
 
   try {
     const parsed = new URL(item.sourceUrl);
     const pathName = parsed.pathname.replace(/\/+$/, "").toLowerCase();
-    return pathName === "" || pathName === "/" || pathName.split("/").filter(Boolean).length < 2;
+    if (!isFlagshipRoot && (pathName === "" || pathName === "/" || pathName.split("/").filter(Boolean).length < 2)) {
+      return true;
+    }
+    return false;
   } catch {
     return true;
   }
