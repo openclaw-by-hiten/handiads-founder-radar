@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-21T12:51:45.260Z",
+  "generatedAt": "2026-05-21T13:26:08.275Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
-  "searchedFeeds": 44,
+  "searchedFeeds": 54,
   "sourcePlan": {
-    "officialPages": 22,
+    "officialPages": 32,
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 590,
-    "uniqueSignals": 526,
-    "recentSignals": 310,
-    "candidatePagesQueued": 150,
+    "fetchedSignals": 725,
+    "uniqueSignals": 633,
+    "recentSignals": 418,
+    "candidatePagesQueued": 224,
     "candidatePagesVerified": 5,
     "finalItems": 4,
     "newsApiEnabled": false,
@@ -217,6 +217,96 @@
       "error": "fetch failed"
     },
     {
+      "name": "Japan Youth Summit",
+      "type": "html",
+      "fetched": 11,
+      "candidates": 3,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Google Developers Events Directory",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 15,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Adobe Summit",
+      "type": "html",
+      "fetched": 2,
+      "candidates": 1,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "NVIDIA GTC Hub",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 17,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Meta Connect",
+      "type": "html",
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "Meta Connect failed with 400"
+    },
+    {
+      "name": "Microsoft Events",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 13,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Microsoft Virtual Training Days",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Apple Developer Events",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 7,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "AWS Events and Conferences",
+      "type": "html",
+      "fetched": 20,
+      "candidates": 14,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
+      "name": "Salesforce Dreamforce",
+      "type": "html",
+      "fetched": 2,
+      "candidates": 2,
+      "verified": 0,
+      "final": 0,
+      "error": ""
+    },
+    {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
@@ -337,7 +427,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,6 +525,10 @@
     {
       "name": "YouthJapan Opportunities",
       "error": "fetch failed"
+    },
+    {
+      "name": "Meta Connect",
+      "error": "Meta Connect failed with 400"
     }
   ],
   "items": [
