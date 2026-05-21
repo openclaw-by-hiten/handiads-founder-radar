@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "generatedAt": "2026-05-21T13:26:08.275Z",
+=======
+  "generatedAt": "2026-05-21T13:30:20.294Z",
+>>>>>>> b99fe61 (fix: exempt flagship hubs from strict location filter)
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 54,
@@ -8,12 +12,21 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
+<<<<<<< HEAD
     "fetchedSignals": 725,
     "uniqueSignals": 633,
     "recentSignals": 418,
     "candidatePagesQueued": 224,
     "candidatePagesVerified": 5,
     "finalItems": 4,
+=======
+    "fetchedSignals": 729,
+    "uniqueSignals": 638,
+    "recentSignals": 422,
+    "candidatePagesQueued": 231,
+    "candidatePagesVerified": 4,
+    "finalItems": 3,
+>>>>>>> b99fe61 (fix: exempt flagship hubs from strict location filter)
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -85,9 +98,9 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 12,
-      "verified": 2,
-      "final": 2,
+      "candidates": 13,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -138,17 +151,17 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
-      "error": "This operation was aborted"
+      "fetched": 4,
+      "candidates": 3,
+      "verified": 1,
+      "final": 1,
+      "error": ""
     },
     {
       "name": "Salesforce Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 20,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -409,7 +422,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -515,10 +528,6 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Adobe Business Events",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "JETRO Startups",
       "error": "JETRO Startups failed with 404"
     },
@@ -617,22 +626,23 @@
       }
     },
     {
-      "title": "Agentic Work: Live + Labs [Ottawa]Jun 3Join us for Agentic Work: Live + Labs, an immersive event series designed to provide you with the expert knowledge and hands-on experience needed to build and deploy AI agents, fundamentally transforming the way your organization works.1 Vimy Pl, Ottawa, ON K1A 0M85 hr",
-      "summary": "Agentic Work: Live + Labs [Ottawa] on June 3, 2026. Transform your organization with AI Agents. Register now!",
-      "source": "Google Cloud Events",
-      "sourceUrl": "https://cloud.google.com/events/agentic-work-live-labs-ottawa",
+      "title": "Adobe for Business Events | Marketing Experience &#x26; Webinars",
+      "summary": "Explore in-person and on-demand events and webinars in generative AI, content scaling, and marketing efficiency available to you on Adobe for Business.",
+      "source": "Adobe Business Events",
+      "sourceUrl": "https://business.adobe.com/resources/events.html",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "agentic-work-live-labs-ottawa-jun-3join-us-for-agentic-work-live-labs-an-immersi",
+      "id": "adobe-for-business-events-marketing-experience-x26-webinars",
       "tags": [
         "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "low",
+      "influencerValue": "medium",
       "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
@@ -643,51 +653,15 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 18,
+        "score": 80,
         "reasons": [
-          "Global un-sponsored penalty",
+          "Top-Tier Ecosystem / Sponsored Priority",
           "Founder and business growth relevance",
+          "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Building AI Applications with AlloyDB AI [SF]Jun 11Building AI Applications with AlloyDB AI in SF345 Spear St9 hr 30 min",
-      "summary": "AlloyDB Labs SF.",
-      "source": "Google Cloud Events",
-      "sourceUrl": "https://cloud.google.com/events/alloydb-labs-sf",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "building-ai-applications-with-alloydb-ai-sf-jun-11building-ai-applications-with-",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 18,
-        "reasons": [
-          "Global un-sponsored penalty",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Watchlist"
+        "label": "Priority 1"
       }
     }
   ]

@@ -847,11 +847,11 @@ function isBusinessRelevant(item) {
   if (hasOldStaticYear(text)) return false;
 
   const isMNC = includesAny(text, ["aws", "amazon", "microsoft", "google", "meta", "salesforce", "adobe", "apple", "nvidia"]);
-  if (isMNC) {
+  if (isMNC && item.sourceType !== "Official") {
     const hasDate = extractEventEndDate(text) !== null;
     const hasLocation = includesAny(text, [...gujaratTerms, ...nearIndiaTerms, ...mediumDistanceTerms, "san francisco", "new york", "london", "online", "virtual", "taipei", "osaka"]);
     if (!hasDate && !hasLocation) {
-      return false; // Strict block: if it's an MNC page without dates or locations, it's a generic product page
+      return false; // Strict block: if it's an MNC page from news without dates or locations, it's a generic product page
     }
   }
 
