@@ -4,7 +4,7 @@ export const config = {
   maxDailyItems: 18,
   maxArticleAgeDays: 10,
   requestTimeoutMs: 18000,
-  maxCandidatePagesToVerify: 500,
+  maxCandidatePagesToVerify: 1500,
   companyContext:
     "HandiAds is a performance marketing company in Gujarat, India. The founder wants founder-focused startup events, AI summits, accelerator programs, business conferences, government-backed innovation opportunities, investor networking, and sponsored business opportunities. Avoid academic scholarships, university admissions, masters programs, student exchanges, and research fellowships.",
 

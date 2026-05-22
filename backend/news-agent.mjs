@@ -206,9 +206,6 @@ const registrationActiveTerms = [
   "attend in person",
   "save the date",
   "secure your spot",
-  "on demand",
-  "on-demand",
-  "session replays",
   "submissions open",
   "deadline",
   "last date",
@@ -232,6 +229,17 @@ const eventTerms = [
   "webinar",
   "demo day",
   "ai days"
+];
+const pastVideoTerms = [
+  "on demand",
+  "on-demand",
+  "watch sessions",
+  "session replays",
+  "highlights",
+  "event highlights",
+  "keynote replay",
+  "past event",
+  "catch up on"
 ];
 const passiveCoverageTerms = [
   "held",
@@ -885,6 +893,8 @@ function isBusinessRelevant(item) {
   if (includesAny(text, productSalesBlockTerms)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
+  if (includesAny(text, pastVideoTerms)) return false;
+  if (includesAny(text, ["hiring", "careers", "jobs at"])) return false;
 
   const isMNC = includesAny(text, ["aws", "amazon", "microsoft", "google", "meta", "salesforce", "adobe", "apple", "nvidia"]);
   if (isMNC && item.sourceType !== "Official") {
@@ -990,6 +1000,7 @@ async function verifyCandidatePage(item) {
   if (includesAny(lowerPageText, genericBlockTerms)) return null;
   if (includesAny(lowerPageText, productSalesBlockTerms)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
+  if (includesAny(lowerPageText, pastVideoTerms)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
   const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
   if (!isIntel && !hasActionableOpportunity(lowerPageText)) return null;
