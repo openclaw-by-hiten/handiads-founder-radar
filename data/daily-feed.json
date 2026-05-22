@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T06:39:03.928Z",
+  "generatedAt": "2026-05-22T07:00:51.137Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1070,
-    "uniqueSignals": 957,
-    "recentSignals": 738,
-    "candidatePagesQueued": 651,
-    "candidatePagesVerified": 61,
+    "fetchedSignals": 1087,
+    "uniqueSignals": 968,
+    "recentSignals": 749,
+    "candidatePagesQueued": 662,
+    "candidatePagesVerified": 54,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -85,8 +85,8 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
-      "verified": 1,
+      "candidates": 19,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -138,11 +138,11 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 4,
-      "candidates": 4,
-      "verified": 1,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Salesforce Events",
@@ -201,20 +201,20 @@
     {
       "name": "JETRO Startups",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
-      "error": "JETRO Startups failed with 404"
+      "error": ""
     },
     {
-      "name": "YouthJapan Opportunities",
+      "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -249,7 +249,7 @@
       "fetched": 20,
       "candidates": 19,
       "verified": 17,
-      "final": 7,
+      "final": 13,
       "error": ""
     },
     {
@@ -336,11 +336,11 @@
     {
       "name": "Microsoft Investor Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
-      "error": "Microsoft Investor Events failed with 404"
+      "error": ""
     },
     {
       "name": "Meta for Developers Events",
@@ -349,7 +349,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Meta for Developers Events failed with 404"
+      "error": "Meta for Developers Events failed with 400"
     },
     {
       "name": "Meta Investor Events",
@@ -364,8 +364,8 @@
       "name": "LinkedIn Marketing Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
-      "verified": 1,
+      "candidates": 18,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -391,7 +391,7 @@
       "name": "NIST Events Calendar",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 20,
-      "verified": 6,
-      "final": 6,
-      "error": ""
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -571,7 +571,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -677,12 +677,8 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "JETRO Startups",
-      "error": "JETRO Startups failed with 404"
-    },
-    {
-      "name": "YouthJapan Opportunities",
-      "error": "fetch failed"
+      "name": "Adobe Business Events",
+      "error": "This operation was aborted"
     },
     {
       "name": "Meta Connect",
@@ -693,16 +689,16 @@
       "error": "NVIDIA Investor Events failed with 403"
     },
     {
-      "name": "Microsoft Investor Events",
-      "error": "Microsoft Investor Events failed with 404"
-    },
-    {
       "name": "Meta for Developers Events",
-      "error": "Meta for Developers Events failed with 404"
+      "error": "Meta for Developers Events failed with 400"
     },
     {
       "name": "Meta Investor Events",
       "error": "Meta Investor Events failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
@@ -962,240 +958,6 @@
       }
     },
     {
-      "title": "INDIAai | Events",
-      "summary": "Explore happenings & significant occurances in Artificial Intelligrnce(AI).",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/events",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "indiaai-events",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Datasets Curated sets of data to aid research initiatives",
-      "summary": "Curated sets of data to aid research initiatives.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/datasets",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "datasets-curated-sets-of-data-to-aid-research-initiatives",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Colleges Top educational institutions offering courses in AI",
-      "summary": "Institutions Developing The Next Generation of Artificial Intelligence(AI) Minds.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/colleges",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "colleges-top-educational-institutions-offering-courses-in-ai",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Start Ups Discover top startup ideas in the world of AI",
-      "summary": "Young companies making a big splash in the AI space",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/startup",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "start-ups-discover-top-startup-ideas-in-the-world-of-ai",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Companies Profiles of visionary companies leading AI research & innovation",
-      "summary": "Visionary firms, driving research, innovation, & initiatives in the Artificial Intelligence(AI) space.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/companies",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "companies-profiles-of-visionary-companies-leading-ai-research-innovation",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Investment Funds VCs, PEs and other investors in AI today",
-      "summary": "Funds contributing to innovations in the Artificial Intelligence(AI) sector",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/investment-funds",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "investment-funds-vcs-pes-and-other-investors-in-ai-today",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "Zhilin Yang Founder and CEO Kimi (Moonshot AI)",
       "summary": "Explore how we scaled Kimi K2.5 by pioneering the Muon optimizer to double token learning efficiency and maximize training throughput through Day 0...",
       "source": "NVIDIA GTC Hub",
@@ -1408,6 +1170,255 @@
       "location": "Global",
       "sourceType": "Official",
       "id": "startups-vcs",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Workshops, Training Labs & Certification",
+      "summary": "NVIDIA GTC sessions are now on demand. Explore AI breakthroughs driving innovation across industries worldwide.",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/training/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "workshops-training-labs-certification",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "See All GTC Events",
+      "summary": "Explore What’s Next in AI at NVIDIA GTC.",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/events/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "see-all-gtc-events",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "View On-Demand",
+      "summary": "The CUDA platform is the foundation of the GPU computing ecosystem. Every application and framework that uses the GPU does so through CUDA's librar...",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81859/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "view-on-demand",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Aman Sanger CTO and Co-Founder Cursor",
+      "summary": "Aman Sanger, co-founder and CTO at Cursor, will share how Cursor is building long-running coding agents that can autonomously execute more ambitiou...",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81528/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "aman-sanger-cto-and-co-founder-cursor",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Moritz Baecher Director, Research Lab Zurich Disney Research Imagineering",
+      "summary": "The translation of animated characters like Olaf, or the design of characters like our BDX Droids, requires balancing artistic fidelity with the co...",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81492/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "moritz-baecher-director-research-lab-zurich-disney-research-imagineering",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "gtc26 s81715",
+      "summary": "Step inside Mistral’s journey to industrial-scale AI as we share lessons learned and the principles guiding our approach in creating Mistral Comput...",
+      "source": "NVIDIA GTC Hub",
+      "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81715/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "gtc26-s81715",
       "tags": [
         "ai",
         "market",
