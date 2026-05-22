@@ -26,6 +26,12 @@ const gujaratTerms = ["gujarat", "ahmedabad", "gandhinagar", "surat", "rajkot", 
 const nearIndiaTerms = ["india", "uae", "dubai", "abu dhabi", "singapore", "nepal", "sri lanka", "qatar"];
 const mediumDistanceTerms = ["japan", "thailand", "malaysia", "vietnam", "indonesia", "south korea"];
 const influencerTerms = ["minister", "government", "investor", "top founder", "influencer", "ceo", "global leader"];
+const vipTerms = [
+  "sundar pichai", "satya nadella", "sam altman", "mark zuckerberg", 
+  "jensen huang", "tim cook", "elon musk", "yann lecun", "marques brownlee", 
+  "mkbhd", "mrwhosetheboss", "lex fridman", "andrew ng", "keynote speaker", 
+  "special guest", "google ceo", "microsoft ceo", "meta ceo", "openai ceo"
+];
 const founderTerms = ["founder", "startup", "accelerator", "incubator", "investor", "vc", "venture capital", "saas", "agency", "business", "enterprise"];
 const academicBlockTerms = [
   "master",
@@ -108,7 +114,16 @@ const opportunityTerms = [
   "investor meetup",
   "business conference",
   "innovation program",
-  "incubation"
+  "incubation",
+  "safety summit",
+  "investor event",
+  "policy summit",
+  "congress",
+  "earnings call",
+  "shareholder meeting",
+  "developer conference",
+  "innovation month",
+  "impact summit"
 ];
 const actionableTerms = [
   "apply",
@@ -140,7 +155,16 @@ const actionableTerms = [
   "conference",
   "delegation",
   "meetup",
-  "expo"
+  "expo",
+  "safety summit",
+  "investor event",
+  "policy summit",
+  "congress",
+  "earnings call",
+  "shareholder meeting",
+  "developer conference",
+  "innovation month",
+  "impact summit"
 ];
 const registrationActiveTerms = [
   "apply",
@@ -175,9 +199,16 @@ const registrationActiveTerms = [
   "reserve your seat",
   "tickets",
   "delegate pass",
+  "delegate application",
   "nominate",
   "nominations open",
   "submission open",
+  "attend in person",
+  "save the date",
+  "secure your spot",
+  "on demand",
+  "on-demand",
+  "session replays",
   "submissions open",
   "deadline",
   "last date",
@@ -342,7 +373,8 @@ function parseHtmlLinks(html, page) {
 
   const embeddedLinks = extractEmbeddedOfficialLinks(html, page);
 
-  return dedupe([pageCandidate, ...links, ...embeddedLinks]).slice(0, config.maxItemsPerFeed);
+  const limit = page.name === "Techmeme Events" ? 500 : config.maxItemsPerFeed;
+  return dedupe([pageCandidate, ...links, ...embeddedLinks]).slice(0, limit);
 }
 
 function extractEmbeddedOfficialLinks(html, page) {
@@ -584,6 +616,12 @@ function scoreSignal(signal) {
     reasons.push("Top-Tier Ecosystem / Sponsored Priority");
   }
 
+  const hasVIP = includesAny(txt, vipTerms);
+  if (hasVIP) {
+    score += 25;
+    reasons.push("VIP / Celebrity Star-Power Detected");
+  }
+
   // Duration Boost Calculation
   const rangeMatch = txt.match(/\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\.?\s+(\d{1,2})\s*(?:-|to|–|—)\s*(\d{1,2})\b/);
   if (rangeMatch) {
@@ -609,7 +647,7 @@ function scoreSignal(signal) {
     score += 25;
     reasons.push("Cheaper Flights / Priority 3");
   } else {
-    if (!signal.tags.includes("funded") && !topTierBoost) {
+    if (!signal.tags.includes("funded") && !topTierBoost && !hasVIP) {
       score -= 20;
       reasons.push("Global un-sponsored penalty");
     }
@@ -693,11 +731,13 @@ function dedupe(items) {
 }
 
 function isGenericListingPage(item) {
+  if (item.sourceType === "Official") return false; // Never block official sub-pages
+
   const title = (item.title || "").toLowerCase().trim();
   const url = (item.sourceUrl || "").toLowerCase();
 
   // Allow flagship event root domains like japanyouthsummit.com or summit.adobe.com
-  const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent"]);
+  const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent", "techmeme"]);
 
   if (!isFlagshipRoot && genericTitleTerms.includes(title)) return true;
   if (!isFlagshipRoot && title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;

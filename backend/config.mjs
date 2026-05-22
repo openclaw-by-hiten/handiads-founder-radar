@@ -4,7 +4,7 @@ export const config = {
   maxDailyItems: 18,
   maxArticleAgeDays: 10,
   requestTimeoutMs: 18000,
-  maxCandidatePagesToVerify: 90,
+  maxCandidatePagesToVerify: 500,
   companyContext:
     "HandiAds is a performance marketing company in Gujarat, India. The founder wants founder-focused startup events, AI summits, accelerator programs, business conferences, government-backed innovation opportunities, investor networking, and sponsored business opportunities. Avoid academic scholarships, university admissions, masters programs, student exchanges, and research fellowships.",
 
@@ -111,12 +111,12 @@ export const config = {
     },
     {
       name: "JETRO Startups",
-      url: "https://www.jetro.go.jp/en/invest/startups/",
+      url: "https://www.jetro.go.jp/en/invest/",
       sourceType: "Official"
     },
     {
-      name: "YouthJapan Opportunities",
-      url: "https://youthjapan.org/",
+      name: "Global AI Summit",
+      url: "https://globalaisummit.org/en/",
       sourceType: "Official"
     },
     {
@@ -167,6 +167,96 @@ export const config = {
     {
       name: "Salesforce Dreamforce",
       url: "https://www.salesforce.com/dreamforce/",
+      sourceType: "Official"
+    },
+    {
+      name: "Alphabet Investor Events",
+      url: "https://abc.xyz/investor/",
+      sourceType: "Official"
+    },
+    {
+      name: "NVIDIA Investor Events",
+      url: "https://investor.nvidia.com/events-and-presentations/default.aspx",
+      sourceType: "Official"
+    },
+    {
+      name: "Microsoft Build",
+      url: "https://build.microsoft.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "Microsoft Investor Events",
+      url: "https://www.microsoft.com/en-us/investor/events",
+      sourceType: "Official"
+    },
+    {
+      name: "Meta for Developers Events",
+      url: "https://developers.facebook.com/blog/",
+      sourceType: "Official"
+    },
+    {
+      name: "Meta Investor Events",
+      url: "https://investor.fb.com/investor-events/",
+      sourceType: "Official"
+    },
+    {
+      name: "LinkedIn Marketing Events",
+      url: "https://business.linkedin.com/marketing-solutions/events",
+      sourceType: "Official"
+    },
+    {
+      name: "LinkedIn Pressroom",
+      url: "https://news.linkedin.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "US AI.gov",
+      url: "https://ai.gov/",
+      sourceType: "Official"
+    },
+    {
+      name: "NIST Events Calendar",
+      url: "https://www.nist.gov/news-events/events",
+      sourceType: "Official"
+    },
+    {
+      name: "NIST AI Risk Management Framework",
+      url: "https://www.nist.gov/itl/ai-risk-management-framework",
+      sourceType: "Official"
+    },
+    {
+      name: "US AI Congress",
+      url: "https://www.aiforusa.com/",
+      sourceType: "Official"
+    },
+    {
+      name: "UK AI Safety Institute",
+      url: "https://www.aisi.gov.uk/",
+      sourceType: "Official"
+    },
+    {
+      name: "European AI Alliance",
+      url: "https://digital-strategy.ec.europa.eu/en/policies/european-ai-alliance",
+      sourceType: "Official"
+    },
+    {
+      name: "India AI Events",
+      url: "https://indiaai.gov.in/events",
+      sourceType: "Official"
+    },
+    {
+      name: "ITU AI for Good Global Summit",
+      url: "https://aiforgood.itu.int/",
+      sourceType: "Official"
+    },
+    {
+      name: "UNIDIR Global Conference on AI",
+      url: "https://unidir.org/events/",
+      sourceType: "Official"
+    },
+    {
+      name: "Techmeme Events",
+      url: "https://www.techmeme.com/events",
       sourceType: "Official"
     }
   ],
