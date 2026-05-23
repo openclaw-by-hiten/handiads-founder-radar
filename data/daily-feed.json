@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T23:02:14.901Z",
+  "generatedAt": "2026-05-23T22:59:10.041Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1107,
-    "uniqueSignals": 988,
-    "recentSignals": 774,
-    "candidatePagesQueued": 686,
-    "candidatePagesVerified": 66,
+    "fetchedSignals": 1086,
+    "uniqueSignals": 968,
+    "recentSignals": 750,
+    "candidatePagesQueued": 665,
+    "candidatePagesVerified": 59,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -312,7 +312,7 @@
       "fetched": 13,
       "candidates": 11,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 20,
-      "verified": 6,
-      "final": 6,
-      "error": ""
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 150,
+      "fetched": 148,
       "candidates": 147,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -492,15 +492,15 @@
       "fetched": 20,
       "candidates": 19,
       "verified": 19,
-      "final": 1,
+      "final": 4,
       "error": ""
     },
     {
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -571,9 +571,9 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 2,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 4,
       "verified": 3,
-      "final": 1,
+      "final": 3,
       "error": ""
     },
     {
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -699,6 +695,10 @@
     {
       "name": "Meta Investor Events",
       "error": "Meta Investor Events failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
@@ -829,280 +829,6 @@
       }
     },
     {
-      "title": "INDIAai | Events",
-      "summary": "Explore happenings & significant occurances in Artificial Intelligrnce(AI).",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/events",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "indiaai-events",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Datasets Curated sets of data to aid research initiatives",
-      "summary": "Curated sets of data to aid research initiatives.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/datasets",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "datasets-curated-sets-of-data-to-aid-research-initiatives",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Colleges Top educational institutions offering courses in AI",
-      "summary": "Institutions Developing The Next Generation of Artificial Intelligence(AI) Minds.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/colleges",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "colleges-top-educational-institutions-offering-courses-in-ai",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Start Ups Discover top startup ideas in the world of AI",
-      "summary": "Young companies making a big splash in the AI space",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/startup",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "start-ups-discover-top-startup-ideas-in-the-world-of-ai",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Companies Profiles of visionary companies leading AI research & innovation",
-      "summary": "Visionary firms, driving research, innovation, & initiatives in the Artificial Intelligence(AI) space.",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/companies",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "companies-profiles-of-visionary-companies-leading-ai-research-innovation",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Investment Funds VCs, PEs and other investors in AI today",
-      "summary": "Funds contributing to innovations in the Artificial Intelligence(AI) sector",
-      "source": "India AI Events",
-      "sourceUrl": "https://indiaai.gov.in/investment-funds",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "investment-funds-vcs-pes-and-other-investors-in-ai-today",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 98,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Surat: Business and Innovation Mega Conclave from May 22, SGCCI to Host Four Mega Events - Dailyhunt",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Gujarat events and investor networking",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNYnlFTFo3UUdOVXhpSnVIWmhhdTZROTNfMjhmV3Q5TnpDdVZjem1OUVg2b3FZOVhwY0JZOUxObnM4dDNkY3l4RnJJN1ZIWmhoWGU0dUV4cHRqdnNlWUU5dk5fUUFjU09zZERnZXZCbFZCSjVlT1dWWnNFbTl5R2VJaGI4cF81eUdManJ2eE1hQ20ycVNZYjRsQ09uWlN6c2ZyVi00N093bngxWVhrNVVydDdQRmpOd180TDh3eWhyaklzREpkV3hWOEx6REhkeFdrWXktd0lnS1Uwd3JfM3FudDhmSjZwbDNPdXZ0czhhNU5uVHpIQThyTEhYODJBc01SYXZUNlV1TVE?oc=5",
-      "date": "Wed, 20 May 2026 16:00:07 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "surat-business-and-innovation-mega-conclave-from-may-22-sgcci-to-host-four-mega-",
-      "tags": [
-        "ai",
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 93,
-        "reasons": [
-          "Gujarat / Priority 1",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "AWS for Startups",
       "summary": "AWS for Startups - Amazon Web Services (AWS) Skip to main content .",
       "source": "AWS Startups",
@@ -1181,14 +907,14 @@
       }
     },
     {
-      "title": "Dreamforce Conference 2026",
+      "title": "Dreamforce 2026 Registration Chat",
       "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
       "source": "Salesforce Dreamforce",
       "sourceUrl": "https://www.salesforce.com/dreamforce/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "dreamforce-conference-2026",
+      "id": "dreamforce-2026-registration-chat",
       "tags": [
         "ai",
         "market",
@@ -1296,6 +1022,44 @@
       }
     },
     {
+      "title": "SolarSquare in talks to raise up to $60M as India’s rooftop solar market draws major VC interest",
+      "summary": "SolarSquare could be valued at up to $500 million in the financing expected to close next month.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest/",
+      "date": "Sat, 23 May 2026 20:03:13 +0000",
+      "location": "India",
+      "sourceType": "Trusted Tech",
+      "id": "solarsquare-in-talks-to-raise-up-to-60m-as-india-s-rooftop-solar-market-draws-ma",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 80,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
       "title": "General Catalyst just led a $63M bet on India’s travel payments market",
       "summary": "Scapia, an Indian startup that combines travel booking with co-branded credit cards and mobile payments, said the deal doubles its valuation.",
       "source": "TechCrunch Startups",
@@ -1331,45 +1095,6 @@
           "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "AI startup CEOs praise India’s ecosystem after PM Modi roundtable - DD News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVFVNElHaU5yT2Izek9yNndvWnRRYW5RcW5teUZjSnRlNVVqSndHeFgyeHdoby1qRm13MmNfRVp0RGptRTM1bHZmVmNjQ2M4V3NROGVuUDUyYmdLQUxmT1paVy1GcktLamtUMW5TLXhpMGZZcE1iN1NkMXYwRHA4VzBYbUVhdVo5NTlwOW1KQnFZMFE1?oc=5",
-      "date": "Fri, 22 May 2026 07:06:30 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "ai-startup-ceos-praise-india-s-ecosystem-after-pm-modi-roundtable-dd-news",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
       }
     },
     {
@@ -1409,6 +1134,269 @@
           "Aggregator backup source"
         ],
         "label": "Priority 2"
+      }
+    },
+    {
+      "title": "MeitY Launches AI Impact Startup Book at India AI Impact Summit 2026 - DD News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFF1RjBuUkEzQTFQS2pMZU1ZXzJJMUZ6c1J4VjlxRDR5VUUwbmV3WE9Vamt1MHR2eFdEZFNPNTViUkQyRThwc2pkQWdjZjRUVnZJalo1ZXJaS2V6UVk2RWNxSFdvN0JZZWNYenlxWktPMXk2ODhCSmdQUUpXaHFiQnR4VThfQjg1dm05WkRONDhsMlZJUjhWekZn?oc=5",
+      "date": "Sat, 23 May 2026 04:19:36 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "meity-launches-ai-impact-startup-book-at-india-ai-impact-summit-2026-dd-news",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "training and certifications",
+      "summary": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/training-and-certifications/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "training-and-certifications",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Sam Altman makes ‘mic drop’ offer to every Y Combinator startup",
+      "summary": "Altman offered to have OpenAI invest in every single startup in this Y Combinator class: tokens for equity.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/20/sam-altman-makes-mic-drop-offer-to-every-y-combinator-startup/",
+      "date": "Wed, 20 May 2026 21:23:02 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "sam-altman-makes-mic-drop-offer-to-every-y-combinator-startup",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 65,
+        "reasons": [
+          "VIP / Celebrity Star-Power Detected",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "ArtHaus x Fortune India Startup Summit 2026 - Fortune India",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlFkVVZkVW4yM1h5anIyMnI4T1JYNFhMUVgzdUd0bDJTUFprbjJ4U19UY1g2dDVaWnAyM0tuNERnOEN1X3F0UkJlWmtpaXNQMWRsdU5GQjVWbm9Sc2JpRTl0eVA1X29Hc1RQWGRGNmMwTVJJVHMwMm9BM3ZfeHpIYjZOMk1mck9OSEVXRDNDZ9IBnAFBVV95cUxPT3BTb21sU2hWNDdINzloUE5rbkVQcEI5a1pBZFdtVER0akxlUE9FdnJ1SnNDR2tONXg3OVp0WGNFcy14TW8yMWpvaThVZkhLbzlDYm9jdE9FTjFJRmNyMjd5b2VObFZLc2N0Wk1ndmpha0dxT09sMFZ2bVBRUTNpMHFrdHhXWE40ZldTVjlSd0tra3ZDcE9QRzhtWlg?oc=5",
+      "date": "Fri, 22 May 2026 11:03:51 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "arthaus-x-fortune-india-startup-summit-2026-fortune-india",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "India’s 40% LLP Growth Reflects Startup Evolution - Rising Kashmir",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51MnhhM2oyUVNmSUN0Qm5RUzRmWEQ4SGpZY2x5N3VPSWFkZlpYa3pqMkFfX1RQZHBmNENOWDVHaUxmZGZfZTlMdHByc3dYb1FXYjNFWW45dlRpUjB1YldpSkJFc051QmxEY2JmSXR4SlB5Qi03RXlXRjFGZFhxTEE?oc=5",
+      "date": "Fri, 22 May 2026 22:23:54 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "india-s-40-llp-growth-reflects-startup-evolution-rising-kashmir",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+      "summary": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
+      "date": "Fri, 22 May 2026 18:17:07 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "elon-musk-can-t-hear-you-over-the-sound-of-his-1-75-trillion-ipo",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 57,
+        "reasons": [
+          "VIP / Celebrity Star-Power Detected",
+          "Founder and business growth relevance",
+          "Useful founder network value"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Alphabet Investor Relations - Investors",
+      "summary": "Alphabet Investor Relations - Investors Skip to main content .",
+      "source": "Alphabet Investor Events",
+      "sourceUrl": "https://abc.xyz/investor/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "alphabet-investor-relations-investors",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 46,
+        "reasons": [
+          "Global un-sponsored penalty",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Watchlist"
       }
     }
   ]
