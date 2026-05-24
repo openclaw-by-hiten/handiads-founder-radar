@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T22:59:10.041Z",
+  "generatedAt": "2026-05-24T23:02:01.965Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -10,7 +10,7 @@
     "googleBackupFeeds": 11,
     "fetchedSignals": 1086,
     "uniqueSignals": 968,
-    "recentSignals": 750,
+    "recentSignals": 745,
     "candidatePagesQueued": 665,
     "candidatePagesVerified": 59,
     "finalItems": 18,
@@ -312,7 +312,7 @@
       "fetched": 13,
       "candidates": 11,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -464,7 +464,7 @@
       "type": "html",
       "fetched": 148,
       "candidates": 147,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 3,
-      "final": 3,
+      "candidates": 5,
+      "verified": 4,
+      "final": 4,
       "error": ""
     },
     {
@@ -907,14 +907,14 @@
       }
     },
     {
-      "title": "Dreamforce 2026 Registration Chat",
+      "title": "Dreamforce Conference 2026",
       "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
       "source": "Salesforce Dreamforce",
       "sourceUrl": "https://www.salesforce.com/dreamforce/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "dreamforce-2026-registration-chat",
+      "id": "dreamforce-conference-2026",
       "tags": [
         "ai",
         "market",
@@ -1137,45 +1137,6 @@
       }
     },
     {
-      "title": "MeitY Launches AI Impact Startup Book at India AI Impact Summit 2026 - DD News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFF1RjBuUkEzQTFQS2pMZU1ZXzJJMUZ6c1J4VjlxRDR5VUUwbmV3WE9Vamt1MHR2eFdEZFNPNTViUkQyRThwc2pkQWdjZjRUVnZJalo1ZXJaS2V6UVk2RWNxSFdvN0JZZWNYenlxWktPMXk2ODhCSmdQUUpXaHFiQnR4VThfQjg1dm05WkRONDhsMlZJUjhWekZn?oc=5",
-      "date": "Sat, 23 May 2026 04:19:36 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "meity-launches-ai-impact-startup-book-at-india-ai-impact-summit-2026-dd-news",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "training and certifications",
       "summary": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path.",
       "source": "Salesforce Dreamforce",
@@ -1251,6 +1212,42 @@
       }
     },
     {
+      "title": "Startup India Registration Benefits 2026: Top DPIIT Advantages, Tax Exemptions & Funding Support - Legal Service India",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTFDcGlOeThud1ZSU0JEWWhoMVFmVmR1WEplWkMtaUJ1ZlBqODFEODRFWUFvdXRXbXc5bGNvdGNTa1dsd1diSk1jRmdCdUFzZzJ5YXZoeUduenAzWjRBOHd4N1NMRjZOemVxNFhpS3dIRzZ0Q1JMZWRCa29WQ09FamRmVWk4VWVwT1VMeHAxUGZYM0dM?oc=5",
+      "date": "Sun, 24 May 2026 04:48:51 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "startup-india-registration-benefits-2026-top-dpiit-advantages-tax-exemptions-fun",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "ArtHaus x Fortune India Startup Summit 2026 - Fortune India",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
@@ -1291,10 +1288,46 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51MnhhM2oyUVNmSUN0Qm5RUzRmWEQ4SGpZY2x5N3VPSWFkZlpYa3pqMkFfX1RQZHBmNENOWDVHaUxmZGZfZTlMdHByc3dYb1FXYjNFWW45dlRpUjB1YldpSkJFc051QmxEY2JmSXR4SlB5Qi03RXlXRjFGZFhxTEE?oc=5",
-      "date": "Fri, 22 May 2026 22:23:54 GMT",
+      "date": "Sat, 23 May 2026 11:00:05 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "india-s-40-llp-growth-reflects-startup-evolution-rising-kashmir",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "PM Modi's Norway visit seen boosting India-Nordic business, startup ties: Industry voices - ANI News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSzlnWi0wcTNSOGYyY3k3a0FBX0QxQ1RyQlc4Z3djQWNuZkQ3d1N5UmdhT1p4Rk05LXJpZzlyMmIxemwwR0ZGTWhxTVhFeGJZWE1DWGFfeERIem1TNVRuU2hKUjA3YnVjMmZqcHlsRm4wcnkyT1BzYjQ1WnlPbTh0a1pBOUwyRnpxdzdGWWItRDNFMTZLX3RySGFBY0hfNzZBb2hfWUFSelZPS0JScHNvXzY3VDMzY0ExelNtWjI0V1UxQnBLaHU0S3cwTlZaRVVEQmo4?oc=5",
+      "date": "Sun, 17 May 2026 15:13:00 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "pm-modi-s-norway-visit-seen-boosting-india-nordic-business-startup-ties-industry",
       "tags": [
         "market",
         "founder"
@@ -1353,48 +1386,6 @@
           "VIP / Celebrity Star-Power Detected",
           "Founder and business growth relevance",
           "Useful founder network value"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Alphabet Investor Relations - Investors",
-      "summary": "Alphabet Investor Relations - Investors Skip to main content .",
-      "source": "Alphabet Investor Events",
-      "sourceUrl": "https://abc.xyz/investor/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "alphabet-investor-relations-investors",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 46,
-        "reasons": [
-          "Global un-sponsored penalty",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
         ],
         "label": "Watchlist"
       }
