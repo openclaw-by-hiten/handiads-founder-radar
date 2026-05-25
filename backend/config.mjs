@@ -257,7 +257,7 @@ export const config = {
     {
       name: "Techmeme Events",
       url: "https://www.techmeme.com/events",
-      sourceType: "Official"
+      sourceType: "Aggregator Backup"
     }
   ],
 

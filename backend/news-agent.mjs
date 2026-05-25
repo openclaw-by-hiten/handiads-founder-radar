@@ -1165,6 +1165,15 @@ async function fetchGdelt() {
 }
 
 async function run() {
+  const historyPath = path.join(path.dirname(config.outputPath), "news-history.json");
+  let history = {};
+  try {
+    history = JSON.parse(await readFile(historyPath, "utf8"));
+  } catch {
+    history = {};
+  }
+  const now = new Date();
+
   const sourceJobs = [
     ...config.officialPages.map((source) => ({ source, type: "html", job: fetchHtmlPage(source) })),
     ...config.trustedRssFeeds.map((source) => ({ source, type: "rss", job: fetchFeed(source) })),
@@ -1194,6 +1203,16 @@ async function run() {
   const verifiedCandidates = await verifyCandidatePages(candidates);
   const items = verifiedCandidates
     .filter(isBusinessRelevant)
+    .filter((item) => {
+      const urlKey = (item.sourceUrl || "").toLowerCase().replace(/[?#].*$/, "");
+      const titleKey = canonicalTitleKey(item.title);
+      const firstSeen = history[urlKey] || history[titleKey];
+      if (firstSeen) {
+        const daysOld = (now - new Date(firstSeen)) / (1000 * 60 * 60 * 24);
+        if (daysOld > 3) return false;
+      }
+      return true;
+    })
     .map(classify)
     .filter((item) => item.tags.length > 0)
     .map((item) => ({ ...item, priority: scoreSignal(item) }))
@@ -1245,7 +1264,7 @@ async function run() {
         previous.status = "using-last-successful-feed";
         previous.lastFailedRefreshAt = output.generatedAt;
         previous.failedFeeds = failedFeeds;
-        await writeOutput(previous);
+        await writeFile(config.outputPath, JSON.stringify(previous, null, 2));
         console.warn("No fresh items fetched. Kept the last successful feed.");
         return;
       }
@@ -1253,6 +1272,20 @@ async function run() {
       console.warn("No fresh items fetched and no previous feed was available.");
     }
   }
+
+  items.forEach((item) => {
+    const urlKey = (item.sourceUrl || "").toLowerCase().replace(/[?#].*$/, "");
+    const titleKey = canonicalTitleKey(item.title);
+    if (!history[urlKey]) history[urlKey] = now.toISOString();
+    if (!history[titleKey]) history[titleKey] = now.toISOString();
+  });
+  
+  for (const [key, dateStr] of Object.entries(history)) {
+    if ((now - new Date(dateStr)) / (1000 * 60 * 60 * 24) > 14) {
+      delete history[key];
+    }
+  }
+  await writeFile(historyPath, JSON.stringify(history, null, 2));
 
   await writeOutput(output);
   console.log(`Saved ${items.length} items to ${config.outputPath}`);
