@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T23:13:46.135Z",
+  "generatedAt": "2026-05-27T23:21:15.126Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1086,
-    "uniqueSignals": 960,
-    "recentSignals": 604,
-    "candidatePagesQueued": 525,
-    "candidatePagesVerified": 67,
+    "fetchedSignals": 1069,
+    "uniqueSignals": 945,
+    "recentSignals": 587,
+    "candidatePagesQueued": 508,
+    "candidatePagesVerified": 66,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -50,8 +50,8 @@
       "type": "html",
       "fetched": 15,
       "candidates": 15,
-      "verified": 2,
-      "final": 2,
+      "verified": 3,
+      "final": 3,
       "error": ""
     },
     {
@@ -285,7 +285,7 @@
       "fetched": 20,
       "candidates": 18,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -426,11 +426,11 @@
     {
       "name": "European AI Alliance",
       "type": "html",
-      "fetched": 17,
-      "candidates": 16,
-      "verified": 1,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "European AI Alliance failed with 403"
     },
     {
       "name": "India AI Events",
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 19,
-      "verified": 19,
+      "candidates": 18,
+      "verified": 18,
       "final": 2,
       "error": ""
     },
@@ -499,8 +499,8 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 2,
+      "verified": 2,
       "final": 1,
       "error": ""
     },
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 6,
       "verified": 5,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -607,9 +607,9 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 5,
-      "final": 5,
+      "candidates": 4,
+      "verified": 4,
+      "final": 4,
       "error": ""
     },
     {
@@ -697,11 +697,57 @@
       "error": "Meta Investor Events failed with 403"
     },
     {
+      "name": "European AI Alliance",
+      "error": "European AI Alliance failed with 403"
+    },
+    {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
     }
   ],
   "items": [
+    {
+      "title": "Join a community",
+      "summary": "Google for Startups connects founders with the right people, Google products, and best practices to help startups grow.",
+      "source": "Google for Startups Programs",
+      "sourceUrl": "https://startup.google.com/community/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "join-a-community",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
     {
       "title": "Find out more",
       "summary": "Google for Startups Accelerators are three-month programs that provides early stage startups with Google products, people, and best practices.",
@@ -1062,44 +1108,6 @@
       }
     },
     {
-      "title": "General Catalyst just led a $63M bet on India’s travel payments market",
-      "summary": "Scapia, an Indian startup that combines travel booking with co-branded credit cards and mobile payments, said the deal doubles its valuation.",
-      "source": "TechCrunch Startups",
-      "sourceUrl": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
-      "date": "Thu, 21 May 2026 05:52:38 +0000",
-      "location": "India",
-      "sourceType": "Trusted Tech",
-      "id": "general-catalyst-just-led-a-63m-bet-on-india-s-travel-payments-market",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "This startup is betting India’s gig economy can train the world’s robots",
       "summary": "Human Archive, a startup founded by UC Berkeley and Stanford researchers, is paying gig workers in India to wear camera-equipped caps and sensor devices to collect the real-world physical training data that AI and robotics labs are racing to acquire.",
       "source": "TechCrunch AI",
@@ -1133,48 +1141,6 @@
           "Founder and business growth relevance",
           "Useful founder network value",
           "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Google Cloud opens Southeast Asia AI corridor, offering 25 Startups $350,000 - TNGlobal",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODJacTNzdlltY2ptSWtuMmw2TDQydTRUNWRaYnNDakhVdkR3SUdVd0dIeFRFU2w4NW1CeGxUOXI1WjNkb2VqZkV6T0NuRVYwWU04M1NYbDFDQ3ozUDktNWQtMlNRNm10WEdUeVp0TWVqN0d1a0pDMGprbE5yb3AzOHpDTDVBN3kxYW5hYkpfcmZRak1YY3Juejl2d3hWSEg0WWNsNC1sbVRUMnJRWXc?oc=5",
-      "date": "Mon, 25 May 2026 08:14:17 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "google-cloud-opens-southeast-asia-ai-corridor-offering-25-startups-350-000-tnglo",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
         ],
         "label": "Priority 1"
       }
@@ -1264,17 +1230,56 @@
       }
     },
     {
-      "title": "Google Cloud creates AI startup innovation corridor linking SEA to Silicon Valley - Nasi Lemak Tech",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNDVQbkJJOUpVcHBwZklTOTdhVi1BaVl0dGgzNUk4aDQ5NXZPRTVLSHRKdk1lcm92WVhULTZ6ZEZIOWo4QUE5bURzaFZlcExBcXpDVl9udnRIZXE5RElja2MxT2pTS2xxS29xVlhXRnVKbEdlMTVfb3BybXpTWW5xclRxWQ?oc=5",
-      "date": "Mon, 25 May 2026 09:28:06 GMT",
+      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
+      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stage.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
+      "date": "Wed, 27 May 2026 14:15:00 +0000",
       "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "google-cloud-creates-ai-startup-innovation-corridor-linking-sea-to-silicon-valle",
+      "sourceType": "Trusted Tech",
+      "id": "startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-yo",
       "tags": [
         "funded",
         "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Global funds with US$5 billion tap Vietnam at Da Nang startup summit - SGGP English Edition",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc0lGaXpYbnFqRlItRFN6NVpjWGlxdzhiOEpzOV9TTGpDd3NhVlZJWDBmQnhwN2xyR2FFSlR5Q1l1cUU5ZjdVSHJfSVFFdFRqa0d1MkZJZmxqUFMydy1sTVhYOWdCc3Z5aVdkVWEwNEdybVFpR05zUzIwLXJFeE5wYmY4cEJET3FFcnVudEpGYzNzUVBuanpaREFEaEdONXJ1TDVzd01qbmFPZw?oc=5",
+      "date": "Wed, 27 May 2026 00:26:52 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "global-funds-with-us-5-billion-tap-vietnam-at-da-nang-startup-summit-sggp-englis",
+      "tags": [
+        "funded",
         "market",
         "founder"
       ],
@@ -1289,20 +1294,18 @@
       "nextMoves": [
         "Open the source and verify the official application page.",
         "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 80,
+        "score": 72,
         "reasons": [
           "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
           "Sponsored business opportunity",
           "Useful founder network value",
-          "AI relevance for HandiAds positioning",
           "Aggregator backup source"
         ],
-        "label": "Priority 1"
+        "label": "Priority 2"
       }
     },
     {
@@ -1349,7 +1352,7 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGU0ZnpLWkRHdHRzSVVpYm1iOEVIVXgxcmwtaUZZc2FGdWlrXzg0WXlzWTJ2VTRnQ1RmTTg5T09MalVKM2toNEpBTUdBaUxvT1g1YlpGN3pKckRIbl9mNDhtRFp2aEtLTDFkalJqa2FYelh4b0wybGJSUGZSWGRnOUp1R1RQOXIxUHlNZEdkNzFlbjItaWIxOE1PNjFpcGpUR0lsb3V6anZ2ZEE?oc=5",
-      "date": "Tue, 26 May 2026 08:18:56 GMT",
+      "date": "Wed, 27 May 2026 06:34:08 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "ai-impact-summit-2026-mib-pavilion-showcases-india-s-ai-capabilities-startup-dep",
@@ -1384,23 +1387,24 @@
       }
     },
     {
-      "title": "Developer Forums",
-      "summary": "Connect with fellow developers and Apple experts as you give and receive help on a wide variety of development topics, from implementing new technologies to established best practices",
-      "source": "Apple Developer Events",
-      "sourceUrl": "https://developer.apple.com/forums/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "developer-forums",
+      "title": "MeitY Launches AI Impact Startup Book at India AI Impact Summit 2026 - DD News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFF1RjBuUkEzQTFQS2pMZU1ZXzJJMUZ6c1J4VjlxRDR5VUUwbmV3WE9Vamt1MHR2eFdEZFNPNTViUkQyRThwc2pkQWdjZjRUVnZJalo1ZXJaS2V6UVk2RWNxSFdvN0JZZWNYenlxWktPMXk2ODhCSmdQUUpXaHFiQnR4VThfQjg1dm05WkRONDhsMlZJUjhWekZn?oc=5",
+      "date": "Tue, 26 May 2026 08:23:34 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "meity-launches-ai-impact-startup-book-at-india-ai-impact-summit-2026-dd-news",
       "tags": [
         "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
+      "distanceFromIndia": "near",
       "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
       "cost": "No sponsorship found in headline or snippet.",
@@ -1410,12 +1414,13 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 68,
+        "score": 70,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
+          "India / Priority 2",
           "Founder and business growth relevance",
+          "Useful founder network value",
           "AI relevance for HandiAds positioning",
-          "Official source"
+          "Aggregator backup source"
         ],
         "label": "Priority 2"
       }
