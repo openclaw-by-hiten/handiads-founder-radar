@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T23:20:16.208Z",
+  "generatedAt": "2026-05-29T23:15:11.926Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1054,
-    "uniqueSignals": 941,
+    "fetchedSignals": 1066,
+    "uniqueSignals": 947,
     "recentSignals": 577,
-    "candidatePagesQueued": 496,
-    "candidatePagesVerified": 62,
+    "candidatePagesQueued": 504,
+    "candidatePagesVerified": 63,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -166,7 +166,7 @@
       "name": "Hub71 AI Program",
       "type": "html",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -219,18 +219,18 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
-      "error": "Japan Youth Summit failed with 502"
+      "error": ""
     },
     {
       "name": "Google Developers Events Directory",
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -302,8 +302,8 @@
       "type": "html",
       "fetched": 2,
       "candidates": 2,
-      "verified": 1,
-      "final": 1,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 147,
+      "fetched": 148,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -581,8 +581,8 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 3,
-      "verified": 3,
-      "final": 3,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -683,10 +683,6 @@
     {
       "name": "Global AI Summit",
       "error": "This operation was aborted"
-    },
-    {
-      "name": "Japan Youth Summit",
-      "error": "Japan Youth Summit failed with 502"
     },
     {
       "name": "Meta Connect",
@@ -961,6 +957,45 @@
       }
     },
     {
+      "title": "Dreamforce 2026 Registration Chat",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "dreamforce-2026-registration-chat",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
       "title": "AWS Solutions Library",
       "summary": "The AWS Solutions Library carries solutions built by AWS and AWS Partners for a broad range of industry and technology use cases.",
       "source": "AWS Startups",
@@ -1123,46 +1158,6 @@
       }
     },
     {
-      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
-      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stage.",
-      "source": "TechCrunch Startups",
-      "sourceUrl": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
-      "date": "Wed, 27 May 2026 14:15:00 +0000",
-      "location": "Global",
-      "sourceType": "Trusted Tech",
-      "id": "startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-yo",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "Global funds with US$5 billion tap Vietnam at Da Nang startup summit - SGGP English Edition",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Startup grants and accelerators near India",
@@ -1276,6 +1271,44 @@
       }
     },
     {
+      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+      "summary": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+      "date": "Fri, 29 May 2026 12:00:00 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "this-chip-startup-just-raised-135m-on-a-bet-that-ai-s-biggest-bottleneck-isn-t-c",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 65,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "India’s 40% LLP Growth Reflects Startup Evolution - Rising Kashmir",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
@@ -1345,45 +1378,6 @@
           "Aggregator backup source"
         ],
         "label": "Priority 2"
-      }
-    },
-    {
-      "title": "GrowQR Founder Bibin Babu Delivers Keynote at Bihar AI Summit 2026, Announces Global Capability Centre for Bihar - The Tribune",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOGFVZFlna1NRX0R3b09YVUt2cUx3YWs4WXVkMzloYThSTXY5LWs1WVg0RnV6T1lZNGltdFJOdVc2UDlXZnpFTXZRc2hsNjdob0JNQUhsdGcycUZzUzFIczZoVGNUVmlxQThiWGYyY2NGZ3pNNVF1RU5JbHFXaE04NVNsWk5BTlI4MDJXLUJKOGN1R2tPenZiQ0hwSk8yYnZVVXRudC1fX280Y1dETGJlRWhmanF0Qy03eHRvZkZJQUZ1TkZrOE1DVU1zUzl6d1pPOFo3eXF5X1pBelhoa1JDT0FOYnBFQUNUbDI4YmFiUi1sZmxvTWdnd053cmk?oc=5",
-      "date": "Thu, 28 May 2026 04:50:26 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "growqr-founder-bibin-babu-delivers-keynote-at-bihar-ai-summit-2026-announces-glo",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
       }
     },
     {
