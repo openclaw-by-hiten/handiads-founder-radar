@@ -73,7 +73,10 @@ const genericBlockTerms = [
   "find programs in your region",
   "find programs available to you",
   "student scholarship",
-  "find programs"
+  "find programs",
+  "join a community",
+  "google for startups programs",
+  "find out more"
 ];
 const productSalesBlockTerms = [
   "cyberattacks",
