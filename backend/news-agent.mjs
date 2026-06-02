@@ -930,7 +930,7 @@ function parseArticleDate(value) {
 
 function isRecentEnough(item) {
   const parsed = parseArticleDate(item.date);
-  if (!parsed) return item.sourceType === "Official" || item.sourceType === "Opportunity";
+  if (!parsed) return item.sourceType === "Official" || item.sourceType === "Opportunity" || item.sourceType === "Aggregator Backup";
   const ageMs = Date.now() - parsed.getTime();
   const maxAgeMs = config.maxArticleAgeDays * 24 * 60 * 60 * 1000;
   return ageMs <= maxAgeMs && ageMs >= -30 * 24 * 60 * 60 * 1000;
