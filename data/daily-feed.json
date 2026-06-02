@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T07:38:39.899Z",
+  "generatedAt": "2026-06-02T08:10:56.746Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -10,9 +10,9 @@
     "googleBackupFeeds": 11,
     "fetchedSignals": 1065,
     "uniqueSignals": 948,
-    "recentSignals": 576,
-    "candidatePagesQueued": 503,
-    "candidatePagesVerified": 60,
+    "recentSignals": 721,
+    "candidatePagesQueued": 511,
+    "candidatePagesVerified": 67,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 145,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 8,
+      "verified": 7,
       "final": 0,
       "error": ""
     },
