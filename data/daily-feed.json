@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T23:48:44.631Z",
+  "generatedAt": "2026-06-03T23:46:58.693Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1056,
-    "uniqueSignals": 943,
-    "recentSignals": 739,
+    "fetchedSignals": 1086,
+    "uniqueSignals": 967,
+    "recentSignals": 751,
     "candidatePagesQueued": 522,
-    "candidatePagesVerified": 76,
+    "candidatePagesVerified": 67,
     "finalItems": 18,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -102,8 +102,8 @@
     {
       "name": "AWS Startup Events",
       "type": "html",
-      "fetched": 13,
-      "candidates": 13,
+      "fetched": 14,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -293,8 +293,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 1,
-      "final": 1,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -373,8 +373,8 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 11,
-      "candidates": 10,
-      "verified": 1,
+      "candidates": 5,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 147,
-      "candidates": 8,
-      "verified": 7,
+      "fetched": 149,
+      "candidates": 7,
+      "verified": 6,
       "final": 0,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 16,
-      "verified": 16,
+      "candidates": 15,
+      "verified": 15,
       "final": 1,
       "error": ""
     },
@@ -499,8 +499,8 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 16,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 2,
+      "verified": 2,
       "final": 1,
       "error": ""
     },
@@ -607,15 +607,15 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 5,
-      "final": 5,
+      "candidates": 3,
+      "verified": 3,
+      "final": 3,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,10 +678,6 @@
     },
     {
       "name": "Adobe Business Events",
-      "error": "This operation was aborted"
-    },
-    {
-      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
@@ -1058,48 +1054,6 @@
       }
     },
     {
-      "title": "Worldex Co-Founder & CEO Matteo Davison Keynotes at Unchained Summit Vietnam, Advocating Secure and Transparent Infrastructure for the Digital Economy - StreetInsider",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQY3R5R2w0T04zVWc4TURPWktNTzZQVDFQaXJ1bG4zRk92NW9WWGVGMTRWVVh3YjI1T2hJSXNKWlhZdTFmQUJzdUhtMXNJdXpXOGt6Sm9LUWRhQ0JJTWxyejhBQ2F6UE1kMlZxMzUyME9zTlJzRHJUNkpzNW56d2FLVWhxNHpXVDNMWlBpcDVBelM5THdDbG1aemdkSWEyX0RMQmlwV01lSGgydjJCdFNGSGlod0EzTXQyN0VLY1pqdTV3S2xUMFVDcjlrQnFfNEZzXzNYdXdwWEFCZnJnZEpqWHItY25fcUs1QnNUMFQzOFY0WENfZGZrVWM5S0lKYXl4VWh4Z2RiZmpUNmw1ZTUwZjdYeVZaUTBfbXhUQjZNb1h4NGVwM3hWUWozM2dxY1RMOWpiM2xRMA?oc=5",
-      "date": "Tue, 02 Jun 2026 07:35:32 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "worldex-co-founder-ceo-matteo-davison-keynotes-at-unchained-summit-vietnam-advoc",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 88,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "AWS Solutions Library",
       "summary": "The AWS Solutions Library carries solutions built by AWS and AWS Partners for a broad range of industry and technology use cases.",
       "source": "AWS Startups",
@@ -1178,6 +1132,45 @@
       }
     },
     {
+      "title": "Join the virtual experience now",
+      "summary": "Join us June 30–July 1, 2026 at the Walter E. Washington Convention Center. Two days of keynotes, 350+ sessions, and hands-on learning on AI, cloud, and public sector innovation. Free to attend.",
+      "source": "AWS Events and Conferences",
+      "sourceUrl": "https://aws.amazon.com/events/summits/washington-dc/?trk=ep_card_main_event_page",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "join-the-virtual-experience-now",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 80,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
       "title": "Revolut rolls out services to thousands of users in India ahead of broader launch",
       "summary": "The British fintech has built a waitlist of about 450,000 users in India as it prepares for a broader launch.",
       "source": "TechCrunch Startups",
@@ -1224,48 +1217,6 @@
       "location": "Global",
       "sourceType": "Aggregator Backup",
       "id": "google-cloud-opens-sea-ai-startup-accelerator-tech-in-asia",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Startup cores aim to unlock US$1.5 billion venture funding target by 2030 - SGGP English Edition",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanZzM2lGakduTEwxbmJTSUxtb2UyMG5fSDRIOXpiNGhCLUw3eEp0X1VieTNSVlB0RFFGWmRuSVd5MjdaWl80dWpHWVhMTmJBOUtYMmI4TVllQjBVdVVHX2tXOXNubHZLZzZTSUl5Nmd1VnpXOTUxMVJibWNlQmpxTG05akdjT1k1RWtZSXNuWktNV0stM2RBUHlla1U4b2tBQzZjUzNoSFAxVzZTb01B?oc=5",
-      "date": "Thu, 28 May 2026 13:57:25 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "startup-cores-aim-to-unlock-us-1-5-billion-venture-funding-target-by-2030-sggp-e",
       "tags": [
         "funded",
         "ai",
@@ -1385,7 +1336,7 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMWRFLXFzUVVWbmRzVkk4aXZTUlBESzdXUEQ1MEdYT3ZyaTFRdERsd0xsMWI5YjhoMENkM1R6TUZHN3BhMGduMHhMbVQtV051T0N4RmtPQmpPc0ZZRXhveldLLU9USVZzRkJoUi1LU0NMLVZxb3d2bWV3UUVtWVJjb3drR192dk0yc3pXVGVRcmtYOG9iNzZEdnhodlV3X0JsYk9YWC1lbVVRc1N4WU1WN3pTY1kwLVJUcEpPUURORmFKeklEODA2ZlpGWVBuT3Mz?oc=5",
-      "date": "Sat, 30 May 2026 07:22:54 GMT",
+      "date": "Tue, 26 May 2026 20:32:15 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "govt-startup-accelerator-platform-wavex-invites-applications-for-participation-i",
@@ -1415,6 +1366,43 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "training and certifications",
+      "summary": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/training-and-certifications/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "training-and-certifications",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Official source"
         ],
         "label": "Priority 2"
       }
