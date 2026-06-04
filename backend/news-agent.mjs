@@ -89,9 +89,7 @@ const genericBlockTerms = [
   "find programs",
   "join a community",
   "google for startups programs",
-  "find out more",
-  "all tech events - techmeme",
-  "techmeme events"
+  "find out more"
 ];
 const productSalesBlockTerms = [
   "cyberattacks",
@@ -772,6 +770,7 @@ function isGenericListingPage(item) {
   const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent"]);
 
   if (!isFlagshipRoot && genericTitleTerms.includes(title)) return true;
+  if (title === "all tech events - techmeme" || title === "techmeme events") return true;
   if (!isFlagshipRoot && title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
   if (!isFlagshipRoot && genericUrlPatterns.some((pattern) => url.includes(pattern))) return true;
 
