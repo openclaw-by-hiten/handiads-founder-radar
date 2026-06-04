@@ -930,7 +930,10 @@ function isBusinessRelevant(item) {
   if (isPastEvent(text)) return false;
   if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
   const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
-  if (isIntel) return true;
+  if (isIntel) {
+    if (!hasActionableOpportunity(text)) return false;
+    return true;
+  }
   if (!hasConfirmedRegistration(text)) return false;
 
   const isMarketingIntel =
