@@ -1,7 +1,7 @@
 export const config = {
   outputPath: "data/daily-feed.json",
   maxItemsPerFeed: 20,
-  maxDailyItems: 18,
+  maxDailyItems: 100,
   maxArticleAgeDays: 10,
   requestTimeoutMs: 18000,
   maxCandidatePagesToVerify: 1500,

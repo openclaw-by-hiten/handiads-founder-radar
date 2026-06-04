@@ -636,8 +636,14 @@ function scoreSignal(signal) {
   ]);
   
   if (topTierBoost) {
-    score += 30;
+    score += 15;
     reasons.push("Top-Tier Ecosystem / Sponsored Priority");
+  }
+
+  const isGenericContent = includesAny(txt, ["documentation", "vetted solutions", "solutions library", "press release", "whitepaper", "step-by-step guide"]);
+  if (isGenericContent) {
+    score -= 50;
+    reasons.push("Generic content penalty");
   }
 
   const hasVIP = includesAny(txt, vipTerms);
@@ -671,7 +677,7 @@ function scoreSignal(signal) {
     score += 25;
     reasons.push("Cheaper Flights / Priority 3");
   } else {
-    if (!signal.tags.includes("funded") && !topTierBoost && !hasVIP) {
+    if (!signal.tags.includes("funded") && !hasVIP) {
       score -= 20;
       reasons.push("Global un-sponsored penalty");
     }
@@ -883,21 +889,6 @@ function isCandidateRelevant(item) {
   if (hasOldStaticYear(text)) return false;
   if (isPastEvent(text)) return false;
 
-  if (item.sourceType === "Official" || item.sourceType === "Opportunity") {
-    return includesAny(text, [
-      ...opportunityTerms,
-      ...eventTerms,
-      ...registrationActiveTerms,
-      ...founderTerms,
-      ...adTerms,
-      ...aiTerms,
-      "marketing",
-      "advertising",
-      "business news",
-      "connect"
-    ]);
-  }
-
   return isBusinessRelevant(item);
 }
 
@@ -913,7 +904,7 @@ function isBusinessRelevant(item) {
   if (includesAny(text, ["hiring", "careers", "jobs at"])) return false;
 
   const isMNC = includesAny(text, ["aws", "amazon", "microsoft", "google", "meta", "salesforce", "adobe", "apple", "nvidia"]);
-  if (isMNC && item.sourceType !== "Official") {
+  if (isMNC) {
     const hasDate = extractEventEndDate(text) !== null;
     const hasLocation = includesAny(text, [...gujaratTerms, ...nearIndiaTerms, ...mediumDistanceTerms, "san francisco", "new york", "london", "online", "virtual", "taipei", "osaka"]);
     if (!hasDate && !hasLocation) {
@@ -1232,6 +1223,7 @@ async function run() {
     .map(classify)
     .filter((item) => item.tags.length > 0)
     .map((item) => ({ ...item, priority: scoreSignal(item) }))
+    .filter((item) => item.priority.score >= 50)
     .sort((a, b) => b.priority.score - a.priority.score)
     .slice(0, config.maxDailyItems);
   const fetchedBySource = countBySource(fetched);
