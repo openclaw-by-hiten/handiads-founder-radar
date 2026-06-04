@@ -89,7 +89,9 @@ const genericBlockTerms = [
   "find programs",
   "join a community",
   "google for startups programs",
-  "find out more"
+  "find out more",
+  "all tech events - techmeme",
+  "techmeme events"
 ];
 const productSalesBlockTerms = [
   "cyberattacks",
@@ -767,7 +769,7 @@ function isGenericListingPage(item) {
   const url = (item.sourceUrl || "").toLowerCase();
 
   // Allow flagship event root domains like japanyouthsummit.com or summit.adobe.com
-  const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent", "techmeme"]);
+  const isFlagshipRoot = includesAny(title, ["summit", "conference", "connect", "gtc", "dreamforce", "re:invent"]);
 
   if (!isFlagshipRoot && genericTitleTerms.includes(title)) return true;
   if (!isFlagshipRoot && title.length < 18 && includesAny(title, ["program", "challenge", "startup", "career"])) return true;
