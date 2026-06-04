@@ -888,6 +888,20 @@ function isCandidateRelevant(item) {
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (isPastEvent(text)) return false;
+  if (item.sourceType === "Official" || item.sourceType === "Opportunity" || item.sourceType === "Aggregator Backup") {
+    return includesAny(text, [
+      ...opportunityTerms,
+      ...eventTerms,
+      ...registrationActiveTerms,
+      ...founderTerms,
+      ...adTerms,
+      ...aiTerms,
+      "marketing",
+      "advertising",
+      "business news",
+      "connect"
+    ]);
+  }
 
   return isBusinessRelevant(item);
 }
