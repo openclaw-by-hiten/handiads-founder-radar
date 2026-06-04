@@ -50,7 +50,20 @@ const academicBlockTerms = [
   "tuition",
   "campus",
   "internship",
-  "internships"
+  "internships",
+  "course",
+  "courses",
+  "college",
+  "colleges",
+  "institute",
+  "institutes",
+  "b.tech",
+  "m.tech",
+  "syllabus",
+  "degree",
+  "bachelor",
+  "diploma",
+  "curriculum"
 ];
 const consumerBlockTerms = [
   "trade-in",
