@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T17:58:15.875Z",
+  "generatedAt": "2026-06-04T18:13:31.015Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1078,
-    "uniqueSignals": 947,
-    "recentSignals": 724,
-    "candidatePagesQueued": 29,
-    "candidatePagesVerified": 25,
-    "finalItems": 5,
+    "fetchedSignals": 1060,
+    "uniqueSignals": 946,
+    "recentSignals": 729,
+    "candidatePagesQueued": 628,
+    "candidatePagesVerified": 42,
+    "finalItems": 7,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -31,7 +31,7 @@
       "name": "Meta Company News",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -49,8 +49,8 @@
       "name": "Google for Startups Programs",
       "type": "html",
       "fetched": 15,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 15,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -67,7 +67,7 @@
       "name": "Google Play Accelerator India",
       "type": "html",
       "fetched": 16,
-      "candidates": 0,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -76,7 +76,7 @@
       "name": "Google for Startups Immersion",
       "type": "html",
       "fetched": 16,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -85,8 +85,8 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 19,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -94,7 +94,7 @@
       "name": "Microsoft for Startups",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -103,7 +103,7 @@
       "name": "AWS Startup Events",
       "type": "html",
       "fetched": 14,
-      "candidates": 0,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -112,8 +112,8 @@
       "name": "AWS Startups",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 20,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -121,7 +121,7 @@
       "name": "NVIDIA Inception",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -130,7 +130,7 @@
       "name": "NVIDIA Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -148,7 +148,7 @@
       "name": "Salesforce Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 20,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -157,7 +157,7 @@
       "name": "Hub71 Programs",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 20,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -166,7 +166,7 @@
       "name": "Hub71 AI Program",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -175,7 +175,7 @@
       "name": "Startup SG Programmes",
       "type": "html",
       "fetched": 4,
-      "candidates": 0,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -184,7 +184,7 @@
       "name": "Devpost Hackathons",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -193,7 +193,7 @@
       "name": "Apple Newsroom",
       "type": "html",
       "fetched": 8,
-      "candidates": 0,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -202,7 +202,7 @@
       "name": "JETRO Startups",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -211,7 +211,7 @@
       "name": "Global AI Summit",
       "type": "html",
       "fetched": 1,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -220,7 +220,7 @@
       "name": "Japan Youth Summit",
       "type": "html",
       "fetched": 11,
-      "candidates": 0,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -229,8 +229,8 @@
       "name": "Google Developers Events Directory",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 20,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -238,7 +238,7 @@
       "name": "Adobe Summit",
       "type": "html",
       "fetched": 2,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -247,7 +247,7 @@
       "name": "NVIDIA GTC Hub",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -265,7 +265,7 @@
       "name": "Microsoft Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -274,7 +274,7 @@
       "name": "Microsoft Virtual Training Days",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -283,8 +283,8 @@
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 18,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -292,8 +292,8 @@
       "name": "AWS Events and Conferences",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 15,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -301,17 +301,17 @@
       "name": "Salesforce Dreamforce",
       "type": "html",
       "fetched": 2,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "candidates": 2,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Alphabet Investor Events",
       "type": "html",
       "fetched": 13,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 11,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -337,7 +337,7 @@
       "name": "Microsoft Investor Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -364,7 +364,7 @@
       "name": "LinkedIn Marketing Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 9,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -382,8 +382,8 @@
       "name": "US AI.gov",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 17,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -391,7 +391,7 @@
       "name": "NIST Events Calendar",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -400,7 +400,7 @@
       "name": "NIST AI Risk Management Framework",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -409,7 +409,7 @@
       "name": "US AI Congress",
       "type": "html",
       "fetched": 1,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -445,7 +445,7 @@
       "name": "ITU AI for Good Global Summit",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -454,7 +454,7 @@
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -463,9 +463,9 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 145,
-      "candidates": 6,
-      "verified": 5,
-      "final": 0,
+      "candidates": 129,
+      "verified": 6,
+      "final": 1,
       "error": ""
     },
     {
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,8 +634,8 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 0,
+      "candidates": 14,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -864,6 +864,45 @@
       }
     },
     {
+      "title": "All Tech Events - Techmeme",
+      "summary": "Techmeme",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/events",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "all-tech-events-techmeme",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 55,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
       "title": "Inc42’s AI Summit 2026, Gig Economy’s Safety Gap & More - Inc42",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
@@ -898,6 +937,46 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Aggregator backup source"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Dreamforce Conference 2026",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "dreamforce-conference-2026",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 53,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global un-sponsored penalty",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
         ],
         "label": "Watchlist"
       }
