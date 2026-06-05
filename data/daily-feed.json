@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T23:12:17.455Z",
+  "generatedAt": "2026-06-05T23:12:33.760Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1067,
-    "uniqueSignals": 949,
-    "recentSignals": 734,
-    "candidatePagesQueued": 621,
+    "fetchedSignals": 1045,
+    "uniqueSignals": 928,
+    "recentSignals": 713,
+    "candidatePagesQueued": 610,
     "candidatePagesVerified": 28,
-    "finalItems": 5,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,8 +462,8 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
-      "candidates": 127,
+      "fetched": 144,
+      "candidates": 134,
       "verified": 5,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
+      "fetched": 14,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 4,
-      "final": 2,
+      "candidates": 3,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -607,17 +607,17 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 2,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
+      "candidates": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -703,18 +699,22 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
     {
-      "title": "Startup cores aim to unlock US$1.5 billion venture funding target by 2030 - SGGP English Edition",
+      "title": "Can Japan Close the AI Gap? Insights from Europe's Premier Startup Summit - JAPAN Forward",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanZzM2lGakduTEwxbmJTSUxtb2UyMG5fSDRIOXpiNGhCLUw3eEp0X1VieTNSVlB0RFFGWmRuSVd5MjdaWl80dWpHWVhMTmJBOUtYMmI4TVllQjBVdVVHX2tXOXNubHZLZzZTSUl5Nmd1VnpXOTUxMVJibWNlQmpxTG05akdjT1k1RWtZSXNuWktNV0stM2RBUHlla1U4b2tBQzZjUzNoSFAxVzZTb01B?oc=5",
-      "date": "Thu, 28 May 2026 13:57:25 GMT",
-      "location": "Global",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yX0pncGFaVldvMkRQLUxSVy0xWTA2cDdWTmUtV0JVMUNwUmVRbkMxMEZFMmZfTEVSc3pJZmttMlNjcjNIaTBKYUptMVZHRlQtNFFrdXVXblkxSVdRWHhhRjdRSndQcTFkSmxmNU9lRG1iOUsyQzk2NVVIYVo?oc=5",
+      "date": "Fri, 05 Jun 2026 13:17:15 GMT",
+      "location": "Japan",
       "sourceType": "Aggregator Backup",
-      "id": "startup-cores-aim-to-unlock-us-1-5-billion-venture-funding-target-by-2030-sggp-e",
+      "id": "can-japan-close-the-ai-gap-insights-from-europe-s-premier-startup-summit-japan-f",
       "tags": [
         "funded",
         "ai",
@@ -727,7 +727,7 @@
       "influencerValue": "medium",
       "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "why": "This can help HandiAds build international presence in Japan while keeping founder travel cost controlled.",
       "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
       "nextMoves": [
         "Open the source and verify the official application page.",
@@ -746,84 +746,6 @@
           "Aggregator backup source"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Global funds with US$5 billion tap Vietnam at Da Nang startup summit - SGGP English Edition",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc0lGaXpYbnFqRlItRFN6NVpjWGlxdzhiOEpzOV9TTGpDd3NhVlZJWDBmQnhwN2xyR2FFSlR5Q1l1cUU5ZjdVSHJfSVFFdFRqa0d1MkZJZmxqUFMydy1sTVhYOWdCc3Z5aVdkVWEwNEdybVFpR05zUzIwLXJFeE5wYmY4cEJET3FFcnVudEpGYzNzUVBuanpaREFEaEdONXJ1TDVzd01qbmFPZw?oc=5",
-      "date": "Wed, 27 May 2026 00:26:52 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "global-funds-with-us-5-billion-tap-vietnam-at-da-nang-startup-summit-sggp-englis",
-      "tags": [
-        "funded",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 72,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Govt startup accelerator platform, WaveX, invites applications for participation in India AI Impact Summit 2026 - News On AIR",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMWRFLXFzUVVWbmRzVkk4aXZTUlBESzdXUEQ1MEdYT3ZyaTFRdERsd0xsMWI5YjhoMENkM1R6TUZHN3BhMGduMHhMbVQtV051T0N4RmtPQmpPc0ZZRXhveldLLU9USVZzRkJoUi1LU0NMLVZxb3d2bWV3UUVtWVJjb3drR192dk0yc3pXVGVRcmtYOG9iNzZEdnhodlV3X0JsYk9YWC1lbVVRc1N4WU1WN3pTY1kwLVJUcEpPUURORmFKeklEODA2ZlpGWVBuT3Mz?oc=5",
-      "date": "Tue, 26 May 2026 20:32:15 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "govt-startup-accelerator-platform-wavex-invites-applications-for-participation-i",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
       }
     },
     {
@@ -861,46 +783,6 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Aggregator backup source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Dreamforce Conference 2026",
-      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "dreamforce-conference-2026",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 53,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global un-sponsored penalty",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
         ],
         "label": "Watchlist"
       }
