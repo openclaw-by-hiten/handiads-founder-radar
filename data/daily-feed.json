@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T23:06:37.273Z",
+  "generatedAt": "2026-06-07T23:08:27.034Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 992,
-    "uniqueSignals": 899,
-    "recentSignals": 688,
-    "candidatePagesQueued": 594,
-    "candidatePagesVerified": 29,
-    "finalItems": 4,
+    "fetchedSignals": 978,
+    "uniqueSignals": 888,
+    "recentSignals": 670,
+    "candidatePagesQueued": 581,
+    "candidatePagesVerified": 25,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 11,
-      "candidates": 5,
+      "fetched": 9,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 140,
+      "fetched": 139,
       "candidates": 132,
       "verified": 5,
       "final": 0,
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 13,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
-      "final": 2,
+      "candidates": 2,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 3,
+      "candidates": 3,
+      "verified": 2,
       "final": 2,
       "error": ""
     },
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
+      "candidates": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 14,
+      "candidates": 12,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -769,7 +769,7 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Startup grants and accelerators near India",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdWtHdEJJbUJTbjJhTGV6eGtBQ2tjeFFqcFZqYkE2RUJFLVpFTWJobFBxTF9mQjRfa3h3cVN6LU5Ib01fYWNNWmN6NXE1Z0paaDlGOEN3c25PaThDel9Vbk16QlV1ZTBzU2RGYnBhTnA2Z1o0c3dSZm5HQTktU1ZseENOX2FBYnlwV1Q0eEJfRWxvQk5SMXFZdXp6TFNEd3pMeGotSDZ2cGtKelpSSkZxTTI0ejVxM3pGMnJWMHpwSDh5VExqUVE?oc=5",
-      "date": "Fri, 05 Jun 2026 09:35:00 GMT",
+      "date": "Fri, 05 Jun 2026 09:36:21 GMT",
       "location": "Singapore",
       "sourceType": "Aggregator Backup",
       "id": "malaysian-born-artist-khoo-sui-hoe-co-founder-of-alpha-gallery-in-singapore-dies",
@@ -840,45 +840,6 @@
           "Aggregator backup source"
         ],
         "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Inc42’s AI Summit 2026, Gig Economy’s Safety Gap & More - Inc42",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DNHc5ZllQZWZLOFkyRER6Ui1UQ0wydDhOWWUxNlg3WkdiaFVxQjRaZzFJOURMYTdxMWM1WFM1Rk1lOGdTMEp2SUplUUJOQjRCaVRwYXAtSDBFeVotSktiR0M2VkpYTXMyMW1vT0FtTXptMER5QUZydDV3elJSM1E?oc=5",
-      "date": "Fri, 29 May 2026 02:30:02 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "inc42-s-ai-summit-2026-gig-economy-s-safety-gap-more-inc42",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Watchlist"
       }
     }
   ]
