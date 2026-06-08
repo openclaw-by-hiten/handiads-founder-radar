@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T23:08:27.034Z",
+  "generatedAt": "2026-06-08T23:17:35.790Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 978,
-    "uniqueSignals": 888,
-    "recentSignals": 670,
-    "candidatePagesQueued": 581,
-    "candidatePagesVerified": 25,
-    "finalItems": 3,
+    "fetchedSignals": 1079,
+    "uniqueSignals": 950,
+    "recentSignals": 716,
+    "candidatePagesQueued": 611,
+    "candidatePagesVerified": 23,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -183,11 +183,11 @@
     {
       "name": "Devpost Hackathons",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
-      "error": "Devpost Hackathons failed with 403"
+      "error": ""
     },
     {
       "name": "Apple Newsroom",
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -264,27 +264,27 @@
     {
       "name": "Microsoft Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
-      "error": "Microsoft Events failed with 403"
+      "error": ""
     },
     {
       "name": "Microsoft Virtual Training Days",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "Microsoft Virtual Training Days failed with 403"
+      "error": ""
     },
     {
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
-      "verified": 0,
+      "candidates": 18,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -310,7 +310,7 @@
       "name": "Alphabet Investor Events",
       "type": "html",
       "fetched": 13,
-      "candidates": 12,
+      "candidates": 11,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -328,7 +328,7 @@
       "name": "Microsoft Build",
       "type": "html",
       "fetched": 1,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,8 +462,8 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 139,
-      "candidates": 132,
+      "fetched": 142,
+      "candidates": 136,
       "verified": 5,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 18,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -517,8 +517,8 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 1,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -607,17 +607,17 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
-      "final": 2,
+      "candidates": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -634,8 +634,8 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
-      "verified": 1,
+      "candidates": 11,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -681,24 +681,8 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Devpost Hackathons",
-      "error": "Devpost Hackathons failed with 403"
-    },
-    {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
-    },
-    {
-      "name": "Microsoft Events",
-      "error": "Microsoft Events failed with 403"
-    },
-    {
-      "name": "Microsoft Virtual Training Days",
-      "error": "Microsoft Virtual Training Days failed with 403"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -721,126 +705,5 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "Can Japan Close the AI Gap? Insights from Europe's Premier Startup Summit - JAPAN Forward",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yX0pncGFaVldvMkRQLUxSVy0xWTA2cDdWTmUtV0JVMUNwUmVRbkMxMEZFMmZfTEVSc3pJZmttMlNjcjNIaTBKYUptMVZHRlQtNFFrdXVXblkxSVdRWHhhRjdRSndQcTFkSmxmNU9lRG1iOUsyQzk2NVVIYVo?oc=5",
-      "date": "Fri, 05 Jun 2026 13:17:15 GMT",
-      "location": "Japan",
-      "sourceType": "Aggregator Backup",
-      "id": "can-japan-close-the-ai-gap-insights-from-europe-s-premier-startup-summit-japan-f",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Japan while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Malaysian-born artist Khoo Sui Hoe, co-founder of Alpha Gallery in Singapore, dies aged 86 - The Straits Times",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdWtHdEJJbUJTbjJhTGV6eGtBQ2tjeFFqcFZqYkE2RUJFLVpFTWJobFBxTF9mQjRfa3h3cVN6LU5Ib01fYWNNWmN6NXE1Z0paaDlGOEN3c25PaThDel9Vbk16QlV1ZTBzU2RGYnBhTnA2Z1o0c3dSZm5HQTktU1ZseENOX2FBYnlwV1Q0eEJfRWxvQk5SMXFZdXp6TFNEd3pMeGotSDZ2cGtKelpSSkZxTTI0ejVxM3pGMnJWMHpwSDh5VExqUVE?oc=5",
-      "date": "Fri, 05 Jun 2026 09:36:21 GMT",
-      "location": "Singapore",
-      "sourceType": "Aggregator Backup",
-      "id": "malaysian-born-artist-khoo-sui-hoe-co-founder-of-alpha-gallery-in-singapore-dies",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Singapore while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "CCI Bharat Startup Summit 2026 brings together leading innovators across India - Magzter",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ3Z4UjRSUHJ1ZEtBUjFWT2dMcVZTQlcwdUYzZnJNN1JPbldoOF9lS0RoZndPSXJZclJiUGFISE02Y1dBbDJ3cmlzNThtY0lYa1JTVVZTSm1zSk5ST3p4UC1ubnJkZVhzWjc5aHpqUzVteXFlOXNYZ0lyNDBVM25GSFN2RFlXWnhqd3YyUmVQRGlsUWRVZlllMm5vRzVGdXYxN0p2WmsxYVpVZFVGeG12M3lZajg5U1lWdldmalEzVnZBMk9lU1N3Wk9jbnF5Ym1IOG1GYzJKLU5jQQ?oc=5",
-      "date": "Sat, 06 Jun 2026 02:38:22 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "cci-bharat-startup-summit-2026-brings-together-leading-innovators-across-india-m",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 62,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
