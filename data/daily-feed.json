@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T23:17:35.790Z",
+  "generatedAt": "2026-06-09T23:22:43.483Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1079,
-    "uniqueSignals": 950,
-    "recentSignals": 716,
-    "candidatePagesQueued": 611,
-    "candidatePagesVerified": 23,
-    "finalItems": 0,
+    "fetchedSignals": 1067,
+    "uniqueSignals": 953,
+    "recentSignals": 725,
+    "candidatePagesQueued": 612,
+    "candidatePagesVerified": 24,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,20 +210,20 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Japan Youth Summit failed with 502"
     },
     {
       "name": "Google Developers Events Directory",
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 9,
-      "candidates": 8,
+      "fetched": 8,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,8 +462,8 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 142,
-      "candidates": 136,
+      "fetched": 143,
+      "candidates": 131,
       "verified": 5,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 18,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -562,9 +562,9 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "candidates": 2,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,8 +634,8 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
-      "verified": 2,
+      "candidates": 8,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,6 +681,14 @@
       "error": "This operation was aborted"
     },
     {
+      "name": "Global AI Summit",
+      "error": "fetch failed"
+    },
+    {
+      "name": "Japan Youth Summit",
+      "error": "Japan Youth Summit failed with 502"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -699,11 +707,45 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Rajkot drone startup to represent India at France innovation summit - The Times of India",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Gujarat founder opportunities",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZkpNOGphSUR0S1BJV3BiRUxCYlB0a2M1Tjhuc1dtRmtwUzFUN1Z5RnVyY2V3Z0t2dnd1SFFqdnRsOVNfYzk0THdfaUs5NXJWZWd3ZXhDbFR5SHUyT2JVcXdOVFY2YkF4ZWdBUktER2lzRTJTOXpTdndnR1RnVjZZYXNfbTQ5OWx5VnVFRjJ2dFNsSjcwVTQ0M1lCWDkxUkhabFBuWVk2UTRQdFRyZndmOW1UWkFIR0tNSTRtSjJRQ3laTUtITHY5dGNzTDhaZWN1OXhOOEhWR07SAd4BQVVfeXFMTlhHSjNBbUhWOW1BUnFSX1JoRGs0aC1CaUF0SklERkRYVnQ1S3F1RWFheVU3N1NIM1RBM1JpX2laUlNWaFZ5REhQaVhCNHJYNGoyN3huc3I3SE8wOGZkTVJiSWlSWkF1MHJtdGRtMWRaaUpJNmw4TnlPLXl3akdMcG1LTldmeVg5cnlMaFU0dHpBLTdZUkZ6NVNicnRvZWdyTlFPT3VoTVcyLUJVZkdNZjdMRjd0dlZKZ3hVMHJSelU2QTJpN0t5VFctaVpRemhkMjg1MDA0ak5rNWtoMlBB?oc=5",
+      "date": "Tue, 09 Jun 2026 17:28:00 GMT",
+      "location": "Gujarat",
+      "sourceType": "Aggregator Backup",
+      "id": "rajkot-drone-startup-to-represent-india-at-france-innovation-summit-the-times-of",
+      "tags": [
+        "market",
+        "gujarat",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 77,
+        "reasons": [
+          "Gujarat / Priority 1",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
