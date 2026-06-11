@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T23:29:11.788Z",
+  "generatedAt": "2026-06-11T23:24:33.383Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1097,
-    "uniqueSignals": 973,
-    "recentSignals": 759,
-    "candidatePagesQueued": 646,
-    "candidatePagesVerified": 32,
-    "finalItems": 3,
+    "fetchedSignals": 1021,
+    "uniqueSignals": 899,
+    "recentSignals": 717,
+    "candidatePagesQueued": 608,
+    "candidatePagesVerified": 34,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -230,7 +230,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -300,9 +300,9 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 20,
-      "candidates": 17,
-      "verified": 1,
+      "fetched": 2,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -391,7 +391,7 @@
       "name": "NIST Events Calendar",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 143,
-      "candidates": 129,
-      "verified": 5,
+      "fetched": 136,
+      "candidates": 121,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 18,
       "candidates": 1,
       "verified": 1,
       "final": 0,
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 2,
       "final": 2,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 11,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
-      "final": 1,
+      "candidates": 2,
+      "verified": 2,
+      "final": 0,
       "error": ""
     },
     {
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 6,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -634,8 +634,8 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 15,
-      "verified": 2,
+      "candidates": 16,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -651,7 +651,7 @@
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -703,46 +703,13 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
-    {
-      "title": "Rajkot Drone Startup Earns Spot at France Innovation Summit - Siliconindia",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZElLQ3ZrUm1mc3Q5dloxUlM1Z1VWNWwxLWpRN2hfcnJYaWZVQXp1b0xBbFRFZUtpc1Vhekdia3M1eWtKblQ0V2dUUWdOaldXb2JYakFnMGFmUGRpelRtZGE0QlVQVk1VRTdMN1VvM1F6ZU9Ick5Kcm94OURjUThZWlE2emFvaVV2dGtiYWVaMjZmNlJDX3FKdFBDcGpFZHV5YXlqbmhBRVUtclNPenl3VUhKb1RaM1VLWDVrRU9ob05tbVU?oc=5",
-      "date": "Wed, 10 Jun 2026 13:54:52 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "rajkot-drone-startup-earns-spot-at-france-innovation-summit-siliconindia",
-      "tags": [
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 77,
-        "reasons": [
-          "Gujarat / Priority 1",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
     {
       "title": "Rajkot drone startup to represent India at France innovation summit - The Times of India",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -781,16 +748,17 @@
       }
     },
     {
-      "title": "Integra Robotics Bags $1.12 Mn From Finvolve, India Accelerator & GrowthCap Venture Fund - BW Disrupt",
+      "title": "Rajkot Drone Startup Earns Spot at France Innovation Summit - Siliconindia",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd2hRQ1M2eEtlR2pCbXhpblpqSEtmUkV2WWRWNk5XTzJJV0tHQ1ltWU54QnJ3MENwSjh3a2w3bEhpS3pEZVZTR2RNcEV6YUJHUjFJdXphQi1YUDhWbTRuNkpGV3gtWnY2bjdUcnJvOFhpODE5dHV3T1ZtdklWaEZCSmZ0bUJMX0JpSGhoaHVLTlJpSExXVmFueDRHZHdhamNUc0lxbGZybmpoSk9SdENld3JQNXloMGd5RndkdW90akVnQlE?oc=5",
-      "date": "Wed, 10 Jun 2026 09:18:30 GMT",
-      "location": "India",
+      "source": "Google Backup - Gujarat founder opportunities",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZElLQ3ZrUm1mc3Q5dloxUlM1Z1VWNWwxLWpRN2hfcnJYaWZVQXp1b0xBbFRFZUtpc1Vhekdia3M1eWtKblQ0V2dUUWdOaldXb2JYakFnMGFmUGRpelRtZGE0QlVQVk1VRTdMN1VvM1F6ZU9Ick5Kcm94OURjUThZWlE2emFvaVV2dGtiYWVaMjZmNlJDX3FKdFBDcGpFZHV5YXlqbmhBRVUtclNPenl3VUhKb1RaM1VLWDVrRU9ob05tbVU?oc=5",
+      "date": "Wed, 10 Jun 2026 13:54:52 GMT",
+      "location": "Gujarat",
       "sourceType": "Aggregator Backup",
-      "id": "integra-robotics-bags-1-12-mn-from-finvolve-india-accelerator-growthcap-venture-",
+      "id": "rajkot-drone-startup-earns-spot-at-france-innovation-summit-siliconindia",
       "tags": [
         "market",
+        "gujarat",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
@@ -806,9 +774,9 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 62,
+        "score": 77,
         "reasons": [
-          "India / Priority 2",
+          "Gujarat / Priority 1",
           "Founder and business growth relevance",
           "Useful founder network value",
           "Aggregator backup source"
