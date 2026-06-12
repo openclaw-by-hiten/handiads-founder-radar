@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T23:24:33.383Z",
+  "generatedAt": "2026-06-12T23:20:55.139Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -9,11 +9,11 @@
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
     "fetchedSignals": 1021,
-    "uniqueSignals": 899,
-    "recentSignals": 717,
-    "candidatePagesQueued": 608,
-    "candidatePagesVerified": 34,
-    "finalItems": 2,
+    "uniqueSignals": 900,
+    "recentSignals": 700,
+    "candidatePagesQueued": 596,
+    "candidatePagesVerified": 33,
+    "finalItems": 5,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,20 +210,20 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Japan Youth Summit failed with 502"
     },
     {
       "name": "Google Developers Events Directory",
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -408,11 +408,11 @@
     {
       "name": "US AI Congress",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "UK AI Safety Institute",
@@ -462,8 +462,8 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 136,
-      "candidates": 121,
+      "fetched": 128,
+      "candidates": 120,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 3,
+      "verified": 3,
       "final": 2,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 11,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 0,
+      "candidates": 4,
+      "verified": 3,
+      "final": 3,
       "error": ""
     },
     {
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
-      "verified": 5,
+      "candidates": 4,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 14,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -651,7 +651,7 @@
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -681,8 +681,8 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "fetch failed"
+      "name": "Japan Youth Summit",
+      "error": "Japan Youth Summit failed with 502"
     },
     {
       "name": "Meta Connect",
@@ -699,6 +699,10 @@
     {
       "name": "Meta Investor Events",
       "error": "Meta Investor Events failed with 403"
+    },
+    {
+      "name": "US AI Congress",
+      "error": "fetch failed"
     },
     {
       "name": "European AI Alliance",
@@ -779,6 +783,123 @@
           "Gujarat / Priority 1",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Bharat Innovates Summit focuses on India’s remarkable startup journey over past 12 years - News On AIR",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUJIb25JVjlJdmdBSkFnOWRaOFUzSGFZRnM4NVRSa09pZnBlamMzUGI0U1pSZ2dPLTl2ZjNHSnA3R0dWY3VBeFY4QTg5OC1ENDJMbnF4MkJRZlRoT05ZWHl3cUdkUGt6aUkzWGxNdE5IUnhSNFNwZVBVNndGbE9UZGJsUUE3XzZpTWEyS1k4MXJDdDRjYzcxTHZqQ1lxcGNuenUtQXo0eTc1N29HNFl0MUNaRQ?oc=5",
+      "date": "Fri, 12 Jun 2026 14:26:57 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "bharat-innovates-summit-focuses-on-india-s-remarkable-startup-journey-over-past-",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve - Entrackr",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hd9IBtgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hdw?oc=5",
+      "date": "Fri, 12 Jun 2026 08:58:28 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-and-finvolve-ent",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "AI Impact Summit 2026: MIB pavilion showcases India’s AI capabilities, startup depth - DD News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGU0ZnpLWkRHdHRzSVVpYm1iOEVIVXgxcmwtaUZZc2FGdWlrXzg0WXlzWTJ2VTRnQ1RmTTg5T09MalVKM2toNEpBTUdBaUxvT1g1YlpGN3pKckRIbl9mNDhtRFp2aEtLTDFkalJqa2FYelh4b0wybGJSUGZSWGRnOUp1R1RQOXIxUHlNZEdkNzFlbjItaWIxOE1PNjFpcGpUR0lsb3V6anZ2ZEE?oc=5",
+      "date": "Fri, 12 Jun 2026 06:55:33 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "ai-impact-summit-2026-mib-pavilion-showcases-india-s-ai-capabilities-startup-dep",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
           "Aggregator backup source"
         ],
         "label": "Priority 2"
