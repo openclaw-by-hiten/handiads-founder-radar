@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T23:20:55.139Z",
+  "generatedAt": "2026-06-13T23:07:51.691Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1021,
-    "uniqueSignals": 900,
-    "recentSignals": 700,
-    "candidatePagesQueued": 596,
-    "candidatePagesVerified": 33,
-    "finalItems": 5,
+    "fetchedSignals": 969,
+    "uniqueSignals": 874,
+    "recentSignals": 669,
+    "candidatePagesQueued": 581,
+    "candidatePagesVerified": 34,
+    "finalItems": 4,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -183,11 +183,11 @@
     {
       "name": "Devpost Hackathons",
       "type": "html",
-      "fetched": 20,
-      "candidates": 8,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Devpost Hackathons failed with 403"
     },
     {
       "name": "Apple Newsroom",
@@ -219,11 +219,11 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
-      "error": "Japan Youth Summit failed with 502"
+      "error": ""
     },
     {
       "name": "Google Developers Events Directory",
@@ -264,26 +264,26 @@
     {
       "name": "Microsoft Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 16,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Microsoft Events failed with 403"
     },
     {
       "name": "Microsoft Virtual Training Days",
       "type": "html",
-      "fetched": 20,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Microsoft Virtual Training Days failed with 403"
     },
     {
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -310,7 +310,7 @@
       "name": "Alphabet Investor Events",
       "type": "html",
       "fetched": 13,
-      "candidates": 11,
+      "candidates": 12,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -328,7 +328,7 @@
       "name": "Microsoft Build",
       "type": "html",
       "fetched": 1,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -408,11 +408,11 @@
     {
       "name": "US AI Congress",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "UK AI Safety Institute",
@@ -462,8 +462,8 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 128,
-      "candidates": 120,
+      "fetched": 124,
+      "candidates": 119,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -564,7 +564,7 @@
       "fetched": 20,
       "candidates": 3,
       "verified": 3,
-      "final": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 3,
+      "candidates": 5,
+      "verified": 5,
       "final": 3,
       "error": ""
     },
@@ -617,7 +617,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 4,
-      "verified": 4,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 14,
+      "candidates": 10,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,12 +681,20 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Japan Youth Summit",
-      "error": "Japan Youth Summit failed with 502"
+      "name": "Devpost Hackathons",
+      "error": "Devpost Hackathons failed with 403"
     },
     {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
+    },
+    {
+      "name": "Microsoft Events",
+      "error": "Microsoft Events failed with 403"
+    },
+    {
+      "name": "Microsoft Virtual Training Days",
+      "error": "Microsoft Virtual Training Days failed with 403"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -701,10 +709,6 @@
       "error": "Meta Investor Events failed with 403"
     },
     {
-      "name": "US AI Congress",
-      "error": "fetch failed"
-    },
-    {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
     },
@@ -714,43 +718,6 @@
     }
   ],
   "items": [
-    {
-      "title": "Rajkot drone startup to represent India at France innovation summit - The Times of India",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZkpNOGphSUR0S1BJV3BiRUxCYlB0a2M1Tjhuc1dtRmtwUzFUN1Z5RnVyY2V3Z0t2dnd1SFFqdnRsOVNfYzk0THdfaUs5NXJWZWd3ZXhDbFR5SHUyT2JVcXdOVFY2YkF4ZWdBUktER2lzRTJTOXpTdndnR1RnVjZZYXNfbTQ5OWx5VnVFRjJ2dFNsSjcwVTQ0M1lCWDkxUkhabFBuWVk2UTRQdFRyZndmOW1UWkFIR0tNSTRtSjJRQ3laTUtITHY5dGNzTDhaZWN1OXhOOEhWR07SAd4BQVVfeXFMTlhHSjNBbUhWOW1BUnFSX1JoRGs0aC1CaUF0SklERkRYVnQ1S3F1RWFheVU3N1NIM1RBM1JpX2laUlNWaFZ5REhQaVhCNHJYNGoyN3huc3I3SE8wOGZkTVJiSWlSWkF1MHJtdGRtMWRaaUpJNmw4TnlPLXl3akdMcG1LTldmeVg5cnlMaFU0dHpBLTdZUkZ6NVNicnRvZWdyTlFPT3VoTVcyLUJVZkdNZjdMRjd0dlZKZ3hVMHJSelU2QTJpN0t5VFctaVpRemhkMjg1MDA0ak5rNWtoMlBB?oc=5",
-      "date": "Tue, 09 Jun 2026 17:28:00 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "rajkot-drone-startup-to-represent-india-at-france-innovation-summit-the-times-of",
-      "tags": [
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 77,
-        "reasons": [
-          "Gujarat / Priority 1",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
     {
       "title": "Rajkot Drone Startup Earns Spot at France Innovation Summit - Siliconindia",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -828,14 +795,14 @@
       }
     },
     {
-      "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve - Entrackr",
+      "title": "Ev mobility startup trevel raises 1 mn led by india accelerator - Indiatimes",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hd9IBtgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hdw?oc=5",
-      "date": "Fri, 12 Jun 2026 08:58:28 GMT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjRlZXpjS0ZUSkl0NjQ0RXlUTUphc2drYmZ4amo3U0U1bXBoZUtuUFRfUFJqRlZhcXotczRYaG5qUS1PYXpZUlZOZ0ZoYi1tZkN6V3ZNS2gzS0V3cUpNbjlvUHVzZkFEMWp6enU0T3hSOHNNMnYweDlRYVRNU2dtcDYxczQ5UmJOMkJKdjVlS29ibkEtRXdPbmRrcko2dDREbWg0SFVQZW93dTlQdWlWeVFNeXBiLTdpUENqNnBzY0RRZmx1Y2xCVGxXRThGZV94V1FB?oc=5",
+      "date": "Sat, 13 Jun 2026 04:32:49 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
-      "id": "ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-and-finvolve-ent",
+      "id": "ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-indiatimes",
       "tags": [
         "ai",
         "market",
@@ -867,14 +834,14 @@
       }
     },
     {
-      "title": "AI Impact Summit 2026: MIB pavilion showcases India’s AI capabilities, startup depth - DD News",
+      "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve - Entrackr",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGU0ZnpLWkRHdHRzSVVpYm1iOEVIVXgxcmwtaUZZc2FGdWlrXzg0WXlzWTJ2VTRnQ1RmTTg5T09MalVKM2toNEpBTUdBaUxvT1g1YlpGN3pKckRIbl9mNDhtRFp2aEtLTDFkalJqa2FYelh4b0wybGJSUGZSWGRnOUp1R1RQOXIxUHlNZEdkNzFlbjItaWIxOE1PNjFpcGpUR0lsb3V6anZ2ZEE?oc=5",
-      "date": "Fri, 12 Jun 2026 06:55:33 GMT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hd9IBtgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hdw?oc=5",
+      "date": "Fri, 12 Jun 2026 08:58:28 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
-      "id": "ai-impact-summit-2026-mib-pavilion-showcases-india-s-ai-capabilities-startup-dep",
+      "id": "ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-and-finvolve-ent",
       "tags": [
         "ai",
         "market",
