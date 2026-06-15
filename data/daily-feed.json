@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T12:37:50.440Z",
+  "generatedAt": "2026-06-15T13:14:11.338Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1059,
-    "uniqueSignals": 937,
-    "recentSignals": 718,
-    "candidatePagesQueued": 612,
-    "candidatePagesVerified": 14,
+    "fetchedSignals": 1054,
+    "uniqueSignals": 933,
+    "recentSignals": 721,
+    "candidatePagesQueued": 615,
+    "candidatePagesVerified": 13,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -85,8 +85,8 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
-      "verified": 1,
+      "candidates": 20,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -138,11 +138,11 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 5,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Salesforce Events",
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
+      "fetched": 10,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -675,10 +675,6 @@
     {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
-    },
-    {
-      "name": "Adobe Business Events",
-      "error": "This operation was aborted"
     },
     {
       "name": "Meta Connect",
