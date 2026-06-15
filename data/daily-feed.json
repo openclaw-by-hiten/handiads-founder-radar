@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:14:11.338Z",
+  "generatedAt": "2026-06-15T23:49:25.431Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1054,
-    "uniqueSignals": 933,
-    "recentSignals": 721,
-    "candidatePagesQueued": 615,
+    "fetchedSignals": 1032,
+    "uniqueSignals": 911,
+    "recentSignals": 704,
+    "candidatePagesQueued": 594,
     "candidatePagesVerified": 13,
     "finalItems": 0,
     "newsApiEnabled": false,
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -138,11 +138,11 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 5,
-      "candidates": 5,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Salesforce Events",
@@ -309,8 +309,8 @@
     {
       "name": "Alphabet Investor Events",
       "type": "html",
-      "fetched": 13,
-      "candidates": 11,
+      "fetched": 14,
+      "candidates": 13,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 7,
-      "candidates": 6,
+      "fetched": 11,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 8,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -677,6 +677,10 @@
       "error": "Meta Connect failed with 400"
     },
     {
+      "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -695,6 +699,10 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": []
