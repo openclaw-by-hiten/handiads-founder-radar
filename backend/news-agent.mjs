@@ -993,11 +993,11 @@ function isBusinessRelevant(item) {
   if (includesAny(text, consumerBlockTerms)) return false;
   if (includesAny(text, genericBlockTerms)) return false;
   if (includesAny(text, productSalesBlockTerms)) return false;
-  if (isIntelSource(item) && isFundingNews(item)) return false;
+  if (includesAny(text, ["hiring", "careers", "jobs at"])) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (includesAny(text, pastVideoTerms)) return false;
-  if (includesAny(text, ["hiring", "careers", "jobs at"])) return false;
+  if (isPastEvent(text)) return false;
 
   const isMNC = includesAny(text, ["aws", "amazon", "microsoft", "google", "meta", "salesforce", "adobe", "apple", "nvidia"]);
   if (isMNC) {
@@ -1009,21 +1009,16 @@ function isBusinessRelevant(item) {
   }
 
   if (!hasFounderOpportunityFocus(text)) return false;
-  if (isPastEvent(text)) return false;
+
   const isIntel = isIntelSource(item);
   if (isIntel) {
-    if (!hasStrongActionProof(text)) return false;
+    if (isFundingNews(item)) return false;
     if (hasPassiveEventCoverage(text) && !hasStrongActionProof(text)) return false;
-    return needsRegistrationProof(text);
+    return hasActionableOpportunity(text);
   }
-  if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
-  if (!hasConfirmedRegistration(text)) return false;
 
-  const isMarketingIntel =
-    item.sourceType?.includes("Trusted") &&
-    includesAny(text, [...adTerms, "performance marketing"]) &&
-    hasActionableOpportunity(text);
-  return hasActionableOpportunity(text) && needsRegistrationProof(text);
+  if (hasPassiveEventCoverage(text) && !hasStrongActionProof(text)) return false;
+  return hasActionableOpportunity(text);
 }
 
 function parseArticleDate(value) {
