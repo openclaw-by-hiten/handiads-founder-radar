@@ -6,6 +6,6 @@
   "scripts": {
     "refresh-news": "node backend/news-agent.mjs",
     "start": "node backend/serve.mjs",
-    "check": "node --check app.js && node --check backend/news-agent.mjs"
+    "check": "node --check app.js && node --check backend/news-agent.mjs && node backend/news-agent.mjs --self-test"
   }
 }

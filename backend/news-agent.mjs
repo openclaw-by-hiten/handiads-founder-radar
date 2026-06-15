@@ -182,6 +182,40 @@ const actionableTerms = [
   "innovation month",
   "impact summit"
 ];
+const strongActionTerms = [
+  "application open",
+  "applications open",
+  "applications are open",
+  "accepting applications",
+  "invites applications",
+  "inviting applications",
+  "apply now",
+  "apply here",
+  "apply today",
+  "apply by",
+  "submit your application",
+  "complete the form",
+  "registration open",
+  "registrations open",
+  "register now",
+  "register here",
+  "registration closes",
+  "applications close",
+  "open call",
+  "call for startups",
+  "nominations open",
+  "submission open",
+  "submissions open",
+  "deadline",
+  "last date",
+  "rsvp",
+  "secure your spot",
+  "book your seat",
+  "reserve your seat",
+  "delegate application",
+  "tickets available",
+  "join the cohort"
+];
 const registrationActiveTerms = [
   "apply",
   "apply today",
@@ -268,7 +302,38 @@ const passiveCoverageTerms = [
   "kicked off",
   "inaugurated",
   "attended by",
-  "speakers included"
+  "speakers included",
+  "focused on",
+  "focuses on",
+  "highlighted",
+  "showcased",
+  "celebrated",
+  "reviewed",
+  "over the past",
+  "journey over"
+];
+const fundingNewsTerms = [
+  "raises $",
+  "raises rs",
+  "raises inr",
+  "raised $",
+  "raised rs",
+  "raised inr",
+  "has raised",
+  "funding round",
+  "seed round",
+  "pre-seed round",
+  "series a",
+  "series b",
+  "series c",
+  "funding-deals",
+  "funding deal",
+  "secures funding",
+  "secured funding",
+  "investment round",
+  "valuation",
+  "acquires",
+  "acquisition"
 ];
 const genericTitleTerms = [
   "programs and challenges",
@@ -834,8 +899,22 @@ function hasActionableOpportunity(text) {
   return includesAny(text, actionableTerms);
 }
 
+function hasStrongActionProof(text) {
+  return includesAny(text, strongActionTerms);
+}
+
 function hasConfirmedRegistration(text) {
   return includesAny(text, registrationActiveTerms);
+}
+
+function isIntelSource(item) {
+  return item.sourceType?.includes("Trusted") ||
+    ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
+}
+
+function isFundingNews(item) {
+  const text = `${item.title || ""} ${item.summary || ""} ${item.sourceUrl || ""}`.toLowerCase();
+  return includesAny(text, fundingNewsTerms);
 }
 
 function isPastEvent(text) {
@@ -886,6 +965,7 @@ function businessText(item) {
 function isCandidateRelevant(item) {
   const text = businessText(item);
   if (includesAny(text, academicBlockTerms)) return false;
+  if (isIntelSource(item) && isFundingNews(item)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (isPastEvent(text)) return false;
@@ -913,6 +993,7 @@ function isBusinessRelevant(item) {
   if (includesAny(text, consumerBlockTerms)) return false;
   if (includesAny(text, genericBlockTerms)) return false;
   if (includesAny(text, productSalesBlockTerms)) return false;
+  if (isIntelSource(item) && isFundingNews(item)) return false;
   if (isGenericListingPage(item)) return false;
   if (hasOldStaticYear(text)) return false;
   if (includesAny(text, pastVideoTerms)) return false;
@@ -929,12 +1010,13 @@ function isBusinessRelevant(item) {
 
   if (!hasFounderOpportunityFocus(text)) return false;
   if (isPastEvent(text)) return false;
-  if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
-  const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
+  const isIntel = isIntelSource(item);
   if (isIntel) {
-    if (!hasActionableOpportunity(text)) return false;
-    return true;
+    if (!hasStrongActionProof(text)) return false;
+    if (hasPassiveEventCoverage(text) && !hasStrongActionProof(text)) return false;
+    return needsRegistrationProof(text);
   }
+  if (hasPassiveEventCoverage(text) && !hasConfirmedRegistration(text)) return false;
   if (!hasConfirmedRegistration(text)) return false;
 
   const isMarketingIntel =
@@ -1019,18 +1101,27 @@ async function verifyCandidatePage(item) {
     opportunitySentence(readablePageText(html));
   const pageText = `${item.title} ${pageTitle} ${description} ${readablePageText(html).slice(0, 2400)}`;
   const lowerPageText = pageText.toLowerCase();
+  const articleCoreText = `${item.title} ${item.summary} ${pageTitle} ${description}`.toLowerCase();
+  const isIntel = isIntelSource(item);
+  const verifiedItem = {
+    ...item,
+    title: pageTitle || item.title,
+    summary: description || item.summary
+  };
 
   if (includesAny(lowerPageText, academicBlockTerms)) return null;
   if (includesAny(lowerPageText, consumerBlockTerms)) return null;
   if (includesAny(lowerPageText, genericBlockTerms)) return null;
   if (includesAny(lowerPageText, productSalesBlockTerms)) return null;
+  if (isIntel && isFundingNews(verifiedItem)) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (includesAny(lowerPageText, pastVideoTerms)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
-  const isIntel = item.sourceType?.includes("Trusted") || ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
+  if (isIntel && !hasStrongActionProof(articleCoreText)) return null;
   if (!isIntel && !hasActionableOpportunity(lowerPageText)) return null;
   if (isPastEvent(lowerPageText)) return null;
-  if (hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
+  if (isIntel && hasPassiveEventCoverage(articleCoreText) && !hasStrongActionProof(articleCoreText)) return null;
+  if (!isIntel && hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
   if (!isIntel && !hasConfirmedRegistration(lowerPageText)) return null;
   if (!isIntel && !needsRegistrationProof(lowerPageText)) return null;
 
@@ -1322,7 +1413,92 @@ async function writeOutput(output) {
   await writeFile(config.outputPath, JSON.stringify(output, null, 2), "utf8");
 }
 
-run().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+function runFilterRegressionChecks() {
+  const fixtures = [
+    {
+      name: "past summit coverage",
+      expected: false,
+      item: {
+        title: "Bharat Innovates Summit focuses on India's startup journey over the past 12 years",
+        summary: "The summit highlighted India's startup progress.",
+        source: "News on AIR",
+        sourceUrl: "https://newsonair.gov.in/bharat-innovates-summit-focuses-on-indias-remarkable-startup-journey-over-past-12-years/",
+        date: new Date().toISOString(),
+        location: "India",
+        sourceType: "Aggregator Backup"
+      }
+    },
+    {
+      name: "funding report mentioning accelerator",
+      expected: false,
+      item: {
+        title: "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve",
+        summary: "The seed round was led by India Accelerator.",
+        source: "Entrackr",
+        sourceUrl: "https://entrackr.com/snippets/ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-and-finvolve-12030541",
+        date: new Date().toISOString(),
+        location: "India",
+        sourceType: "Trusted Tech"
+      }
+    },
+    {
+      name: "duplicate funding-deal report",
+      expected: false,
+      item: {
+        title: "EV mobility startup Trevel raises $1 Mn led by India Accelerator",
+        summary: "Funding deal coverage for the startup.",
+        source: "Economic Times",
+        sourceUrl: "https://startup.economictimes.indiatimes.com/news/funding-deals/ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator/131697578",
+        date: new Date().toISOString(),
+        location: "India",
+        sourceType: "Aggregator Backup"
+      }
+    },
+    {
+      name: "live startup application",
+      expected: true,
+      item: {
+        title: "Samsung invites applications for 2026 startup programme with $50,000 grant",
+        summary: "Applications are open for eligible founders. Apply now before the deadline.",
+        source: "Google Backup - India founder programs with applications",
+        sourceUrl: "https://example.com/news/samsung-startup-programme-2026",
+        date: new Date().toISOString(),
+        location: "India",
+        sourceType: "Aggregator Backup"
+      }
+    },
+    {
+      name: "MNC-led accelerator application",
+      expected: true,
+      item: {
+        title: "Applications open for India AI accelerator led by Google for Startups",
+        summary: "Eligible founders can apply now before the application deadline.",
+        source: "Trusted technology publication",
+        sourceUrl: "https://example.com/news/google-india-ai-accelerator-applications",
+        date: new Date().toISOString(),
+        location: "India",
+        sourceType: "Trusted Tech"
+      }
+    }
+  ];
+
+  const failed = fixtures.filter(({ item, expected }) => isBusinessRelevant(item) !== expected);
+  if (failed.length > 0) {
+    throw new Error(`Filter regression failed: ${failed.map(({ name }) => name).join(", ")}`);
+  }
+  console.log(`Filter regression passed (${fixtures.length} cases).`);
+}
+
+if (process.argv.includes("--self-test")) {
+  try {
+    runFilterRegressionChecks();
+  } catch (error) {
+    console.error(error);
+    process.exitCode = 1;
+  }
+} else {
+  run().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
