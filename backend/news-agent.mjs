@@ -622,6 +622,7 @@ function classify(item) {
   if (includesAny(text, adTerms)) tags.add("ads");
   if (includesAny(text, gujaratTerms)) tags.add("gujarat");
   if (includesAny(text, founderTerms)) tags.add("founder");
+  if (item.source === "Techmeme Events") tags.add("founder");
 
   const distanceFromIndia = includesAny(text, nearIndiaTerms)
     ? "near"

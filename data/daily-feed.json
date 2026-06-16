@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T13:57:33.627Z",
+  "generatedAt": "2026-06-16T14:11:14.000Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1010,
-    "uniqueSignals": 912,
-    "recentSignals": 709,
-    "candidatePagesQueued": 597,
-    "candidatePagesVerified": 157,
+    "fetchedSignals": 976,
+    "uniqueSignals": 862,
+    "recentSignals": 660,
+    "candidatePagesQueued": 549,
+    "candidatePagesVerified": 149,
     "finalItems": 21,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -102,20 +102,20 @@
     {
       "name": "AWS Startup Events",
       "type": "html",
-      "fetched": 14,
-      "candidates": 14,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "AWS Startups",
       "type": "html",
-      "fetched": 20,
-      "candidates": 20,
-      "verified": 4,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "NVIDIA Inception",
@@ -264,17 +264,17 @@
     {
       "name": "Microsoft Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "Microsoft Virtual Training Days",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -291,11 +291,11 @@
     {
       "name": "AWS Events and Conferences",
       "type": "html",
-      "fetched": 20,
-      "candidates": 15,
-      "verified": 4,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "Salesforce Dreamforce",
@@ -677,6 +677,14 @@
       "error": "Meta Connect failed with 400"
     },
     {
+      "name": "AWS Startup Events",
+      "error": "fetch failed"
+    },
+    {
+      "name": "AWS Startups",
+      "error": "fetch failed"
+    },
+    {
       "name": "Startup SG Programmes",
       "error": "Startup SG Programmes failed with 403"
     },
@@ -685,11 +693,11 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Microsoft Events",
+      "name": "Apple Developer Events",
       "error": "fetch failed"
     },
     {
-      "name": "Apple Developer Events",
+      "name": "AWS Events and Conferences",
       "error": "fetch failed"
     },
     {
@@ -1069,7 +1077,7 @@
       "title": "Compunnel Launches AI Startup Incubator at Noida and New Jersey Facility, Invites Applications for Compunnel Ventures AI - The Tribune",
       "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcElkN0N0eHYzLVpJVHpLVUNkMDhFZU5HR1JBS1V3WHRKLUhJc1NzbGF1SzlWZ1NiMFVBVnFqUFlybU85c214VjdtTHpuakZyMW9VajJvT29ONXRRbFlYT3hDdzNlbWVSWXRzWnphM1dBS1FPQ2ZLbkZJeVlzVURTd0RIcmFBM0FhRDMzS2ZtMW9wZndUT1VhbEk5NGNXN3RRS1VGc25Ua09rXzNjTngtcWlkTzZwWVRDQmV1V1BEbm9NdFlhR2dSWEozbkNiaGpsU1BhR0hhdFJLakJFcDhNT05DYjhvOTdJZ1JCa0x4UGFNaVc2RXdqZjhCYXVnSEpE0gGAAkFVX3lxTFBwSWQ3Q3R4djMtWklUektVQ2QwOEVlTkdHUkFLVXdYdEotSElzU3NsYXVLOVZnU2IwVUFWcWpQWXJtTzlzbXhWN21Mem5qRnIxb1VqMm9Pb041dFFsWVhPeEN3M2VtZVJZdHNaemEzV0FLUU9DZktuRkl5WXNVRFN3REhyYUEzQWFEMzNLZm0xb3Bmd1RPVWFsSTk0Y1c3dFFLVUZzblRrT2tfM2NOeC1xaWRPNnBZVENCZXVXUERub010WWFHZ1JYSjNuQ2JoamxTUGFHSGF0UktqQkVwOE1PTkNiOG85N0lnUkJrTHhQYU1pVzZFd2pmOEJhdWdISkQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOdVhCQUxvelRBeGsta0lLNlNCU3ZJNkNOUzBLdEI4N18yVnBRRlpmSkdhT3QtdUhSWnBvaDVMeVBoRzJPN1RfRWd1cmk3ZWhoN0N3dlpVdlFiYjBKWWVlUTlLV0ZWLXhrWkZ3bE5fRUZOZk8wMThzOENVN19mdEJEX0ljOXlaMTdQMVF3ck1YVkFOT0ltQkZpRzEzdGd0bWNjR1lUeEpnLXRGcDZzZ2NUWk04bmptQTRPZnhpejJzLWNtS25lcW5oNS1XeWl5bWU0TU4tMDRFdWVVYU1Qc0FQMnA5cHBPbTI4aURpdC12MlpIbU9INzlEbXh5QnNZOWlZWWNjYXNIY3pxeXFJZ3NxYXlYdGY0Q1EyTWhZ0gGbAkFVX3lxTE51WEJBTG96VEF4ay1rSUs2U0JTdkk2Q05TMEt0Qjg3XzJWcFFGWmZKR2FPdC11SFJacG9oNUx5UGhHMk83VF9FZ3VyaTdlaGg3Q3d2WlV2UWJiMEpZZWVROUtXRlYteGtaRndsTl9FRk5mTzAxOHM4Q1U3X2Z0QkRfSWM5eVoxN1AxUXdyTVhWQU5PSW1CRmlHMTN0Z3RtY2NHWVR4SmctdEZwNnNnY1RaTThuam1BNE9meGl6MnMtY21LbmVxbmg1LVd5aXltZTRNTi0wNEV1ZVVhTVBzQVAycDlwcE9tMjhpRGl0LXYyWkhtT0g3OURteHlCc1k5aVlZY2Nhc0hjenF5cUlnc3FheVh0ZjRDUTJNaFk?oc=5",
       "date": "Tue, 16 Jun 2026 09:16:32 GMT",
       "location": "Global",
       "sourceType": "Aggregator Backup",
