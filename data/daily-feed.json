@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:34:55.752Z",
+  "generatedAt": "2026-06-16T23:28:31.592Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 996,
-    "uniqueSignals": 882,
-    "recentSignals": 681,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 152,
-    "finalItems": 25,
+    "fetchedSignals": 960,
+    "uniqueSignals": 865,
+    "recentSignals": 666,
+    "candidatePagesQueued": 565,
+    "candidatePagesVerified": 154,
+    "finalItems": 22,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
+      "candidates": 19,
       "verified": 2,
       "final": 0,
       "error": ""
@@ -102,18 +102,18 @@
     {
       "name": "AWS Startup Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 14,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "AWS Startups",
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 3,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -138,18 +138,18 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 5,
-      "candidates": 5,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Salesforce Events",
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -174,20 +174,20 @@
     {
       "name": "Startup SG Programmes",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 4,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
-      "error": "Startup SG Programmes failed with 403"
+      "error": ""
     },
     {
       "name": "Devpost Hackathons",
       "type": "html",
-      "fetched": 20,
-      "candidates": 8,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Devpost Hackathons failed with 403"
     },
     {
       "name": "Apple Newsroom",
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -264,38 +264,38 @@
     {
       "name": "Microsoft Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 16,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Microsoft Events failed with 403"
     },
     {
       "name": "Microsoft Virtual Training Days",
       "type": "html",
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "Microsoft Virtual Training Days failed with 403"
+    },
+    {
+      "name": "Apple Developer Events",
+      "type": "html",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
     },
     {
-      "name": "Apple Developer Events",
-      "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
-      "error": "fetch failed"
-    },
-    {
       "name": "AWS Events and Conferences",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 14,
+      "verified": 3,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "Salesforce Dreamforce",
@@ -312,7 +312,7 @@
       "fetched": 14,
       "candidates": 13,
       "verified": 2,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -328,7 +328,7 @@
       "name": "Microsoft Build",
       "type": "html",
       "fetched": 1,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 124,
-      "candidates": 112,
-      "verified": 111,
+      "fetched": 125,
+      "candidates": 113,
+      "verified": 112,
       "final": 4,
       "error": ""
     },
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
-      "verified": 4,
-      "final": 4,
+      "candidates": 8,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -677,24 +677,24 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "AWS Startup Events",
-      "error": "fetch failed"
+      "name": "Adobe Business Events",
+      "error": "This operation was aborted"
     },
     {
-      "name": "Startup SG Programmes",
-      "error": "Startup SG Programmes failed with 403"
+      "name": "Devpost Hackathons",
+      "error": "Devpost Hackathons failed with 403"
     },
     {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Apple Developer Events",
-      "error": "fetch failed"
+      "name": "Microsoft Events",
+      "error": "Microsoft Events failed with 403"
     },
     {
-      "name": "AWS Events and Conferences",
-      "error": "fetch failed"
+      "name": "Microsoft Virtual Training Days",
+      "error": "Microsoft Virtual Training Days failed with 403"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -711,6 +711,10 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
@@ -749,48 +753,6 @@
           "India / Priority 2",
           "Founder and business growth relevance",
           "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Terms of Service (will open in a new window).",
-      "summary": "Until then, the Terms below continue to apply.See a preview of the new Terms.",
-      "source": "Alphabet Investor Events",
-      "sourceUrl": "https://policies.google.com/terms",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "terms-of-service-will-open-in-a-new-window",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 91,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
@@ -869,45 +831,6 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Ev mobility startup trevel raises 1 mn led by india accelerator - Indiatimes",
-      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjRlZXpjS0ZUSkl0NjQ0RXlUTUphc2drYmZ4amo3U0U1bXBoZUtuUFRfUFJqRlZhcXotczRYaG5qUS1PYXpZUlZOZ0ZoYi1tZkN6V3ZNS2gzS0V3cUpNbjlvUHVzZkFEMWp6enU0T3hSOHNNMnYweDlRYVRNU2dtcDYxczQ5UmJOMkJKdjVlS29ibkEtRXdPbmRrcko2dDREbWg0SFVQZW93dTlQdWlWeVFNeXBiLTdpUENqNnBzY0RRZmx1Y2xCVGxXRThGZV94V1FB?oc=5",
-      "date": "Sat, 13 Jun 2026 04:32:49 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "ev-mobility-startup-trevel-raises-1-mn-led-by-india-accelerator-indiatimes",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
         ],
         "label": "Priority 2"
       }
@@ -1030,42 +953,6 @@
       }
     },
     {
-      "title": "Call for ICT-NICE Venture Incubator Startup and Innovation Support (India) - fundsforNGOs",
-      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3AxUS1VVlRhWEx1dlhQYml6SkRLYmVrdmd0REdaMU5oMlJ6ZWl2MTlhN2tULU96WlViTWR4T0RFd3N5c3A3eGpGemhMY3drMjEzZlNMZHc1VWRfZlJldHdBdUJ2c0NSd29uRTV1d1JVTWRraDd6V0EtU2dPS054TFdaZ0N3LXpQS2dxTTNtcUFLdTdxbTNPT21PaWgzWWRxT2h4MXFXRVVUeFh4N1M3WHBhLVLSAboBQVVfeXFMTnpFQndLU0RIenR3TzlyMjhSeXk1SE1FNUYzd0w4bmlNcjVibVJ2b1VUZU1SdnVjTlFEa2tBNVdldXVlckc1UnA3WlNSbEYyUGczSnRqZUlEMUhXXzROWl9WNzdsS1h6TjVaS0lFQ25ySV82c2tZRlppVWR0YVNkQ3B1MDc2cW9xS2lOQ3NCSWowTlRLbGptUFhkU0tFMjVLOEowNzZRMjZHeXBuaHFZQVVzN3d5YkNuSWln?oc=5",
-      "date": "Tue, 16 Jun 2026 04:47:16 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "call-for-ict-nice-venture-incubator-startup-and-innovation-support-india-fundsfo",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 62,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "Zhilin Yang Founder and CEO Kimi (Moonshot AI)",
       "summary": "Explore how we scaled Kimi K2.5 by pioneering the Muon optimizer to double token learning efficiency and maximize training throughput through Day 0...",
       "source": "NVIDIA GTC Hub",
@@ -1146,14 +1033,14 @@
       }
     },
     {
-      "title": "Compunnel Launches AI Startup Incubator at Noida and New Jersey Facility, Invites Applications for Compunnel Ventures AI - The Tribune",
-      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "title": "International Business Summit & Awards 2026 Concludes Successfully in Jaipur; 150+ Entrepreneurs, MSMEs and Startup Founders Participate - The Tribune",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOdVhCQUxvelRBeGsta0lLNlNCU3ZJNkNOUzBLdEI4N18yVnBRRlpmSkdhT3QtdUhSWnBvaDVMeVBoRzJPN1RfRWd1cmk3ZWhoN0N3dlpVdlFiYjBKWWVlUTlLV0ZWLXhrWkZ3bE5fRUZOZk8wMThzOENVN19mdEJEX0ljOXlaMTdQMVF3ck1YVkFOT0ltQkZpRzEzdGd0bWNjR1lUeEpnLXRGcDZzZ2NUWk04bmptQTRPZnhpejJzLWNtS25lcW5oNS1XeWl5bWU0TU4tMDRFdWVVYU1Qc0FQMnA5cHBPbTI4aURpdC12MlpIbU9INzlEbXh5QnNZOWlZWWNjYXNIY3pxeXFJZ3NxYXlYdGY0Q1EyTWhZ0gGbAkFVX3lxTE51WEJBTG96VEF4ay1rSUs2U0JTdkk2Q05TMEt0Qjg3XzJWcFFGWmZKR2FPdC11SFJacG9oNUx5UGhHMk83VF9FZ3VyaTdlaGg3Q3d2WlV2UWJiMEpZZWVROUtXRlYteGtaRndsTl9FRk5mTzAxOHM4Q1U3X2Z0QkRfSWM5eVoxN1AxUXdyTVhWQU5PSW1CRmlHMTN0Z3RtY2NHWVR4SmctdEZwNnNnY1RaTThuam1BNE9meGl6MnMtY21LbmVxbmg1LVd5aXltZTRNTi0wNEV1ZVVhTVBzQVAycDlwcE9tMjhpRGl0LXYyWkhtT0g3OURteHlCc1k5aVlZY2Nhc0hjenF5cUlnc3FheVh0ZjRDUTJNaFk?oc=5",
-      "date": "Tue, 16 Jun 2026 09:16:32 GMT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQbXJhTzhfXy12b0Z6cjE5bWdFS3FLbjlNSkszR29mTGptMFh1WE9ReThCTWdVTDBRQXplZFBwekttekNFMGhLX2lLcnpaV1FBbWk5OW9GU2JiVUNvYUdmdkRObXM3N184WWRXVE9HTnJ5U001ZlJRU1VfaEkyQnc4VjlEa3ZtMFAwSmc3aXlLTzh3bTFlMUJXRDdLbGFYS25kM2tuOHJuNUo5NlZLS1FqcVdYMm85MGI4ODdkRGhSd3RvdjFfcW5nVHZIMERibVNJTTRONU40dDBKbFRZdUVvdFRjamNLMjZVSk9OenFBOHlzeHNOOWZGSXdMb1RPN1A2TWZSWnliRE5oZ9IBigJBVV95cUxQbXJhTzhfXy12b0Z6cjE5bWdFS3FLbjlNSkszR29mTGptMFh1WE9ReThCTWdVTDBRQXplZFBwekttekNFMGhLX2lLcnpaV1FBbWk5OW9GU2JiVUNvYUdmdkRObXM3N184WWRXVE9HTnJ5U001ZlJRU1VfaEkyQnc4VjlEa3ZtMFAwSmc3aXlLTzh3bTFlMUJXRDdLbGFYS25kM2tuOHJuNUo5NlZLS1FqcVdYMm85MGI4ODdkRGhSd3RvdjFfcW5nVHZIMERibVNJTTRONU40dDBKbFRZdUVvdFRjamNLMjZVSk9OenFBOHlzeHNOOWZGSXdMb1RPN1A2TWZSWnliRE5oZw?oc=5",
+      "date": "Tue, 16 Jun 2026 13:13:50 GMT",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "compunnel-launches-ai-startup-incubator-at-noida-and-new-jersey-facility-invites",
+      "id": "international-business-summit-awards-2026-concludes-successfully-in-jaipur-150-e",
       "tags": [
         "ai",
         "market",
@@ -1185,14 +1072,14 @@
       }
     },
     {
-      "title": "International Business Summit & Awards 2026 Concludes Successfully in Jaipur; 150+ Entrepreneurs, MSMEs and Startup Founders Participate - The Tribune",
-      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "title": "Compunnel Launches AI Startup Incubator at Noida and New Jersey Facility, Invites Applications for Compunnel Ventures AI - The Tribune",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNTWdyNURiZVhvYmZlQlRRR2wxTjN2YXUxcVFoYmZyQWVyWVFqR1VQRVEtaV9fdkh6alItVExvOVQwOERXUzZSYlo5OC1wSFlSdVl0akRaaDBHN0l2ZU8tV1gwTDZ4TkxkS1RQbEM1cE9RQnFNbU92MEZhdVEzVFJuY2RjaHVoRF95VFdMSGR1dEFaby1rWXA3dTZCQkNIcVNYVnBzR1U3XzlOdVFNS3ZjTHJrMThTQ1BqdUZoVTRwSk9lZ044MktndS1mT09QRUtIaUZId2tYcDl4RzZ3TldOdDAxY1pnYUhLcGw0aWJrdVVaQXdmSFNPSk1EcFlfbHBOMU1vclk3N2pna3hfTmdxQTB6cWtPVGM3RlBCN0dwYlZTMEdzV3fSAaYCQVVfeXFMTU1ncjVEYmVYb2JmZUJUUUdsMU4zdmF1MXFRaGJmckFlcllRakdVUEVRLWlfX3ZIempSLVRMbzlUMDhEV1M2UmJaOTgtcEhZUnVZdGpEWmgwRzdJdmVPLVdYMEw2eE5MZEtUUGxDNXBPUUJxTW1PdjBGYXVRM1RSbmNkY2h1aERfeVRXTEhkdXRBWm8ta1lwN3U2QkJDSHFTWFZwc0dVN185TnVRTUt2Y0xyazE4U0NQanVGaFU0cEpPZWdOODJLZ3UtZk9PUEVLSGlGSHdrWHA5eEc2d05XTnQwMWNaZ2FIS3BsNGlia3VVWkF3ZkhTT0pNRHBZX2xwTjFNb3JZNzdqZ2t4X05ncUEwenFrT1RjN0ZQQjdHcGJWUzBHc1d3?oc=5",
-      "date": "Tue, 16 Jun 2026 13:13:50 GMT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcElkN0N0eHYzLVpJVHpLVUNkMDhFZU5HR1JBS1V3WHRKLUhJc1NzbGF1SzlWZ1NiMFVBVnFqUFlybU85c214VjdtTHpuakZyMW9VajJvT29ONXRRbFlYT3hDdzNlbWVSWXRzWnphM1dBS1FPQ2ZLbkZJeVlzVURTd0RIcmFBM0FhRDMzS2ZtMW9wZndUT1VhbEk5NGNXN3RRS1VGc25Ua09rXzNjTngtcWlkTzZwWVRDQmV1V1BEbm9NdFlhR2dSWEozbkNiaGpsU1BhR0hhdFJLakJFcDhNT05DYjhvOTdJZ1JCa0x4UGFNaVc2RXdqZjhCYXVnSEpE0gGAAkFVX3lxTFBwSWQ3Q3R4djMtWklUektVQ2QwOEVlTkdHUkFLVXdYdEotSElzU3NsYXVLOVZnU2IwVUFWcWpQWXJtTzlzbXhWN21Mem5qRnIxb1VqMm9Pb041dFFsWVhPeEN3M2VtZVJZdHNaemEzV0FLUU9DZktuRkl5WXNVRFN3REhyYUEzQWFEMzNLZm0xb3Bmd1RPVWFsSTk0Y1c3dFFLVUZzblRrT2tfM2NOeC1xaWRPNnBZVENCZXVXUERub010WWFHZ1JYSjNuQ2JoamxTUGFHSGF0UktqQkVwOE1PTkNiOG85N0lnUkJrTHhQYU1pVzZFd2pmOEJhdWdISkQ?oc=5",
+      "date": "Tue, 16 Jun 2026 09:16:32 GMT",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "international-business-summit-awards-2026-concludes-successfully-in-jaipur-150-e",
+      "id": "compunnel-launches-ai-startup-incubator-at-noida-and-new-jersey-facility-invites",
       "tags": [
         "ai",
         "market",
