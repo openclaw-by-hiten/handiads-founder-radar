@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:48:44.342Z",
+  "generatedAt": "2026-06-16T12:24:49.463Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1020,
-    "uniqueSignals": 892,
-    "recentSignals": 681,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 40,
-    "finalItems": 18,
+    "fetchedSignals": 999,
+    "uniqueSignals": 902,
+    "recentSignals": 697,
+    "candidatePagesQueued": 579,
+    "candidatePagesVerified": 45,
+    "finalItems": 20,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -111,11 +111,11 @@
     {
       "name": "AWS Startups",
       "type": "html",
-      "fetched": 20,
-      "candidates": 20,
-      "verified": 3,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "NVIDIA Inception",
@@ -174,11 +174,11 @@
     {
       "name": "Startup SG Programmes",
       "type": "html",
-      "fetched": 4,
-      "candidates": 4,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Startup SG Programmes failed with 403"
     },
     {
       "name": "Devpost Hackathons",
@@ -264,6 +264,15 @@
     {
       "name": "Microsoft Events",
       "type": "html",
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
+      "error": "fetch failed"
+    },
+    {
+      "name": "Microsoft Virtual Training Days",
+      "type": "html",
       "fetched": 20,
       "candidates": 16,
       "verified": 0,
@@ -271,31 +280,22 @@
       "error": ""
     },
     {
-      "name": "Microsoft Virtual Training Days",
+      "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
+      "candidates": 18,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
     {
-      "name": "Apple Developer Events",
-      "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
-      "error": "fetch failed"
-    },
-    {
       "name": "AWS Events and Conferences",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 18,
+      "verified": 4,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "Salesforce Dreamforce",
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -311,8 +311,8 @@
       "type": "html",
       "fetched": 14,
       "candidates": 13,
-      "verified": 1,
-      "final": 0,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 7,
-      "candidates": 6,
+      "fetched": 11,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -464,7 +464,7 @@
       "type": "html",
       "fetched": 124,
       "candidates": 112,
-      "verified": 1,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 9,
+      "fetched": 8,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,15 +681,19 @@
       "error": "fetch failed"
     },
     {
+      "name": "AWS Startups",
+      "error": "fetch failed"
+    },
+    {
+      "name": "Startup SG Programmes",
+      "error": "Startup SG Programmes failed with 403"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Apple Developer Events",
-      "error": "fetch failed"
-    },
-    {
-      "name": "AWS Events and Conferences",
+      "name": "Microsoft Events",
       "error": "fetch failed"
     },
     {
@@ -745,6 +749,48 @@
           "India / Priority 2",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Terms of Service (will open in a new window).",
+      "summary": "Until then, the Terms below continue to apply.See a preview of the new Terms.",
+      "source": "Alphabet Investor Events",
+      "sourceUrl": "https://policies.google.com/terms",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "terms-of-service-will-open-in-a-new-window",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 91,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
@@ -1444,6 +1490,46 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Dreamforce Conference 2026",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "dreamforce-conference-2026",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 53,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global un-sponsored penalty",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
           "Official source"
         ],
         "label": "Watchlist"

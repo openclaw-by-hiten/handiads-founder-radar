@@ -1010,15 +1010,16 @@ function isBusinessRelevant(item) {
 
   if (!hasFounderOpportunityFocus(text)) return false;
 
+  const isTechmemeEvent = item.source === "Techmeme Events";
   const isIntel = isIntelSource(item);
   if (isIntel) {
     if (isFundingNews(item)) return false;
     if (hasPassiveEventCoverage(text) && !hasStrongActionProof(text)) return false;
-    return hasActionableOpportunity(text);
+    return isTechmemeEvent || hasActionableOpportunity(text);
   }
 
   if (hasPassiveEventCoverage(text) && !hasStrongActionProof(text)) return false;
-  return hasActionableOpportunity(text);
+  return isTechmemeEvent || hasActionableOpportunity(text);
 }
 
 function parseArticleDate(value) {
@@ -1114,13 +1115,15 @@ async function verifyCandidatePage(item) {
   if (isPastEvent(lowerPageText)) return null;
   if (!hasFounderOpportunityFocus(lowerPageText)) return null;
 
+  const isTechmemeEvent = item.source === "Techmeme Events";
+
   if (isIntel) {
     if (isFundingNews(verifiedItem)) return null;
     if (hasPassiveEventCoverage(articleCoreText) && !hasStrongActionProof(articleCoreText)) return null;
-    if (!hasActionableOpportunity(lowerPageText)) return null;
+    if (!isTechmemeEvent && !hasActionableOpportunity(lowerPageText)) return null;
   } else {
     if (hasPassiveEventCoverage(lowerPageText) && !hasStrongActionProof(lowerPageText)) return null;
-    if (!hasActionableOpportunity(lowerPageText)) return null;
+    if (!isTechmemeEvent && !hasActionableOpportunity(lowerPageText)) return null;
   }
 
   return {
