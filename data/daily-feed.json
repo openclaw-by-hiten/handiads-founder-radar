@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:11:14.000Z",
+  "generatedAt": "2026-06-16T14:34:55.752Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 976,
-    "uniqueSignals": 862,
-    "recentSignals": 660,
-    "candidatePagesQueued": 549,
-    "candidatePagesVerified": 149,
-    "finalItems": 21,
+    "fetchedSignals": 996,
+    "uniqueSignals": 882,
+    "recentSignals": 681,
+    "candidatePagesQueued": 570,
+    "candidatePagesVerified": 152,
+    "finalItems": 25,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -111,11 +111,11 @@
     {
       "name": "AWS Startups",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 20,
+      "verified": 3,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "NVIDIA Inception",
@@ -465,7 +465,7 @@
       "fetched": 124,
       "candidates": 112,
       "verified": 111,
-      "final": 0,
+      "final": 4,
       "error": ""
     },
     {
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,10 +678,6 @@
     },
     {
       "name": "AWS Startup Events",
-      "error": "fetch failed"
-    },
-    {
-      "name": "AWS Startups",
       "error": "fetch failed"
     },
     {
@@ -836,6 +832,45 @@
           "Official source"
         ],
         "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Nov 2-3NEW DATES: Dubai FinTech SummitDubai",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/dubaifintechsummit.com_-0lh2LPAg.htm",
+      "date": "Recent",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "nov-2-3new-dates-dubai-fintech-summitdubai",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Priority 2"
       }
     },
     {
@@ -1071,6 +1106,43 @@
           "Official source"
         ],
         "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Sep 22-24NEW DATES: Seamless Middle EastDubai",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.terrapinn.com_exhibition_seamless-middle-east_-qItfVESS.htm",
+      "date": "Recent",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "sep-22-24new-dates-seamless-middle-eastdubai",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 58,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
       }
     },
     {
@@ -1574,6 +1646,74 @@
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Oct 7-8TOKEN2049 SingaporeSingapore",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/token2049.com_singapore-gTPPa8vi.htm",
+      "date": "Recent",
+      "location": "Singapore",
+      "sourceType": "Aggregator Backup",
+      "id": "oct-7-8token2049-singaporesingapore",
+      "tags": [
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 50,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Nov 18-20Singapore Fintech FestivalSingapore",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.fintechfestival.sg_-Cm9n7E6y.htm",
+      "date": "Recent",
+      "location": "Singapore",
+      "sourceType": "Aggregator Backup",
+      "id": "nov-18-20singapore-fintech-festivalsingapore",
+      "tags": [
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 50,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Techmeme curated event"
         ],
         "label": "Watchlist"
       }

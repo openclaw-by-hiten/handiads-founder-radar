@@ -1014,9 +1014,9 @@ function isBusinessRelevant(item) {
     }
   }
 
-  if (!hasFounderOpportunityFocus(text)) return false;
-
   const isTechmemeEvent = item.source === "Techmeme Events";
+  if (!isTechmemeEvent && !hasFounderOpportunityFocus(text)) return false;
+
   const isIntel = isIntelSource(item);
   if (isIntel) {
     if (isFundingNews(item)) return false;
