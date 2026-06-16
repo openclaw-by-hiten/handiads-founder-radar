@@ -1108,17 +1108,20 @@ async function verifyCandidatePage(item) {
   if (includesAny(lowerPageText, consumerBlockTerms)) return null;
   if (includesAny(lowerPageText, genericBlockTerms)) return null;
   if (includesAny(lowerPageText, productSalesBlockTerms)) return null;
-  if (isIntel && isFundingNews(verifiedItem)) return null;
+  if (includesAny(lowerPageText, ["hiring", "careers", "jobs at"])) return null;
   if (hasOldStaticYear(lowerPageText)) return null;
   if (includesAny(lowerPageText, pastVideoTerms)) return null;
-  if (!hasFounderOpportunityFocus(lowerPageText)) return null;
-  if (isIntel && !hasStrongActionProof(articleCoreText)) return null;
-  if (!isIntel && !hasActionableOpportunity(lowerPageText)) return null;
   if (isPastEvent(lowerPageText)) return null;
-  if (isIntel && hasPassiveEventCoverage(articleCoreText) && !hasStrongActionProof(articleCoreText)) return null;
-  if (!isIntel && hasPassiveEventCoverage(lowerPageText) && !hasConfirmedRegistration(lowerPageText)) return null;
-  if (!isIntel && !hasConfirmedRegistration(lowerPageText)) return null;
-  if (!isIntel && !needsRegistrationProof(lowerPageText)) return null;
+  if (!hasFounderOpportunityFocus(lowerPageText)) return null;
+
+  if (isIntel) {
+    if (isFundingNews(verifiedItem)) return null;
+    if (hasPassiveEventCoverage(articleCoreText) && !hasStrongActionProof(articleCoreText)) return null;
+    if (!hasActionableOpportunity(lowerPageText)) return null;
+  } else {
+    if (hasPassiveEventCoverage(lowerPageText) && !hasStrongActionProof(lowerPageText)) return null;
+    if (!hasActionableOpportunity(lowerPageText)) return null;
+  }
 
   return {
     ...item,
