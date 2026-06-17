@@ -1014,9 +1014,9 @@ function isBusinessRelevant(item) {
     }
   }
 
-  const isTechmemeEvent = item.source === "Techmeme Events";
-  if (!isTechmemeEvent && !hasFounderOpportunityFocus(text)) return false;
+  if (!hasFounderOpportunityFocus(text)) return false;
 
+  const isTechmemeEvent = item.source === "Techmeme Events";
   const isIntel = isIntelSource(item);
   if (isIntel) {
     if (isFundingNews(item)) return false;
@@ -1132,28 +1132,9 @@ async function verifyCandidatePage(item) {
     if (!isTechmemeEvent && !hasActionableOpportunity(lowerPageText)) return null;
   }
 
-  let finalTitle = item.title.trim();
-  const lowerTitle = finalTitle.toLowerCase();
-  if (genericTitleTerms.includes(lowerTitle) && pageTitle) {
-    finalTitle = pageTitle;
-  } else if (pageTitle && finalTitle.length < 30 && pageTitle.length > finalTitle.length + 5) {
-    finalTitle = pageTitle;
-  }
-  
-  if (finalTitle.length < 40 && item.source) {
-    const cleanSource = item.source.replace(/ Backup.*$/, "").replace(/Events/i, "").trim();
-    if (cleanSource && !finalTitle.toLowerCase().includes(cleanSource.toLowerCase())) {
-      finalTitle = `${cleanSource}: ${finalTitle}`;
-    }
-  }
-  
-  if (finalTitle === finalTitle.toLowerCase()) {
-    finalTitle = finalTitle.replace(/\b\w/g, c => c.toUpperCase());
-  }
-
   return {
     ...item,
-    title: finalTitle,
+    title: genericTitleTerms.includes(item.title.toLowerCase().trim()) && pageTitle ? pageTitle : item.title,
     summary: description || item.summary,
     searchText: pageText.slice(0, 5000)
   };

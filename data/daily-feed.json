@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T23:28:31.592Z",
+  "generatedAt": "2026-06-17T06:11:44.290Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 960,
-    "uniqueSignals": 865,
-    "recentSignals": 666,
-    "candidatePagesQueued": 565,
-    "candidatePagesVerified": 154,
-    "finalItems": 22,
+    "fetchedSignals": 1036,
+    "uniqueSignals": 919,
+    "recentSignals": 719,
+    "candidatePagesQueued": 604,
+    "candidatePagesVerified": 153,
+    "finalItems": 23,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 20,
       "verified": 2,
       "final": 0,
       "error": ""
@@ -138,18 +138,18 @@
     {
       "name": "Adobe Business Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 5,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Salesforce Events",
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -183,11 +183,11 @@
     {
       "name": "Devpost Hackathons",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
-      "error": "Devpost Hackathons failed with 403"
+      "error": ""
     },
     {
       "name": "Apple Newsroom",
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -264,29 +264,29 @@
     {
       "name": "Microsoft Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
-      "error": "Microsoft Events failed with 403"
+      "error": ""
     },
     {
       "name": "Microsoft Virtual Training Days",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "Microsoft Virtual Training Days failed with 403"
+      "error": ""
     },
     {
       "name": "Apple Developer Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 19,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "AWS Events and Conferences",
@@ -312,7 +312,7 @@
       "fetched": 14,
       "candidates": 13,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -328,7 +328,7 @@
       "name": "Microsoft Build",
       "type": "html",
       "fetched": 1,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -430,16 +430,16 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "European AI Alliance failed with 403"
+      "error": "fetch failed"
     },
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 125,
-      "candidates": 113,
-      "verified": 112,
+      "fetched": 124,
+      "candidates": 111,
+      "verified": 110,
       "final": 4,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 8,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
+      "candidates": 10,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -677,24 +677,12 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Adobe Business Events",
-      "error": "This operation was aborted"
-    },
-    {
-      "name": "Devpost Hackathons",
-      "error": "Devpost Hackathons failed with 403"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Microsoft Events",
-      "error": "Microsoft Events failed with 403"
-    },
-    {
-      "name": "Microsoft Virtual Training Days",
-      "error": "Microsoft Virtual Training Days failed with 403"
+      "name": "Apple Developer Events",
+      "error": "fetch failed"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -710,23 +698,19 @@
     },
     {
       "name": "European AI Alliance",
-      "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
+      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "en africa",
+      "title": "Google Play Accelerator India: Official Google Africa Blog",
       "summary": "Get the latest news and stories from Google in Sub-Saharan Africa.",
       "source": "Google Play Accelerator India",
       "sourceUrl": "https://blog.google/intl/en-africa/",
       "date": "Recent",
       "location": "India",
       "sourceType": "Official",
-      "id": "en-africa",
+      "id": "google-play-accelerator-india-official-google-africa-blog",
       "tags": [
         "ai",
         "market",
@@ -753,6 +737,48 @@
           "India / Priority 2",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Terms of Service (will open in a new window).",
+      "summary": "Until then, the Terms below continue to apply.See a preview of the new Terms.",
+      "source": "Alphabet Investor Events",
+      "sourceUrl": "https://policies.google.com/terms",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "terms-of-service-will-open-in-a-new-window",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 91,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
@@ -836,14 +862,14 @@
       }
     },
     {
-      "title": "See all Ad formats",
+      "title": "LinkedIn Ads: Drive Business Growth With Online Advertising",
       "summary": "Use LinkedIn self-service ads to reach more than 1 billion users worldwide. Build effective ads that target your audience with helpful formats & budget management.",
       "source": "LinkedIn Marketing Events",
       "sourceUrl": "https://business.linkedin.com/marketing-solutions/ads?trk=lms-25",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "see-all-ad-formats",
+      "id": "linkedin-ads-drive-business-growth-with-online-advertising",
       "tags": [
         "funded",
         "ai",
@@ -875,14 +901,14 @@
       }
     },
     {
-      "title": "Lead Generation",
+      "title": "LinkedIn Marketing: Lead Generation Ads on LinkedIn",
       "summary": "Use LinkedIn ads to generate quality leads for your business, utilize professional demographic data to target the right audience by title, industry and more.",
       "source": "LinkedIn Marketing Events",
       "sourceUrl": "https://business.linkedin.com/marketing-solutions/generate-leads?trk=lms-36b",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "lead-generation",
+      "id": "linkedin-marketing-lead-generation-ads-on-linkedin",
       "tags": [
         "funded",
         "ai",
@@ -914,14 +940,14 @@
       }
     },
     {
-      "title": "Showcase Pages",
+      "title": "LinkedIn Marketing: LinkedIn Showcase Pages",
       "summary": "Showcase Pages are extensions of your LinkedIn Page, designed to spotlight individual brands, business units and initiatives. Learn more about the product and how to set one up.",
       "source": "LinkedIn Marketing Events",
       "sourceUrl": "https://business.linkedin.com/marketing-solutions/linkedin-pages/showcase-pages",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "showcase-pages",
+      "id": "linkedin-marketing-linkedin-showcase-pages",
       "tags": [
         "funded",
         "ai",
@@ -1034,7 +1060,7 @@
     },
     {
       "title": "International Business Summit & Awards 2026 Concludes Successfully in Jaipur; 150+ Entrepreneurs, MSMEs and Startup Founders Participate - The Tribune",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQbXJhTzhfXy12b0Z6cjE5bWdFS3FLbjlNSkszR29mTGptMFh1WE9ReThCTWdVTDBRQXplZFBwekttekNFMGhLX2lLcnpaV1FBbWk5OW9GU2JiVUNvYUdmdkRObXM3N184WWRXVE9HTnJ5U001ZlJRU1VfaEkyQnc4VjlEa3ZtMFAwSmc3aXlLTzh3bTFlMUJXRDdLbGFYS25kM2tuOHJuNUo5NlZLS1FqcVdYMm85MGI4ODdkRGhSd3RvdjFfcW5nVHZIMERibVNJTTRONU40dDBKbFRZdUVvdFRjamNLMjZVSk9OenFBOHlzeHNOOWZGSXdMb1RPN1A2TWZSWnliRE5oZ9IBigJBVV95cUxQbXJhTzhfXy12b0Z6cjE5bWdFS3FLbjlNSkszR29mTGptMFh1WE9ReThCTWdVTDBRQXplZFBwekttekNFMGhLX2lLcnpaV1FBbWk5OW9GU2JiVUNvYUdmdkRObXM3N184WWRXVE9HTnJ5U001ZlJRU1VfaEkyQnc4VjlEa3ZtMFAwSmc3aXlLTzh3bTFlMUJXRDdLbGFYS25kM2tuOHJuNUo5NlZLS1FqcVdYMm85MGI4ODdkRGhSd3RvdjFfcW5nVHZIMERibVNJTTRONU40dDBKbFRZdUVvdFRjamNLMjZVSk9OenFBOHlzeHNOOWZGSXdMb1RPN1A2TWZSWnliRE5oZw?oc=5",
       "date": "Tue, 16 Jun 2026 13:13:50 GMT",
@@ -1073,7 +1099,7 @@
     },
     {
       "title": "Compunnel Launches AI Startup Incubator at Noida and New Jersey Facility, Invites Applications for Compunnel Ventures AI - The Tribune",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcElkN0N0eHYzLVpJVHpLVUNkMDhFZU5HR1JBS1V3WHRKLUhJc1NzbGF1SzlWZ1NiMFVBVnFqUFlybU85c214VjdtTHpuakZyMW9VajJvT29ONXRRbFlYT3hDdzNlbWVSWXRzWnphM1dBS1FPQ2ZLbkZJeVlzVURTd0RIcmFBM0FhRDMzS2ZtMW9wZndUT1VhbEk5NGNXN3RRS1VGc25Ua09rXzNjTngtcWlkTzZwWVRDQmV1V1BEbm9NdFlhR2dSWEozbkNiaGpsU1BhR0hhdFJLakJFcDhNT05DYjhvOTdJZ1JCa0x4UGFNaVc2RXdqZjhCYXVnSEpE0gGAAkFVX3lxTFBwSWQ3Q3R4djMtWklUektVQ2QwOEVlTkdHUkFLVXdYdEotSElzU3NsYXVLOVZnU2IwVUFWcWpQWXJtTzlzbXhWN21Mem5qRnIxb1VqMm9Pb041dFFsWVhPeEN3M2VtZVJZdHNaemEzV0FLUU9DZktuRkl5WXNVRFN3REhyYUEzQWFEMzNLZm0xb3Bmd1RPVWFsSTk0Y1c3dFFLVUZzblRrT2tfM2NOeC1xaWRPNnBZVENCZXVXUERub010WWFHZ1JYSjNuQ2JoamxTUGFHSGF0UktqQkVwOE1PTkNiOG85N0lnUkJrTHhQYU1pVzZFd2pmOEJhdWdISkQ?oc=5",
       "date": "Tue, 16 Jun 2026 09:16:32 GMT",
@@ -1111,14 +1137,14 @@
       }
     },
     {
-      "title": "Aman Sanger CTO and Co-Founder Cursor",
+      "title": "NVIDIA GTC Hub: Aman Sanger CTO and Co-Founder Cursor",
       "summary": "Aman Sanger, co-founder and CTO at Cursor, will share how Cursor is building long-running coding agents that can autonomously execute more ambitiou...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81528/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "aman-sanger-cto-and-co-founder-cursor",
+      "id": "nvidia-gtc-hub-aman-sanger-cto-and-co-founder-cursor",
       "tags": [
         "ai",
         "market",
@@ -1197,14 +1223,14 @@
       }
     },
     {
-      "title": "gtc26 s81715",
+      "title": "Turning Models Into Engines: The AI Factory Era",
       "summary": "Step inside Mistral’s journey to industrial-scale AI as we share lessons learned and the principles guiding our approach in creating Mistral Comput...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81715/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81715",
+      "id": "turning-models-into-engines-the-ai-factory-era",
       "tags": [
         "ai",
         "market",
@@ -1240,14 +1266,14 @@
       }
     },
     {
-      "title": "gtc26 s81478",
+      "title": "How to Build End‑to‑End Physical AI Systems for Humanoid Robots",
       "summary": "Physical AI brings intelligence to machines, industrial arms, autonomous mobile robots (AMRs), and humanoids, enabling them to perceive, reason, an...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81478/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81478",
+      "id": "how-to-build-end-to-end-physical-ai-systems-for-humanoid-robots",
       "tags": [
         "ai",
         "market",
@@ -1283,14 +1309,14 @@
       }
     },
     {
-      "title": "gtc26 s81702",
+      "title": "Agentic AI Using Open Source Models: Finetuning, Deployment and Chip Design Case Studies",
       "summary": "Open models have evolved from experimental alternatives to production-grade building blocks for agentic AI and enterprise applications. But decidin...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81702/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81702",
+      "id": "agentic-ai-using-open-source-models-finetuning-deployment-and-chip-design-case-s",
       "tags": [
         "ai",
         "market",
@@ -1326,14 +1352,14 @@
       }
     },
     {
-      "title": "gtc26 s81684",
+      "title": "Diffusion Unlocked: Advanced Techniques for Training, Inference, and Deployment",
       "summary": "Diffusion models have exploded from research labs into the mainstream, powering everything from photorealistic image generation to creative co-pilo...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81684/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81684",
+      "id": "diffusion-unlocked-advanced-techniques-for-training-inference-and-deployment",
       "tags": [
         "ai",
         "market",
@@ -1369,14 +1395,14 @@
       }
     },
     {
-      "title": "gtc26 s81804",
+      "title": "Integrating AI and Quantum Computing to Accelerate the Future of Supercomputing",
       "summary": "The path to fault-tolerant quantum computing is an AI and supercomputing challenge. This talk outlines a vision to accelerate scientific discovery ...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81804/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81804",
+      "id": "integrating-ai-and-quantum-computing-to-accelerate-the-future-of-supercomputing",
       "tags": [
         "ai",
         "market",
@@ -1412,14 +1438,14 @@
       }
     },
     {
-      "title": "gtc26 s81844",
+      "title": "NVIDIA GTC Hub: The Future of Industrial Autonomy",
       "summary": "This panel brings together industry leaders from Honeywell Industrial, KION Group, Caterpillar, Medtronic, Hitachi Rail and GXO to explore how adva...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81844/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81844",
+      "id": "nvidia-gtc-hub-the-future-of-industrial-autonomy",
       "tags": [
         "ai",
         "market",
@@ -1455,14 +1481,14 @@
       }
     },
     {
-      "title": "gtc26 s81612",
+      "title": "Practical Context Engineering: Eliminate Bugs With High-Signal AI Code Reviews",
       "summary": "AI-assisted coding has sped up code generation, but human-only code reviews are now the bottleneck. Too many pull requests (PRs), not enough review...",
       "source": "NVIDIA GTC Hub",
       "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81612/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "gtc26-s81612",
+      "id": "practical-context-engineering-eliminate-bugs-with-high-signal-ai-code-reviews",
       "tags": [
         "ai",
         "market",
@@ -1498,14 +1524,14 @@
       }
     },
     {
-      "title": "Dreamforce Conference 2026",
+      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
       "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
       "source": "Salesforce Dreamforce",
       "sourceUrl": "https://www.salesforce.com/dreamforce/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "dreamforce-conference-2026",
+      "id": "salesforce-dreamforce-dreamforce-conference-2026",
       "tags": [
         "ai",
         "market",
@@ -1538,14 +1564,14 @@
       }
     },
     {
-      "title": "Oct 7-8TOKEN2049 SingaporeSingapore",
+      "title": "Techmeme: Oct 7-8TOKEN2049 SingaporeSingapore",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/token2049.com_singapore-gTPPa8vi.htm",
       "date": "Recent",
       "location": "Singapore",
       "sourceType": "Aggregator Backup",
-      "id": "oct-7-8token2049-singaporesingapore",
+      "id": "techmeme-oct-7-8token2049-singaporesingapore",
       "tags": [
         "founder"
       ],
