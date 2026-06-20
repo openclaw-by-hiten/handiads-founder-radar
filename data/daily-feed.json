@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:00:48.837Z",
+  "generatedAt": "2026-06-20T23:12:03.785Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1026,
-    "uniqueSignals": 904,
-    "recentSignals": 730,
-    "candidatePagesQueued": 617,
+    "fetchedSignals": 1032,
+    "uniqueSignals": 913,
+    "recentSignals": 713,
+    "candidatePagesQueued": 603,
     "candidatePagesVerified": 150,
     "finalItems": 0,
     "newsApiEnabled": false,
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 117,
+      "fetched": 115,
       "candidates": 109,
       "verified": 108,
       "final": 0,
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
-      "candidates": 2,
+      "fetched": 11,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -642,8 +642,8 @@
     {
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,6 +678,10 @@
     },
     {
       "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
