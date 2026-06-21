@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T23:12:03.785Z",
+  "generatedAt": "2026-06-21T23:16:51.416Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1032,
-    "uniqueSignals": 913,
-    "recentSignals": 713,
-    "candidatePagesQueued": 603,
-    "candidatePagesVerified": 150,
-    "finalItems": 0,
+    "fetchedSignals": 1011,
+    "uniqueSignals": 895,
+    "recentSignals": 702,
+    "candidatePagesQueued": 597,
+    "candidatePagesVerified": 151,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 115,
+      "fetched": 114,
       "candidates": 109,
       "verified": 108,
       "final": 0,
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 11,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -581,8 +581,8 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 8,
-      "verified": 2,
-      "final": 0,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 0,
+      "candidates": 5,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -703,7 +699,51 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
+    },
+    {
+      "name": "India AI Events",
+      "error": "India AI Events failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Anthropic CEO's 'extremely disorganised' remark on India AI summit sparks Congress-BJP war of words - Moneycontrol.com",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWDh1eXBUSFpNTkY0QmhWWTJaTXoxb3ZIZDZEdnRNbWQ0Zmg3aTNrcTBJaU04cEV0Mi12bFluVW9qR21menJCV01pamdCNXY0ZEkzNG83Q0VpeEFsX3pCcXJGZ2wtdTlaQk95UFkxbW1aQTFwOWFJVEFmZDNKMU9TVnR6V2dFMDBlM3A1UDNiNWxGLVJVdGYwRmhhZXM5aTAwaW1GSFBWVmlHX2hNcWFVczNNUm9BM1lRemlSRWFWbU9MOXIzWW5sbW5Ea3ZIS25WVFJ3aHBUaE1GaGRJUGZkZWFod1VQRTV6ZkHSAe8BQVVfeXFMT1F5TUdtQl9uOEdnR3Vmc0VMSnhJaTNXZVBJMVdVZVhDUkVuVHZGT0dkOTYxRXRYc0lmNXVvUm15LVBYbDdKVzV3MGptRXhvRkRDd3FuZ3EzZ1NRcXZTNExVLVNhTGx1WTZKbVNGMmwxa3JqeUtOMm44SVZCRmUzYlI1NWlmbU5QN1JiTTU3UndwLW9Fc20ydk9IWWFoNjNWUXBRM3BYOThTeTJOSXBiSFNMNFFQczF3YzAya3Rza0s0bzBBOTVmel80MWNjN2tBYnhxSW11TWZPTmdzcWhhYURzb1QwcndRb2VVUldNWlE?oc=5",
+      "date": "Fri, 19 Jun 2026 06:18:16 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "anthropic-ceo-s-extremely-disorganised-remark-on-india-ai-summit-sparks-congress",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
