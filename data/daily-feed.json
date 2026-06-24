@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:13:08.289Z",
+  "generatedAt": "2026-06-24T23:06:39.804Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1028,
-    "uniqueSignals": 909,
-    "recentSignals": 700,
-    "candidatePagesQueued": 599,
-    "candidatePagesVerified": 137,
+    "fetchedSignals": 1027,
+    "uniqueSignals": 908,
+    "recentSignals": 698,
+    "candidatePagesQueued": 595,
+    "candidatePagesVerified": 140,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -365,7 +365,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 17,
-      "verified": 1,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 114,
-      "candidates": 106,
-      "verified": 105,
+      "candidates": 104,
+      "verified": 103,
       "final": 0,
       "error": ""
     },
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 18,
-      "candidates": 2,
-      "verified": 2,
+      "fetched": 20,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -517,8 +517,8 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 16,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 3,
       "verified": 2,
       "final": 0,
       "error": ""
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 6,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 12,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,6 +678,10 @@
     },
     {
       "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
