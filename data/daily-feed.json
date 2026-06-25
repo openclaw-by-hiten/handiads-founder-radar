@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:06:39.804Z",
+  "generatedAt": "2026-06-25T23:21:54.695Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1027,
-    "uniqueSignals": 908,
-    "recentSignals": 698,
-    "candidatePagesQueued": 595,
-    "candidatePagesVerified": 140,
+    "fetchedSignals": 1046,
+    "uniqueSignals": 927,
+    "recentSignals": 717,
+    "candidatePagesQueued": 612,
+    "candidatePagesVerified": 136,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -48,8 +48,8 @@
     {
       "name": "Google for Startups Programs",
       "type": "html",
-      "fetched": 15,
-      "candidates": 15,
+      "fetched": 14,
+      "candidates": 14,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 20,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 114,
-      "candidates": 104,
-      "verified": 103,
+      "fetched": 112,
+      "candidates": 100,
+      "verified": 99,
       "final": 0,
       "error": ""
     },
@@ -490,15 +490,15 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 5,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
     {
       "name": "TechCrunch AI",
       "type": "rss",
-      "fetched": 19,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
-      "candidates": 1,
+      "fetched": 17,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -703,10 +703,6 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
     }
   ],
   "items": []
