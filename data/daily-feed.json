@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:21:54.695Z",
+  "generatedAt": "2026-06-26T23:09:30.279Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1046,
-    "uniqueSignals": 927,
-    "recentSignals": 717,
-    "candidatePagesQueued": 612,
-    "candidatePagesVerified": 136,
-    "finalItems": 0,
+    "fetchedSignals": 1032,
+    "uniqueSignals": 913,
+    "recentSignals": 707,
+    "candidatePagesQueued": 605,
+    "candidatePagesVerified": 138,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 112,
-      "candidates": 100,
-      "verified": 99,
+      "fetched": 109,
+      "candidates": 99,
+      "verified": 98,
       "final": 0,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 5,
+      "candidates": 6,
+      "verified": 6,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 17,
+      "fetched": 15,
       "candidates": 2,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,9 +607,9 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
-      "final": 0,
+      "candidates": 4,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -617,7 +617,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 6,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -705,5 +701,90 @@
       "error": "European AI Alliance failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Global Startup Summit 2026 : Coimbatore Edition Ends with Focus on Innovation, Startups and Collaboration - Hello Mumbai News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZTJMX3BxWXFiY2U3MjY2Y2RnMHhsWS1iXzNma3hzOUlEemQ2T0JkSkF5QS02c1hHOHRuX3d2eFZKamd6T1ZkblNIU0hBcjMyc3NiYzZKQmMtSFh4YXBtT2R5em80RzdlSS00OVJRd0cyRmtpcVV4UjlsaUFTdktPTWx3eUtsekJwZmdSLXNXeXZzZ1ZGby1YaHA4SEN1aWZxb2Q1LTlnUzZNM0RDZDlaMzFQLXVQaGN5b0lCMm1HdzRlUjZrdEQ2MEJxUmtqMFJ6d1dvLVBUTFZjOTdqM1E?oc=5",
+      "date": "Fri, 26 Jun 2026 06:05:16 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "global-startup-summit-2026-coimbatore-edition-ends-with-focus-on-innovation-star",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 80,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "12 startups join Cohort II of Presight AI Accelerator - My Startup World",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWmdnSEZoM1RYaE9ycTNlbTdwdkZaSEMtQU9JS3k2YWpqRXMyemE1bUJydjNac0FHdVZUVDNvQXNIaFU4ODNLeFF1RHJRRUhEQTF5TzlGdW0wNGQxTkhCWUQyel9XUmtZOFlXU25rUHVidHpobldpNnlFTXpSTXIxa2JFejBoYkxK?oc=5",
+      "date": "Thu, 25 Jun 2026 08:50:23 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "12-startups-join-cohort-ii-of-presight-ai-accelerator-my-startup-world",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 80,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 1"
+      }
+    }
+  ]
 }
