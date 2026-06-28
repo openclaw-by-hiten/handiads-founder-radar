@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:05:16.215Z",
+  "generatedAt": "2026-06-28T23:04:53.722Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1009,
+    "fetchedSignals": 1005,
     "uniqueSignals": 889,
-    "recentSignals": 683,
-    "candidatePagesQueued": 580,
+    "recentSignals": 680,
+    "candidatePagesQueued": 585,
     "candidatePagesVerified": 136,
     "finalItems": 3,
     "newsApiEnabled": false,
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 11,
-      "candidates": 5,
+      "fetched": 8,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 104,
+      "fetched": 103,
       "candidates": 99,
       "verified": 98,
       "final": 0,
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
-      "candidates": 1,
+      "fetched": 5,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 0,
-      "final": 0,
+      "candidates": 3,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -607,16 +607,16 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
-      "final": 3,
+      "candidates": 3,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -711,90 +711,6 @@
   ],
   "items": [
     {
-      "title": "Vietnam Tech Summit 2026 to Bring AI Leaders, Founders, Investors, and Vietnamese Tech Talent to Silicon Valley - StreetInsider",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOSWZMNXJpdHZvbEw3MHRkdlV0SGZNdXMzUnlDcWV2UWtXNU1xWDJBVjZtV0hmRnJjTW9ERUdkMkl4NXZtTGJPZ0tqbGlmajNsb0t1VlFIQ1F6aEZlYzVXd2hDVmxSRV9yaWg3ZkhTVGdLU0djUXpDVUw0bm56SHNEVFdOdlEtd2pRTkYwQXhrVjJxZ3JOdkxlMnVKeWd2NHJFV2l1WUE2bXdiMFZWMDJtenZ1V3ZYUG9vZk9BcXN0MWx2aGZJeDVBLV9ZNHRLbXlmU21pUlEycmtMUEdwbFhaaXJZeXFadVJBSU9FQmdSUVRMMXVKR0RfNWJqYkhKeGxsdDZTTUZlOA?oc=5",
-      "date": "Sat, 27 Jun 2026 06:17:34 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "vietnam-tech-summit-2026-to-bring-ai-leaders-founders-investors-and-vietnamese-t",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 88,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Global Startup Summit 2026 : Coimbatore Edition Ends with Focus on Innovation, Startups and Collaboration - Hello Mumbai News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZTJMX3BxWXFiY2U3MjY2Y2RnMHhsWS1iXzNma3hzOUlEemQ2T0JkSkF5QS02c1hHOHRuX3d2eFZKamd6T1ZkblNIU0hBcjMyc3NiYzZKQmMtSFh4YXBtT2R5em80RzdlSS00OVJRd0cyRmtpcVV4UjlsaUFTdktPTWx3eUtsekJwZmdSLXNXeXZzZ1ZGby1YaHA4SEN1aWZxb2Q1LTlnUzZNM0RDZDlaMzFQLXVQaGN5b0lCMm1HdzRlUjZrdEQ2MEJxUmtqMFJ6d1dvLVBUTFZjOTdqM1E?oc=5",
-      "date": "Fri, 26 Jun 2026 06:05:16 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "global-startup-summit-2026-coimbatore-edition-ends-with-focus-on-innovation-star",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "12 startups join Cohort II of Presight AI Accelerator - My Startup World",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Startup grants and accelerators near India",
@@ -834,6 +750,84 @@
           "Aggregator backup source"
         ],
         "label": "Priority 1"
+      }
+    },
+    {
+      "title": "ICAI Celebrates International MSME Day; Hosts National ScaleUp India Summit 2026 to Strengthen MSME and Startup Ecosystem - Metro Vaartha",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSk43QV9FQ3h1SWh2RDEzYkJxbnpvVFpkdW91RFNOSkszdzVTaTExZnRGZVZPVGk0eFZHakVzeU4xQUR5UW1tZHl6dFVhWm9aNHlLR29hUnRnbmtnODRyZGNsV1hOSzQyYTkza09mQlFRLW9KT1dxOHA5d2pPRzJ3SEEwVnlxblN3RE1EMXBJTWZEX3BvTWR0bmhRM0xtSDBCdjB4eHBKWk94N2FqVUFLZkEwcVFOaUdkUm1ITWpnMzNTS20zRUhxc3JvYjlsTG41YW8zaHRvQ0JoaDNJS21fZ1JLS2ZyRlNVVXoxV3dKekU1N0JIZjM2T2t6ONIBiAJBVV95cUxOc2xzS2RCVmtEZnhZX3dpTk5PVEFqa25MM3JzdTJxbF9rOXhkY2dmMURNY2s3MVJwUGtnQmJPRVpqVGdCdDd1SmhXaVd2bTEwY1FuQXV3c3VERlBEQm9taGltNnhoNS1LRmVZOEIzQU10NXFlWjFpb3NwYmlxZG9jNHdoWk41cnBWUHpoNEpzTXNGWER5bm9pTXRwX25yeE9XeWE5anhZM2x0Wk4tLXJzWTljQUZIczM0UEJncWlReUxYN1VBR3VtUjdFNERoeWZZV05pekRYUU1ZeXlha0Y4am9hQ3U4N2RPbmYtc09yNkkwczU2NENMVjAyejBBUWxNQ21qaHBNMnE?oc=5",
+      "date": "Sun, 28 Jun 2026 05:55:06 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "icai-celebrates-international-msme-day-hosts-national-scaleup-india-summit-2026-",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 70,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Global Startup Summit 2026 : Coimbatore Edition Ends with Focus on Innovation, Startups and Collaboration - Hello Mumbai News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZTJMX3BxWXFiY2U3MjY2Y2RnMHhsWS1iXzNma3hzOUlEemQ2T0JkSkF5QS02c1hHOHRuX3d2eFZKamd6T1ZkblNIU0hBcjMyc3NiYzZKQmMtSFh4YXBtT2R5em80RzdlSS00OVJRd0cyRmtpcVV4UjlsaUFTdktPTWx3eUtsekJwZmdSLXNXeXZzZ1ZGby1YaHA4SEN1aWZxb2Q1LTlnUzZNM0RDZDlaMzFQLXVQaGN5b0lCMm1HdzRlUjZrdEQ2MEJxUmtqMFJ6d1dvLVBUTFZjOTdqM1E?oc=5",
+      "date": "Fri, 26 Jun 2026 06:05:16 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "global-startup-summit-2026-coimbatore-edition-ends-with-focus-on-innovation-star",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 55,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Aggregator backup source"
+        ],
+        "label": "Watchlist"
       }
     }
   ]
