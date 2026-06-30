@@ -743,9 +743,12 @@ function scoreSignal(signal) {
     score += 25;
     reasons.push("Cheaper Flights / Priority 3");
   } else {
-    if (!signal.tags.includes("funded") && !hasVIP) {
+    if (!signal.tags.includes("funded") && !hasVIP && signal.influencerValue !== "high" && !signal.tags.includes("founder") && !includesAny(txt, ["tech expert", "celebrity", "tech experts", "celebrities"])) {
       score -= 20;
       reasons.push("Global un-sponsored penalty");
+    } else {
+      score += 15;
+      reasons.push("Global but highly sponsored, VIP, or Networking Event");
     }
   }
 
