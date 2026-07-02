@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:18:33.018Z",
+  "generatedAt": "2026-07-02T23:09:59.263Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1047,
-    "uniqueSignals": 920,
-    "recentSignals": 693,
-    "candidatePagesQueued": 593,
+    "fetchedSignals": 1030,
+    "uniqueSignals": 915,
+    "recentSignals": 702,
+    "candidatePagesQueued": 599,
     "candidatePagesVerified": 142,
-    "finalItems": 44,
+    "finalItems": 49,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -69,7 +69,7 @@
       "fetched": 16,
       "candidates": 13,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -366,14 +366,14 @@
       "fetched": 20,
       "candidates": 17,
       "verified": 3,
-      "final": 0,
+      "final": 3,
       "error": ""
     },
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 8,
-      "candidates": 7,
+      "fetched": 10,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,17 +462,17 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 109,
-      "candidates": 103,
-      "verified": 102,
-      "final": 25,
+      "fetched": 106,
+      "candidates": 101,
+      "verified": 100,
+      "final": 26,
       "error": ""
     },
     {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 14,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 5,
       "verified": 3,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -608,7 +608,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 2,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -699,13 +699,91 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
+    {
+      "title": "Google Play Accelerator India: Official Google Africa Blog",
+      "summary": "Get the latest news and stories from Google in Sub-Saharan Africa.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-africa/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "google-play-accelerator-india-official-google-africa-blog",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 98,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "salesforce-dreamforce-dreamforce-conference-2026",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 88,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
     {
       "title": "Google Play Accelerator India",
       "summary": "Google Play Accelerator India is designed to bring the best of Google’s programs, products, people and technology to App based tech startups in India across verticals.",
@@ -862,6 +940,126 @@
           "Official source"
         ],
         "label": "Priority 1"
+      }
+    },
+    {
+      "title": "LinkedIn Ads: Drive Business Growth With Online Advertising",
+      "summary": "Use LinkedIn self-service ads to reach more than 1 billion users worldwide. Build effective ads that target your audience with helpful formats & budget management.",
+      "source": "LinkedIn Marketing Events",
+      "sourceUrl": "https://business.linkedin.com/marketing-solutions/ads?trk=lms-25",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "linkedin-ads-drive-business-growth-with-online-advertising",
+      "tags": [
+        "funded",
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "LinkedIn Marketing: Lead Generation Ads on LinkedIn",
+      "summary": "Use LinkedIn ads to generate quality leads for your business, utilize professional demographic data to target the right audience by title, industry and more.",
+      "source": "LinkedIn Marketing Events",
+      "sourceUrl": "https://business.linkedin.com/marketing-solutions/generate-leads?trk=lms-36b",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "linkedin-marketing-lead-generation-ads-on-linkedin",
+      "tags": [
+        "funded",
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "LinkedIn Marketing: LinkedIn Showcase Pages",
+      "summary": "Showcase Pages are extensions of your LinkedIn Page, designed to spotlight individual brands, business units and initiatives. Learn more about the product and how to set one up.",
+      "source": "LinkedIn Marketing Events",
+      "sourceUrl": "https://business.linkedin.com/marketing-solutions/linkedin-pages/showcase-pages",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "linkedin-marketing-linkedin-showcase-pages",
+      "tags": [
+        "funded",
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
       }
     },
     {
@@ -1289,45 +1487,6 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Compunnel Launches AI Startup Incubator in India and US - Machine Maker",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcURJVUppcDhudnFVbWFBTVRLNmczc0hfa3cyWGtYa3lIYlVYUnYtLVQ0d0xzTTc4SWQzOUNpZjBWZVZCRENGdFJhNVpwVzY5QkR5YTAtWW9XdXp5TnhrOHE3VzV4MG5adEVUdHVRR1FwSmdXb1NIX3UxUXhfNS1GOGdfVmJWZ01ENEUwbQ?oc=5",
-      "date": "Mon, 29 Jun 2026 10:26:42 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "compunnel-launches-ai-startup-incubator-in-india-and-us-machine-maker",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
         ],
         "label": "Priority 2"
       }
@@ -2328,6 +2487,40 @@
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Techmeme: Oct 7-8TOKEN2049 SingaporeSingapore",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/token2049.com_singapore-gTPPa8vi.htm",
+      "date": "Recent",
+      "location": "Singapore",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-oct-7-8token2049-singaporesingapore",
+      "tags": [
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 50,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
           "Techmeme curated event"
         ],
         "label": "Watchlist"
