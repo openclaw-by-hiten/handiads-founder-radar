@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:09:59.263Z",
+  "generatedAt": "2026-07-03T23:05:42.541Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1030,
-    "uniqueSignals": 915,
-    "recentSignals": 702,
-    "candidatePagesQueued": 599,
-    "candidatePagesVerified": 142,
-    "finalItems": 49,
+    "fetchedSignals": 1040,
+    "uniqueSignals": 927,
+    "recentSignals": 713,
+    "candidatePagesQueued": 613,
+    "candidatePagesVerified": 146,
+    "finalItems": 19,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -168,7 +168,7 @@
       "fetched": 20,
       "candidates": 7,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -267,7 +267,7 @@
       "fetched": 20,
       "candidates": 16,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -294,7 +294,7 @@
       "fetched": 20,
       "candidates": 14,
       "verified": 2,
-      "final": 2,
+      "final": 0,
       "error": ""
     },
     {
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 2,
-      "final": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -373,9 +373,9 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 10,
-      "candidates": 8,
-      "verified": 0,
-      "final": 0,
+      "candidates": 9,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -384,7 +384,7 @@
       "fetched": 20,
       "candidates": 17,
       "verified": 9,
-      "final": 9,
+      "final": 5,
       "error": ""
     },
     {
@@ -462,17 +462,17 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 106,
-      "candidates": 101,
-      "verified": 100,
-      "final": 26,
+      "fetched": 107,
+      "candidates": 103,
+      "verified": 102,
+      "final": 4,
       "error": ""
     },
     {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 5,
+      "candidates": 6,
+      "verified": 6,
       "final": 2,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 13,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
+      "candidates": 6,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -863,86 +863,6 @@
       }
     },
     {
-      "title": "AWS  and Conferences: View upcoming AWS Innovate conferences",
-      "summary": "AWS Innovate is a free online event designed to inspire and educate executives and IT professionals about AWS.",
-      "source": "AWS Events and Conferences",
-      "sourceUrl": "https://aws.amazon.com/events/aws-innovate/?trk=ep_card_main_event_page",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "aws-and-conferences-view-upcoming-aws-innovate-conferences",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "AWS  and Conferences: View upcoming AWS Partner Events",
-      "summary": "AWS Partner events include webinars, virtual workshops, and in-person learning opportunities.",
-      "source": "AWS Events and Conferences",
-      "sourceUrl": "https://aws.amazon.com/events/aws-partner-events/?trk=ep_card_main_event_page",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "aws-and-conferences-view-upcoming-aws-partner-events",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
       "title": "LinkedIn Ads: Drive Business Growth With Online Advertising",
       "summary": "Use LinkedIn self-service ads to reach more than 1 billion users worldwide. Build effective ads that target your audience with helpful formats & budget management.",
       "source": "LinkedIn Marketing Events",
@@ -1056,45 +976,6 @@
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
           "Sponsored business opportunity",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Hub71 AI Program: app 8e649375.js",
-      "summary": "`}),n.append(t),e(\".auto-load\").css(\"display\",\"none\")},ce=s=>{let t=\"\";if(e(\".no-listing-title\").css(\"display\",\"none\"),s.length{const r=e(\"#VAR_ENABLE_INVESTOR_CATEGORY\").length>0&&a.category_name?`${a.category_name.toUpperCase()}`:\"\";t+=` .",
-      "source": "Hub71 AI Program",
-      "sourceUrl": "https://www.hub71.com/build/assets/app-8e649375.js",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "hub71-ai-program-app-8e649375-js",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
@@ -1297,162 +1178,6 @@
       }
     },
     {
-      "title": "President Donald J. Trump Accelerates Federal Permitting of Data Center Infrastructure | 7/23/2025",
-      "summary": "ACCELERATING DATA CENTER INFRASTRUCTURE DEVELOPMENT: Today, President Donald J. Trump signed an Executive Order to facilitate the rapid and efficient",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-accelerates-federal-permitting-of-data-center-infrastructure/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-accelerates-federal-permitting-of-data-center-infrastru",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "President Donald J. Trump Advances AI Education for American Youth | 4/23/2025",
-      "summary": "EMPOWERING AMERICA’S YOUTH: Today, President Donald J. Trump signed an executive order to create new educational and workforce development opportunities",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-advances-ai-education-for-american-youth/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-advances-ai-education-for-american-youth-4-23-2025",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "President Donald J. Trump Restores Common Sense to Federal Procurement | 4/15/2025",
-      "summary": "MODERNIZING THE PROCUREMENT SYSTEM: Today, President Donald J. Trump signed an Executive Order restoring common sense to Federal procurement by",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-restores-common-sense-to-federal-procurement/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-restores-common-sense-to-federal-procurement-4-15-2025",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Eliminating Barriers for Federal Artificial Intelligence Use and Procurement | 1/23/2025",
-      "summary": "SUPPORTING AND EMBRACING AMERICAN INNOVATION: Under PresidentTrump’s leadership, America is well-positioned to maintain its global dominance in",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-eliminating-barriers-for-federal-artificial-intelligence-use-and-procurement/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "eliminating-barriers-for-federal-artificial-intelligence-use-and-procurement-1-2",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "Nov 2-3NEW DATES: Dubai FinTech SummitDubai",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
@@ -1492,22 +1217,23 @@
       }
     },
     {
-      "title": "Training and Certifications at Dreamforce 2026",
-      "summary": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path.",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/training-and-certifications/",
+      "title": "Built Different - AI That Sorts Trash at Superhuman Speed",
+      "summary": "In the latest episode of Built Different, LinkedIn SVP and Head of Engineering Mohak Shroff discovered how AI is reshaping one of the world's most stubborn environmental challenges: waste. AMP uses computer vision systems and robotics to tackle the 350 million tons of garbage the US produces each year.",
+      "source": "LinkedIn Pressroom",
+      "sourceUrl": "https://news.linkedin.com/2026/built-different----amp",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "training-and-certifications-at-dreamforce-2026",
+      "id": "built-different-ai-that-sorts-trash-at-superhuman-speed",
       "tags": [
         "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "low",
+      "influencerValue": "medium",
       "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
@@ -1518,401 +1244,13 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 68,
+        "score": 65,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
+          "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Techmeme: Nov 9-12Web SummitLisbon",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/websummit.com_-awzxRwUO.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-nov-9-12web-summitlisbon",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 67,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Jul 6-7International Conference on Machine Learning (ICML)Seoul",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/icml.cc_-9kBrI7ij.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "jul-6-7international-conference-on-machine-learning-icml-seoul",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Techmeme: Jul 8-9RAISE SummitParis",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.raisesummit.com_-bA2rIvLH.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-jul-8-9raise-summitparis",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Techmeme: Jul 18-19Bay AI CircleSan Francisco",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/agisummit.ai___-V9QxGwzS.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-jul-18-19bay-ai-circlesan-francisco",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Jul 21-22Blockchain Futurist TorontoToronto",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/futuristconference.com_toronto-VK0wNtrx.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "jul-21-22blockchain-futurist-torontotoronto",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Jul 26-29Design Automation ConferenceLong Beach, CA",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/dac.com_2026-KUliyplM.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "jul-26-29design-automation-conferencelong-beach-ca",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Aug 11-12AI Risk SummitHalf Moon Bay, CA",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.airisksummit.com_-yAbLMWWV.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "aug-11-12ai-risk-summithalf-moon-bay-ca",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Techmeme: Sep 15-17AI Infra SummitSanta Clara, CA",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.ai-infra-summit.com_-FcVvdXE0.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-sep-15-17ai-infra-summitsanta-clara-ca",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Sep 29-Oct 1The AI ConferenceSan Francisco",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/aiconference.com_-AuFS2qHT.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-29-oct-1the-ai-conferencesan-francisco",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Techmeme: Oct 7-8World Summit AIAmsterdam",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/worldsummit.ai_-eh1w06nH.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-oct-7-8world-summit-aiamsterdam",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 60,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
         ],
         "label": "Priority 2"
       }
@@ -1955,141 +1293,39 @@
       }
     },
     {
-      "title": "Sep 15-17HYBRID: Dreamforce REGISTER NOWSan Francisco",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.salesforce.com_dreamforce_-mzwPrvCD.htm",
-      "date": "Recent",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "date": "Fri, 03 Jul 2026 18:43:00 +0000",
       "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-15-17hybrid-dreamforce-register-nowsan-francisco",
+      "sourceType": "Trusted Tech",
+      "id": "the-browser-wars-aren-t-about-search-anymore-here-are-the-best-alternatives-to-c",
       "tags": [
+        "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
       "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
         "score": 55,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: Sep 23-24Meta ConnectMenlo Park, CA",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.meta.com_connect_-VNNSSI8K.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-sep-23-24meta-connectmenlo-park-ca",
-      "tags": [
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: Oct 20-22Nvidia GTC BerlinBerlin",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-oct-20-22nvidia-gtc-berlinberlin",
-      "tags": [
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: Nov 10-12HYBRID: Adobe MAXMiami Beach",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.adobe.com_max.html-IZEhdslD.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-nov-10-12hybrid-adobe-maxmiami-beach",
-      "tags": [
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Techmeme curated event"
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
         ],
         "label": "Watchlist"
       }
@@ -2125,369 +1361,6 @@
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
           "Strong influencer and networking value"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
-      "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "source": "TechCrunch Startups",
-      "sourceUrl": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "date": "Sat, 27 Jun 2026 12:00:00 +0000",
-      "location": "Global",
-      "sourceType": "Trusted Tech",
-      "id": "asian-ai-startups-launch-mythos-like-models-as-anthropic-s-export-ban-drags-on",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Microsoft Event Sponsorships",
-      "summary": "Sponsoring a Microsoft event gives you a powerful platform to connect with high-value audiences from around the world. Grow your business and advance your goals to make a lasting impact.",
-      "source": "Microsoft Events",
-      "sourceUrl": "https://sponsor.microsoft.com/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "microsoft-event-sponsorships",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 53,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Aug 12-14USENIX Security SymposiumBaltimore",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.usenix.org_conference_usenixsecurity26-K28ujglg.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "aug-12-14usenix-security-symposiumbaltimore",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Sep 10Lenny & Friends SummitSan Francisco",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/lennyssummit.com_-7hFsUkkO.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-10lenny-friends-summitsan-francisco",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: Sep 13-15The All-In SummitLos Angeles",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/theallinsummit.com_-113SQRjy.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-sep-13-15the-all-in-summitlos-angeles",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: Sep 16-17Avalanche SummitNew York",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.avalanchesummit.com_-Wi8QZBeD.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-sep-16-17avalanche-summitnew-york",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Sep 22-23Product Led SummitSan Francisco",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/world.productledalliance.com_location_sanfrancisco-m9PuAHaD.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-22-23product-led-summitsan-francisco",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Sep 22-24National Cyber SummitHuntsville, AL",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.nationalcybersummit.com_Home-jPs1brDV.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-22-24national-cyber-summithuntsville-al",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Sep 28-30Bits & Pretzels Founders FestivalMunich",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.bitsandpretzels.com_-s8amRh63.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "sep-28-30bits-pretzels-founders-festivalmunich",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Oct 19-22Gartner IT Symposium/XpoOrlando",
-      "summary": "Techmeme Events official/opportunity page signal.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.gartner.com_en_conferences_na_symposium-us-edpGAmzi.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "oct-19-22gartner-it-symposium-xpoorlando",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
         ],
         "label": "Watchlist"
       }
