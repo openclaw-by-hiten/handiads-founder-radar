@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T23:10:05.078Z",
+  "generatedAt": "2026-07-07T23:04:36.441Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1025,
-    "uniqueSignals": 913,
-    "recentSignals": 690,
-    "candidatePagesQueued": 595,
+    "fetchedSignals": 1026,
+    "uniqueSignals": 914,
+    "recentSignals": 698,
+    "candidatePagesQueued": 598,
     "candidatePagesVerified": 148,
-    "finalItems": 4,
+    "finalItems": 6,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -462,17 +462,17 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 109,
-      "candidates": 105,
-      "verified": 104,
-      "final": 2,
+      "fetched": 111,
+      "candidates": 106,
+      "verified": 105,
+      "final": 3,
       "error": ""
     },
     {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
-      "verified": 6,
+      "candidates": 5,
+      "verified": 5,
       "final": 1,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 7,
       "verified": 5,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -743,14 +743,50 @@
       }
     },
     {
-      "title": "Aug 25-27VIRTUAL: The Six Five Summit: AI Unleashed: 2026 REGISTER FOR FREE",
+      "title": "Open Call: Animal Health Startup Incubation Programme (India) - fundsforNGOs",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlNpR2VYZUdpLUZhOUx2XzM5dXhGZ29NdEtSTlhQOWRwQXdhVlQ4OGtuVU5LaVVLa2hnVkpuNVhQQVRIWlh3VnU3OWZ0Z0V2VENXYWtUZDhEZlBYSHBRTm43aUU0TXcyMElQN3hsTVU2SS1DbEoyRHlQc1U0elowb1o1U3FsX3lyUFhJQzRELVJULVlKdVJrUtIBngFBVV95cUxPc1JfcXNiSkdhVFpGRG5EYVAtWFVSVUlTT3p0U1N4NDBBU2cyTXlyRzNaNnRjYkdRSVZYbFlNcmdvSkowUlNIa2tRUEtYSWZWRXJOWld1Rm01dGJFV2E4RXRvY0ZxNS10NkpxNEFnVUlJcHYwWWdpM0lzYURwcF9oZlFJN25FQmdJamsxUnJ2TFdHLWV1VENyN0p1UGRoZw?oc=5",
+      "date": "Mon, 06 Jul 2026 07:10:28 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "open-call-animal-health-startup-incubation-programme-india-fundsforngos",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Aug 25-27VIRTUAL: The Six Five Summit: AI Unleashed 2026 Featuring Marc Benioff & Enterprise AI Leaders REGISTER FOR FREE",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.sixfivemedia.com_summit-hkXjOAfv.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "aug-25-27virtual-the-six-five-summit-ai-unleashed-2026-register-for-free",
+      "id": "aug-25-27virtual-the-six-five-summit-ai-unleashed-2026-featuring-marc-benioff-en",
       "tags": [
         "ai",
         "market",
@@ -852,6 +888,42 @@
           "Founder and business growth relevance",
           "Useful founder network value",
           "AI relevance for HandiAds positioning"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Techmeme: Jul 8-10StartupfestMontreal",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.startupfest.com_-otovsSG8.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-jul-8-10startupfestmontreal",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 52,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Techmeme curated event"
         ],
         "label": "Watchlist"
       }
