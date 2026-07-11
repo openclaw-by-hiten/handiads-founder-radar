@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T23:02:15.715Z",
+  "generatedAt": "2026-07-11T22:50:25.004Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1029,
-    "uniqueSignals": 912,
-    "recentSignals": 706,
-    "candidatePagesQueued": 603,
-    "candidatePagesVerified": 153,
-    "finalItems": 17,
+    "fetchedSignals": 1028,
+    "uniqueSignals": 913,
+    "recentSignals": 699,
+    "candidatePagesQueued": 599,
+    "candidatePagesVerified": 154,
+    "finalItems": 16,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 114,
-      "candidates": 108,
-      "verified": 107,
+      "fetched": 113,
+      "candidates": 109,
+      "verified": 108,
       "final": 0,
       "error": ""
     },
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
-      "candidates": 0,
+      "fetched": 15,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,9 +616,9 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 1,
-      "final": 1,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,6 +678,10 @@
     },
     {
       "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
@@ -742,48 +746,6 @@
           "Useful founder network value",
           "AI relevance for HandiAds positioning",
           "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Google picks 20 Indian AI startups for 2026 accelerator programme - Business Standard",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - MNC startup credits and founder programs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaEh2bGt3T3JLQl83WS1aT1hBXzlGSGVTN19rQUpieHJ0bWFGdmVFaW9vVzctTFJqWEFudTVCMkpPVVNjMmJNS2tiMnoxelZfaXF2UXRtZFBHbVBWcTJMakdrZ2FwYWFkRFBsNW11cWRjdzhkX3VEOVhqc3VFRnlhVW1kRGNERE91WE5ZNm5BOEJXYnRWUkZRd0NndUNQX3JyVG5fVVY1UzFkT21hQWxqSzFhY2NHS3NhQzZYX2lORlM1b01mWmhxQ0hUMWpwZC1QSkFvStIB1AFBVV95cUxQaEh2bGt3T3JLQl83WS1aT1hBXzlGSGVTN19rQUpieHJ0bWFGdmVFaW9vVzctTFJqWEFudTVCMkpPVVNjMmJNS2tiMnoxelZfaXF2UXRtZFBHbVBWcTJMakdrZ2FwYWFkRFBsNW11cWRjdzhkX3VEOVhqc3VFRnlhVW1kRGNERE91WE5ZNm5BOEJXYnRWUkZRd0NndUNQX3JyVG5fVVY1UzFkT21hQWxqSzFhY2NHS3NhQzZYX2lORlM1b01mWmhxQ0hUMWpwZC1QSkFvSg?oc=5",
-      "date": "Wed, 08 Jul 2026 12:12:53 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "google-picks-20-indian-ai-startups-for-2026-accelerator-programme-business-stand",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 95,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
         ],
         "label": "Priority 1"
       }
