@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T22:50:25.004Z",
+  "generatedAt": "2026-07-12T22:50:31.018Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1028,
-    "uniqueSignals": 913,
-    "recentSignals": 699,
-    "candidatePagesQueued": 599,
+    "fetchedSignals": 1053,
+    "uniqueSignals": 940,
+    "recentSignals": 717,
+    "candidatePagesQueued": 616,
     "candidatePagesVerified": 154,
-    "finalItems": 16,
+    "finalItems": 10,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -69,7 +69,7 @@
       "fetched": 16,
       "candidates": 13,
       "verified": 3,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -373,8 +373,8 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 10,
-      "candidates": 8,
-      "verified": 0,
+      "candidates": 9,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
-      "candidates": 1,
+      "fetched": 20,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 11,
       "verified": 8,
-      "final": 6,
+      "final": 1,
       "error": ""
     },
     {
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -703,53 +703,9 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
-    {
-      "title": "AI & ML Announcing the 2026 cohort of Google for Startups Accelerator: India Posted by Farish CV 08 Jul, 2026",
-      "summary": "Introducing 20 pioneering AI-first startups leveraging state-of-the-art technology to solve critical challenges—from climate resilience to developer infrastructure.",
-      "source": "Google Play Accelerator India",
-      "sourceUrl": "https://blog.google/intl/en-in/announcing-the-2026-cohort-of-google-for-startups-accelerator-india/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "ai-ml-announcing-the-2026-cohort-of-google-for-startups-accelerator-india-posted",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 100,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
     {
       "title": "QAI Ventures launches Singapore's first quantum technology accelerator with four-startup inaugural cohort - TNGlobal",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -790,43 +746,6 @@
           "Aggregator backup source"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Announcing the 2026 cohort of Google for Startups Accelerator: India - blog.google",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVUhvZm9Cc1dvQXlsNGEwMGp2MUVVcUtHcEtpbm1VeS1ianYtcVpkUTNEYmQxc2l3aFBRYmRjazRWSFVfZ0dVRGZOU3AyeDZoSEdsYkNkV3RyUzNTTWkxSDQxdzdONEZTTTFzTzZNY3FWdV9ib3NWNmJDVUN5dG1NTm5FU2dGamNpOHV0MmVqYXk2Tkkwb3VNTGZwcWx2V1dn?oc=5",
-      "date": "Wed, 08 Jul 2026 05:35:44 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "announcing-the-2026-cohort-of-google-for-startups-accelerator-india-blog-google",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 77,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
       }
     },
     {
@@ -1142,123 +1061,6 @@
       }
     },
     {
-      "title": "Startups Accelerator: Google picks 20 Indian AI firms for 2026 batch - Deccan Herald",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNTZLZnR2b1pGb0lQUzNnYXZDNUpxZFU2U2Y3QUVPbHcwQ1pmdDlmZFJNdUE0SHZqTzVsVTZQdjlaMm9rSUhKQm1aQ2MycGNKYzFGQnRsMnAyV2J1X0d6c0dMNFlRX2dlTGpVWGpkeGJqb1huOEtIY0F5WWdOMDczb3d6cVh0MlFnQ0N6LTJibFg1UVQ0V1VsOC1BZFgwRmNZS1Y4VzhmV2hNMllWRFduNEFZM0Q4ZXU3czhCM1VFZDhBbE1menh5SjJuaDBndWxibHJzemtB?oc=5",
-      "date": "Wed, 08 Jul 2026 15:31:32 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "startups-accelerator-google-picks-20-indian-ai-firms-for-2026-batch-deccan-heral",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Google Selects 20 AI-First Indian Startups For Accelerator India 2026 Cohort - INDIA New England News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUEhxWjVLWlE1bUk2ZE4yQm5VcmFIUFlWUlZ2TWY5bTVHamJBTzVLQmxrZ0ZBMnBEeUI5VFozM0ZBOW4zRXB1MFRvd2pqWk9YS3JLTUt1OXVmSFZqanJCUERQZkxKSGVsX1lGdDRCQnc2TnFjNm41dlBtY2UzbTRmZF9OTl9SZEZENy1OcmpKWnFwQU94U1BocFFBcWhvOURfNS1FWlhKLU4?oc=5",
-      "date": "Wed, 08 Jul 2026 15:17:23 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "google-selects-20-ai-first-indian-startups-for-accelerator-india-2026-cohort-ind",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Google Selects 20 AI-First Startups for 2026 India Accelerator Cohort - CXO Digitalpulse",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObVNkaUI0MFVuZ0s0RVA0T3lqLXlqRGRKYjZpNXN3NDlMejNYMEpNV1FSeWJUcEt1YWV6YlViRDlodGp1emRDSXNjbUNuY3NqcGtlUnJhaEc3LUw0X0tYWmU4QU5rUFdXREh6QWdSREozVW5pd1k2LTFUSi1SRmZJZk9fRHd2UWFWSlVkRmt5RVRGd2lMVDlUVW9hSHBiTUlRTTRCRg?oc=5",
-      "date": "Wed, 08 Jul 2026 13:38:31 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "google-selects-20-ai-first-startups-for-2026-india-accelerator-cohort-cxo-digita",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 70,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
       "title": "Meet The 20 Startups Selected For Google’s India Startup Accelerator 2026 - Inc42",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
@@ -1267,42 +1069,6 @@
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "meet-the-20-startups-selected-for-google-s-india-startup-accelerator-2026-inc42",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 62,
-        "reasons": [
-          "India / Priority 2",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Google names 20 startups for 2026 India accelerator class - t2ONLINE",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTDZrR2ZKWnBtNWl0NW1HM1VnbU9aZ2c4X0cxNG53NkNpdjNmcDBkWFhpZEhoVHJpYmVfT2xIb3RnTEpVRHRPZ29QcC1ENnFMUmhoeUR4ZmVjaTNoemZud0lLTFpSelBDY1JFVWIzc1JVMFl2dHhWZ0xDQ1dhNTZnMGJwUTA1Z0tNTWVGSHJRNUtxaFRrTlBRR0t2Ny0zcnFpcHc?oc=5",
-      "date": "Wed, 08 Jul 2026 09:47:00 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "google-names-20-startups-for-2026-india-accelerator-class-t2online",
       "tags": [
         "market",
         "founder"
