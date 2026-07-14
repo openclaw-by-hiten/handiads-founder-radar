@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T22:59:29.351Z",
+  "generatedAt": "2026-07-14T22:59:53.866Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1008,
-    "uniqueSignals": 893,
-    "recentSignals": 699,
-    "candidatePagesQueued": 600,
-    "candidatePagesVerified": 153,
-    "finalItems": 9,
+    "fetchedSignals": 1021,
+    "uniqueSignals": 908,
+    "recentSignals": 691,
+    "candidatePagesQueued": 589,
+    "candidatePagesVerified": 152,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -48,9 +48,9 @@
     {
       "name": "Google for Startups Programs",
       "type": "html",
-      "fetched": 17,
-      "candidates": 17,
-      "verified": 1,
+      "fetched": 15,
+      "candidates": 15,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -76,7 +76,7 @@
       "name": "Google for Startups Immersion",
       "type": "html",
       "fetched": 16,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -168,7 +168,7 @@
       "fetched": 20,
       "candidates": 7,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -230,8 +230,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 1,
-      "final": 0,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -302,7 +302,7 @@
       "type": "html",
       "fetched": 2,
       "candidates": 2,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -384,7 +384,7 @@
       "fetched": 20,
       "candidates": 18,
       "verified": 12,
-      "final": 7,
+      "final": 0,
       "error": ""
     },
     {
@@ -408,11 +408,11 @@
     {
       "name": "US AI Congress",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": ""
     },
     {
       "name": "UK AI Safety Institute",
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 114,
-      "candidates": 110,
-      "verified": 109,
-      "final": 0,
+      "fetched": 117,
+      "candidates": 112,
+      "verified": 111,
+      "final": 1,
       "error": ""
     },
     {
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 15,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
+      "candidates": 6,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -607,16 +607,16 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
-      "final": 2,
+      "candidates": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -651,7 +651,7 @@
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -697,10 +697,6 @@
       "error": "Meta Investor Events failed with 403"
     },
     {
-      "name": "US AI Congress",
-      "error": "fetch failed"
-    },
-    {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
     },
@@ -711,360 +707,113 @@
   ],
   "items": [
     {
-      "title": "Dubai SME opens Hi2 technology incubator programme for 20 Emirati entrepreneurs - Gulf News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkNpdDVVZVpmYkktMlkydVdiRW5oRXVha3k1bm05OFJnREh2NkY3QnpwUU5lTVRkcDVnc19qUENjYWZURjRWRmY0WVlpaUVPYmNUM2hXVTZ4ZFZlNmVRQ2NTZHhXMUNGSFZwRXNNSHRpTnZGNXNnamVUVy1RTzNIajJGUWRKcjZ6OEN1emtoWFhzODhzM252VG9fX3ZqajQ?oc=5",
-      "date": "Mon, 13 Jul 2026 08:07:47 GMT",
-      "location": "UAE",
-      "sourceType": "Aggregator Backup",
-      "id": "dubai-sme-opens-hi2-technology-incubator-programme-for-20-emirati-entrepreneurs-",
+      "title": "Hub71 AI Program: app f5d0982f.js",
+      "summary": "`}),n.append(t),e(\".auto-load\").css(\"display\",\"none\")},ce=s=>{let t=\"\";if(e(\".no-listing-title\").css(\"display\",\"none\"),s.length{const r=e(\"#VAR_ENABLE_INVESTOR_CATEGORY\").length>0&&a.category_name?`${a.category_name.toUpperCase()}`:\"\";t+=` .",
+      "source": "Hub71 AI Program",
+      "sourceUrl": "https://www.hub71.com/build/assets/app-f5d0982f.js",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "hub71-ai-program-app-f5d0982f-js",
       "tags": [
-        "funded",
         "ai",
         "market",
         "founder"
       ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
-      "why": "This can help HandiAds build international presence in UAE while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 80,
+        "score": 73,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Google Developers  Directory: Wednesday Build Hour",
+      "summary": "Wednesday Build Hour",
+      "source": "Google Developers Events Directory",
+      "sourceUrl": "https://cloud.google.com/resources/wednesday-build-hour",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "google-developers-directory-wednesday-build-hour",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 53,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Techmeme: Aug 20-21Coinfest AsiaBali, Indonesia",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/coinfest.asia_-RslmJLwW.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-aug-20-21coinfest-asiabali-indonesia",
+      "tags": [
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 50,
         "reasons": [
           "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
+          "Techmeme curated event"
         ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Dubai SME integrates Hamdan Innovation Incubator (Hi2) into Dubai Founders HQ - TradingView",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZ3ktMFlLa21GRUMzY1R2d2liZVl3RXE0dW1iWmFJcF9mVDM3WUZOaDk1MDY4b01qQW1sbUlvb3lKZ2xDaEZ0cGM0Nzg4RXhmNXdDbHRlM2hFM0RHZE9PejQ0cmNhd3Vud0E4QWcyZGg2Q1VPYktvYjBvNFJaSEF5djRENmd5WDJnc0FxaFpadlVLb3RKbHdFb3BEZy1ic2NCV0drelQxdkVZNTVMT2dNOW1iaXduclZSTnQ5TnNjaC1wRkhSR3RVRk9nR1ZDek5sc2p4eVVlRDNGYjF3eVRxNG9kalcydw?oc=5",
-      "date": "Mon, 13 Jul 2026 08:35:44 GMT",
-      "location": "UAE",
-      "sourceType": "Aggregator Backup",
-      "id": "dubai-sme-integrates-hamdan-innovation-incubator-hi2-into-dubai-founders-hq-trad",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in UAE while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 80,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Promoting Advanced AI Innovation and Security | 6/2/2026",
-      "summary": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose.",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "promoting-advanced-ai-innovation-and-security-6-2-2026",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Ensuring a National Policy Framework for AI | 12/11/2025",
-      "summary": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose.",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "ensuring-a-national-policy-framework-for-ai-12-11-2025",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Launching the Genesis Mission | 11/24/2025",
-      "summary": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose.",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "launching-the-genesis-mission-11-24-2025",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Unlocking Cures for Pediatric Cancer With AI | 9/30/2025",
-      "summary": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose and",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/09/unlocking-cures-for-pediatric-cancer-with-artificial-intelligence/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "unlocking-cures-for-pediatric-cancer-with-ai-9-30-2025",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "President Donald J. Trump Signs Historic Directive on AI in the National Security Enterprise | 6/5/2026",
-      "summary": "SECURING THE BEST AI IN THE WORLD FOR AMERICA’S DEFENDERS: Today, President Donald J. Trump signed a National Security Presidential Memorandum on",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "President Donald J. Trump Promotes Advanced Artificial Intelligence Innovation and Security | 6/2/2026",
-      "summary": "PROMOTING AMERICAN AI INNOVATION AND SECURITY: Today, President Donald J. Trump signed an Executive Order to advance American artificial intelligence",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-an",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "President Donald J. Trump Unveils the Genesis Mission to Accelerate AI for Scientific Discovery | 11/24/2025",
-      "summary": "USHERING IN A NEW ERA OF DISCOVERY: Today, President Donald J. Trump signed an Executive Order launching the Genesis Mission, a new national effort to use",
-      "source": "US AI.gov",
-      "sourceUrl": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-unveils-the-genesis-missionto-accelerate-ai-for-scientific-discovery/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "president-donald-j-trump-unveils-the-genesis-mission-to-accelerate-ai-for-scient",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
+        "label": "Watchlist"
       }
     }
   ]
