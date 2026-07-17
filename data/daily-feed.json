@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:00:08.381Z",
+  "generatedAt": "2026-07-17T22:53:42.096Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1046,
-    "uniqueSignals": 927,
-    "recentSignals": 713,
-    "candidatePagesQueued": 611,
-    "candidatePagesVerified": 158,
-    "finalItems": 38,
+    "fetchedSignals": 1010,
+    "uniqueSignals": 899,
+    "recentSignals": 699,
+    "candidatePagesQueued": 594,
+    "candidatePagesVerified": 153,
+    "finalItems": 42,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -48,8 +48,8 @@
     {
       "name": "Google for Startups Programs",
       "type": "html",
-      "fetched": 15,
-      "candidates": 15,
+      "fetched": 14,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -69,7 +69,7 @@
       "fetched": 14,
       "candidates": 12,
       "verified": 3,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -130,7 +130,7 @@
       "name": "NVIDIA Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -302,8 +302,8 @@
       "type": "html",
       "fetched": 2,
       "candidates": 2,
-      "verified": 2,
-      "final": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -312,7 +312,7 @@
       "fetched": 14,
       "candidates": 13,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -373,8 +373,8 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 10,
-      "candidates": 9,
-      "verified": 1,
+      "candidates": 8,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -462,17 +462,17 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 118,
-      "candidates": 113,
-      "verified": 112,
-      "final": 23,
+      "fetched": 116,
+      "candidates": 110,
+      "verified": 109,
+      "final": 26,
       "error": ""
     },
     {
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
+      "fetched": 12,
       "candidates": 2,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
-      "verified": 5,
-      "final": 2,
+      "candidates": 5,
+      "verified": 4,
+      "final": 1,
       "error": ""
     },
     {
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,9 +607,9 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 0,
+      "candidates": 4,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -781,6 +781,84 @@
           "India / Priority 2",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Google Play Accelerator India",
+      "summary": "Google Play Accelerator India is designed to bring the best of Google’s programs, products, people and technology to App based tech startups in India across verticals.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "http://goo.gle/play-accelerator-india",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "google-play-accelerator-india",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 82,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Terms of Service (will open in a new window).",
+      "summary": "Until then, the Terms below continue to apply.See a preview of the new Terms.",
+      "source": "Alphabet Investor Events",
+      "sourceUrl": "https://policies.google.com/terms",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "terms-of-service-will-open-in-a-new-window",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 81,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
@@ -1142,23 +1220,63 @@
       }
     },
     {
-      "title": "Training and Certifications at Dreamforce 2026",
-      "summary": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path.",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/training-and-certifications/",
-      "date": "Recent",
+      "title": "Next Wave of Startups 2026 adopts accelerator model - Vietnam Economic Times",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQXzRQTmN5eGhGLWhFOF9Yc1B2djRnd2VwUVg1YkhkdTRWSXFEUU9HNFo3VXA4Mi1tZzBxVS1GS19Fem9YcllTMTNmeF9taUQ2clZ6VDJRSmQyVG5DTDN3cW9malg4T05BbkQzMzlOMFhPRWlyYVlKUU1BTGxDVi1TZWprYWhKQQ?oc=5",
+      "date": "Fri, 17 Jul 2026 09:00:00 GMT",
       "location": "Global",
-      "sourceType": "Official",
-      "id": "training-and-certifications-at-dreamforce-2026",
+      "sourceType": "Aggregator Backup",
+      "id": "next-wave-of-startups-2026-adopts-accelerator-model-vietnam-economic-times",
+      "tags": [
+        "funded",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 72,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Nov 2-3NEW DATES: Dubai FinTech SummitDubai",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/dubaifintechsummit.com_-0lh2LPAg.htm",
+      "date": "Recent",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "nov-2-3new-dates-dubai-fintech-summitdubai",
       "tags": [
         "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
+      "distanceFromIndia": "near",
       "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
       "cost": "No sponsorship found in headline or snippet.",
@@ -1168,13 +1286,13 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 68,
+        "score": 70,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
+          "Cheaper Flights / Priority 3",
           "Founder and business growth relevance",
+          "Useful founder network value",
           "AI relevance for HandiAds positioning",
-          "Official source"
+          "Techmeme curated event"
         ],
         "label": "Priority 2"
       }
@@ -1490,6 +1608,43 @@
       }
     },
     {
+      "title": "Sep 22-24NEW DATES: Seamless Middle EastDubai",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.terrapinn.com_exhibition_seamless-middle-east_-qItfVESS.htm",
+      "date": "Recent",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "sep-22-24new-dates-seamless-middle-eastdubai",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 58,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
       "title": "Sep 15-17HYBRID: DreamforceSan Francisco",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
@@ -1625,45 +1780,6 @@
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
           "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "AICCI in partnership with VOC Port Authority set to host National Startup Summit 2026 - The Hindu",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSXZyUzNZSDJEU0JuUm1RMFYtdzBSUWdmOS1NQVBNdHJJUENNclpCNU1kMnhqUWQ1WklHU2ZhR1hLbjVNamhwbTJsWTMxeS16cWI4bDU5LWl5c2pIVDVqT1FKUERqN3BqWGt1ODlKMVVNWGZsSFBQUUNNUFRCeDJMTjhscHRBZUhDT2xZRFVIWjJ4bldFUE9qWllwaWVqejE1SEZGZ1RiTWxhVG5fSjlJT2xTUVVPOS1TUmxMZ1hEaXNQRVV6eHBfQlo5SmlEbk5rM2E4RVpuekxSS1RNUDdmeGV4M3h4Wl9oaW5J0gHrAUFVX3lxTFBJdnJTM1lIMkRTQm5SbVEwVi13MFJRZ2Y5LU1BUE10cklQQ01yWkI1TWQyeGpRZDVaSUdTZmFHWEtuNU1qaHBtMmxZMzF5LXpxYjhsNTktaXlzakhUNWpPUUpQRGo3cGpYa3U4OUoxVU1YZmxIUFBRQ01QVEJ4MkxOOGxwdEFlSENPbFlEVUhaMnhuV0VQT2paWXBpZWp6MTVIRkZnVGJNbGFUbl9KOUlPbFNRVU85LVNSbExnWERpc1BFVXp4cF9CWjlKaURuTmszYThFWm56TFJLVE1QN2Z4ZXgzeHhaX2hpbkk?oc=5",
-      "date": "Wed, 15 Jul 2026 14:21:53 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "aicci-in-partnership-with-voc-port-authority-set-to-host-national-startup-summit",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 55,
-        "reasons": [
-          "Cheaper Flights / Priority 3",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "AI relevance for HandiAds positioning",
-          "Aggregator backup source"
         ],
         "label": "Watchlist"
       }
@@ -2116,6 +2232,40 @@
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 50,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Nov 18-20Singapore Fintech FestivalSingapore",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.fintechfestival.sg_-Cm9n7E6y.htm",
+      "date": "Recent",
+      "location": "Singapore",
+      "sourceType": "Aggregator Backup",
+      "id": "nov-18-20singapore-fintech-festivalsingapore",
+      "tags": [
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
       "airTravel": "unknown",
       "influencerValue": "low",
       "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
