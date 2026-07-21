@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T23:03:38.377Z",
+  "generatedAt": "2026-07-21T22:58:59.777Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 985,
-    "uniqueSignals": 878,
-    "recentSignals": 702,
-    "candidatePagesQueued": 595,
-    "candidatePagesVerified": 152,
+    "fetchedSignals": 1022,
+    "uniqueSignals": 914,
+    "recentSignals": 713,
+    "candidatePagesQueued": 604,
+    "candidatePagesVerified": 162,
     "finalItems": 6,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,8 +86,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 2,
-      "final": 0,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -104,7 +104,7 @@
       "type": "html",
       "fetched": 14,
       "candidates": 14,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -303,7 +303,7 @@
       "fetched": 2,
       "candidates": 2,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -366,7 +366,7 @@
       "fetched": 20,
       "candidates": 17,
       "verified": 3,
-      "final": 3,
+      "final": 0,
       "error": ""
     },
     {
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 117,
-      "candidates": 111,
-      "verified": 110,
-      "final": 2,
+      "fetched": 125,
+      "candidates": 119,
+      "verified": 117,
+      "final": 4,
       "error": ""
     },
     {
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
-      "candidates": 1,
+      "fetched": 13,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
-      "final": 0,
+      "candidates": 6,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -597,8 +597,8 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -624,7 +624,7 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 15,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -707,174 +707,93 @@
   ],
   "items": [
     {
-      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
-      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "salesforce-dreamforce-dreamforce-conference-2026",
+      "title": "Agropak bags Rs 31.4 Lakh Non-Dilutive Climate Startup grant at SusCrunch 2026 - Agro Spectrum India",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMkdha213ak81aG1pQXVkMzNmSlFVelc3WkZxRzdRUDJSV0VzS3Q2UGl0Y3BUcXRNUE1xTVdkQi04Y3F0LXZSR2Q0MWJ2ejF1eEUtUkRfeGc3Z18wSTFYMWE1ZE1EVFZ2LU5ZSDA4TEF2V2FYbUtoWFFrRGxSbVhaQnpoeGJhc0xIS1ZZX1RhUTNMUndva18xVnVWMThoSTM0R1RSM0ctTUxoTFNnVFpkempBX3RBNGpmSWZYREphUlhwdw?oc=5",
+      "date": "Tue, 21 Jul 2026 12:39:41 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "agropak-bags-rs-31-4-lakh-non-dilutive-climate-startup-grant-at-suscrunch-2026-a",
       "tags": [
-        "ai",
+        "funded",
         "market",
         "founder"
       ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
+      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
       "nextMoves": [
         "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 88,
+        "score": 87,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global but highly sponsored, VIP, or Networking Event",
+          "India / Priority 2",
           "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
+          "Sponsored business opportunity",
+          "Useful founder network value",
+          "Aggregator backup source"
         ],
         "label": "Priority 1"
       }
     },
     {
-      "title": "LinkedIn Ads: Drive Business Growth With Online Advertising",
-      "summary": "Use LinkedIn self-service ads to reach more than 1 billion users worldwide. Build effective ads that target your audience with helpful formats & budget management.",
-      "source": "LinkedIn Marketing Events",
-      "sourceUrl": "https://business.linkedin.com/marketing-solutions/ads?trk=lms-25",
+      "title": "Build an AI-powered F1 analytics agent with McLaren RacingAug 18In this hands-on workshop, you'll get behind the wheel and build a Race Intelligence Platform for McLaren Racing. You'll get hands-on with three tiers of Google Cloud's GenAI stack—Gemini Enterprise, Agent Designer, and the Agent Development Kit (ADK)—to build a system that can answer questions, synthesize briefings, and run complex computations. Ready to stop guessing and start computing? Sign up to build a data-driven reasoning engine that can keep pace with Formula 1.Online3 hr",
+      "summary": "Build an AI-powered F1 analytics agent with McLaren Racing",
+      "source": "Google Cloud Events",
+      "sourceUrl": "https://cloudonair.withgoogle.com/events/build-ai-powered-f1-analytics-agent-mclaren-racing",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "linkedin-ads-drive-business-growth-with-online-advertising",
+      "id": "build-an-ai-powered-f1-analytics-agent-with-mclaren-racingaug-18in-this-hands-on",
       "tags": [
-        "funded",
         "ai",
+        "ads",
         "founder"
       ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "sponsorship": "No sponsorship found in headline or snippet.",
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
       "influencerValue": "low",
       "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 78,
+        "score": 61,
         "reasons": [
           "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
-          "Sponsored business opportunity",
           "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
           "Official source"
         ],
         "label": "Priority 2"
       }
     },
     {
-      "title": "LinkedIn Marketing: Lead Generation Ads on LinkedIn",
-      "summary": "Use LinkedIn ads to generate quality leads for your business, utilize professional demographic data to target the right audience by title, industry and more.",
-      "source": "LinkedIn Marketing Events",
-      "sourceUrl": "https://business.linkedin.com/marketing-solutions/generate-leads?trk=lms-36b",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "linkedin-marketing-lead-generation-ads-on-linkedin",
-      "tags": [
-        "funded",
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "LinkedIn Marketing: LinkedIn Showcase Pages",
-      "summary": "Showcase Pages are extensions of your LinkedIn Page, designed to spotlight individual brands, business units and initiatives. Learn more about the product and how to set one up.",
-      "source": "LinkedIn Marketing Events",
-      "sourceUrl": "https://business.linkedin.com/marketing-solutions/linkedin-pages/showcase-pages",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "linkedin-marketing-linkedin-showcase-pages",
-      "tags": [
-        "funded",
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Oct 17MIT AI ConferenceMountain View, CA",
+      "title": "Oct 21-22Valencia Digital SummitValencia, Spain",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.mitaiconference.org_-vurmHQvm.htm",
+      "sourceUrl": "https://www.techmeme.com/r2/vds.tech_-hWERjLEl.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "oct-17mit-ai-conferencemountain-view-ca",
+      "id": "oct-21-22valencia-digital-summitvalencia-spain",
       "tags": [
         "ai",
         "market",
@@ -906,21 +825,61 @@
       }
     },
     {
-      "title": "Techmeme: Oct 7-8TOKEN2049 SingaporeSingapore",
+      "title": "Oct 28-29ONUG AI Networking Summit FallNew York",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/token2049.com_singapore-gTPPa8vi.htm",
+      "sourceUrl": "https://www.techmeme.com/r2/onug.net_ai-networking-summit-nyc-fall-2026_-QLRvjqfp.htm",
       "date": "Recent",
-      "location": "Singapore",
+      "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-oct-7-8token2049-singaporesingapore",
+      "id": "oct-28-29onug-ai-networking-summit-fallnew-york",
       "tags": [
+        "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
+      "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "low",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 60,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Oct 20-21PyTorch Conference North AmericaSan Jose",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/events.linuxfoundation.org_pytorch-conference-north-america_-OxGXIJaT.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "oct-20-21pytorch-conference-north-americasan-jose",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
       "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "Watch",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
@@ -930,10 +889,47 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 50,
+        "score": 52,
         "reasons": [
-          "Cheaper Flights / Priority 3",
+          "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
+          "Useful founder network value",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Nov 2-3Bloomberg Technology Summit LondonLondon",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/events.bloomberglive.com_event_TechLondon2026_summary_RefId_Blive-Web-Tile-W1Hwr8yZ.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "nov-2-3bloomberg-technology-summit-londonlondon",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 52,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
           "Techmeme curated event"
         ],
         "label": "Watchlist"
