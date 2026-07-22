@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:58:59.777Z",
+  "generatedAt": "2026-07-22T23:05:42.914Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1022,
-    "uniqueSignals": 914,
-    "recentSignals": 713,
-    "candidatePagesQueued": 604,
-    "candidatePagesVerified": 162,
-    "finalItems": 6,
+    "fetchedSignals": 1035,
+    "uniqueSignals": 923,
+    "recentSignals": 720,
+    "candidatePagesQueued": 612,
+    "candidatePagesVerified": 165,
+    "finalItems": 13,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -113,7 +113,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 6,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -168,7 +168,7 @@
       "fetched": 20,
       "candidates": 7,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -293,8 +293,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 14,
-      "verified": 2,
-      "final": 0,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 125,
-      "candidates": 119,
-      "verified": 117,
-      "final": 4,
+      "fetched": 129,
+      "candidates": 121,
+      "verified": 119,
+      "final": 7,
       "error": ""
     },
     {
@@ -490,17 +490,17 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 18,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 12,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 3,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 0,
+      "candidates": 6,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 15,
+      "candidates": 10,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -746,6 +746,121 @@
       }
     },
     {
+      "title": "AWS  and Conferences: View upcoming AWS Summits",
+      "summary": "Foster continuous innovation, gain new skills, and network with peers at AWS Summits.",
+      "source": "AWS Events and Conferences",
+      "sourceUrl": "https://aws.amazon.com/events/summits/?trk=ep_card_event_page&amp;awsf.location=*all",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "aws-and-conferences-view-upcoming-aws-summits",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 80,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Hub71 AI Program: app 628b3198.js",
+      "summary": "`}),n.append(t),e(\".auto-load\").css(\"display\",\"none\")},ce=s=>{let t=\"\";if(e(\".no-listing-title\").css(\"display\",\"none\"),s.length{const r=e(\"#VAR_ENABLE_INVESTOR_CATEGORY\").length>0&&a.category_name?`${a.category_name.toUpperCase()}`:\"\";t+=` .",
+      "source": "Hub71 AI Program",
+      "sourceUrl": "https://www.hub71.com/build/assets/app-628b3198.js",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "hub71-ai-program-app-628b3198-js",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Indian climate group awards ₹31.4 lakh grant to biotech packaging startup Agropak - ET Manufacturing",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeHBnVXFwM1dGWEI5SnhNRnpTeFVRMTRWM1FCT3NQOFp6QVJpc0lxaHdnRGFhd1VtR2hLbnYzTFhndDB6bS1iWjhzZHJjREtmWXRhODJIdEY3bXRCRGRuMGVCazNQTFhVam4xUXk0djdvTm0ydDc0ek8yUnBCRFZUTnk0a0FnSHRhOGN0YklqZzV4VG1YcmxlZEdkTUNxQ2liakJBTUFyMEROMjFwQ3FNLXJ3YUg3WmdFdmE3OTg1bS1lN1BTcFYxMkN1bEtNQkNOZkcxN3JWbnJUX05yckdQaGZfckhwNVJ3SC1hb01heEktUdIB9wFBVV95cUxNeFBWckFWd2pLSEcxay1hUU1fSVpZVEVYOXBPQmEzSV9nZnRhMHQwTDNrbllnOHlBUzN3VG0xZFE2NFQ5ekkzajdmRDR2RVdoMjM5ZHRNdnI1QmM1NG05bXFieHpCazZpT0tOZlZTT3lnYld4YTd3aTRaMmhRbWhwcUppSlJzZm1MWnBidVlZcjF4MjRDclpmbW5FbDJTOW9Kc1AtZnpnTEgxZGJiX1FUUHhNUi1TYWtVYUhEbXZ3U1ByMnBGV2Q3WV9oSGk5OTBiU0JiVHhMOE55NkRmTThQeUNXODY5eC1Db0c3bk8xXzBNWmlhQW5j?oc=5",
+      "date": "Tue, 21 Jul 2026 13:18:36 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "indian-climate-group-awards-31-4-lakh-grant-to-biotech-packaging-startup-agropak",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 62,
+        "reasons": [
+          "India / Priority 2",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Aggregator backup source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "Build an AI-powered F1 analytics agent with McLaren RacingAug 18In this hands-on workshop, you'll get behind the wheel and build a Race Intelligence Platform for McLaren Racing. You'll get hands-on with three tiers of Google Cloud's GenAI stack—Gemini Enterprise, Agent Designer, and the Agent Development Kit (ADK)—to build a system that can answer questions, synthesize briefings, and run complex computations. Ready to stop guessing and start computing? Sign up to build a data-driven reasoning engine that can keep pace with Formula 1.Online3 hr",
       "summary": "Build an AI-powered F1 analytics agent with McLaren Racing",
       "source": "Google Cloud Events",
@@ -781,6 +896,45 @@
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Techmeme: Aug 19-21AI Summit Seoul & ExpoSeoul",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.aisummitseoul.com_-BxaR73BC.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-aug-19-21ai-summit-seoul-exposeoul",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 60,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
         ],
         "label": "Priority 2"
       }
@@ -864,6 +1018,80 @@
       }
     },
     {
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "date": "Wed, 22 Jul 2026 13:20:35 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "the-browser-wars-aren-t-about-search-anymore-here-are-the-best-alternatives-to-c",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 55,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Techmeme: Aug 24-26Ray SummitSan Francisco",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.anyscale.com_ray-summit_2026-zjjplLVn.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-aug-24-26ray-summitsan-francisco",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 52,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
       "title": "Oct 20-21PyTorch Conference North AmericaSan Jose",
       "summary": "Techmeme Events official/opportunity page signal.",
       "source": "Techmeme Events",
@@ -908,6 +1136,42 @@
       "location": "Global",
       "sourceType": "Aggregator Backup",
       "id": "nov-2-3bloomberg-technology-summit-londonlondon",
+      "tags": [
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "Watch",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 52,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "Techmeme curated event"
+        ],
+        "label": "Watchlist"
+      }
+    },
+    {
+      "title": "Techmeme: Nov 2-6AfroTechHouston",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/afrotechconference.com_-TcbKFz5F.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "techmeme-nov-2-6afrotechhouston",
       "tags": [
         "market",
         "founder"
