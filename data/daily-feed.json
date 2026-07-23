@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T23:05:42.914Z",
+  "generatedAt": "2026-07-23T22:59:19.325Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1035,
-    "uniqueSignals": 923,
-    "recentSignals": 720,
-    "candidatePagesQueued": 612,
+    "fetchedSignals": 1021,
+    "uniqueSignals": 910,
+    "recentSignals": 703,
+    "candidatePagesQueued": 605,
     "candidatePagesVerified": 165,
-    "finalItems": 13,
+    "finalItems": 16,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -48,8 +48,8 @@
     {
       "name": "Google for Startups Programs",
       "type": "html",
-      "fetched": 14,
-      "candidates": 14,
+      "fetched": 13,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -104,8 +104,8 @@
       "type": "html",
       "fetched": 14,
       "candidates": 14,
-      "verified": 1,
-      "final": 0,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -230,7 +230,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 20,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -292,7 +292,7 @@
       "name": "AWS Events and Conferences",
       "type": "html",
       "fetched": 20,
-      "candidates": 14,
+      "candidates": 17,
       "verified": 3,
       "final": 1,
       "error": ""
@@ -372,10 +372,10 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 10,
-      "candidates": 8,
-      "verified": 0,
-      "final": 0,
+      "fetched": 11,
+      "candidates": 10,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -417,7 +417,7 @@
     {
       "name": "UK AI Safety Institute",
       "type": "html",
-      "fetched": 8,
+      "fetched": 9,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 129,
-      "candidates": 121,
-      "verified": 119,
-      "final": 7,
+      "fetched": 126,
+      "candidates": 119,
+      "verified": 117,
+      "final": 8,
       "error": ""
     },
     {
@@ -490,9 +490,9 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 18,
-      "candidates": 1,
-      "verified": 1,
-      "final": 1,
+      "candidates": 2,
+      "verified": 2,
+      "final": 2,
       "error": ""
     },
     {
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
+      "fetched": 11,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
-      "final": 2,
+      "candidates": 4,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
-      "verified": 1,
+      "candidates": 7,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 4,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -681,6 +681,10 @@
       "error": "This operation was aborted"
     },
     {
+      "name": "Global AI Summit",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -706,6 +710,46 @@
     }
   ],
   "items": [
+    {
+      "title": "AWS Startup: Bahasa Indonesia",
+      "summary": "AWS holds events, both online and in-person, bringing the cloud computing community together to connect, collaborate, and learn from AWS experts.",
+      "source": "AWS Startup Events",
+      "sourceUrl": "https://aws.amazon.com/events?lang=id",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "aws-startup-bahasa-indonesia",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 90,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
     {
       "title": "Agropak bags Rs 31.4 Lakh Non-Dilutive Climate Startup grant at SusCrunch 2026 - Agro Spectrum India",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -746,14 +790,14 @@
       }
     },
     {
-      "title": "AWS  and Conferences: View upcoming AWS Summits",
-      "summary": "Foster continuous innovation, gain new skills, and network with peers at AWS Summits.",
+      "title": "AWS  and Conferences: AWS Events",
+      "summary": "AWS holds events, both online and in-person, bringing the cloud computing community together to connect, collaborate, and learn from AWS experts.",
       "source": "AWS Events and Conferences",
-      "sourceUrl": "https://aws.amazon.com/events/summits/?trk=ep_card_event_page&amp;awsf.location=*all",
+      "sourceUrl": "https://aws.amazon.com/events/",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "aws-and-conferences-view-upcoming-aws-summits",
+      "id": "aws-and-conferences-aws-events",
       "tags": [
         "ai",
         "market",
@@ -825,37 +869,40 @@
       }
     },
     {
-      "title": "Indian climate group awards ₹31.4 lakh grant to biotech packaging startup Agropak - ET Manufacturing",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeHBnVXFwM1dGWEI5SnhNRnpTeFVRMTRWM1FCT3NQOFp6QVJpc0lxaHdnRGFhd1VtR2hLbnYzTFhndDB6bS1iWjhzZHJjREtmWXRhODJIdEY3bXRCRGRuMGVCazNQTFhVam4xUXk0djdvTm0ydDc0ek8yUnBCRFZUTnk0a0FnSHRhOGN0YklqZzV4VG1YcmxlZEdkTUNxQ2liakJBTUFyMEROMjFwQ3FNLXJ3YUg3WmdFdmE3OTg1bS1lN1BTcFYxMkN1bEtNQkNOZkcxN3JWbnJUX05yckdQaGZfckhwNVJ3SC1hb01heEktUdIB9wFBVV95cUxNeFBWckFWd2pLSEcxay1hUU1fSVpZVEVYOXBPQmEzSV9nZnRhMHQwTDNrbllnOHlBUzN3VG0xZFE2NFQ5ekkzajdmRDR2RVdoMjM5ZHRNdnI1QmM1NG05bXFieHpCazZpT0tOZlZTT3lnYld4YTd3aTRaMmhRbWhwcUppSlJzZm1MWnBidVlZcjF4MjRDclpmbW5FbDJTOW9Kc1AtZnpnTEgxZGJiX1FUUHhNUi1TYWtVYUhEbXZ3U1ByMnBGV2Q3WV9oSGk5OTBiU0JiVHhMOE55NkRmTThQeUNXODY5eC1Db0c3bk8xXzBNWmlhQW5j?oc=5",
-      "date": "Tue, 21 Jul 2026 13:18:36 GMT",
-      "location": "India",
-      "sourceType": "Aggregator Backup",
-      "id": "indian-climate-group-awards-31-4-lakh-grant-to-biotech-packaging-startup-agropak",
+      "title": "Built Different - AI That Sorts Trash at Superhuman Speed",
+      "summary": "In the latest episode of Built Different, LinkedIn SVP and Head of Engineering Mohak Shroff discovered how AI is reshaping one of the world's most stubborn environmental challenges: waste. AMP uses computer vision systems and robotics to tackle the 350 million tons of garbage the US produces each year.",
+      "source": "LinkedIn Pressroom",
+      "sourceUrl": "https://news.linkedin.com/2026/built-different----amp",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "built-different-ai-that-sorts-trash-at-superhuman-speed",
       "tags": [
+        "ai",
         "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
+      "distanceFromIndia": "remote",
       "airTravel": "unknown",
       "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
       "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 62,
+        "score": 65,
         "reasons": [
-          "India / Priority 2",
+          "Global but highly sponsored, VIP, or Networking Event",
           "Founder and business growth relevance",
           "Useful founder network value",
-          "Aggregator backup source"
+          "AI relevance for HandiAds positioning",
+          "Official source"
         ],
         "label": "Priority 2"
       }
@@ -909,6 +956,45 @@
       "location": "Global",
       "sourceType": "Aggregator Backup",
       "id": "techmeme-aug-19-21ai-summit-seoul-exposeoul",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 60,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Aug 25-27VIRTUAL: The Six Five Summit: AI Unleashed 2026 Featuring Marc Benioff & Enterprise AI Leaders REGISTER FOR FREE",
+      "summary": "Techmeme Events official/opportunity page signal.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.sixfivemedia.com_summit-hkXjOAfv.htm",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "aug-25-27virtual-the-six-five-summit-ai-unleashed-2026-featuring-marc-benioff-en",
       "tags": [
         "ai",
         "market",
@@ -1015,6 +1101,44 @@
           "Techmeme curated event"
         ],
         "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Your backstage pass to TechCrunch Disrupt 2026 is waiting",
+      "summary": "Volunteer at TechCrunch Disrupt 2026 and get a behind-the-scenes look at how one of the world's biggest startup conferences gets built.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting/",
+      "date": "Thu, 23 Jul 2026 14:02:00 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 55,
+        "reasons": [
+          "Global but highly sponsored, VIP, or Networking Event",
+          "Founder and business growth relevance",
+          "Useful founder network value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Watchlist"
       }
     },
     {
