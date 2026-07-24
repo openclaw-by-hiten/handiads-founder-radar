@@ -25,12 +25,18 @@ const adTerms = ["ad tech", "performance marketing", "attribution", "media buyin
 const gujaratTerms = ["gujarat", "ahmedabad", "gandhinagar", "surat", "rajkot", "gift city", "gift-city"];
 const nearIndiaTerms = ["india", "uae", "dubai", "abu dhabi", "singapore", "nepal", "sri lanka", "qatar"];
 const mediumDistanceTerms = ["japan", "thailand", "malaysia", "vietnam", "indonesia", "south korea"];
-const influencerTerms = ["minister", "government", "investor", "top founder", "influencer", "ceo", "global leader"];
+const influencerTerms = [
+  "minister", "government", "investor", "top founder", "influencer", "ceo", "cto", "cmo", "cfo", "coo", "global leader", "managing director", "president"
+];
 const vipTerms = [
   "sundar pichai", "satya nadella", "sam altman", "mark zuckerberg", 
   "jensen huang", "tim cook", "elon musk", "yann lecun", "marques brownlee", 
   "mkbhd", "mrwhosetheboss", "lex fridman", "andrew ng", "keynote speaker", 
-  "special guest", "google ceo", "microsoft ceo", "meta ceo", "openai ceo"
+  "special guest", "google ceo", "microsoft ceo", "meta ceo", "openai ceo",
+  // Dynamic Executive & Leader Titles (Position-based matching)
+  "president of", "prime minister", "head of state", "minister of", "cabinet minister", "governor",
+  "chief executive", "chief officer", "chief scientist", "vice president", "vp of", "head of ai",
+  "featured speaker", "guest speaker", "industry leader", "tech leader"
 ];
 const founderTerms = ["founder", "startup", "accelerator", "incubator", "investor", "vc", "venture capital", "saas", "agency", "business", "enterprise"];
 const academicBlockTerms = [
@@ -738,40 +744,61 @@ function scoreSignal(signal) {
     }
   }
 
-  if (signal.tags.includes("gujarat")) {
-    score += 55;
-    reasons.push("Gujarat / Priority 1");
-  } else if (signal.location === "India") {
+  const hasSponsorshipPerks = includesAny(txt, [
+    "fully funded", "all expenses paid", "travel grant", "100% sponsored", "delegate pass included",
+    "accommodation provided", "hotel stay", "lodging covered", "housing stipend", "flight included", "airfare covered"
+  ]);
+
+  // Rank 1 Highest Priority: Sponsored Trips with Free Hotel Stay & Flights
+  if (hasSponsorshipPerks) {
     score += 40;
-    reasons.push("India / Priority 2");
-  } else if (signal.distanceFromIndia === "near" || signal.distanceFromIndia === "medium") {
-    score += 25;
-    reasons.push("Cheaper Flights / Priority 3");
+    reasons.push("Rank 1: Sponsored Hotel Stay & Travel Perks Detected (+40)");
+  }
+
+  // Rank 2 Priority: Near India / Low Travel Cost
+  if (signal.tags.includes("gujarat")) {
+    score += 45;
+    reasons.push("Rank 2: Gujarat Local Opportunity (+45)");
+  } else if (signal.location === "India" || includesAny(txt, nearIndiaTerms)) {
+    score += 30;
+    reasons.push("Rank 2: Near India / Low Travel Cost Location (+30)");
+  } else if (signal.distanceFromIndia === "medium") {
+    score += 20;
+    reasons.push("Rank 2: Moderate Distance (+20)");
   } else {
-    if (!signal.tags.includes("funded") && !hasVIP && signal.influencerValue !== "high" && !signal.tags.includes("founder") && !includesAny(txt, ["tech expert", "celebrity", "tech experts", "celebrities"])) {
-      score -= 20;
-      reasons.push("Global un-sponsored penalty");
+    if (!signal.tags.includes("funded") && !hasVIP && signal.influencerValue !== "high" && !signal.tags.includes("founder")) {
+      score -= 15;
+      reasons.push("Global un-sponsored penalty (-15)");
     } else {
-      score += 15;
-      reasons.push("Global but highly sponsored, VIP, or Networking Event");
+      score += 10;
+      reasons.push("Global Networking Opportunity (+10)");
     }
   }
 
-  if (signal.tags.includes("founder")) {
+  // Rank 3 Priority: Executive Leadership, C-Suite & Heads of State
+  if (hasVIP) {
+    score += 25;
+    reasons.push("Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)");
+  }
+
+  // Big Funding Outreach Lead for HandiAds Agency Sales
+  if (isBigFundingOutreachLead(signal)) {
     score += 20;
+    reasons.push("HandiAds Client Prospecting Lead ($5M+ Funded Startup) (+20)");
+  }
+
+  if (signal.tags.includes("founder")) {
+    score += 15;
     reasons.push("Founder and business growth relevance");
   }
   if (signal.tags.includes("funded")) {
-    score += 25;
+    score += 20;
     reasons.push("Sponsored business opportunity");
   }
 
   if (signal.influencerValue === "high") {
-    score += 20;
+    score += 15;
     reasons.push("Strong influencer and networking value");
-  } else if (signal.influencerValue === "medium") {
-    score += 12;
-    reasons.push("Useful founder network value");
   }
   if (signal.tags.includes("ai")) {
     score += 8;
@@ -784,23 +811,15 @@ function scoreSignal(signal) {
   if (signal.sourceType === "Official") {
     score += 10;
     reasons.push("Official source");
-  } else if (signal.sourceType === "Opportunity") {
+  } else if (signal.sourceType === "Aggregator Backup" && signal.source === "Techmeme Events") {
     score += 5;
-    reasons.push("Opportunity platform source");
-  } else if (signal.sourceType === "Aggregator Backup") {
-    if (signal.source === "Techmeme Events") {
-      score += 5; // Treat curated lists as opportunity sources
-      reasons.push("Techmeme curated event");
-    } else {
-      score -= 10;
-      reasons.push("Aggregator backup source");
-    }
+    reasons.push("Techmeme curated event");
   }
 
   return {
     score: Math.min(score, 100),
     reasons,
-    label: score >= 80 ? "Priority 1" : score >= 60 ? "Priority 2" : "Watchlist"
+    label: score >= 80 ? "Priority 1" : score >= 68 ? "Priority 2" : "Watchlist"
   };
 }
 
@@ -924,7 +943,15 @@ function isIntelSource(item) {
     ["Global News", "News API", "Aggregator Backup"].includes(item.sourceType);
 }
 
+function isBigFundingOutreachLead(item) {
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+  const isFundingArticle = includesAny(text, ["raises", "secures", "funding", "seed round", "series a", "series b", "series c", "backed by"]);
+  const hasBigAmount = /\$(?:[5-9]|\d{2,})\s*(?:million|mn|m|billion|bn|b)\b/i.test(text) || /\b(?:series\s+[a-e]|growth\s+round)\b/i.test(text);
+  return isFundingArticle && hasBigAmount;
+}
+
 function isFundingNews(item) {
+  if (isBigFundingOutreachLead(item)) return false;
   const text = `${item.title || ""} ${item.summary || ""} ${item.sourceUrl || ""}`.toLowerCase();
   return includesAny(text, fundingNewsTerms);
 }
@@ -1411,7 +1438,7 @@ async function run() {
     .map(classify)
     .filter((item) => item.tags.length > 0)
     .map((item) => ({ ...item, priority: scoreSignal(item) }))
-    .filter((item) => item.priority.score >= 50)
+    .filter((item) => item.priority.score >= (config.minScoreCutoff || 68))
     .sort((a, b) => b.priority.score - a.priority.score)
     .slice(0, config.maxDailyItems);
   const fetchedBySource = countBySource(fetched);
