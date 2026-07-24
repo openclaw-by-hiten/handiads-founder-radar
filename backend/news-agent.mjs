@@ -1188,7 +1188,7 @@ async function verifyCandidatePage(item) {
 
   finalTitle = sanitizeTitle(finalTitle);
 
-  if (finalTitle.length < 35 && item.source) {
+  if (finalTitle.length < 35 && item.source && !isTechmemeEvent) {
     const cleanSource = item.source.replace(/ Backup.*$/, "").replace(/Events/i, "").trim();
     if (cleanSource && !finalTitle.toLowerCase().includes(cleanSource.toLowerCase())) {
       finalTitle = `${cleanSource}: ${finalTitle}`;
