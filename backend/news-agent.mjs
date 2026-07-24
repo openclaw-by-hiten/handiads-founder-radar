@@ -1096,6 +1096,7 @@ function shouldVerifyCandidatePage(item) {
 function sanitizeTitle(rawTitle = "") {
   let clean = (rawTitle || "").trim();
 
+  clean = clean.replace(/^Techmeme:\s*/i, "");
   // Strip leading dates e.g. "Aug 25-27", "Sep 22-24NEW DATES:", "Nov 9-12", "Jun 30-Jul 1"
   clean = clean.replace(/^(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\.?\s*\d{1,2}(?:\s*[-–—to]\s*(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\.?\s*)?\d{1,2})?\s*/i, "");
   clean = clean.replace(/^NEW DATES:\s*/i, "");
@@ -1104,6 +1105,17 @@ function sanitizeTitle(rawTitle = "") {
 
   // Strip trailing CTAs
   clean = clean.replace(/\s*(?:REGISTER FOR FREE|REGISTER NOW|REGISTER TODAY|APPLY NOW|APPLY TODAY|LEARN MORE|SUBMIT NOW|SAVE THE DATE)$/gi, "");
+
+  // Format concatenated city names at end e.g. "Seamless Middle EastDubai" -> "Seamless Middle East (Dubai)"
+  const cities = ["Dubai", "Singapore", "San Francisco", "Menlo Park, CA", "Menlo Park", "Berlin", "Lisbon", "Paris", "Seoul", "Toronto", "Long Beach, CA", "Half Moon Bay, CA", "Santa Clara, CA", "Amsterdam", "Miami Beach", "Baltimore", "Los Angeles", "New York", "Munich", "Orlando"];
+  for (const city of cities) {
+    if (clean.endsWith(city) && !clean.endsWith(` (${city})`) && !clean.endsWith(` ${city}`)) {
+      const base = clean.slice(0, -city.length).trim();
+      if (base.length > 3) {
+        clean = `${base} (${city})`;
+      }
+    }
+  }
 
   // Remove long featuring clause if title > 55 chars
   if (clean.length > 55 && /\s+featuring\s+/i.test(clean)) {

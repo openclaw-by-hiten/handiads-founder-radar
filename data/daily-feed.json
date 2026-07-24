@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T06:25:55.092Z",
+  "generatedAt": "2026-07-24T06:36:42.282Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1049,
-    "uniqueSignals": 940,
-    "recentSignals": 730,
-    "candidatePagesQueued": 590,
-    "candidatePagesVerified": 165,
+    "fetchedSignals": 1061,
+    "uniqueSignals": 950,
+    "recentSignals": 740,
+    "candidatePagesQueued": 599,
+    "candidatePagesVerified": 167,
     "finalItems": 100,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -309,11 +309,11 @@
     {
       "name": "Alphabet Investor Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
-      "error": "Alphabet Investor Events failed with 429"
+      "fetched": 12,
+      "candidates": 10,
+      "verified": 2,
+      "final": 1,
+      "error": ""
     },
     {
       "name": "NVIDIA Investor Events",
@@ -322,7 +322,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "NVIDIA Investor Events failed with 429"
+      "error": "NVIDIA Investor Events failed with 403"
     },
     {
       "name": "Microsoft Build",
@@ -337,7 +337,7 @@
       "name": "Microsoft Investor Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -358,7 +358,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Meta Investor Events failed with 429"
+      "error": "Meta Investor Events failed with 403"
     },
     {
       "name": "LinkedIn Marketing Events",
@@ -465,7 +465,7 @@
       "fetched": 135,
       "candidates": 130,
       "verified": 129,
-      "final": 86,
+      "final": 85,
       "error": ""
     },
     {
@@ -681,12 +681,8 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Alphabet Investor Events",
-      "error": "Alphabet Investor Events failed with 429"
-    },
-    {
       "name": "NVIDIA Investor Events",
-      "error": "NVIDIA Investor Events failed with 429"
+      "error": "NVIDIA Investor Events failed with 403"
     },
     {
       "name": "Meta for Developers Events",
@@ -694,7 +690,7 @@
     },
     {
       "name": "Meta Investor Events",
-      "error": "Meta Investor Events failed with 429"
+      "error": "Meta Investor Events failed with 403"
     },
     {
       "name": "European AI Alliance",
@@ -817,6 +813,48 @@
           "India / Priority 2",
           "Founder and business growth relevance",
           "Useful founder network value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Terms of Service (will open in a new window).",
+      "summary": "Until then, the Terms below continue to apply.See a preview of the new Terms.",
+      "source": "Alphabet Investor Events",
+      "sourceUrl": "https://policies.google.com/terms",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "terms-of-service-will-open-in-a-new-window",
+      "tags": [
+        "ai",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 91,
+        "reasons": [
+          "Cheaper Flights / Priority 3",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
           "Official source"
@@ -1100,14 +1138,14 @@
       }
     },
     {
-      "title": "Techmeme: Seamless Middle EastDubai",
-      "summary": "Techmeme: Seamless Middle EastDubai - verified event and founder opportunity.",
+      "title": "Techmeme: Seamless Middle East (Dubai)",
+      "summary": "Techmeme: Seamless Middle East (Dubai) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.terrapinn.com_exhibition_seamless-middle-east_-qItfVESS.htm",
       "date": "Recent",
       "location": "UAE",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-seamless-middle-eastdubai",
+      "id": "techmeme-seamless-middle-east-dubai",
       "tags": [
         "ai",
         "market",
@@ -1139,14 +1177,14 @@
       }
     },
     {
-      "title": "Techmeme: Dubai FinTech SummitDubai",
-      "summary": "Techmeme: Dubai FinTech SummitDubai - verified event and founder opportunity.",
+      "title": "Techmeme: Dubai FinTech Summit (Dubai)",
+      "summary": "Techmeme: Dubai FinTech Summit (Dubai) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/dubaifintechsummit.com_-0lh2LPAg.htm",
       "date": "Recent",
       "location": "UAE",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-dubai-fintech-summitdubai",
+      "id": "techmeme-dubai-fintech-summit-dubai",
       "tags": [
         "ai",
         "market",
@@ -1254,14 +1292,14 @@
       }
     },
     {
-      "title": "Techmeme: DreamforceSan Francisco",
-      "summary": "Techmeme: DreamforceSan Francisco - verified event and founder opportunity.",
+      "title": "Techmeme: Dreamforce (San Francisco)",
+      "summary": "Techmeme: Dreamforce (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.salesforce.com_dreamforce_-mzwPrvCD.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-dreamforcesan-francisco",
+      "id": "techmeme-dreamforce-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -1291,14 +1329,14 @@
       }
     },
     {
-      "title": "Techmeme: Meta ConnectMenlo Park, CA",
-      "summary": "Techmeme: Meta ConnectMenlo Park, CA - verified event and founder opportunity.",
+      "title": "Techmeme: Meta Connect (Menlo Park, CA)",
+      "summary": "Techmeme: Meta Connect (Menlo Park, CA) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.meta.com_connect_-VNNSSI8K.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-meta-connectmenlo-park-ca",
+      "id": "techmeme-meta-connect-menlo-park-ca",
       "tags": [
         "market",
         "founder"
@@ -1328,14 +1366,14 @@
       }
     },
     {
-      "title": "Techmeme: Nvidia GTC BerlinBerlin",
-      "summary": "Techmeme: Nvidia GTC BerlinBerlin - verified event and founder opportunity.",
+      "title": "Techmeme: Nvidia GTC Berlin (Berlin)",
+      "summary": "Techmeme: Nvidia GTC Berlin (Berlin) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-nvidia-gtc-berlinberlin",
+      "id": "techmeme-nvidia-gtc-berlin-berlin",
       "tags": [
         "market",
         "founder"
@@ -1365,14 +1403,14 @@
       }
     },
     {
-      "title": "Techmeme: Web SummitLisbon",
-      "summary": "Techmeme: Web SummitLisbon - verified event and founder opportunity.",
+      "title": "Techmeme: Web Summit (Lisbon)",
+      "summary": "Techmeme: Web Summit (Lisbon) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/websummit.com_-awzxRwUO.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-web-summitlisbon",
+      "id": "techmeme-web-summit-lisbon",
       "tags": [
         "market",
         "founder"
@@ -1402,14 +1440,14 @@
       }
     },
     {
-      "title": "Techmeme: Adobe MAXMiami Beach",
-      "summary": "Techmeme: Adobe MAXMiami Beach - verified event and founder opportunity.",
+      "title": "Techmeme: Adobe MAX (Miami Beach)",
+      "summary": "Techmeme: Adobe MAX (Miami Beach) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.adobe.com_max.html-IZEhdslD.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-adobe-maxmiami-beach",
+      "id": "techmeme-adobe-max-miami-beach",
       "tags": [
         "market",
         "founder"
@@ -1512,14 +1550,14 @@
       }
     },
     {
-      "title": "Techmeme: TOKEN2049 SingaporeSingapore",
-      "summary": "Techmeme: TOKEN2049 SingaporeSingapore - verified event and founder opportunity.",
+      "title": "Techmeme: TOKEN2049 Singapore (Singapore)",
+      "summary": "Techmeme: TOKEN2049 Singapore (Singapore) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/token2049.com_singapore-gTPPa8vi.htm",
       "date": "Recent",
       "location": "Singapore",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-token2049-singaporesingapore",
+      "id": "techmeme-token2049-singapore-singapore",
       "tags": [
         "market",
         "founder"
@@ -1548,14 +1586,14 @@
       }
     },
     {
-      "title": "Singapore Fintech FestivalSingapore",
-      "summary": "Singapore Fintech FestivalSingapore - verified event and founder opportunity.",
+      "title": "Singapore Fintech Festival (Singapore)",
+      "summary": "Singapore Fintech Festival (Singapore) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.fintechfestival.sg_-Cm9n7E6y.htm",
       "date": "Recent",
       "location": "Singapore",
       "sourceType": "Aggregator Backup",
-      "id": "singapore-fintech-festivalsingapore",
+      "id": "singapore-fintech-festival-singapore",
       "tags": [
         "market",
         "founder"
@@ -1584,14 +1622,14 @@
       }
     },
     {
-      "title": "Design Automation ConferenceLong Beach, CA",
-      "summary": "Design Automation ConferenceLong Beach, CA - verified event and founder opportunity.",
+      "title": "Design Automation Conference (Long Beach, CA)",
+      "summary": "Design Automation Conference (Long Beach, CA) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/dac.com_2026-KUliyplM.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "design-automation-conferencelong-beach-ca",
+      "id": "design-automation-conference-long-beach-ca",
       "tags": [
         "ai",
         "market",
@@ -1662,14 +1700,14 @@
       }
     },
     {
-      "title": "Techmeme: AI Risk SummitHalf Moon Bay, CA",
-      "summary": "Techmeme: AI Risk SummitHalf Moon Bay, CA - verified event and founder opportunity.",
+      "title": "Techmeme: AI Risk Summit (Half Moon Bay, CA)",
+      "summary": "Techmeme: AI Risk Summit (Half Moon Bay, CA) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.airisksummit.com_-yAbLMWWV.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-ai-risk-summithalf-moon-bay-ca",
+      "id": "techmeme-ai-risk-summit-half-moon-bay-ca",
       "tags": [
         "ai",
         "market",
@@ -1701,14 +1739,14 @@
       }
     },
     {
-      "title": "Techmeme: AI Summit Seoul & ExpoSeoul",
-      "summary": "Techmeme: AI Summit Seoul & ExpoSeoul - verified event and founder opportunity.",
+      "title": "Techmeme: AI Summit Seoul & Expo (Seoul)",
+      "summary": "Techmeme: AI Summit Seoul & Expo (Seoul) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.aisummitseoul.com_-BxaR73BC.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-ai-summit-seoul-exposeoul",
+      "id": "techmeme-ai-summit-seoul-expo-seoul",
       "tags": [
         "ai",
         "market",
@@ -1779,14 +1817,14 @@
       }
     },
     {
-      "title": "CloudX + API:World + AI Tech WorldSanta Clara, CA",
-      "summary": "CloudX + API:World + AI Tech WorldSanta Clara, CA - verified event and founder opportunity.",
+      "title": "CloudX + API:World + AI Tech World (Santa Clara, CA)",
+      "summary": "CloudX + API:World + AI Tech World (Santa Clara, CA) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/cloudxconf.com_-1MMRYwof.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "cloudx-api-world-ai-tech-worldsanta-clara-ca",
+      "id": "cloudx-api-world-ai-tech-world-santa-clara-ca",
       "tags": [
         "ai",
         "market",
@@ -1818,14 +1856,14 @@
       }
     },
     {
-      "title": "Techmeme: AI Infra SummitSanta Clara, CA",
-      "summary": "Techmeme: AI Infra SummitSanta Clara, CA - verified event and founder opportunity.",
+      "title": "Techmeme: AI Infra Summit (Santa Clara, CA)",
+      "summary": "Techmeme: AI Infra Summit (Santa Clara, CA) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.ai-infra-summit.com_-FcVvdXE0.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-ai-infra-summitsanta-clara-ca",
+      "id": "techmeme-ai-infra-summit-santa-clara-ca",
       "tags": [
         "ai",
         "market",
@@ -1935,14 +1973,14 @@
       }
     },
     {
-      "title": "Techmeme: OpenAI DevDaySan Francisco",
-      "summary": "Techmeme: OpenAI DevDaySan Francisco - verified event and founder opportunity.",
+      "title": "Techmeme: OpenAI DevDay (San Francisco)",
+      "summary": "Techmeme: OpenAI DevDay (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/openai.com_index_devday-2026_-59SNGKtP.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-openai-devdaysan-francisco",
+      "id": "techmeme-openai-devday-san-francisco",
       "tags": [
         "ai",
         "market",
@@ -1974,14 +2012,14 @@
       }
     },
     {
-      "title": "Techmeme: The AI ConferenceSan Francisco",
-      "summary": "Techmeme: The AI ConferenceSan Francisco - verified event and founder opportunity.",
+      "title": "Techmeme: The AI Conference (San Francisco)",
+      "summary": "Techmeme: The AI Conference (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/aiconference.com_-AuFS2qHT.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-the-ai-conferencesan-francisco",
+      "id": "techmeme-the-ai-conference-san-francisco",
       "tags": [
         "ai",
         "market",
@@ -2013,14 +2051,14 @@
       }
     },
     {
-      "title": "Techmeme: Korea Blockchain WeekSeoul",
-      "summary": "Techmeme: Korea Blockchain WeekSeoul - verified event and founder opportunity.",
+      "title": "Techmeme: Korea Blockchain Week (Seoul)",
+      "summary": "Techmeme: Korea Blockchain Week (Seoul) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/koreablockchainweek.com_-sjsFg4NS.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-korea-blockchain-weekseoul",
+      "id": "techmeme-korea-blockchain-week-seoul",
       "tags": [
         "ai",
         "market",
@@ -2052,14 +2090,14 @@
       }
     },
     {
-      "title": "Techmeme: World Summit AIAmsterdam",
-      "summary": "Techmeme: World Summit AIAmsterdam - verified event and founder opportunity.",
+      "title": "Techmeme: World Summit AI (Amsterdam)",
+      "summary": "Techmeme: World Summit AI (Amsterdam) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/worldsummit.ai_-eh1w06nH.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-world-summit-aiamsterdam",
+      "id": "techmeme-world-summit-ai-amsterdam",
       "tags": [
         "ai",
         "market",
@@ -2247,14 +2285,14 @@
       }
     },
     {
-      "title": "ONUG AI Networking Summit FallNew York",
-      "summary": "ONUG AI Networking Summit FallNew York - verified event and founder opportunity.",
+      "title": "ONUG AI Networking Summit Fall (New York)",
+      "summary": "ONUG AI Networking Summit Fall (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/onug.net_ai-networking-summit-nyc-fall-2026_-QLRvjqfp.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "onug-ai-networking-summit-fallnew-york",
+      "id": "onug-ai-networking-summit-fall-new-york",
       "tags": [
         "ai",
         "market",
@@ -2481,14 +2519,14 @@
       }
     },
     {
-      "title": "Techmeme: Fortune Brainstorm AISan Francisco",
-      "summary": "Techmeme: Fortune Brainstorm AISan Francisco - verified event and founder opportunity.",
+      "title": "Fortune Brainstorm AI (San Francisco)",
+      "summary": "Fortune Brainstorm AI (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/conferences.fortune.com_event_brainstorm-ai-2026_HOME-1P4XqWfu.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-fortune-brainstorm-aisan-francisco",
+      "id": "fortune-brainstorm-ai-san-francisco",
       "tags": [
         "ai",
         "market",
@@ -3028,14 +3066,14 @@
       }
     },
     {
-      "title": "Made By Google \"The next generation of Pixel\" media eventNew York",
-      "summary": "Made By Google \"The next generation of Pixel\" media eventNew York - verified event and founder opportunity.",
+      "title": "Made By Google \"The next generation of Pixel\" media event (New York)",
+      "summary": "Made By Google \"The next generation of Pixel\" media event (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.techmeme.com_260707_p29_a260707p29-x0EU7xe3.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "made-by-google-the-next-generation-of-pixel-media-eventnew-york",
+      "id": "made-by-google-the-next-generation-of-pixel-media-event-new-york",
       "tags": [
         "market",
         "founder"
@@ -3136,14 +3174,14 @@
       }
     },
     {
-      "title": "Techmeme: USENIX Security SymposiumBaltimore",
-      "summary": "Techmeme: USENIX Security SymposiumBaltimore - verified event and founder opportunity.",
+      "title": "USENIX Security Symposium (Baltimore)",
+      "summary": "USENIX Security Symposium (Baltimore) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.usenix.org_conference_usenixsecurity26-K28ujglg.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-usenix-security-symposiumbaltimore",
+      "id": "usenix-security-symposium-baltimore",
       "tags": [
         "market",
         "founder"
@@ -3208,14 +3246,14 @@
       }
     },
     {
-      "title": "Techmeme: Ray SummitSan Francisco",
-      "summary": "Techmeme: Ray SummitSan Francisco - verified event and founder opportunity.",
+      "title": "Techmeme: Ray Summit (San Francisco)",
+      "summary": "Techmeme: Ray Summit (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.anyscale.com_ray-summit_2026-zjjplLVn.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-ray-summitsan-francisco",
+      "id": "techmeme-ray-summit-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -3496,14 +3534,14 @@
       }
     },
     {
-      "title": "Abstract by Convex REGISTER NOWSan Francisco",
-      "summary": "Abstract by Convex REGISTER NOWSan Francisco - verified event and founder opportunity.",
+      "title": "Abstract by Convex REGISTER NOW (San Francisco)",
+      "summary": "Abstract by Convex REGISTER NOW (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/abstract.convex.dev_-BdwEKMqb.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "abstract-by-convex-register-nowsan-francisco",
+      "id": "abstract-by-convex-register-now-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -3676,14 +3714,14 @@
       }
     },
     {
-      "title": "Y Combinator Summer 2026 Demo DaySan Francisco",
-      "summary": "Y Combinator Summer 2026 Demo DaySan Francisco - verified event and founder opportunity.",
+      "title": "Y Combinator Summer 2026 Demo Day (San Francisco)",
+      "summary": "Y Combinator Summer 2026 Demo Day (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.ycombinator.com_demoday-3WZWcusl.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "y-combinator-summer-2026-demo-daysan-francisco",
+      "id": "y-combinator-summer-2026-demo-day-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -3712,14 +3750,14 @@
       }
     },
     {
-      "title": "Lenny & Friends SummitSan Francisco",
-      "summary": "Lenny & Friends SummitSan Francisco - verified event and founder opportunity.",
+      "title": "Lenny & Friends Summit (San Francisco)",
+      "summary": "Lenny & Friends Summit (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/lennyssummit.com_-7hFsUkkO.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "lenny-friends-summitsan-francisco",
+      "id": "lenny-friends-summit-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -3820,14 +3858,14 @@
       }
     },
     {
-      "title": "Techmeme: The All-In SummitLos Angeles",
-      "summary": "Techmeme: The All-In SummitLos Angeles - verified event and founder opportunity.",
+      "title": "Techmeme: The All-In Summit (Los Angeles)",
+      "summary": "Techmeme: The All-In Summit (Los Angeles) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/theallinsummit.com_-113SQRjy.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-the-all-in-summitlos-angeles",
+      "id": "techmeme-the-all-in-summit-los-angeles",
       "tags": [
         "market",
         "founder"
@@ -3856,14 +3894,14 @@
       }
     },
     {
-      "title": "Fast Company Innovation FestivalNew York",
-      "summary": "Fast Company Innovation FestivalNew York - verified event and founder opportunity.",
+      "title": "Fast Company Innovation Festival (New York)",
+      "summary": "Fast Company Innovation Festival (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/events.fastcompany.com_innovationfestival26-S2FmJErP.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "fast-company-innovation-festivalnew-york",
+      "id": "fast-company-innovation-festival-new-york",
       "tags": [
         "market",
         "founder"
@@ -3928,14 +3966,14 @@
       }
     },
     {
-      "title": "Techmeme: LDX3 New YorkNew York",
-      "summary": "Techmeme: LDX3 New YorkNew York - verified event and founder opportunity.",
+      "title": "Techmeme: LDX3 New York (New York)",
+      "summary": "Techmeme: LDX3 New York (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/leaddev.com_leaddev-new-york_-E56XMF9e.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-ldx3-new-yorknew-york",
+      "id": "techmeme-ldx3-new-york-new-york",
       "tags": [
         "market",
         "founder"
@@ -4000,14 +4038,14 @@
       }
     },
     {
-      "title": "Techmeme: Avalanche SummitNew York",
-      "summary": "Techmeme: Avalanche SummitNew York - verified event and founder opportunity.",
+      "title": "Techmeme: Avalanche Summit (New York)",
+      "summary": "Techmeme: Avalanche Summit (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/www.avalanchesummit.com_-Wi8QZBeD.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-avalanche-summitnew-york",
+      "id": "techmeme-avalanche-summit-new-york",
       "tags": [
         "market",
         "founder"
@@ -4144,14 +4182,14 @@
       }
     },
     {
-      "title": "Product Operations Summit + Product-Led SummitSan Francisco",
-      "summary": "Product Operations Summit + Product-Led SummitSan Francisco - verified event and founder opportunity.",
+      "title": "Product Operations Summit + Product-Led Summit (San Francisco)",
+      "summary": "Product Operations Summit + Product-Led Summit (San Francisco) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/world.productledalliance.com_location_popssanfrancisco-Lndc1hL0.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "product-operations-summit-product-led-summitsan-francisco",
+      "id": "product-operations-summit-product-led-summit-san-francisco",
       "tags": [
         "market",
         "founder"
@@ -4180,14 +4218,14 @@
       }
     },
     {
-      "title": "Techmeme: Elevate FestivalToronto",
-      "summary": "Techmeme: Elevate FestivalToronto - verified event and founder opportunity.",
+      "title": "Techmeme: Elevate Festival (Toronto)",
+      "summary": "Techmeme: Elevate Festival (Toronto) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/elevatefestival.ca_-IC0sL9FD.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-elevate-festivaltoronto",
+      "id": "techmeme-elevate-festival-toronto",
       "tags": [
         "market",
         "founder"
@@ -4216,14 +4254,14 @@
       }
     },
     {
-      "title": "Techmeme: Skift Global ForumNew York",
-      "summary": "Techmeme: Skift Global ForumNew York - verified event and founder opportunity.",
+      "title": "Techmeme: Skift Global Forum (New York)",
+      "summary": "Techmeme: Skift Global Forum (New York) - verified event and founder opportunity.",
       "source": "Techmeme Events",
       "sourceUrl": "https://www.techmeme.com/r2/live.skift.com_skift-global-forum_-goojP3Wi.htm",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Aggregator Backup",
-      "id": "techmeme-skift-global-forumnew-york",
+      "id": "techmeme-skift-global-forum-new-york",
       "tags": [
         "market",
         "founder"
@@ -4368,42 +4406,6 @@
       "location": "Global",
       "sourceType": "Aggregator Backup",
       "id": "wearedevelopers-world-congress-north-americasan-jose",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 52,
-        "reasons": [
-          "Global but highly sponsored, VIP, or Networking Event",
-          "Founder and business growth relevance",
-          "Useful founder network value",
-          "Techmeme curated event"
-        ],
-        "label": "Watchlist"
-      }
-    },
-    {
-      "title": "Techmeme: BSides EdmontonEdmonton",
-      "summary": "Techmeme: BSides EdmontonEdmonton - verified event and founder opportunity.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.bsidesedmonton.org_-hQETplsl.htm",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "techmeme-bsides-edmontonedmonton",
       "tags": [
         "market",
         "founder"
