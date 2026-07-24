@@ -840,8 +840,6 @@ function dedupe(items) {
 }
 
 function isGenericListingPage(item) {
-  if (item.sourceType === "Official") return false; // Never block official sub-pages
-
   const title = (item.title || "").toLowerCase().trim();
   const url = (item.sourceUrl || "").toLowerCase();
 
@@ -856,7 +854,7 @@ function isGenericListingPage(item) {
   try {
     const parsed = new URL(item.sourceUrl);
     const pathName = parsed.pathname.replace(/\/+$/, "").toLowerCase();
-    if (!isFlagshipRoot && (pathName === "" || pathName === "/" || pathName.split("/").filter(Boolean).length < 2)) {
+    if (!isFlagshipRoot && (pathName === "" || pathName === "/" || pathName === "/events" || pathName === "/events/")) {
       return true;
     }
     return false;
@@ -1095,6 +1093,28 @@ function shouldVerifyCandidatePage(item) {
   return ["Official", "Opportunity", "Aggregator Backup", "Global News", "News API"].includes(item.sourceType);
 }
 
+function sanitizeTitle(rawTitle = "") {
+  let clean = (rawTitle || "").trim();
+
+  // Strip leading dates e.g. "Aug 25-27", "Sep 22-24NEW DATES:", "Nov 9-12", "Jun 30-Jul 1"
+  clean = clean.replace(/^(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\.?\s*\d{1,2}(?:\s*[-–—to]\s*(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\.?\s*)?\d{1,2})?\s*/i, "");
+  clean = clean.replace(/^NEW DATES:\s*/i, "");
+  clean = clean.replace(/^(?:VIRTUAL|HYBRID):\s*/i, "");
+  clean = clean.replace(/^Techmeme:\s*/i, "");
+
+  // Strip trailing CTAs
+  clean = clean.replace(/\s*(?:REGISTER FOR FREE|REGISTER NOW|REGISTER TODAY|APPLY NOW|APPLY TODAY|LEARN MORE|SUBMIT NOW|SAVE THE DATE)$/gi, "");
+
+  // Remove long featuring clause if title > 55 chars
+  if (clean.length > 55 && /\s+featuring\s+/i.test(clean)) {
+    clean = clean.replace(/\s+featuring\s+.*$/i, "");
+  }
+
+  // Remove duplicate spaces
+  clean = clean.replace(/\s+/g, " ").trim();
+  return clean;
+}
+
 async function verifyCandidatePage(item) {
   if (!shouldVerifyCandidatePage(item)) return item;
 
@@ -1103,19 +1123,25 @@ async function verifyCandidatePage(item) {
   });
   if (!response.ok) return null;
 
+  // Resolve exact target destination URL after HTTP redirects (resolves Techmeme redirect links)
+  const resolvedDestinationUrl = response.url && /^https?:\/\//i.test(response.url) ? response.url : item.sourceUrl;
+
   const html = await response.text();
-  const pageTitle = metaContent(html, "og:title") || htmlTitle(html);
+  const pageTitle = sanitizeTitle(metaContent(html, "og:title") || htmlTitle(html));
+  const rawMetaDesc = metaContent(html, "description") || metaContent(html, "og:description");
   const description =
-    metaContent(html, "description") ||
-    metaContent(html, "og:description") ||
-    opportunitySentence(readablePageText(html));
+    rawMetaDesc && !rawMetaDesc.toLowerCase().includes("page signal") && rawMetaDesc.length > 20
+      ? rawMetaDesc.trim()
+      : opportunitySentence(readablePageText(html));
+
   const pageText = `${item.title} ${pageTitle} ${description} ${readablePageText(html).slice(0, 2400)}`;
   const lowerPageText = pageText.toLowerCase();
   const articleCoreText = `${item.title} ${item.summary} ${pageTitle} ${description}`.toLowerCase();
   const isIntel = isIntelSource(item);
   const verifiedItem = {
     ...item,
-    title: pageTitle || item.title,
+    sourceUrl: resolvedDestinationUrl,
+    title: pageTitle || sanitizeTitle(item.title),
     summary: description || item.summary
   };
 
@@ -1140,29 +1166,36 @@ async function verifyCandidatePage(item) {
     if (!isTechmemeEvent && !hasActionableOpportunity(lowerPageText)) return null;
   }
 
-  let finalTitle = item.title.trim();
+  let finalTitle = sanitizeTitle(item.title);
   const lowerTitle = finalTitle.toLowerCase();
   if (genericTitleTerms.includes(lowerTitle) && pageTitle) {
     finalTitle = pageTitle;
-  } else if (pageTitle && finalTitle.length < 30 && pageTitle.length > finalTitle.length + 5) {
+  } else if (pageTitle && pageTitle.length > 10 && (finalTitle.length < 30 || finalTitle.includes(":") || lowerTitle.includes("signal"))) {
     finalTitle = pageTitle;
   }
-  
-  if (finalTitle.length < 40 && item.source) {
+
+  finalTitle = sanitizeTitle(finalTitle);
+
+  if (finalTitle.length < 35 && item.source) {
     const cleanSource = item.source.replace(/ Backup.*$/, "").replace(/Events/i, "").trim();
     if (cleanSource && !finalTitle.toLowerCase().includes(cleanSource.toLowerCase())) {
       finalTitle = `${cleanSource}: ${finalTitle}`;
     }
   }
-  
+
   if (finalTitle === finalTitle.toLowerCase()) {
     finalTitle = finalTitle.replace(/\b\w/g, c => c.toUpperCase());
   }
 
+  const cleanSummary = (description && description.length > 25 && !description.toLowerCase().includes("page signal"))
+    ? description.trim()
+    : `${finalTitle} - verified event and founder opportunity.`;
+
   return {
     ...item,
+    sourceUrl: resolvedDestinationUrl,
     title: finalTitle,
-    summary: description || item.summary,
+    summary: cleanSummary,
     searchText: pageText.slice(0, 5000)
   };
 }
