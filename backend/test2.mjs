@@ -89,11 +89,7 @@ const genericBlockTerms = [
   "find programs",
   "join a community",
   "google for startups programs",
-  "find out more",
-  "federal procurement",
-  "federal permitting",
-  "american youth",
-  "whitehouse.gov"
+  "find out more"
 ];
 const productSalesBlockTerms = [
   "cyberattacks",
@@ -536,7 +532,6 @@ function isLikelyOfficialOpportunityLink(item) {
   const text = `${item.title} ${item.summary} ${item.sourceUrl}`.toLowerCase();
   if (!item.sourceUrl || !/^https?:\/\//i.test(item.sourceUrl)) return false;
   if (item.sourceUrl.includes("#")) return false;
-  if (/\.(js|css|png|jpg|jpeg|gif|svg|webp|ico)(\?.*)?$/i.test(item.sourceUrl)) return false;
   if (includesAny(text, ["privacy", "cookie", "terms of use", "contact us", "sign in", "login"])) {
     return false;
   }
@@ -748,12 +743,9 @@ function scoreSignal(signal) {
     score += 25;
     reasons.push("Cheaper Flights / Priority 3");
   } else {
-    if (!signal.tags.includes("funded") && !hasVIP && signal.influencerValue !== "high" && !signal.tags.includes("founder") && !includesAny(txt, ["tech expert", "celebrity", "tech experts", "celebrities"])) {
+    if (!signal.tags.includes("funded") && !hasVIP) {
       score -= 20;
       reasons.push("Global un-sponsored penalty");
-    } else {
-      score += 15;
-      reasons.push("Global but highly sponsored, VIP, or Networking Event");
     }
   }
 
@@ -1366,7 +1358,10 @@ async function run() {
     .map(classify)
     .filter((item) => item.tags.length > 0)
     .map((item) => ({ ...item, priority: scoreSignal(item) }))
-    .filter((item) => item.priority.score >= 50)
+    .filter((item) => {
+      if (item.priority.score < 50 && item.source === "Techmeme Events") console.log("Dropped:", item.title, item.priority.score);
+      return item.priority.score >= 50;
+    })
     .sort((a, b) => b.priority.score - a.priority.score)
     .slice(0, config.maxDailyItems);
   const fetchedBySource = countBySource(fetched);
