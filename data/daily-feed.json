@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T07:06:17.858Z",
+  "generatedAt": "2026-07-24T07:23:11.237Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1049,
-    "uniqueSignals": 940,
-    "recentSignals": 729,
-    "candidatePagesQueued": 589,
-    "candidatePagesVerified": 165,
-    "finalItems": 5,
+    "fetchedSignals": 1062,
+    "uniqueSignals": 951,
+    "recentSignals": 738,
+    "candidatePagesQueued": 596,
+    "candidatePagesVerified": 166,
+    "finalItems": 4,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -67,9 +67,9 @@
       "name": "Google Play Accelerator India",
       "type": "html",
       "fetched": 13,
-      "candidates": 10,
-      "verified": 3,
-      "final": 2,
+      "candidates": 9,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
@@ -309,11 +309,11 @@
     {
       "name": "Alphabet Investor Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 12,
+      "candidates": 10,
+      "verified": 2,
       "final": 0,
-      "error": "Alphabet Investor Events failed with 429"
+      "error": ""
     },
     {
       "name": "NVIDIA Investor Events",
@@ -322,7 +322,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "NVIDIA Investor Events failed with 429"
+      "error": "NVIDIA Investor Events failed with 403"
     },
     {
       "name": "Microsoft Build",
@@ -337,7 +337,7 @@
       "name": "Microsoft Investor Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -358,7 +358,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Meta Investor Events failed with 429"
+      "error": "Meta Investor Events failed with 403"
     },
     {
       "name": "LinkedIn Marketing Events",
@@ -430,7 +430,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "European AI Alliance failed with 403"
+      "error": "This operation was aborted"
     },
     {
       "name": "India AI Events",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
+      "fetched": 13,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -681,12 +681,8 @@
       "error": "Meta Connect failed with 400"
     },
     {
-      "name": "Alphabet Investor Events",
-      "error": "Alphabet Investor Events failed with 429"
-    },
-    {
       "name": "NVIDIA Investor Events",
-      "error": "NVIDIA Investor Events failed with 429"
+      "error": "NVIDIA Investor Events failed with 403"
     },
     {
       "name": "Meta for Developers Events",
@@ -694,11 +690,11 @@
     },
     {
       "name": "Meta Investor Events",
-      "error": "Meta Investor Events failed with 429"
+      "error": "Meta Investor Events failed with 403"
     },
     {
       "name": "European AI Alliance",
-      "error": "European AI Alliance failed with 403"
+      "error": "This operation was aborted"
     }
   ],
   "items": [
@@ -855,47 +851,6 @@
           "Founder and business growth relevance",
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Google Play Accelerator India: Latest stories",
-      "summary": "At I/O Connect, we are celebrating 10 years of Google Accelerators in India, welcoming our newest cohorts, and showcasing how Indian founders are shaping the global future of AI and generative media.",
-      "source": "Google Play Accelerator India",
-      "sourceUrl": "https://blog.google/intl/en-in/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "google-play-accelerator-india-latest-stories",
-      "tags": [
-        "ai",
-        "market",
-        "ads",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This can become a new service, client alert, or content angle for performance marketing clients.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Turn the signal into a client-facing ad growth insight.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 71,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Performance marketing relevance",
           "Official source"
         ],
         "label": "Priority 2"

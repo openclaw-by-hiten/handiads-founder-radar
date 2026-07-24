@@ -873,7 +873,7 @@ function isGenericListingPage(item) {
   try {
     const parsed = new URL(item.sourceUrl);
     const pathName = parsed.pathname.replace(/\/+$/, "").toLowerCase();
-    if (!isFlagshipRoot && (pathName === "" || pathName === "/" || pathName === "/events" || pathName === "/events/")) {
+    if (!isFlagshipRoot && (pathName === "" || pathName === "/" || pathName === "/events" || pathName === "/events/" || pathName === "/intl/en-in" || pathName === "/intl/en-in/")) {
       return true;
     }
     return false;
