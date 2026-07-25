@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T23:03:55.046Z",
+  "generatedAt": "2026-07-25T23:02:01.019Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1060,
-    "uniqueSignals": 941,
+    "fetchedSignals": 1042,
+    "uniqueSignals": 932,
     "recentSignals": 724,
-    "candidatePagesQueued": 584,
+    "candidatePagesQueued": 582,
     "candidatePagesVerified": 167,
     "finalItems": 5,
     "newsApiEnabled": false,
@@ -283,7 +283,7 @@
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
-      "candidates": 1,
+      "fetched": 16,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 13,
+      "candidates": 10,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -869,7 +869,7 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Startup grants and accelerators near India",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbU5YdWNFbGdJZGo3aVlRYWtMUWdOREp4NEZEZWZXVXpSU3RvVURBMUVUaGw5MWk4NkVUUk9jczFnYndTb1ZPdThDRzZ0M3RGd0Mta1NHUUFybW9XcDM4YWpSak9LR2RwMjdia2JQQzd4LW9WRU9YemRlNWZzUVlFMlMzRG5QdndSbm9WTEJUM0c3ekI1T3JGencwd3ZCOXZseThlc1ZDODY?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Fri, 24 Jul 2026 12:34:14 GMT",
+      "date": "Fri, 24 Jul 2026 05:34:14 GMT",
       "location": "UAE",
       "sourceType": "Aggregator Backup",
       "id": "doers-summit-2026-at-dubai-silicon-oasis-from-24-to-26-november-startupbusiness-",
