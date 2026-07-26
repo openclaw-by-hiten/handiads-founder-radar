@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:02:01.019Z",
+  "generatedAt": "2026-07-26T23:01:21.109Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1042,
-    "uniqueSignals": 932,
-    "recentSignals": 724,
-    "candidatePagesQueued": 582,
-    "candidatePagesVerified": 167,
+    "fetchedSignals": 1043,
+    "uniqueSignals": 933,
+    "recentSignals": 720,
+    "candidatePagesQueued": 577,
+    "candidatePagesVerified": 168,
     "finalItems": 5,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -283,7 +283,7 @@
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 17,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 136,
+      "fetched": 137,
       "candidates": 131,
       "verified": 129,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 6,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -644,7 +644,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 3,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
