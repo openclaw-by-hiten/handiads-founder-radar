@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T23:00:05.423Z",
+  "generatedAt": "2026-07-29T23:01:38.938Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1043,
-    "uniqueSignals": 931,
-    "recentSignals": 723,
-    "candidatePagesQueued": 580,
-    "candidatePagesVerified": 172,
+    "fetchedSignals": 1041,
+    "uniqueSignals": 928,
+    "recentSignals": 717,
+    "candidatePagesQueued": 570,
+    "candidatePagesVerified": 169,
     "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -48,8 +48,8 @@
     {
       "name": "Google for Startups Programs",
       "type": "html",
-      "fetched": 13,
-      "candidates": 13,
+      "fetched": 12,
+      "candidates": 12,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -68,7 +68,7 @@
       "type": "html",
       "fetched": 13,
       "candidates": 9,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -293,7 +293,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 2,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -337,7 +337,7 @@
       "name": "Microsoft Investor Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 139,
-      "candidates": 133,
-      "verified": 131,
+      "fetched": 138,
+      "candidates": 131,
+      "verified": 129,
       "final": 0,
       "error": ""
     },
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 13,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
-      "verified": 4,
+      "candidates": 5,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
-      "verified": 2,
+      "candidates": 8,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,6 +678,10 @@
     },
     {
       "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
