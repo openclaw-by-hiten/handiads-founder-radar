@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T23:01:38.938Z",
+  "generatedAt": "2026-07-30T23:08:24.843Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1041,
-    "uniqueSignals": 928,
-    "recentSignals": 717,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 169,
-    "finalItems": 1,
+    "fetchedSignals": 1036,
+    "uniqueSignals": 926,
+    "recentSignals": 714,
+    "candidatePagesQueued": 565,
+    "candidatePagesVerified": 174,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -33,7 +33,7 @@
       "fetched": 20,
       "candidates": 19,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -113,7 +113,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 14,
-      "verified": 4,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -210,17 +210,17 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 10,
-      "candidates": 8,
+      "fetched": 11,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 138,
-      "candidates": 131,
-      "verified": 129,
+      "fetched": 142,
+      "candidates": 136,
+      "verified": 134,
       "final": 0,
       "error": ""
     },
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 5,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -709,44 +705,5 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "Announcing the AI Glasses Impact Grant Recipients: Helping People Work, Learn, and Live More Independently",
-      "summary": "We've awarded AI Glasses Impact Grants to 30 organizations across the US using Meta AI glasses to help people work safer, learn faster, and live more independently.",
-      "source": "Meta Company News",
-      "sourceUrl": "https://about.fb.com/news/2026/07/ai-glasses-helping-people-work-learn-live-independently/",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "announcing-the-ai-glasses-impact-grant-recipients-helping-people-work-learn-and-",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
