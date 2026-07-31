@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T23:08:24.843Z",
+  "generatedAt": "2026-07-31T23:01:27.304Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1036,
-    "uniqueSignals": 926,
-    "recentSignals": 714,
-    "candidatePagesQueued": 565,
-    "candidatePagesVerified": 174,
+    "fetchedSignals": 1046,
+    "uniqueSignals": 935,
+    "recentSignals": 718,
+    "candidatePagesQueued": 573,
+    "candidatePagesVerified": 172,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -300,9 +300,9 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 4,
-      "candidates": 4,
-      "verified": 3,
+      "fetched": 3,
+      "candidates": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -311,7 +311,7 @@
       "type": "html",
       "fetched": 12,
       "candidates": 10,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 142,
-      "candidates": 136,
-      "verified": 134,
+      "fetched": 143,
+      "candidates": 137,
+      "verified": 135,
       "final": 0,
       "error": ""
     },
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 3,
+      "candidates": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
