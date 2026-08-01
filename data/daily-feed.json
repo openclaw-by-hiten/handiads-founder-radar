@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T23:01:27.304Z",
+  "generatedAt": "2026-08-01T22:58:02.903Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1046,
-    "uniqueSignals": 935,
-    "recentSignals": 718,
-    "candidatePagesQueued": 573,
-    "candidatePagesVerified": 172,
+    "fetchedSignals": 1043,
+    "uniqueSignals": 933,
+    "recentSignals": 715,
+    "candidatePagesQueued": 570,
+    "candidatePagesVerified": 169,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 143,
-      "candidates": 137,
-      "verified": 135,
+      "fetched": 141,
+      "candidates": 135,
+      "verified": 133,
       "final": 0,
       "error": ""
     },
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -617,7 +617,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 5,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,6 +678,10 @@
     },
     {
       "name": "Adobe Business Events",
+      "error": "This operation was aborted"
+    },
+    {
+      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
