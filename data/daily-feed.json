@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:02:32.732Z",
+  "generatedAt": "2026-08-04T23:05:39.685Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -9,11 +9,11 @@
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
     "fetchedSignals": 1043,
-    "uniqueSignals": 932,
-    "recentSignals": 709,
-    "candidatePagesQueued": 567,
-    "candidatePagesVerified": 171,
-    "finalItems": 2,
+    "uniqueSignals": 934,
+    "recentSignals": 717,
+    "candidatePagesQueued": 573,
+    "candidatePagesVerified": 172,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -293,7 +293,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 4,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 140,
-      "candidates": 133,
-      "verified": 131,
+      "candidates": 132,
+      "verified": 130,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -499,9 +499,9 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 6,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 4,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -749,14 +749,52 @@
       }
     },
     {
-      "title": "Ahmedabad to Host NRAI's Biggest-Ever 5th Food Delivery Summit, Bringing Together India's Restaurant & Food Delivery Ecosystem - Roastbrief US",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "summary": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
+      "source": "TechCrunch AI",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+      "date": "Tue, 04 Aug 2026 15:20:06 +0000",
+      "location": "Global",
+      "sourceType": "Trusted Tech",
+      "id": "elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "low",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 83,
+        "reasons": [
+          "VIP / Celebrity Star-Power Detected",
+          "Global Networking Opportunity (+10)",
+          "Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "NRAI Food Delivery Summit returns for fifth edition in Ahmedabad - MediaBrief",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmVrTFBEZUNsWVhobTNOS3FDaVo0TWt4NVRYZldrcF90Y2EtaVZDVWNUc2szYUNnRjJXSW0tNkduVTZYekNPRWV5SjZ0ajgxVE5veU9BcndNcHdMREY3V2JsSUhBWVA5NjYxQ0lZSGNiOUNFTXAzd05Ubk9XSVZmb1dUQjc1QlNuZGVhaHpEdXY0a240dm5UOFhvZjBQbkY5NGRoYnl2TzBYb0prcEtQUTVMQ1gzUGx3NzBSMmpoZVNHZGZJb3FIdzExM1dVZ2EtQV9yYlhwYnRBNUVm?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Mon, 03 Aug 2026 16:44:09 GMT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zNmVIWThwQVByT1JXZll3YzExaUZjYzdsT05zUzQza3hkZkZweHh2M3NzcE1wcUNkSTd6Vkh5LVQ3QmNjdHdZbmxlOTcwYlhCeEZmd2RFUTJRSVNIVUh2VF9vWFd1SUQ2X2JXalZ3Wm1VUnhzTVFuQktXMVNKdw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Tue, 04 Aug 2026 04:42:59 GMT",
       "location": "Gujarat",
       "sourceType": "Aggregator Backup",
-      "id": "ahmedabad-to-host-nrai-s-biggest-ever-5th-food-delivery-summit-bringing-together",
+      "id": "nrai-food-delivery-summit-returns-for-fifth-edition-in-ahmedabad-mediabrief",
       "tags": [
         "ai",
         "market",
@@ -764,7 +802,7 @@
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
+      "distanceFromIndia": "remote",
       "airTravel": "unknown",
       "influencerValue": "medium",
       "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
