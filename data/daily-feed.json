@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T01:33:20.651Z",
+  "generatedAt": "2026-08-07T22:36:11.173Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1048,
-    "uniqueSignals": 937,
-    "recentSignals": 732,
-    "candidatePagesQueued": 584,
-    "candidatePagesVerified": 176,
+    "fetchedSignals": 1031,
+    "uniqueSignals": 911,
+    "recentSignals": 703,
+    "candidatePagesQueued": 575,
+    "candidatePagesVerified": 184,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -112,8 +112,8 @@
       "name": "AWS Startups",
       "type": "html",
       "fetched": 20,
-      "candidates": 14,
-      "verified": 6,
+      "candidates": 17,
+      "verified": 13,
       "final": 0,
       "error": ""
     },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -292,8 +292,8 @@
       "name": "AWS Events and Conferences",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
-      "verified": 6,
+      "candidates": 7,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
+      "fetched": 142,
       "candidates": 135,
       "verified": 133,
       "final": 0,
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 19,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "MarTech failed with 429"
     },
     {
       "name": "GDELT Global News",
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
-      "candidates": 1,
+      "fetched": 10,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 1,
+      "candidates": 5,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 2,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -681,6 +681,10 @@
       "error": "This operation was aborted"
     },
     {
+      "name": "Global AI Summit",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -703,6 +707,10 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
+    },
+    {
+      "name": "MarTech",
+      "error": "MarTech failed with 429"
     }
   ],
   "items": []
