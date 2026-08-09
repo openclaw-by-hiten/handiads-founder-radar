@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T22:31:21.250Z",
+  "generatedAt": "2026-08-09T22:32:19.245Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -10,9 +10,9 @@
     "googleBackupFeeds": 11,
     "fetchedSignals": 1031,
     "uniqueSignals": 910,
-    "recentSignals": 703,
-    "candidatePagesQueued": 565,
-    "candidatePagesVerified": 183,
+    "recentSignals": 698,
+    "candidatePagesQueued": 569,
+    "candidatePagesVerified": 181,
     "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -430,7 +430,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": "European AI Alliance failed with 403"
     },
     {
       "name": "India AI Events",
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "MarTech failed with 429"
     },
     {
       "name": "GDELT Global News",
@@ -581,7 +581,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 3,
-      "verified": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -698,11 +698,15 @@
     },
     {
       "name": "European AI Alliance",
-      "error": "This operation was aborted"
+      "error": "European AI Alliance failed with 403"
     },
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
+    },
+    {
+      "name": "MarTech",
+      "error": "MarTech failed with 429"
     }
   ],
   "items": [
