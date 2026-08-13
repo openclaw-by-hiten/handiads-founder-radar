@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T22:42:29.563Z",
+  "generatedAt": "2026-08-13T22:42:43.753Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1051,
-    "uniqueSignals": 928,
-    "recentSignals": 717,
-    "candidatePagesQueued": 582,
-    "candidatePagesVerified": 185,
-    "finalItems": 3,
+    "fetchedSignals": 1036,
+    "uniqueSignals": 915,
+    "recentSignals": 696,
+    "candidatePagesQueued": 566,
+    "candidatePagesVerified": 181,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -31,7 +31,7 @@
       "name": "Meta Company News",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 18,
       "verified": 1,
       "final": 1,
       "error": ""
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 3,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -373,8 +373,8 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 11,
-      "candidates": 10,
-      "verified": 1,
+      "candidates": 9,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 147,
-      "candidates": 137,
-      "verified": 134,
+      "fetched": 145,
+      "candidates": 134,
+      "verified": 131,
       "final": 0,
       "error": ""
     },
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "fetched": 18,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "MarTech failed with 429"
     },
     {
       "name": "GDELT Global News",
@@ -607,16 +607,16 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
-      "final": 1,
+      "candidates": 2,
+      "verified": 2,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,6 +681,10 @@
       "error": "This operation was aborted"
     },
     {
+      "name": "Global AI Summit",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -703,49 +707,13 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
+    },
+    {
+      "name": "MarTech",
+      "error": "MarTech failed with 429"
     }
   ],
   "items": [
-    {
-      "title": "Chennai based maritime AI startup selected for global Smart Port accelerator in Singapore - DT Next",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMUh0bmxYWXhXR3JnU2RMX01KVEVHalEtM2xrUmhIMmU1VXZoRGUtRVZOMGQ1dXBOeEowWTQzNkRzckFzRHprRHBXYlZNa29COUNtcFJTMFVlWk02RXBZbXlpR0hzMFN4dWI5dlY2ZnFWWEdFWmpxX3JvR0R2TEZxWlloY3N0ZGFjZWNYMjBZZVRHOUJWVFBFS2Yxb2toT1pyaVFsTF9ucDNfTzZEQlBvZG93dmdHQkJ4N0lNeE9qVHBydw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Mon, 10 Aug 2026 01:30:00 GMT",
-      "location": "Singapore",
-      "sourceType": "Aggregator Backup",
-      "id": "chennai-based-maritime-ai-startup-selected-for-global-smart-port-accelerator-in-",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Singapore while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 2"
-      }
-    },
     {
       "title": "Announcing the AI Glasses Impact Grant Recipients: Helping People Work, Learn, and Live More Independently",
       "summary": "We've awarded AI Glasses Impact Grants to 30 organizations across the US using Meta AI glasses to help people work safer, learn faster, and live more independently.",
@@ -785,14 +753,14 @@
       }
     },
     {
-      "title": "NRAI Hosts Biggest Food Delivery Summit In Ahmedabad - passionateinmarketing.com",
+      "title": "NRAI Hosts Biggest Food Delivery Summit In Ahmedabad - Passionate In Marketing",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - Gujarat founder opportunities",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZXVudDJoVHZ0TFBxQzkyWlYtcWdneGtOVHZ2UG4xME54eE9VNXk4RldnZUotYzFJN2MyS254LVpYZEI4OVpIUHN3dktJNEx3VHA1RWZicWxMQlpfRG5icVVPWlE4RmZwWHJJM3dCZUN3OFlHcFp6YnJCUWZUUDZBQWctQllTNm90cEw3dkVxbC0yalZ0RnVhbm5pWTJsd280WDlCS2NWXzJkMlBPVy1LNXJ3UDFwWWlIZXBmRzRkTVRvV1pqRG9qeUE2cjExV2pzRkpGa3JCcGp1MG5VTV9tMnlMQjRwSDltTEFJZVF1dlF2QQ?oc=5&hl=en-US&gl=US&ceid=US:en",
       "date": "Tue, 04 Aug 2026 07:07:16 GMT",
       "location": "Gujarat",
       "sourceType": "Aggregator Backup",
-      "id": "nrai-hosts-biggest-food-delivery-summit-in-ahmedabad-passionateinmarketing-com",
+      "id": "nrai-hosts-biggest-food-delivery-summit-in-ahmedabad-passionate-in-marketing",
       "tags": [
         "ai",
         "market",
