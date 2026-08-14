@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:42:43.753Z",
+  "generatedAt": "2026-08-14T22:24:35.569Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1036,
-    "uniqueSignals": 915,
-    "recentSignals": 696,
-    "candidatePagesQueued": 566,
-    "candidatePagesVerified": 181,
-    "finalItems": 2,
+    "fetchedSignals": 1046,
+    "uniqueSignals": 928,
+    "recentSignals": 704,
+    "candidatePagesQueued": 563,
+    "candidatePagesVerified": 178,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
-      "candidates": 134,
-      "verified": 131,
+      "fetched": 143,
+      "candidates": 133,
+      "verified": 130,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 429"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
-      "final": 1,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
+      "fetched": 13,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -608,7 +608,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 2,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -707,10 +703,6 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 429"
     }
   ],
   "items": [
@@ -748,44 +740,6 @@
           "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
           "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "NRAI Hosts Biggest Food Delivery Summit In Ahmedabad - Passionate In Marketing",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Gujarat founder opportunities",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZXVudDJoVHZ0TFBxQzkyWlYtcWdneGtOVHZ2UG4xME54eE9VNXk4RldnZUotYzFJN2MyS254LVpYZEI4OVpIUHN3dktJNEx3VHA1RWZicWxMQlpfRG5icVVPWlE4RmZwWHJJM3dCZUN3OFlHcFp6YnJCUWZUUDZBQWctQllTNm90cEw3dkVxbC0yalZ0RnVhbm5pWTJsd280WDlCS2NWXzJkMlBPVy1LNXJ3UDFwWWlIZXBmRzRkTVRvV1pqRG9qeUE2cjExV2pzRkpGa3JCcGp1MG5VTV9tMnlMQjRwSDltTEFJZVF1dlF2QQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Tue, 04 Aug 2026 07:07:16 GMT",
-      "location": "Gujarat",
-      "sourceType": "Aggregator Backup",
-      "id": "nrai-hosts-biggest-food-delivery-summit-in-ahmedabad-passionate-in-marketing",
-      "tags": [
-        "ai",
-        "market",
-        "gujarat",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Rank 2: Gujarat Local Opportunity (+45)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 2"
       }
