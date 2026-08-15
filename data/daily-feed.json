@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:24:35.569Z",
+  "generatedAt": "2026-08-15T22:23:41.885Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1046,
-    "uniqueSignals": 928,
-    "recentSignals": 704,
-    "candidatePagesQueued": 563,
-    "candidatePagesVerified": 178,
-    "finalItems": 1,
+    "fetchedSignals": 1043,
+    "uniqueSignals": 923,
+    "recentSignals": 698,
+    "candidatePagesQueued": 559,
+    "candidatePagesVerified": 179,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 143,
-      "candidates": 133,
-      "verified": 130,
+      "fetched": 141,
+      "candidates": 132,
+      "verified": 129,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 12,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -607,16 +607,16 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
-      "final": 0,
+      "candidates": 3,
+      "verified": 2,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -706,6 +706,46 @@
     }
   ],
   "items": [
+    {
+      "title": "KL20 Summit goes nationwide with Penang, Johor stops as Malaysia ramps up startup ambitions - Malay Mail",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZWhxU3p3bVVXczVPc1ZKV2ZJZzY1eTBNUGNqX1RueWRPQTUteU52MW40MTgtTklLaDNMR1RDaEJFUGJOUnFIMV91V1RKNkgxdkFhQ3RfOEczZkVUeVdiSjNaWUpsWUtndE9YQXJXeTd3RlRQaU9ubFZtdGxkcUkwTG5MQ2sxcFdXb3Q2QTRuNkk5MnQ2YlRtdHZfY3JkUFJaNVBzUElFa3YzUk5aSnZUSXlSZ3dOOGZNNTRzX2xqV0ZIa3pKVWJ0NFg4LWJlWDlPMUl1RDR4VXowdk0ycUNCTjhR0gHnAUFVX3lxTFBlQm9qa2Z3QV96UGs0TWNoOHRpSzdGLXRjTk5ZSFdiQngxU2FMR3d6T1A2QjV6bldDODVMcldzWHhsZXVhemJJRXYtc0FBOUNuT095cGxIbkVQdE11SEFzSmhrb24zZ0h3anROOS1wRUE4b3JDaUZJSkV0OEZEN01KeGxuQ2sxTXkweUV6dXJXc2RxS2c5UlBJWEFYTVVFdzRjVTIzSy1wcmR2cGJBV2cxN2FPcWp0cFppNVBWaWo1eXVHQVZGbWVOMkpkUHhDeTJDa3lKR0RrT2Fsb2Z6Wk1objZYOWZrMA?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Thu, 06 Aug 2026 10:19:59 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "kl20-summit-goes-nationwide-with-penang-johor-stops-as-malaysia-ramps-up-startup",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
     {
       "title": "Announcing the AI Glasses Impact Grant Recipients: Helping People Work, Learn, and Live More Independently",
       "summary": "We've awarded AI Glasses Impact Grants to 30 organizations across the US using Meta AI glasses to help people work safer, learn faster, and live more independently.",
