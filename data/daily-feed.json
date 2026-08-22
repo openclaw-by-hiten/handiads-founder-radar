@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:26:22.728Z",
+  "generatedAt": "2026-08-22T22:23:15.997Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -10,8 +10,8 @@
     "googleBackupFeeds": 11,
     "fetchedSignals": 1052,
     "uniqueSignals": 926,
-    "recentSignals": 705,
-    "candidatePagesQueued": 564,
+    "recentSignals": 703,
+    "candidatePagesQueued": 563,
     "candidatePagesVerified": 183,
     "finalItems": 3,
     "newsApiEnabled": false,
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 147,
+      "fetched": 145,
       "candidates": 136,
       "verified": 133,
       "final": 0,
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 4,
+      "candidates": 6,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -678,10 +678,6 @@
     },
     {
       "name": "Adobe Business Events",
-      "error": "This operation was aborted"
-    },
-    {
-      "name": "Global AI Summit",
       "error": "This operation was aborted"
     },
     {
