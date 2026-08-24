@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T22:23:39.252Z",
+  "generatedAt": "2026-08-24T22:27:27.877Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1049,
-    "uniqueSignals": 924,
-    "recentSignals": 701,
+    "fetchedSignals": 1048,
+    "uniqueSignals": 923,
+    "recentSignals": 699,
     "candidatePagesQueued": 562,
-    "candidatePagesVerified": 184,
-    "finalItems": 0,
+    "candidatePagesVerified": 182,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -78,7 +78,7 @@
       "fetched": 13,
       "candidates": 2,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 1,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
-      "error": "This operation was aborted"
+      "error": ""
     },
     {
       "name": "Japan Youth Summit",
@@ -230,7 +230,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -303,7 +303,7 @@
       "fetched": 3,
       "candidates": 3,
       "verified": 2,
-      "final": 0,
+      "final": 2,
       "error": ""
     },
     {
@@ -439,7 +439,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": "fetch failed"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 19,
+      "fetched": 18,
       "candidates": 1,
       "verified": 1,
       "final": 0,
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
-      "candidates": 0,
+      "fetched": 13,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
-      "verified": 5,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,10 +681,6 @@
       "error": "This operation was aborted"
     },
     {
-      "name": "Global AI Summit",
-      "error": "This operation was aborted"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -706,8 +702,128 @@
     },
     {
       "name": "India AI Events",
-      "error": "India AI Events failed with 403"
+      "error": "fetch failed"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Helping founders build stronger AI products: Introducing Google for Startups Immersion",
+      "summary": "Google for Startups Immersion, powered by Antler India, is a two-phase technical and venture sprint designed for founders, CXOs, and technical leads ready to move from AI experimentation to architectural scale",
+      "source": "Google for Startups Immersion",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/helping-founders-build-stronger-ai-products-introducing-google-for-startups-immersion/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "helping-founders-build-stronger-ai-products-introducing-google-for-startups-imme",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 93,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/?bc=OTH",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "salesforce-dreamforce-dreamforce-conference-2026",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global Networking Opportunity (+10)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Salesforce Dreamforce: Dreamforce Trail Maps 2026",
+      "summary": "Explore Dreamforce Trail Maps tailored to your role, topic, or industry. Find handpicked sessions, top experiences, and partners to maximize your event.",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/trailmaps/?bc=OTH",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "salesforce-dreamforce-dreamforce-trail-maps-2026",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global Networking Opportunity (+10)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
