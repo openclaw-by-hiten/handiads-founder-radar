@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:27:27.877Z",
+  "generatedAt": "2026-08-25T22:28:30.697Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1048,
-    "uniqueSignals": 923,
-    "recentSignals": 699,
-    "candidatePagesQueued": 562,
-    "candidatePagesVerified": 182,
+    "fetchedSignals": 1051,
+    "uniqueSignals": 925,
+    "recentSignals": 706,
+    "candidatePagesQueued": 564,
+    "candidatePagesVerified": 181,
     "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 3,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -185,7 +185,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -210,11 +210,11 @@
     {
       "name": "Global AI Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "This operation was aborted"
     },
     {
       "name": "Japan Youth Summit",
@@ -372,9 +372,9 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 11,
+      "fetched": 12,
       "candidates": 10,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -439,7 +439,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
-      "candidates": 136,
-      "verified": 133,
+      "fetched": 144,
+      "candidates": 134,
+      "verified": 131,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 18,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 20,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 15,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 4,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -681,6 +681,10 @@
       "error": "This operation was aborted"
     },
     {
+      "name": "Global AI Summit",
+      "error": "This operation was aborted"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -702,7 +706,7 @@
     },
     {
       "name": "India AI Events",
-      "error": "fetch failed"
+      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
