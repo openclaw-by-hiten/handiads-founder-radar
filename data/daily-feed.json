@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:33:27.463Z",
+  "generatedAt": "2026-08-29T23:57:45.739Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1035,
-    "uniqueSignals": 913,
-    "recentSignals": 705,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 172,
+    "fetchedSignals": 1032,
+    "uniqueSignals": 912,
+    "recentSignals": 704,
+    "candidatePagesQueued": 557,
+    "candidatePagesVerified": 170,
     "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 429"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 19,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,15 +580,15 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 2,
+      "candidates": 3,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 16,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -703,10 +703,6 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 429"
     }
   ],
   "items": [
