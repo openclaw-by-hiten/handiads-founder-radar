@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:02:49.906Z",
+  "generatedAt": "2026-09-01T23:53:12.786Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1044,
-    "uniqueSignals": 921,
-    "recentSignals": 716,
-    "candidatePagesQueued": 573,
-    "candidatePagesVerified": 173,
-    "finalItems": 2,
+    "fetchedSignals": 1045,
+    "uniqueSignals": 919,
+    "recentSignals": 705,
+    "candidatePagesQueued": 560,
+    "candidatePagesVerified": 171,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 139,
-      "candidates": 126,
-      "verified": 123,
+      "fetched": 140,
+      "candidates": 127,
+      "verified": 124,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 16,
+      "fetched": 19,
       "candidates": 1,
       "verified": 1,
       "final": 0,
@@ -498,9 +498,9 @@
     {
       "name": "TechCrunch AI",
       "type": "rss",
-      "fetched": 19,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 20,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -562,16 +562,16 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 17,
-      "candidates": 1,
+      "fetched": 13,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 3,
+      "candidates": 3,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,16 +607,16 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 1,
-      "final": 1,
+      "candidates": 2,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 2,
       "verified": 1,
       "final": 1,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -746,46 +746,6 @@
           "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Thailand and OpenAI launch an accelerator programme for AI startups - Asia Tech Review",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Startup grants and accelerators near India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4eG9iOG9vSWE2cWMtd1pmdDlJUlNMVU80Rl90NURmcHZhUDJwS0VieEJZNzAwX3JuT0tYVDFOLWhWNGJJcDJHRnhFYmpZS1R4RXFQbzZBU1RuQ2NxTUx0ZkdCcHpROEV0cnJGcWk1bzZ6T05lMk1BZEoxVVo1N3M?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Mon, 31 Aug 2026 05:00:14 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "thailand-and-openai-launch-an-accelerator-programme-for-ai-startups-asia-tech-re",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Global while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 2"
       }
     }
   ]
