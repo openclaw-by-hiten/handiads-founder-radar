@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:53:12.786Z",
+  "generatedAt": "2026-09-02T23:56:02.416Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1045,
-    "uniqueSignals": 919,
-    "recentSignals": 705,
-    "candidatePagesQueued": 560,
-    "candidatePagesVerified": 171,
-    "finalItems": 1,
+    "fetchedSignals": 1036,
+    "uniqueSignals": 914,
+    "recentSignals": 700,
+    "candidatePagesQueued": 553,
+    "candidatePagesVerified": 174,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 11,
-      "candidates": 11,
+      "fetched": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -300,9 +300,9 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 3,
-      "candidates": 3,
-      "verified": 2,
+      "fetched": 11,
+      "candidates": 11,
+      "verified": 10,
       "final": 0,
       "error": ""
     },
@@ -373,7 +373,7 @@
       "name": "LinkedIn Pressroom",
       "type": "html",
       "fetched": 12,
-      "candidates": 10,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 140,
-      "candidates": 127,
-      "verified": 124,
+      "fetched": 139,
+      "candidates": 124,
+      "verified": 121,
       "final": 0,
       "error": ""
     },
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
-      "candidates": 0,
+      "fetched": 7,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 2,
       "final": 0,
       "error": ""
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,9 +616,9 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
-      "final": 1,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -705,48 +705,5 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "New AI Accelerator launches in Singapore with industry support from Tribe, DISG and NVIDIA - Singapore Economic Development Board (EDB)",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - MNC startup credits and founder programs",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUXRONzBfMzFuMlZ1TWtTM09Nc01HM1BTRUdKdjlQUFhYMFpYT000QnNnQUVsc2laMWw3cjMwQi1GRHFsS2czTHpsTlNWZVpSR05tOG1pQnQ4LWl3NWctODlPQm1mLW1TTW5leklNWlJ5Zk5xdFlodmt6R1ZBMVl6NHZfSEdxaW9qeFp1X3l1bW1MYWEtZFJQeHhnM3hfZ0tyeUNWLWxwVGxjSEd5V0FfN1pmcHlPWVo2eTVVVFNFMkZxMzFNTnJBMkRvTXhkQQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "location": "Singapore",
-      "sourceType": "Aggregator Backup",
-      "id": "new-ai-accelerator-launches-in-singapore-with-industry-support-from-tribe-disg-a",
-      "tags": [
-        "funded",
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "near",
-      "airTravel": "self-funded",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Singapore while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 100,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 1"
-      }
-    }
-  ]
+  "items": []
 }
