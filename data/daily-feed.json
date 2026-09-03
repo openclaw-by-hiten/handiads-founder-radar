@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T23:56:02.416Z",
+  "generatedAt": "2026-09-03T23:51:21.969Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1036,
-    "uniqueSignals": 914,
-    "recentSignals": 700,
-    "candidatePagesQueued": 553,
-    "candidatePagesVerified": 174,
-    "finalItems": 0,
+    "fetchedSignals": 1048,
+    "uniqueSignals": 922,
+    "recentSignals": 718,
+    "candidatePagesQueued": 570,
+    "candidatePagesVerified": 179,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -33,7 +33,7 @@
       "fetched": 20,
       "candidates": 18,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -149,7 +149,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -372,9 +372,9 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 12,
-      "candidates": 11,
-      "verified": 0,
+      "fetched": 11,
+      "candidates": 10,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 139,
-      "candidates": 124,
-      "verified": 121,
+      "fetched": 140,
+      "candidates": 125,
+      "verified": 122,
       "final": 0,
       "error": ""
     },
@@ -498,7 +498,7 @@
     {
       "name": "TechCrunch AI",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -517,8 +517,8 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -562,16 +562,16 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 7,
-      "candidates": 1,
+      "fetched": 10,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -705,5 +705,87 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Google Play Announcing the 2026 cohort of Google Play Accelerator India Posted by Paul Ravindranath",
+      "summary": "Google Play Accelerator India has announced its 2026 cohort, featuring 20 pioneering AI-powered startups from diverse sectors",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/announcing-the-2026-cohort-of-google-play-accelerator-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "google-play-announcing-the-2026-cohort-of-google-play-accelerator-india-posted-b",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 98,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups",
+      "summary": "We are launching Meta Startup School, a three-month programme designed to help early-stage consumer brands accelerate growth. The first cohort will see 200 startups get exclusive access to support and training from venture capital firms and industry experts.",
+      "source": "Meta Company News",
+      "sourceUrl": "https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "medium",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Moderate Distance (+20)",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
