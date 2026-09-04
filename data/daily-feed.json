@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T23:51:21.969Z",
+  "generatedAt": "2026-09-04T23:48:51.906Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1048,
-    "uniqueSignals": 922,
-    "recentSignals": 718,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 179,
+    "fetchedSignals": 1047,
+    "uniqueSignals": 925,
+    "recentSignals": 716,
+    "candidatePagesQueued": 576,
+    "candidatePagesVerified": 181,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -68,7 +68,7 @@
       "type": "html",
       "fetched": 13,
       "candidates": 9,
-      "verified": 2,
+      "verified": 3,
       "final": 1,
       "error": ""
     },
@@ -76,7 +76,7 @@
       "name": "Google for Startups Immersion",
       "type": "html",
       "fetched": 13,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -372,9 +372,9 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 11,
-      "candidates": 10,
-      "verified": 1,
+      "fetched": 12,
+      "candidates": 11,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 140,
-      "candidates": 125,
-      "verified": 122,
+      "fetched": 139,
+      "candidates": 129,
+      "verified": 126,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 19,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 17,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 11,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -581,7 +581,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 1,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 12,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
