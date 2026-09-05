@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T23:48:51.906Z",
+  "generatedAt": "2026-09-05T23:38:57.379Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1047,
-    "uniqueSignals": 925,
-    "recentSignals": 716,
-    "candidatePagesQueued": 576,
-    "candidatePagesVerified": 181,
+    "fetchedSignals": 1051,
+    "uniqueSignals": 930,
+    "recentSignals": 712,
+    "candidatePagesQueued": 570,
+    "candidatePagesVerified": 179,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 139,
-      "candidates": 129,
-      "verified": 126,
+      "candidates": 127,
+      "verified": 124,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 11,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
+      "candidates": 10,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
