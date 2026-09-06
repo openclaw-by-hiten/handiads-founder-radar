@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T23:38:57.379Z",
+  "generatedAt": "2026-09-06T23:34:22.652Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1051,
-    "uniqueSignals": 930,
-    "recentSignals": 712,
-    "candidatePagesQueued": 570,
-    "candidatePagesVerified": 179,
+    "fetchedSignals": 1050,
+    "uniqueSignals": 927,
+    "recentSignals": 710,
+    "candidatePagesQueued": 569,
+    "candidatePagesVerified": 178,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -508,8 +508,8 @@
       "name": "VentureBeat AI",
       "type": "rss",
       "fetched": 7,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
+      "fetched": 14,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
