@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T23:55:15.405Z",
+  "generatedAt": "2026-09-10T23:48:48.295Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1058,
-    "uniqueSignals": 937,
-    "recentSignals": 719,
-    "candidatePagesQueued": 577,
-    "candidatePagesVerified": 189,
-    "finalItems": 4,
+    "fetchedSignals": 1057,
+    "uniqueSignals": 933,
+    "recentSignals": 721,
+    "candidatePagesQueued": 579,
+    "candidatePagesVerified": 186,
+    "finalItems": 7,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -68,8 +68,8 @@
       "type": "html",
       "fetched": 13,
       "candidates": 9,
-      "verified": 3,
-      "final": 0,
+      "verified": 4,
+      "final": 1,
       "error": ""
     },
     {
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 13,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -113,7 +113,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 17,
-      "verified": 13,
+      "verified": 12,
       "final": 0,
       "error": ""
     },
@@ -166,7 +166,7 @@
       "name": "Hub71 AI Program",
       "type": "html",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 146,
-      "candidates": 135,
-      "verified": 131,
+      "fetched": 145,
+      "candidates": 132,
+      "verified": 128,
       "final": 1,
       "error": ""
     },
@@ -489,16 +489,16 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 16,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 15,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "TechCrunch AI",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
-      "final": 0,
+      "candidates": 5,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
@@ -607,17 +607,17 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
-      "final": 0,
+      "candidates": 2,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -747,6 +747,45 @@
       }
     },
     {
+      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
+      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "Salesforce Dreamforce: Dreamforce Trail Maps 2026",
       "summary": "Explore Dreamforce Trail Maps tailored to your role, topic, or industry. Find handpicked sessions, top experiences, and partners to maximize your event.",
       "source": "Salesforce Dreamforce",
@@ -825,6 +864,46 @@
       }
     },
     {
+      "title": "Edinburgh entrepreneur launches Dubai AI accelerator for 30 women - Business Matters",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jS2VwbmRVYTNVMVJ5SUNselZWcUVqRl9OVUx1MzNfdG5NeFVZUDl5aWxSOXJqYUJYTlpfdW80VGt6X1JfZnhtcFRvYmNMcm1pcTBrdG5fbi1oMFZ2WWpqN3FaLWlZR2c4UXhhSGdSUFNhQ1FuSW9ncGJPMA?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Thu, 10 Sep 2026 12:43:11 GMT",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "edinburgh-entrepreneur-launches-dubai-ai-accelerator-for-30-women-business-matte",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in UAE while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "Salesforce Sales Pricing",
       "summary": "Find Salesforce Sales and Sales Cloud pricing for businesses of any size and learn about the differences between Sales Editions.",
       "source": "Salesforce Events",
@@ -858,6 +937,44 @@
           "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
           "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Leaders set to fine-tune incubator network, startup fund, supply chain cooperation framework - The Indian Express",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUJ4c2FCV1BRS1BtZFZhQXRxdEtZdE51UjZkWXBVT1ducFo3X29lSnBYa0k4ejkyM3ZVUWxDTTdpTWhxeTdZQk5yS0FVb25wY2YtRmZ2RVVaNWRaT2pQSWNIbEVLdXFPNk9sRllyekUxX0pJQ0V5cVEya3ZpMGtiV2lqTl9aWDlvSW9DcENGejYwcFV0WHFKdTJPMTFoRXJkWkxpUVdWOGJMc0FfbzlhbURPLVhvSU1HaWUwNHY0cVY2X1ZhYXktWjFLRWFXanA1cDhaWnBtb9IB3gFBVV95cUxOZE9uS0JZNUZSWFRNbnoyblhaUXhHWWFQWUhPTVR5TEd6b2FvMHQwZHFHaUxRY3pqTWVHM3lXZEpVQmk5ZXNBZDV5VVd3UXp5NGlHYmdzZERZN3Z5OWFaenNqVm1uczhkZUo3M2hNRF9XNXlmRi1JZ0hvRXlQcWtrcFdvSUEwQ19VaEtJVVNJX3JIY2VCNjdTZEdxYWtFeVROWWxPNWtpcXNDZElHdS1jSDQ1dDRyVktOTkJDMnFPSDFfRFdlZ2RudUR2T0JYcWF6Vm1RbmZncldUVzJfWUE?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Thu, 10 Sep 2026 22:07:09 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "leaders-set-to-fine-tune-incubator-network-startup-fund-supply-chain-cooperation",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 2"
       }
