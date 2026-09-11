@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:48:48.295Z",
+  "generatedAt": "2026-09-11T23:57:52.972Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1057,
-    "uniqueSignals": 933,
-    "recentSignals": 721,
-    "candidatePagesQueued": 579,
-    "candidatePagesVerified": 186,
-    "finalItems": 7,
+    "fetchedSignals": 1062,
+    "uniqueSignals": 936,
+    "recentSignals": 731,
+    "candidatePagesQueued": 589,
+    "candidatePagesVerified": 194,
+    "finalItems": 6,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -78,7 +78,7 @@
       "fetched": 13,
       "candidates": 3,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -150,7 +150,7 @@
       "fetched": 20,
       "candidates": 19,
       "verified": 2,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -300,10 +300,10 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 14,
-      "candidates": 14,
-      "verified": 13,
-      "final": 1,
+      "fetched": 15,
+      "candidates": 15,
+      "verified": 14,
+      "final": 2,
       "error": ""
     },
     {
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
-      "candidates": 132,
-      "verified": 128,
+      "fetched": 149,
+      "candidates": 134,
+      "verified": 129,
       "final": 1,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 15,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -571,7 +571,7 @@
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
       "fetched": 15,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
+      "candidates": 10,
+      "verified": 7,
       "final": 1,
       "error": ""
     },
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -707,23 +707,22 @@
   ],
   "items": [
     {
-      "title": "Helping founders build stronger AI products: Introducing Google for Startups Immersion",
-      "summary": "Google for Startups Immersion, powered by Antler India, is a two-phase technical and venture sprint designed for founders, CXOs, and technical leads ready to move from AI experimentation to architectural scale",
-      "source": "Google for Startups Immersion",
-      "sourceUrl": "https://blog.google/intl/en-in/company-news/helping-founders-build-stronger-ai-products-introducing-google-for-startups-immersion/",
+      "title": "A Conversation With Marc Benioff and Sam Altman",
+      "summary": "Salesforce | Dreamforce 2026",
+      "source": "Salesforce Dreamforce",
+      "sourceUrl": "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1783524406260001s846",
       "date": "Recent",
-      "location": "India",
+      "location": "Global",
       "sourceType": "Official",
-      "id": "helping-founders-build-stronger-ai-products-introducing-google-for-startups-imme",
+      "id": "a-conversation-with-marc-benioff-and-sam-altman",
       "tags": [
         "ai",
-        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
+      "distanceFromIndia": "remote",
       "airTravel": "unknown",
-      "influencerValue": "high",
+      "influencerValue": "low",
       "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
       "fit": "High fit",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
@@ -734,12 +733,13 @@
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 93,
+        "score": 100,
         "reasons": [
           "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "VIP / Celebrity Star-Power Detected",
+          "Global Networking Opportunity (+10)",
+          "Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)",
           "Founder and business growth relevance",
-          "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
         ],
@@ -786,16 +786,17 @@
       }
     },
     {
-      "title": "Salesforce Dreamforce: Dreamforce Trail Maps 2026",
-      "summary": "Explore Dreamforce Trail Maps tailored to your role, topic, or industry. Find handpicked sessions, top experiences, and partners to maximize your event.",
+      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
+      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
       "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/trailmaps/?bc=OTH",
+      "sourceUrl": "https://www.salesforce.com/dreamforce/?bc=OTH",
       "date": "Recent",
       "location": "Global",
       "sourceType": "Official",
-      "id": "salesforce-dreamforce-dreamforce-trail-maps-2026",
+      "id": "salesforce-dreamforce-dreamforce-conference-2026",
       "tags": [
         "ai",
+        "market",
         "founder"
       ],
       "sponsorship": "No sponsorship found in headline or snippet.",
@@ -899,44 +900,6 @@
           "Founder and business growth relevance",
           "Sponsored business opportunity",
           "AI relevance for HandiAds positioning"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Salesforce Sales Pricing",
-      "summary": "Find Salesforce Sales and Sales Cloud pricing for businesses of any size and learn about the differences between Sales Editions.",
-      "source": "Salesforce Events",
-      "sourceUrl": "https://www.salesforce.com/sales/pricing/?bc=OTH",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "salesforce-sales-pricing",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
         ],
         "label": "Priority 2"
       }
