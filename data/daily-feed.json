@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:57:52.972Z",
+  "generatedAt": "2026-09-12T23:49:29.892Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1062,
-    "uniqueSignals": 936,
-    "recentSignals": 731,
-    "candidatePagesQueued": 589,
-    "candidatePagesVerified": 194,
+    "fetchedSignals": 1065,
+    "uniqueSignals": 939,
+    "recentSignals": 740,
+    "candidatePagesQueued": 595,
+    "candidatePagesVerified": 196,
     "finalItems": 6,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 149,
-      "candidates": 134,
-      "verified": 129,
+      "fetched": 152,
+      "candidates": 135,
+      "verified": 130,
       "final": 1,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 15,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
-      "verified": 7,
+      "candidates": 12,
+      "verified": 9,
       "final": 1,
       "error": ""
     },
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 3,
+      "verified": 2,
       "final": 1,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -905,11 +905,11 @@
       }
     },
     {
-      "title": "Leaders set to fine-tune incubator network, startup fund, supply chain cooperation framework - The Indian Express",
+      "title": "Leaders set to fine-tune incubator network, startup fund, supply chain cooperation framework - indianexpress.com",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Google Backup - India founder programs with applications",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUJ4c2FCV1BRS1BtZFZhQXRxdEtZdE51UjZkWXBVT1ducFo3X29lSnBYa0k4ejkyM3ZVUWxDTTdpTWhxeTdZQk5yS0FVb25wY2YtRmZ2RVVaNWRaT2pQSWNIbEVLdXFPNk9sRllyekUxX0pJQ0V5cVEya3ZpMGtiV2lqTl9aWDlvSW9DcENGejYwcFV0WHFKdTJPMTFoRXJkWkxpUVdWOGJMc0FfbzlhbURPLVhvSU1HaWUwNHY0cVY2X1ZhYXktWjFLRWFXanA1cDhaWnBtb9IB3gFBVV95cUxOZE9uS0JZNUZSWFRNbnoyblhaUXhHWWFQWUhPTVR5TEd6b2FvMHQwZHFHaUxRY3pqTWVHM3lXZEpVQmk5ZXNBZDV5VVd3UXp5NGlHYmdzZERZN3Z5OWFaenNqVm1uczhkZUo3M2hNRF9XNXlmRi1JZ0hvRXlQcWtrcFdvSUEwQ19VaEtJVVNJX3JIY2VCNjdTZEdxYWtFeVROWWxPNWtpcXNDZElHdS1jSDQ1dDRyVktOTkJDMnFPSDFfRFdlZ2RudUR2T0JYcWF6Vm1RbmZncldUVzJfWUE?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Thu, 10 Sep 2026 22:07:09 GMT",
+      "date": "Sat, 12 Sep 2026 07:36:23 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "leaders-set-to-fine-tune-incubator-network-startup-fund-supply-chain-cooperation",
