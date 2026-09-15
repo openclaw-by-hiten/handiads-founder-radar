@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:57:57.329Z",
+  "generatedAt": "2026-09-15T00:22:41.756Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1065,
-    "uniqueSignals": 942,
-    "recentSignals": 732,
-    "candidatePagesQueued": 591,
+    "fetchedSignals": 1067,
+    "uniqueSignals": 940,
+    "recentSignals": 727,
+    "candidatePagesQueued": 585,
     "candidatePagesVerified": 195,
     "finalItems": 2,
     "newsApiEnabled": false,
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 15,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -303,7 +303,7 @@
       "fetched": 15,
       "candidates": 15,
       "verified": 14,
-      "final": 2,
+      "final": 0,
       "error": ""
     },
     {
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 150,
-      "candidates": 134,
-      "verified": 129,
+      "candidates": 130,
+      "verified": 125,
       "final": 0,
       "error": ""
     },
@@ -489,16 +489,16 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 16,
-      "candidates": 2,
-      "verified": 2,
-      "final": 0,
+      "fetched": 17,
+      "candidates": 3,
+      "verified": 3,
+      "final": 1,
       "error": ""
     },
     {
       "name": "TechCrunch AI",
       "type": "rss",
-      "fetched": 19,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,9 +616,9 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 0,
-      "final": 0,
+      "candidates": 3,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -707,56 +707,15 @@
   ],
   "items": [
     {
-      "title": "A Conversation With Marc Benioff and Sam Altman",
-      "summary": "Salesforce | Dreamforce 2026",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1783524406260001s846",
-      "date": "Recent",
+      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+      "summary": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
+      "source": "TechCrunch Startups",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+      "date": "Mon, 14 Sep 2026 14:00:00 +0000",
       "location": "Global",
-      "sourceType": "Official",
-      "id": "a-conversation-with-marc-benioff-and-sam-altman",
+      "sourceType": "Trusted Tech",
+      "id": "5-days-left-to-exhibit-at-techcrunch-disrupt-2026",
       "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 100,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "VIP / Celebrity Star-Power Detected",
-          "Global Networking Opportunity (+10)",
-          "Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Salesforce Dreamforce: Dreamforce Conference 2026",
-      "summary": "Register for Dreamforce to explore the future of technology. Experience groundbreaking keynotes, innovative sessions, and incredible networking opportunities.",
-      "source": "Salesforce Dreamforce",
-      "sourceUrl": "https://www.salesforce.com/dreamforce/?bc=OTH",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "salesforce-dreamforce-dreamforce-conference-2026",
-      "tags": [
-        "ai",
         "market",
         "founder"
       ],
@@ -764,24 +723,62 @@
       "distanceFromIndia": "remote",
       "airTravel": "unknown",
       "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
+      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
+      "fit": "Watch",
       "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
       "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 90,
+        "reasons": [
+          "VIP / Celebrity Star-Power Detected",
+          "Global Networking Opportunity (+10)",
+          "Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Google picks 4 Indian startups for inaugural DeepMind AI accelerator - Business Standard",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - MNC startup credits and founder programs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUEtWc2p0V0FBajdVUndBemtHS2FTS2Q4UzdNck5FdjRPaWdFUmJBUzVhYjBPM0I4XzhzREkxbmJ5T3hEX1FZYmZtdFNvWmhHaEdoOEVwOERaM0F3QkVHaHBOSFN6WEU0VVMwTkRxMGM5ajJoSkJMRmF3Yjhfb1FNZ1hxSGV6U21hdkdXNGtYRGZINnNaakJVNUFtamF1dlFPMmlWTWN0Zm1wcVRrbGlWd1dyQVZjZjY1ODlLLWVjSXl6cGpUMkg0NnMxMy1aMHNaNDFHUW9LejFYZ9IB3wFBVV95cUxOOEZlMlBwVXRjdHphVXk4N0tndE55eVU1eVFZUkZtZ2Eyd1RZUjQxbG9DS0NqVU01TThNdWVMUEctaVMwcFhxT3BCMDE3ak5IcnhLeWVnclhmUW5BZGdYWmNrQUpwT3VraUhmdnBOZExDMk14TkJubXU0NWh2a0hjREVTOTR4S1d5YlNDWDlSUUdwOWtDUVVwelNWcTREdU8zREs0ekl1YWstd0M4aWlUUXY5T0xIYy1nWksyZTA1VWV3eEM3TW1SQkRYVHQzbDFydGNDQUpNR2E2SWIxU21J?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Mon, 14 Sep 2026 14:06:14 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "google-picks-4-indian-startups-for-inaugural-deepmind-ai-accelerator-business-st",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
         "score": 73,
         "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Global Networking Opportunity (+10)",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
           "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
+          "Sponsored business opportunity",
+          "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 2"
       }
