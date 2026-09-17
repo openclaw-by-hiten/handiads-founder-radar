@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:02:37.970Z",
+  "generatedAt": "2026-09-17T00:10:25.480Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1071,
+    "fetchedSignals": 1073,
     "uniqueSignals": 945,
-    "recentSignals": 738,
-    "candidatePagesQueued": 591,
-    "candidatePagesVerified": 184,
-    "finalItems": 3,
+    "recentSignals": 741,
+    "candidatePagesQueued": 582,
+    "candidatePagesVerified": 178,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -68,7 +68,7 @@
       "type": "html",
       "fetched": 13,
       "candidates": 9,
-      "verified": 4,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -300,9 +300,9 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 14,
-      "candidates": 13,
-      "verified": 6,
+      "fetched": 15,
+      "candidates": 14,
+      "verified": 7,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 151,
-      "candidates": 130,
-      "verified": 123,
+      "fetched": 153,
+      "candidates": 125,
+      "verified": 120,
       "final": 0,
       "error": ""
     },
@@ -490,9 +490,9 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
-      "final": 1,
+      "candidates": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -570,10 +570,10 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
-      "candidates": 1,
-      "verified": 1,
-      "final": 1,
+      "fetched": 14,
+      "candidates": 0,
+      "verified": 0,
+      "final": 0,
       "error": ""
     },
     {
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -609,7 +609,7 @@
       "fetched": 20,
       "candidates": 3,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -707,76 +707,41 @@
   ],
   "items": [
     {
-      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
-      "summary": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
-      "source": "TechCrunch Startups",
-      "sourceUrl": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
-      "date": "Mon, 14 Sep 2026 14:00:00 +0000",
-      "location": "Global",
-      "sourceType": "Trusted Tech",
-      "id": "5-days-left-to-exhibit-at-techcrunch-disrupt-2026",
-      "tags": [
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Trusted publication scan. Use as news intelligence, then verify original source.",
-      "fit": "Watch",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 90,
-        "reasons": [
-          "VIP / Celebrity Star-Power Detected",
-          "Global Networking Opportunity (+10)",
-          "Rank 3: Executive Leadership / C-Suite / Head of State Detected (+25)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value"
-        ],
-        "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Hyderabad to Host Global Startup Summit 2026 on September 19, Bringing Founders and Investors Together - Hello Mumbai News",
+      "title": "New AI Accelerator launches in Singapore with industry support from Tribe, DISG and NVIDIA - Singapore Economic Development Board (EDB)",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - Gujarat events and investor networking",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUWc0emJyaVJQQmtvazQxOVJ5ZHhQNzM1VmJWc3J2RXZPb0VCR0JHb3NQUjdyU1M4VnlZQlI4RnNQWWM1R1ZmLUFlYWVlemNnMVp3NmJVU2c5WmR5aUY4UFhzVThQN1BEZ0c1MEd3Z1JWTmZyV3ZSeFFESlN5TVQ4Tk9wRVFKSFdGRDYtZEN5YTIxVzJOLUZSbHVWQlRhTjA3Y0N0ZWpFa2JSWnpaQ2pEbk01ZEhidHVRR3hFcjZZMGUwVnNNdVRBM2dYbTVUMkw3QURjLS1vWUVqN0R0eEE?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Mon, 14 Sep 2026 06:43:34 GMT",
-      "location": "Global",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNGZxSldBbWVabEJmbkt6d2Q2VXpJNXozamg3Z25LQTctSDdaYnpyNkxvOEJYUW9jOTFGNEI3OEJmbWJlb3RrY0VIZVJ5QUlTdjJQcFJNenBvNGxUeG1tenZ2aDk5OEs0SUpDeHd1Wng4OVRZOGRRUnpYWnBqaWU3TmZpMEdRSnVjdDIzY0c2MzFTYXpiOWJ3OWpaRnFJY20ySDhSaFN1Y1dnbmlHTDNWOHZzbXlZUktHZWpaYzRhTnFJSVA4UGh0cFZB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "location": "Singapore",
       "sourceType": "Aggregator Backup",
-      "id": "hyderabad-to-host-global-startup-summit-2026-on-september-19-bringing-founders-a",
+      "id": "new-ai-accelerator-launches-in-singapore-with-industry-support-from-tribe-disg-a",
       "tags": [
+        "funded",
         "ai",
         "market",
-        "gujarat",
         "founder"
       ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "remote",
-      "airTravel": "unknown",
-      "influencerValue": "high",
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
       "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
+      "why": "This can help HandiAds build international presence in Singapore while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
       "nextMoves": [
         "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 83,
+        "score": 88,
         "reasons": [
-          "Rank 2: Gujarat Local Opportunity (+45)",
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
           "Founder and business growth relevance",
-          "Strong influencer and networking value",
+          "Sponsored business opportunity",
           "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 1"
