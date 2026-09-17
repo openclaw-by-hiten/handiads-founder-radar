@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T00:10:25.480Z",
+  "generatedAt": "2026-09-17T23:59:18.064Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1073,
-    "uniqueSignals": 945,
-    "recentSignals": 741,
-    "candidatePagesQueued": 582,
-    "candidatePagesVerified": 178,
+    "fetchedSignals": 1061,
+    "uniqueSignals": 937,
+    "recentSignals": 728,
+    "candidatePagesQueued": 574,
+    "candidatePagesVerified": 172,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -300,9 +300,9 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 15,
-      "candidates": 14,
-      "verified": 7,
+      "fetched": 12,
+      "candidates": 11,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -372,9 +372,9 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 14,
-      "candidates": 13,
-      "verified": 0,
+      "fetched": 11,
+      "candidates": 10,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 153,
-      "candidates": 125,
-      "verified": 120,
+      "fetched": 150,
+      "candidates": 124,
+      "verified": 119,
       "final": 0,
       "error": ""
     },
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 18,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 13,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 9,
-      "verified": 6,
+      "candidates": 8,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 1,
       "final": 1,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,8 +652,8 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 1,
+      "candidates": 2,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
