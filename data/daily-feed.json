@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T23:58:26.831Z",
+  "generatedAt": "2026-09-20T23:55:42.597Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1039,
-    "uniqueSignals": 915,
-    "recentSignals": 707,
-    "candidatePagesQueued": 573,
-    "candidatePagesVerified": 171,
+    "fetchedSignals": 1056,
+    "uniqueSignals": 933,
+    "recentSignals": 724,
+    "candidatePagesQueued": 582,
+    "candidatePagesVerified": 170,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -219,8 +219,8 @@
     {
       "name": "Japan Youth Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 0,
+      "fetched": 11,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 403"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 10,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -703,10 +703,6 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 403"
     }
   ],
   "items": [
