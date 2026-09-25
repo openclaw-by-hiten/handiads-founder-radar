@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T00:18:38.173Z",
+  "generatedAt": "2026-09-25T00:22:05.141Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1051,
-    "uniqueSignals": 928,
-    "recentSignals": 721,
-    "candidatePagesQueued": 565,
-    "candidatePagesVerified": 147,
-    "finalItems": 2,
+    "fetchedSignals": 1045,
+    "uniqueSignals": 917,
+    "recentSignals": 712,
+    "candidatePagesQueued": 558,
+    "candidatePagesVerified": 142,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -228,9 +228,9 @@
     {
       "name": "Google Developers Events Directory",
       "type": "html",
-      "fetched": 20,
-      "candidates": 19,
-      "verified": 1,
+      "fetched": 17,
+      "candidates": 12,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -293,7 +293,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 7,
-      "verified": 5,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 147,
-      "candidates": 111,
-      "verified": 105,
-      "final": 0,
+      "fetched": 145,
+      "candidates": 109,
+      "verified": 103,
+      "final": 1,
       "error": ""
     },
     {
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 18,
       "candidates": 2,
       "verified": 2,
       "final": 0,
@@ -538,7 +538,7 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 429"
+      "error": "MarTech failed with 403"
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 11,
+      "fetched": 12,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 1,
+      "candidates": 4,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 13,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -706,7 +706,7 @@
     },
     {
       "name": "MarTech",
-      "error": "MarTech failed with 429"
+      "error": "MarTech failed with 403"
     }
   ],
   "items": [
@@ -748,6 +748,45 @@
           "Official source"
         ],
         "label": "Priority 1"
+      }
+    },
+    {
+      "title": "GITEX Global (Dubai)",
+      "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.gitex.com_home-Nx1NzFqq.htm",
+      "date": "Recent",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "gitex-global-dubai",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "AI relevance for HandiAds positioning",
+          "Techmeme curated event"
+        ],
+        "label": "Priority 2"
       }
     },
     {
