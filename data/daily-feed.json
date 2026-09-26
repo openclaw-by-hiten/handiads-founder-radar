@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T00:22:05.141Z",
+  "generatedAt": "2026-09-26T00:27:32.615Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1045,
-    "uniqueSignals": 917,
-    "recentSignals": 712,
-    "candidatePagesQueued": 558,
-    "candidatePagesVerified": 142,
+    "fetchedSignals": 1031,
+    "uniqueSignals": 908,
+    "recentSignals": 697,
+    "candidatePagesQueued": 554,
+    "candidatePagesVerified": 145,
     "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 3,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -149,8 +149,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
-      "final": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -292,8 +292,8 @@
       "name": "AWS Events and Conferences",
       "type": "html",
       "fetched": 20,
-      "candidates": 7,
-      "verified": 4,
+      "candidates": 10,
+      "verified": 7,
       "final": 0,
       "error": ""
     },
@@ -446,7 +446,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 17,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 145,
-      "candidates": 109,
-      "verified": 103,
+      "fetched": 132,
+      "candidates": 108,
+      "verified": 102,
       "final": 1,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 18,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 12,
+      "fetched": 11,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 17,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -751,6 +751,45 @@
       }
     },
     {
+      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
+      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "GITEX Global (Dubai)",
       "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
       "source": "Techmeme Events",
@@ -785,44 +824,6 @@
           "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
           "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Salesforce Sales Pricing",
-      "summary": "Find Salesforce Sales and Sales Cloud pricing for businesses of any size and learn about the differences between Sales Editions.",
-      "source": "Salesforce Events",
-      "sourceUrl": "https://www.salesforce.com/sales/pricing/?bc=OTH",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "salesforce-sales-pricing",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
         ],
         "label": "Priority 2"
       }
