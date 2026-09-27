@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T00:27:32.615Z",
+  "generatedAt": "2026-09-27T00:20:14.788Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1031,
-    "uniqueSignals": 908,
-    "recentSignals": 697,
-    "candidatePagesQueued": 554,
+    "fetchedSignals": 1023,
+    "uniqueSignals": 900,
+    "recentSignals": 689,
+    "candidatePagesQueued": 553,
     "candidatePagesVerified": 145,
-    "finalItems": 3,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -78,7 +78,7 @@
       "fetched": 13,
       "candidates": 3,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 132,
+      "fetched": 126,
       "candidates": 108,
       "verified": 102,
       "final": 1,
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 11,
+      "fetched": 9,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 14,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -710,46 +710,6 @@
     }
   ],
   "items": [
-    {
-      "title": "Helping founders build stronger AI products: Introducing Google for Startups Immersion",
-      "summary": "Google for Startups Immersion, powered by Antler India, is a two-phase technical and venture sprint designed for founders, CXOs, and technical leads ready to move from AI experimentation to architectural scale",
-      "source": "Google for Startups Immersion",
-      "sourceUrl": "https://blog.google/intl/en-in/company-news/helping-founders-build-stronger-ai-products-introducing-google-for-startups-immersion/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "helping-founders-build-stronger-ai-products-introducing-google-for-startups-imme",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 93,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 1"
-      }
-    },
     {
       "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
       "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
