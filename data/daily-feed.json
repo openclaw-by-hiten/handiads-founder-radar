@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T00:23:50.012Z",
+  "generatedAt": "2026-09-29T01:33:50.418Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1033,
-    "uniqueSignals": 916,
-    "recentSignals": 702,
-    "candidatePagesQueued": 552,
-    "candidatePagesVerified": 145,
-    "finalItems": 1,
+    "fetchedSignals": 1023,
+    "uniqueSignals": 901,
+    "recentSignals": 682,
+    "candidatePagesQueued": 542,
+    "candidatePagesVerified": 143,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -31,7 +31,7 @@
       "name": "Meta Company News",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 3,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -445,7 +445,7 @@
       "name": "ITU AI for Good Global Summit",
       "type": "html",
       "fetched": 20,
-      "candidates": 17,
+      "candidates": 16,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 126,
-      "candidates": 108,
-      "verified": 102,
+      "fetched": 127,
+      "candidates": 106,
+      "verified": 100,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 3,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "MarTech failed with 403"
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 9,
+      "fetched": 8,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -703,47 +703,11 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
+    },
+    {
+      "name": "MarTech",
+      "error": "MarTech failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
-      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
-      "source": "Google Play Accelerator India",
-      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
