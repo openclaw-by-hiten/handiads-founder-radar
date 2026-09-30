@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T01:33:50.418Z",
+  "generatedAt": "2026-09-30T01:09:26.708Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 1023,
-    "uniqueSignals": 901,
-    "recentSignals": 682,
-    "candidatePagesQueued": 542,
-    "candidatePagesVerified": 143,
+    "fetchedSignals": 1004,
+    "uniqueSignals": 884,
+    "recentSignals": 671,
+    "candidatePagesQueued": 527,
+    "candidatePagesVerified": 141,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -246,11 +246,11 @@
     {
       "name": "NVIDIA GTC Hub",
       "type": "html",
-      "fetched": 20,
-      "candidates": 18,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "Meta Connect",
@@ -372,8 +372,8 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 14,
-      "candidates": 13,
+      "fetched": 13,
+      "candidates": 12,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 127,
-      "candidates": 106,
-      "verified": 100,
+      "fetched": 126,
+      "candidates": 103,
+      "verified": 97,
       "final": 0,
       "error": ""
     },
@@ -489,9 +489,9 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 18,
-      "candidates": 3,
-      "verified": 3,
+      "fetched": 20,
+      "candidates": 4,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 8,
+      "fetched": 9,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -679,6 +679,10 @@
     {
       "name": "Adobe Business Events",
       "error": "This operation was aborted"
+    },
+    {
+      "name": "NVIDIA GTC Hub",
+      "error": "fetch failed"
     },
     {
       "name": "Meta Connect",
