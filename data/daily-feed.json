@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:48:56.819Z",
+  "generatedAt": "2026-10-10T01:35:29.465Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 988,
-    "uniqueSignals": 856,
-    "recentSignals": 649,
-    "candidatePagesQueued": 499,
-    "candidatePagesVerified": 110,
+    "fetchedSignals": 987,
+    "uniqueSignals": 855,
+    "recentSignals": 651,
+    "candidatePagesQueued": 505,
+    "candidatePagesVerified": 116,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -166,7 +166,7 @@
       "name": "Hub71 AI Program",
       "type": "html",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -222,7 +222,7 @@
       "fetched": 10,
       "candidates": 10,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -462,10 +462,10 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 114,
-      "candidates": 90,
-      "verified": 84,
-      "final": 0,
+      "fetched": 113,
+      "candidates": 93,
+      "verified": 87,
+      "final": 1,
       "error": ""
     },
     {
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 4,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
+      "candidates": 6,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -598,7 +598,7 @@
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 6,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -625,8 +625,8 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 11,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -751,44 +751,42 @@
       }
     },
     {
-      "title": "Home | Japan Youth Summit",
-      "summary": "Official website for Japan Youth Summit",
-      "source": "Japan Youth Summit",
-      "sourceUrl": "https://japanyouthsummit.com/partners",
+      "title": "GITEX Global (Dubai)",
+      "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.gitex.com_home-Nx1NzFqq.htm",
       "date": "Recent",
-      "location": "Japan",
-      "sourceType": "Official",
-      "id": "home-japan-youth-summit",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "gitex-global-dubai",
       "tags": [
-        "funded",
         "ai",
-        "market"
+        "market",
+        "founder"
       ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "medium",
-      "airTravel": "self-funded",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Japan while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 88,
+        "score": 73,
         "reasons": [
           "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
-          "Official source"
+          "Techmeme curated event"
         ],
-        "label": "Priority 1"
+        "label": "Priority 2"
       }
     }
   ]
