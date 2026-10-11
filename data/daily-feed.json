@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T01:35:29.465Z",
+  "generatedAt": "2026-10-11T00:47:27.567Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 987,
-    "uniqueSignals": 855,
-    "recentSignals": 651,
-    "candidatePagesQueued": 505,
-    "candidatePagesVerified": 116,
-    "finalItems": 2,
+    "fetchedSignals": 973,
+    "uniqueSignals": 842,
+    "recentSignals": 638,
+    "candidatePagesQueued": 496,
+    "candidatePagesVerified": 114,
+    "finalItems": 4,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 3,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -309,11 +309,11 @@
     {
       "name": "Alphabet Investor Events",
       "type": "html",
-      "fetched": 12,
-      "candidates": 10,
-      "verified": 1,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Alphabet Investor Events failed with 403"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -337,7 +337,7 @@
       "name": "Microsoft Investor Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 113,
-      "candidates": 93,
-      "verified": 87,
+      "fetched": 111,
+      "candidates": 92,
+      "verified": 86,
       "final": 1,
       "error": ""
     },
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
-      "verified": 4,
+      "candidates": 5,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -607,9 +607,9 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 0,
-      "final": 0,
+      "candidates": 3,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 13,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -687,6 +687,10 @@
     {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
+    },
+    {
+      "name": "Alphabet Investor Events",
+      "error": "Alphabet Investor Events failed with 403"
     },
     {
       "name": "NVIDIA Investor Events",
@@ -751,6 +755,45 @@
       }
     },
     {
+      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
+      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "GITEX Global (Dubai)",
       "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
       "source": "Techmeme Events",
@@ -785,6 +828,46 @@
           "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
           "Techmeme curated event"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Monad teases privacy tech at Singapore summit and MON jumps 18% - Startup Fortune",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Startup grants and accelerators near India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTy10ZEx2YzJuQzRQVWRlZHZNNGdRd3MwbWpuY0dVVm5ZU3U0M3BiYnQ5WV9aY2NFckFCaWxMWGlJVXNyRDVqQzlhRnBoeGxCUWJDMTZULVNldklwYUQyT2hsU3A5VnlUYkVOM2l4MDluVHV5NVJiSVp3VjNnV3lKcE50Y292VE9tNWpoeVBlV0dTWXR2?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Wed, 07 Oct 2026 05:28:42 GMT",
+      "location": "Singapore",
+      "sourceType": "Aggregator Backup",
+      "id": "monad-teases-privacy-tech-at-singapore-summit-and-mon-jumps-18-startup-fortune",
+      "tags": [
+        "funded",
+        "market",
+        "ads",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Singapore while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Performance marketing relevance"
         ],
         "label": "Priority 2"
       }
