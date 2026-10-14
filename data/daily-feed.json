@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T02:54:33.043Z",
+  "generatedAt": "2026-10-14T00:57:23.630Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 755,
-    "uniqueSignals": 628,
-    "recentSignals": 601,
-    "candidatePagesQueued": 464,
-    "candidatePagesVerified": 106,
-    "finalItems": 1,
+    "fetchedSignals": 979,
+    "uniqueSignals": 854,
+    "recentSignals": 646,
+    "candidatePagesQueued": 490,
+    "candidatePagesVerified": 110,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 3,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -149,7 +149,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -283,7 +283,7 @@
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -381,9 +381,9 @@
     {
       "name": "US AI.gov",
       "type": "html",
-      "fetched": 5,
-      "candidates": 3,
-      "verified": 1,
+      "fetched": 9,
+      "candidates": 6,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -445,7 +445,7 @@
       "name": "ITU AI for Good Global Summit",
       "type": "html",
       "fetched": 20,
-      "candidates": 16,
+      "candidates": 17,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 115,
-      "candidates": 93,
-      "verified": 87,
+      "candidates": 89,
+      "verified": 83,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 403"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -561,101 +561,101 @@
     {
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Gujarat founder opportunities failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Gujarat events and investor networking failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 6,
+      "verified": 4,
       "final": 0,
-      "error": "Google Backup - India founder programs with applications failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - India AI and startup conferences failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Government startup delegations failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 3,
+      "verified": 1,
       "final": 0,
-      "error": "Google Backup - Startup grants and accelerators near India failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - MNC startup credits and founder programs failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
-      "error": "Google Backup - Google AI startup events India failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
-      "error": "Google Backup - Global Funded Founder Travel failed with 503"
+      "error": ""
     },
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Top MNC Startup Events failed with 503"
+      "error": ""
     },
     {
       "name": "NewsAPI optional",
@@ -711,95 +711,7 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 403"
-    },
-    {
-      "name": "Google Backup - Gujarat founder opportunities",
-      "error": "Google Backup - Gujarat founder opportunities failed with 503"
-    },
-    {
-      "name": "Google Backup - Gujarat events and investor networking",
-      "error": "Google Backup - Gujarat events and investor networking failed with 503"
-    },
-    {
-      "name": "Google Backup - India founder programs with applications",
-      "error": "Google Backup - India founder programs with applications failed with 503"
-    },
-    {
-      "name": "Google Backup - India AI and startup conferences",
-      "error": "Google Backup - India AI and startup conferences failed with 503"
-    },
-    {
-      "name": "Google Backup - Government startup delegations",
-      "error": "Google Backup - Government startup delegations failed with 503"
-    },
-    {
-      "name": "Google Backup - Startup grants and accelerators near India",
-      "error": "Google Backup - Startup grants and accelerators near India failed with 503"
-    },
-    {
-      "name": "Google Backup - MNC startup credits and founder programs",
-      "error": "Google Backup - MNC startup credits and founder programs failed with 503"
-    },
-    {
-      "name": "Google Backup - Google AI startup events India",
-      "error": "Google Backup - Google AI startup events India failed with 503"
-    },
-    {
-      "name": "Google Backup - Ad tech and performance marketing intelligence",
-      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 503"
-    },
-    {
-      "name": "Google Backup - Global Funded Founder Travel",
-      "error": "Google Backup - Global Funded Founder Travel failed with 503"
-    },
-    {
-      "name": "Google Backup - Top MNC Startup Events",
-      "error": "Google Backup - Top MNC Startup Events failed with 503"
     }
   ],
-  "items": [
-    {
-      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
-      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
-      "source": "Google Play Accelerator India",
-      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
