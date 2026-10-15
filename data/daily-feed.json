@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T00:57:23.630Z",
+  "generatedAt": "2026-10-15T00:21:55.460Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 979,
-    "uniqueSignals": 854,
+    "fetchedSignals": 978,
+    "uniqueSignals": 851,
     "recentSignals": 646,
-    "candidatePagesQueued": 490,
+    "candidatePagesQueued": 493,
     "candidatePagesVerified": 110,
     "finalItems": 0,
     "newsApiEnabled": false,
@@ -283,7 +283,7 @@
       "name": "Apple Developer Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 17,
+      "candidates": 16,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 115,
-      "candidates": 89,
-      "verified": 83,
+      "fetched": 114,
+      "candidates": 87,
+      "verified": 81,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 2,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 7,
       "verified": 4,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 5,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
