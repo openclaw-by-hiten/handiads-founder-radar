@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:58:29.793Z",
+  "generatedAt": "2026-10-20T00:59:21.487Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 946,
-    "uniqueSignals": 822,
-    "recentSignals": 602,
-    "candidatePagesQueued": 459,
-    "candidatePagesVerified": 102,
-    "finalItems": 1,
+    "fetchedSignals": 997,
+    "uniqueSignals": 864,
+    "recentSignals": 631,
+    "candidatePagesQueued": 468,
+    "candidatePagesVerified": 98,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -78,7 +78,7 @@
       "fetched": 13,
       "candidates": 3,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -201,11 +201,11 @@
     {
       "name": "JETRO Startups",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 15,
+      "verified": 1,
       "final": 0,
-      "error": "JETRO Startups failed with 503"
+      "error": ""
     },
     {
       "name": "Global AI Summit",
@@ -463,8 +463,8 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 108,
-      "candidates": 84,
-      "verified": 78,
+      "candidates": 79,
+      "verified": 73,
       "final": 0,
       "error": ""
     },
@@ -489,7 +489,7 @@
     {
       "name": "TechCrunch Startups",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 19,
       "candidates": 1,
       "verified": 1,
       "final": 0,
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 429"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -685,10 +685,6 @@
       "error": "Devpost Hackathons failed with 403"
     },
     {
-      "name": "JETRO Startups",
-      "error": "JETRO Startups failed with 503"
-    },
-    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -715,13 +711,52 @@
     {
       "name": "India AI Events",
       "error": "fetch failed"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 429"
     }
   ],
   "items": [
+    {
+      "title": "Google Play Announcing the 2026 cohort of Google Play Accelerator India Posted by Paul Ravindranath",
+      "summary": "Google Play Accelerator India has announced its 2026 cohort, featuring 20 pioneering AI-powered startups from diverse sectors",
+      "source": "Google for Startups Immersion",
+      "sourceUrl": "https://blog.google/intl/en-in/announcing-the-2026-cohort-of-google-play-accelerator-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "google-play-announcing-the-2026-cohort-of-google-play-accelerator-india-posted-b",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "near",
+      "airTravel": "self-funded",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in India while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 100,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Sponsored business opportunity",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
     {
       "title": "Google Cloud Security Summit - AMER",
       "summary": "With threats constantly advancing, strengthening your security is essential. Discover the latest AI-powered solutions for your most critical security priorities, directly from Google Cloud and Mandiant experts.",
