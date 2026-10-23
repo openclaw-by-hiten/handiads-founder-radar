@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:30:08.223Z",
+  "generatedAt": "2026-10-23T00:28:16.208Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 952,
-    "uniqueSignals": 830,
-    "recentSignals": 599,
-    "candidatePagesQueued": 450,
-    "candidatePagesVerified": 100,
-    "finalItems": 3,
+    "fetchedSignals": 960,
+    "uniqueSignals": 836,
+    "recentSignals": 619,
+    "candidatePagesQueued": 473,
+    "candidatePagesVerified": 97,
+    "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -149,8 +149,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
-      "final": 1,
+      "verified": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -374,7 +374,7 @@
       "type": "html",
       "fetched": 12,
       "candidates": 11,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -439,32 +439,32 @@
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "fetch failed"
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "ITU AI for Good Global Summit",
       "type": "html",
       "fetched": 20,
       "candidates": 17,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
-      "error": "UNIDIR Global Conference on AI failed with 503"
+      "error": ""
     },
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 111,
-      "candidates": 79,
-      "verified": 74,
+      "fetched": 106,
+      "candidates": 77,
+      "verified": 72,
       "final": 0,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 19,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -499,8 +499,8 @@
       "name": "TechCrunch AI",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -517,8 +517,8 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 17,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 3,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -597,7 +597,7 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 14,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -710,11 +710,7 @@
     },
     {
       "name": "India AI Events",
-      "error": "fetch failed"
-    },
-    {
-      "name": "UNIDIR Global Conference on AI",
-      "error": "UNIDIR Global Conference on AI failed with 503"
+      "error": "India AI Events failed with 403"
     },
     {
       "name": "MarTech",
@@ -804,44 +800,6 @@
           "Official source"
         ],
         "label": "Priority 1"
-      }
-    },
-    {
-      "title": "Salesforce Agentforce Pricing",
-      "summary": "Build, customize, test, deploy, and monitor AI-powered agents. Discover pricing information for Salesforce Agentforce.",
-      "source": "Salesforce Events",
-      "sourceUrl": "https://www.salesforce.com/agentforce/pricing/?bc=OTH",
-      "date": "Recent",
-      "location": "Global",
-      "sourceType": "Official",
-      "id": "salesforce-agentforce-pricing",
-      "tags": [
-        "ai",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "medium",
-      "airTravel": "unknown",
-      "influencerValue": "low",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
       }
     }
   ]
