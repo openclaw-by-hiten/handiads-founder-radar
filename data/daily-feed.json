@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T00:04:25.262Z",
+  "generatedAt": "2026-10-25T23:52:56.936Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 957,
-    "uniqueSignals": 835,
+    "fetchedSignals": 962,
+    "uniqueSignals": 844,
     "recentSignals": 613,
-    "candidatePagesQueued": 473,
-    "candidatePagesVerified": 98,
+    "candidatePagesQueued": 464,
+    "candidatePagesVerified": 96,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -222,7 +222,7 @@
       "fetched": 10,
       "candidates": 10,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -237,11 +237,11 @@
     {
       "name": "Adobe Summit",
       "type": "html",
-      "fetched": 1,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "fetch failed"
     },
     {
       "name": "NVIDIA GTC Hub",
@@ -465,7 +465,7 @@
       "fetched": 100,
       "candidates": 77,
       "verified": 71,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 403"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -597,7 +597,7 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -616,8 +616,8 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 2,
+      "candidates": 2,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -685,6 +685,10 @@
       "error": "Devpost Hackathons failed with 403"
     },
     {
+      "name": "Adobe Summit",
+      "error": "fetch failed"
+    },
+    {
       "name": "Meta Connect",
       "error": "Meta Connect failed with 400"
     },
@@ -711,10 +715,6 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 403"
     }
   ],
   "items": [
@@ -759,44 +759,42 @@
       }
     },
     {
-      "title": "Home | Japan Youth Summit",
-      "summary": "Official website for Japan Youth Summit",
-      "source": "Japan Youth Summit",
-      "sourceUrl": "https://japanyouthsummit.com/partners",
+      "title": "GITEX Global (Dubai)",
+      "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
+      "source": "Techmeme Events",
+      "sourceUrl": "https://www.techmeme.com/r2/www.gitex.com_home-Nx1NzFqq.htm",
       "date": "Recent",
-      "location": "Japan",
-      "sourceType": "Official",
-      "id": "home-japan-youth-summit",
+      "location": "UAE",
+      "sourceType": "Aggregator Backup",
+      "id": "gitex-global-dubai",
       "tags": [
-        "funded",
         "ai",
-        "market"
+        "market",
+        "founder"
       ],
-      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
-      "distanceFromIndia": "medium",
-      "airTravel": "self-funded",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "medium",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
       "fit": "High fit",
-      "why": "This can help HandiAds build international presence in Japan while keeping founder travel cost controlled.",
-      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
       "nextMoves": [
         "Open the source and verify the official application page.",
-        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
         "Prepare an AI and performance marketing partnership angle for HandiAds.",
         "Save the lead if it can create meetings, content, or revenue."
       ],
       "priority": {
-        "score": 88,
+        "score": 73,
         "reasons": [
           "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Moderate Distance (+20)",
-          "Sponsored business opportunity",
-          "Strong influencer and networking value",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
-          "Official source"
+          "Techmeme curated event"
         ],
-        "label": "Priority 1"
+        "label": "Priority 2"
       }
     }
   ]
