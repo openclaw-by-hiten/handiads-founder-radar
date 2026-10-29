@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:02:32.166Z",
+  "generatedAt": "2026-10-29T01:37:53.894Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 970,
-    "uniqueSignals": 848,
-    "recentSignals": 618,
-    "candidatePagesQueued": 469,
-    "candidatePagesVerified": 87,
-    "finalItems": 2,
+    "fetchedSignals": 974,
+    "uniqueSignals": 849,
+    "recentSignals": 635,
+    "candidatePagesQueued": 472,
+    "candidatePagesVerified": 88,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -85,7 +85,7 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 17,
       "verified": 3,
       "final": 0,
       "error": ""
@@ -300,8 +300,8 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 20,
-      "candidates": 17,
+      "fetched": 12,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -454,7 +454,7 @@
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -463,9 +463,9 @@
       "name": "Techmeme Events",
       "type": "html",
       "fetched": 102,
-      "candidates": 71,
-      "verified": 65,
-      "final": 1,
+      "candidates": 68,
+      "verified": 62,
+      "final": 0,
       "error": ""
     },
     {
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 3,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 403"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 16,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 0,
+      "candidates": 4,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,8 +643,8 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -652,8 +652,8 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -711,10 +711,6 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
-    },
-    {
-      "name": "MarTech",
-      "error": "MarTech failed with 403"
     }
   ],
   "items": [
@@ -753,45 +749,6 @@
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "GITEX Global (Dubai)",
-      "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
-      "source": "Techmeme Events",
-      "sourceUrl": "https://www.techmeme.com/r2/www.gitex.com_home-Nx1NzFqq.htm",
-      "date": "Recent",
-      "location": "UAE",
-      "sourceType": "Aggregator Backup",
-      "id": "gitex-global-dubai",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "medium",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 73,
-        "reasons": [
-          "Top-Tier Ecosystem / Sponsored Priority",
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "AI relevance for HandiAds positioning",
-          "Techmeme curated event"
         ],
         "label": "Priority 2"
       }
