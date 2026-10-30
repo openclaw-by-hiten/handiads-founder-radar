@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:37:53.894Z",
+  "generatedAt": "2026-10-30T01:37:59.210Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 974,
-    "uniqueSignals": 849,
-    "recentSignals": 635,
-    "candidatePagesQueued": 472,
-    "candidatePagesVerified": 88,
-    "finalItems": 1,
+    "fetchedSignals": 963,
+    "uniqueSignals": 842,
+    "recentSignals": 626,
+    "candidatePagesQueued": 465,
+    "candidatePagesVerified": 86,
+    "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 2,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -85,8 +85,8 @@
       "name": "Google Cloud Events",
       "type": "html",
       "fetched": 20,
-      "candidates": 17,
-      "verified": 3,
+      "candidates": 18,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 102,
-      "candidates": 68,
-      "verified": 62,
+      "fetched": 98,
+      "candidates": 66,
+      "verified": 60,
       "final": 0,
       "error": ""
     },
@@ -472,7 +472,7 @@
       "name": "Meta Newsroom Feed",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 3,
+      "candidates": 4,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
+      "fetched": 17,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -581,7 +581,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 2,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -597,7 +597,7 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 13,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 1,
+      "candidates": 2,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -624,7 +624,7 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 19,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -653,7 +653,7 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 1,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -713,45 +713,5 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": [
-    {
-      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
-      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
-      "source": "Google Play Accelerator India",
-      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
-      "date": "Recent",
-      "location": "India",
-      "sourceType": "Official",
-      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 78,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning",
-          "Official source"
-        ],
-        "label": "Priority 2"
-      }
-    }
-  ]
+  "items": []
 }
