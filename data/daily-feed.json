@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T03:22:07.463Z",
+  "generatedAt": "2026-11-04T01:57:58.561Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 967,
-    "uniqueSignals": 839,
-    "recentSignals": 626,
-    "candidatePagesQueued": 473,
-    "candidatePagesVerified": 85,
-    "finalItems": 2,
+    "fetchedSignals": 946,
+    "uniqueSignals": 822,
+    "recentSignals": 616,
+    "candidatePagesQueued": 471,
+    "candidatePagesVerified": 88,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -77,7 +77,7 @@
       "type": "html",
       "fetched": 13,
       "candidates": 4,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -230,7 +230,7 @@
       "type": "html",
       "fetched": 18,
       "candidates": 13,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -284,8 +284,8 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 0,
-      "final": 0,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -300,8 +300,8 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 20,
-      "candidates": 17,
+      "fetched": 12,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -446,7 +446,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 17,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -454,7 +454,7 @@
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 92,
-      "candidates": 63,
-      "verified": 58,
+      "fetched": 91,
+      "candidates": 60,
+      "verified": 56,
       "final": 0,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 5,
+      "candidates": 6,
+      "verified": 6,
       "final": 0,
       "error": ""
     },
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 10,
+      "fetched": 0,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "MarTech failed with 429"
     },
     {
       "name": "GDELT Global News",
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
-      "verified": 2,
+      "candidates": 4,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -589,15 +589,15 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 14,
+      "fetched": 13,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -625,7 +625,7 @@
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 13,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -711,6 +711,10 @@
     {
       "name": "India AI Events",
       "error": "India AI Events failed with 403"
+    },
+    {
+      "name": "MarTech",
+      "error": "MarTech failed with 429"
     }
   ],
   "items": [
@@ -792,6 +796,45 @@
           "Strong influencer and networking value",
           "AI relevance for HandiAds positioning",
           "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Apple Developer Forums",
+      "summary": "Connect with fellow developers and Apple experts as you give and receive help on a wide variety of development topics, from implementing new technologies to established best practices",
+      "source": "Apple Developer Events",
+      "sourceUrl": "https://developer.apple.com/forums/",
+      "date": "Recent",
+      "location": "Global",
+      "sourceType": "Official",
+      "id": "apple-developer-forums",
+      "tags": [
+        "ai",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "remote",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 73,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Global Networking Opportunity (+10)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
           "Official source"
         ],
         "label": "Priority 2"
