@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T04:01:26.983Z",
+  "generatedAt": "2026-11-11T01:46:25.300Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 945,
-    "uniqueSignals": 828,
-    "recentSignals": 610,
-    "candidatePagesQueued": 448,
-    "candidatePagesVerified": 68,
+    "fetchedSignals": 937,
+    "uniqueSignals": 815,
+    "recentSignals": 596,
+    "candidatePagesQueued": 435,
+    "candidatePagesVerified": 65,
     "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -69,7 +69,7 @@
       "fetched": 13,
       "candidates": 9,
       "verified": 2,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 19,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -372,11 +372,11 @@
     {
       "name": "LinkedIn Pressroom",
       "type": "html",
-      "fetched": 11,
-      "candidates": 10,
-      "verified": 1,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "LinkedIn Pressroom failed with 403"
     },
     {
       "name": "US AI.gov",
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 79,
-      "candidates": 51,
-      "verified": 48,
+      "fetched": 80,
+      "candidates": 50,
+      "verified": 47,
       "final": 1,
       "error": ""
     },
@@ -582,7 +582,7 @@
       "fetched": 20,
       "candidates": 1,
       "verified": 1,
-      "final": 1,
+      "final": 0,
       "error": ""
     },
     {
@@ -624,8 +624,8 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 14,
-      "candidates": 1,
+      "fetched": 16,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -705,6 +705,10 @@
       "error": "Meta Investor Events failed with 403"
     },
     {
+      "name": "LinkedIn Pressroom",
+      "error": "LinkedIn Pressroom failed with 403"
+    },
+    {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
     },
@@ -755,6 +759,45 @@
       }
     },
     {
+      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
+      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
+      "source": "Google Play Accelerator India",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 78,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
       "title": "GITEX Global (Dubai)",
       "summary": "GITEX Global (Dubai) - verified event and founder opportunity.",
       "source": "Techmeme Events",
@@ -789,44 +832,6 @@
           "Founder and business growth relevance",
           "AI relevance for HandiAds positioning",
           "Techmeme curated event"
-        ],
-        "label": "Priority 2"
-      }
-    },
-    {
-      "title": "Global Startup Summit in Agra Brings MSMEs, Investors and Emerging Brands Together on One Business Platform - Hello Mumbai News",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbkptZE5FN21SbmtXWXdvQVdJOU9pSzhZTEpjYWkxV010eGU4QlF6Mm1JUGY3aVc0U2xGbEJVbXBhbm1iZXRCVGdVWm5NalJwMksyX21rS0JsME84RXE2NVRuU1pnSHh5X3RNeVBuREhUVzJJV1N2ZXAzU19TdzJWbVU3SlhTcU9zRFJ6YVFUQ0UtWEp3S00yUVJqREp3R0dvTmUtXy1ZOE5pVGRZU1Z3MlVEcjFiRWRuYkdKYWFWams4VDlPN1pSemZPdWlnUkZQQzZrNWI2UURXZFVETDZ0UVQ1QQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Fri, 06 Nov 2026 23:10:43 GMT",
-      "location": "Global",
-      "sourceType": "Aggregator Backup",
-      "id": "global-startup-summit-in-agra-brings-msmes-investors-and-emerging-brands-togethe",
-      "tags": [
-        "ai",
-        "market",
-        "founder"
-      ],
-      "sponsorship": "No sponsorship found in headline or snippet.",
-      "distanceFromIndia": "near",
-      "airTravel": "unknown",
-      "influencerValue": "high",
-      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
-      "fit": "High fit",
-      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
-      "cost": "No sponsorship found in headline or snippet.",
-      "nextMoves": [
-        "Open the source and verify the official application page.",
-        "Prepare an AI and performance marketing partnership angle for HandiAds.",
-        "Save the lead if it can create meetings, content, or revenue."
-      ],
-      "priority": {
-        "score": 68,
-        "reasons": [
-          "Rank 2: Near India / Low Travel Cost Location (+30)",
-          "Founder and business growth relevance",
-          "Strong influencer and networking value",
-          "AI relevance for HandiAds positioning"
         ],
         "label": "Priority 2"
       }
