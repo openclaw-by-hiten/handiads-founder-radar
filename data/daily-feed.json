@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T02:45:27.644Z",
+  "generatedAt": "2026-11-13T02:28:04.840Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 949,
-    "uniqueSignals": 827,
-    "recentSignals": 608,
-    "candidatePagesQueued": 444,
-    "candidatePagesVerified": 65,
+    "fetchedSignals": 968,
+    "uniqueSignals": 838,
+    "recentSignals": 624,
+    "candidatePagesQueued": 456,
+    "candidatePagesVerified": 67,
     "finalItems": 2,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -31,7 +31,7 @@
       "name": "Meta Company News",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 81,
-      "candidates": 49,
-      "verified": 44,
+      "fetched": 83,
+      "candidates": 48,
+      "verified": 45,
       "final": 1,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 20,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -589,16 +589,16 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 3,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 15,
-      "candidates": 2,
+      "fetched": 14,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 0,
+      "candidates": 3,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -624,9 +624,9 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 16,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 15,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 6,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,8 +643,8 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
