@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:03:13.013Z",
+  "generatedAt": "2026-11-15T01:34:41.175Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 957,
-    "uniqueSignals": 834,
-    "recentSignals": 633,
-    "candidatePagesQueued": 463,
-    "candidatePagesVerified": 63,
-    "finalItems": 0,
+    "fetchedSignals": 951,
+    "uniqueSignals": 830,
+    "recentSignals": 620,
+    "candidatePagesQueued": 453,
+    "candidatePagesVerified": 59,
+    "finalItems": 1,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 81,
-      "candidates": 45,
-      "verified": 42,
+      "fetched": 79,
+      "candidates": 44,
+      "verified": 41,
       "final": 0,
       "error": ""
     },
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 19,
+      "fetched": 18,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
-      "verified": 2,
+      "candidates": 2,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -590,15 +590,15 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 3,
-      "verified": 0,
-      "final": 0,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 13,
-      "candidates": 1,
+      "fetched": 12,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,8 +607,8 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 1,
+      "candidates": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -624,8 +624,8 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 19,
-      "candidates": 3,
+      "fetched": 16,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 12,
+      "candidates": 8,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -642,7 +642,7 @@
     {
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
-      "fetched": 19,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -713,5 +713,44 @@
       "error": "European AI Alliance failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "ISA to Host 2026 CEO Conference on AI’s Business Impact in Mumbai on December 10 - MediaNews4U",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India AI and startup conferences",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTnRtZmhveTJvekUtNGNYTVlvZ0hpTUpfMEYxZWlod2pKNXNoc3NPdkdRTk9pVGdaNUd0SlVWMzIzdVBCaV9VbGhDOXZqelFUU3dVaGMxVnFkLWVDVHVnRWRBekxSX0RHTnZhM1N5a2VkZVVUVVRSQk9DYkVkOENaRGdoY1ZoWXpqZ1g1LWh1RWM4YWpVUk1TdnVHVUt1MEJyTzhkenhTTnh2ZWI3?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Sat, 14 Nov 2026 03:59:04 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "isa-to-host-2026-ceo-conference-on-ai-s-business-impact-in-mumbai-on-december-10",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
