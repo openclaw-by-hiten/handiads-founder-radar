@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T01:38:21.517Z",
+  "generatedAt": "2026-11-17T04:23:14.242Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 940,
-    "uniqueSignals": 820,
-    "recentSignals": 610,
-    "candidatePagesQueued": 453,
-    "candidatePagesVerified": 56,
+    "fetchedSignals": 838,
+    "uniqueSignals": 721,
+    "recentSignals": 597,
+    "candidatePagesQueued": 426,
+    "candidatePagesVerified": 55,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -86,7 +86,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 18,
-      "verified": 2,
+      "verified": 3,
       "final": 0,
       "error": ""
     },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -228,9 +228,9 @@
     {
       "name": "Google Developers Events Directory",
       "type": "html",
-      "fetched": 18,
+      "fetched": 19,
       "candidates": 13,
-      "verified": 2,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 79,
-      "candidates": 41,
-      "verified": 39,
+      "fetched": 78,
+      "candidates": 38,
+      "verified": 36,
       "final": 0,
       "error": ""
     },
@@ -517,8 +517,8 @@
       "name": "MIT Technology Review",
       "type": "rss",
       "fetched": 10,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -534,11 +534,11 @@
     {
       "name": "MarTech",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 10,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "MarTech failed with 429"
+      "error": ""
     },
     {
       "name": "GDELT Global News",
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,7 +570,7 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
+      "fetched": 18,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -581,23 +581,23 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 2,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - India AI and startup conferences failed with 429"
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 13,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -606,38 +606,38 @@
     {
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 2,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - Startup grants and accelerators near India failed with 429"
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 1,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - MNC startup credits and founder programs failed with 429"
     },
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 17,
-      "candidates": 1,
-      "verified": 1,
+      "fetched": 0,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - Google AI startup events India failed with 429"
     },
     {
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 14,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 429"
     },
     {
       "name": "Google Backup - Global Funded Founder Travel",
@@ -651,11 +651,11 @@
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 20,
-      "candidates": 7,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Google Backup - Top MNC Startup Events failed with 429"
     },
     {
       "name": "NewsAPI optional",
@@ -713,8 +713,28 @@
       "error": "European AI Alliance failed with 403"
     },
     {
-      "name": "MarTech",
-      "error": "MarTech failed with 429"
+      "name": "Google Backup - India AI and startup conferences",
+      "error": "Google Backup - India AI and startup conferences failed with 429"
+    },
+    {
+      "name": "Google Backup - Startup grants and accelerators near India",
+      "error": "Google Backup - Startup grants and accelerators near India failed with 429"
+    },
+    {
+      "name": "Google Backup - MNC startup credits and founder programs",
+      "error": "Google Backup - MNC startup credits and founder programs failed with 429"
+    },
+    {
+      "name": "Google Backup - Google AI startup events India",
+      "error": "Google Backup - Google AI startup events India failed with 429"
+    },
+    {
+      "name": "Google Backup - Ad tech and performance marketing intelligence",
+      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 429"
+    },
+    {
+      "name": "Google Backup - Top MNC Startup Events",
+      "error": "Google Backup - Top MNC Startup Events failed with 429"
     }
   ],
   "items": []
