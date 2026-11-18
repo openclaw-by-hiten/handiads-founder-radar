@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T04:23:14.242Z",
+  "generatedAt": "2026-11-18T03:24:00.470Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 838,
-    "uniqueSignals": 721,
-    "recentSignals": 597,
-    "candidatePagesQueued": 426,
-    "candidatePagesVerified": 55,
+    "fetchedSignals": 914,
+    "uniqueSignals": 807,
+    "recentSignals": 604,
+    "candidatePagesQueued": 433,
+    "candidatePagesVerified": 54,
     "finalItems": 0,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -156,20 +156,20 @@
     {
       "name": "Hub71 Programs",
       "type": "html",
-      "fetched": 20,
-      "candidates": 13,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Hub71 Programs failed with 403"
     },
     {
       "name": "Hub71 AI Program",
       "type": "html",
-      "fetched": 20,
-      "candidates": 5,
+      "fetched": 0,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": ""
+      "error": "Hub71 AI Program failed with 403"
     },
     {
       "name": "Startup SG Programmes",
@@ -284,7 +284,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 16,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 78,
-      "candidates": 38,
-      "verified": 36,
+      "fetched": 77,
+      "candidates": 34,
+      "verified": 32,
       "final": 0,
       "error": ""
     },
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
+      "candidates": 2,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -580,7 +580,7 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -588,16 +588,16 @@
     {
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 20,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - India AI and startup conferences failed with 429"
+      "error": ""
     },
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 15,
+      "fetched": 16,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -606,38 +606,38 @@
     {
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 5,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Startup grants and accelerators near India failed with 429"
+      "error": ""
     },
     {
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
-      "verified": 0,
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
-      "error": "Google Backup - MNC startup credits and founder programs failed with 429"
+      "error": ""
     },
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 0,
+      "fetched": 15,
       "candidates": 0,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Google AI startup events India failed with 429"
+      "error": ""
     },
     {
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 14,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 429"
+      "error": ""
     },
     {
       "name": "Google Backup - Global Funded Founder Travel",
@@ -651,11 +651,11 @@
     {
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 9,
       "verified": 0,
       "final": 0,
-      "error": "Google Backup - Top MNC Startup Events failed with 429"
+      "error": ""
     },
     {
       "name": "NewsAPI optional",
@@ -679,6 +679,14 @@
     {
       "name": "Adobe Business Events",
       "error": "This operation was aborted"
+    },
+    {
+      "name": "Hub71 Programs",
+      "error": "Hub71 Programs failed with 403"
+    },
+    {
+      "name": "Hub71 AI Program",
+      "error": "Hub71 AI Program failed with 403"
     },
     {
       "name": "Devpost Hackathons",
@@ -711,30 +719,6 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "Google Backup - India AI and startup conferences",
-      "error": "Google Backup - India AI and startup conferences failed with 429"
-    },
-    {
-      "name": "Google Backup - Startup grants and accelerators near India",
-      "error": "Google Backup - Startup grants and accelerators near India failed with 429"
-    },
-    {
-      "name": "Google Backup - MNC startup credits and founder programs",
-      "error": "Google Backup - MNC startup credits and founder programs failed with 429"
-    },
-    {
-      "name": "Google Backup - Google AI startup events India",
-      "error": "Google Backup - Google AI startup events India failed with 429"
-    },
-    {
-      "name": "Google Backup - Ad tech and performance marketing intelligence",
-      "error": "Google Backup - Ad tech and performance marketing intelligence failed with 429"
-    },
-    {
-      "name": "Google Backup - Top MNC Startup Events",
-      "error": "Google Backup - Top MNC Startup Events failed with 429"
     }
   ],
   "items": []
