@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T02:54:35.724Z",
+  "generatedAt": "2026-11-21T03:01:53.524Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 881,
-    "uniqueSignals": 775,
-    "recentSignals": 577,
-    "candidatePagesQueued": 408,
-    "candidatePagesVerified": 51,
-    "finalItems": 0,
+    "fetchedSignals": 884,
+    "uniqueSignals": 776,
+    "recentSignals": 572,
+    "candidatePagesQueued": 406,
+    "candidatePagesVerified": 46,
+    "finalItems": 3,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 1,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -222,7 +222,7 @@
       "fetched": 13,
       "candidates": 13,
       "verified": 1,
-      "final": 0,
+      "final": 1,
       "error": ""
     },
     {
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 70,
-      "candidates": 30,
-      "verified": 28,
+      "fetched": 67,
+      "candidates": 28,
+      "verified": 26,
       "final": 0,
       "error": ""
     },
@@ -562,15 +562,15 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 15,
+      "fetched": 16,
       "candidates": 1,
       "verified": 0,
       "final": 0,
@@ -580,9 +580,9 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
-      "verified": 2,
-      "final": 0,
+      "candidates": 3,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -597,7 +597,7 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 18,
+      "fetched": 19,
       "candidates": 0,
       "verified": 0,
       "final": 0,
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 5,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -624,10 +624,10 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 11,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "fetched": 15,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 8,
+      "candidates": 7,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -725,5 +725,126 @@
       "error": "India AI Events failed with 403"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "Home | Japan Youth Summit",
+      "summary": "Official website for Japan Youth Summit",
+      "source": "Japan Youth Summit",
+      "sourceUrl": "https://japanyouthsummit.com/partners",
+      "date": "Recent",
+      "location": "Japan",
+      "sourceType": "Official",
+      "id": "home-japan-youth-summit",
+      "tags": [
+        "funded",
+        "ai",
+        "market",
+        "ads"
+      ],
+      "sponsorship": "Possible sponsored or partly sponsored support. Needs official verification.",
+      "distanceFromIndia": "medium",
+      "airTravel": "self-funded",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This can help HandiAds build international presence in Japan while keeping founder travel cost controlled.",
+      "cost": "Possible sponsored or partly sponsored support. Needs official verification. Flight may still need to be paid by the founder.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Check eligibility, deadline, covered costs, visa needs, and flight cost.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Turn the signal into a client-facing ad growth insight.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 96,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Moderate Distance (+20)",
+          "Sponsored business opportunity",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Performance marketing relevance",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "Google News",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - India founder programs with applications",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM0hTSVRwRndRVzdqWmtXeFBtU09sbHY2YjVqaEtyMmJWX0d1Mk0tcFozdm8tZEdJT1lNaUVWQUNmeVRQSXVZYTZ4MWxUTVhNVEl1ellCclViSktBMzlBS2hwN0FQdzU5VEZVbjg0dDUwY1lfVnhHQ0VwQ1hQdjNHRjRNVHluTXBJSDdjRmM2YkhCbFhhY0lZRFZyendObldOZlg1aHR2RWVXQzZaOHZKZ01NRG1UZXcwdjFsN3Q3c3pqa210bW42Qmh4RmhMU0haYlJfc3NmcHUtOHVhTl9Fclo5RdIB6AFBVV95cUxON3NxazBRbnhXRTlhSXQ3eXZKRUhBbFJXM1IxTUxfSUJoTU54eEdUeFVtUlY5UXZOU3JhMl9oUVdjeFh3NUFpU1dkallZRHJyOXRWX2JpZUZRNjQ5TVJnZS1FaXpSb1NVR2dDWXhoQUZISlNJZ1p1akpQWGVYd21kclcxSlRiTnMwS3hJUVpWTy1QRm1qeTlJYWJCNXNFNGZIeUpXck1WendzOFBGLURMOGJ5LVlkY1RPR09FWXBhSnNBcUw5SlZ6MmZRc1JSa29QVkE1dTNlSHkzUkZpc3BDMzY2eExGMGZs?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Thu, 19 Nov 2026 18:09:00 GMT",
+      "location": "India",
+      "sourceType": "Aggregator Backup",
+      "id": "google-news",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    },
+    {
+      "title": "Karnataka attracts ₹1,050 crore deeptech investment from 24 VCs at Bengaluru Tech Summit - ET Government",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Google Backup - Google AI startup events India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQlRxV19qVVpYUkNweDJtU255NEFPa2ZmUERJTFFuTHVnOVJRWTNJc2Qyc1pXdXkzUWUxYUV1QklpQTdYNzROajN6WlNlS3RpZWp1TXpzUVFBWjBOQnFmRTJNZFJjU1lzNGRxcVhkc3R5dmQ4ZnR1dUN4cG9kQmQ0Y2VqMTlLMTdVZnE4bFhCZUdEdU1HMmx5blhuM2xTWjgtSlBzaXFudGRaVnlrYkxZUmxYVEFmdHktYm9vcnMwLXlhOVpEZnBMN2w2dnFISmwxUWZXZkFlYUFLV1gzQU5sNkMtclVzN21tanlrRm9R0gHyAUFVX3lxTE1Ha3RtM1VMY3Q5QWlHc0I1RjFoRXNZZUNaSm53YVl0b3VSanI3bVgyNTJXVk1RTl9QOEM0bU1ZekFObVlQVUxUR2JEalBEV0puaDRRaDkxRmQyREhrV09FczRhWVlpODZ4LTJSQnNqMXVFODNnSkZMaU56N0NRRUQwNENYa3duV0FpYW9zM3ZYTXd2bTRtSFc2ZVl5OUItXzdQbUFObjlJRlBNZ1huV09tXy1VRjg3RzBjbVMxTENDck55MDRQQS1VdUV0QWZIMHRYMTZkaVBDMm5aWGpHVnZFS0N3eGZTNXU5M0pIc2preU9B?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Fri, 20 Nov 2026 17:19:59 GMT",
+      "location": "Global",
+      "sourceType": "Aggregator Backup",
+      "id": "karnataka-attracts-1-050-crore-deeptech-investment-from-24-vcs-at-bengaluru-tech",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Aggregator backup scan. Open and verify the original publisher.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 68,
+        "reasons": [
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning"
+        ],
+        "label": "Priority 2"
+      }
+    }
+  ]
 }
