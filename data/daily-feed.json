@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T03:01:53.524Z",
+  "generatedAt": "2026-11-22T01:58:10.378Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,10 +8,10 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 884,
-    "uniqueSignals": 776,
-    "recentSignals": 572,
-    "candidatePagesQueued": 406,
+    "fetchedSignals": 888,
+    "uniqueSignals": 778,
+    "recentSignals": 562,
+    "candidatePagesQueued": 400,
     "candidatePagesVerified": 46,
     "finalItems": 3,
     "newsApiEnabled": false,
@@ -67,8 +67,8 @@
       "name": "Google Play Accelerator India",
       "type": "html",
       "fetched": 13,
-      "candidates": 9,
-      "verified": 2,
+      "candidates": 8,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -77,7 +77,7 @@
       "type": "html",
       "fetched": 13,
       "candidates": 4,
-      "verified": 1,
+      "verified": 2,
       "final": 0,
       "error": ""
     },
@@ -462,7 +462,7 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 67,
+      "fetched": 62,
       "candidates": 28,
       "verified": 26,
       "final": 0,
@@ -562,7 +562,7 @@
       "name": "Google Backup - Gujarat founder opportunities",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 16,
-      "candidates": 1,
+      "fetched": 19,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -581,15 +581,15 @@
       "type": "rss",
       "fetched": 20,
       "candidates": 3,
-      "verified": 1,
-      "final": 1,
+      "verified": 2,
+      "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 0,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -597,18 +597,18 @@
     {
       "name": "Google Backup - Government startup delegations",
       "type": "rss",
-      "fetched": 19,
-      "candidates": 0,
-      "verified": 0,
-      "final": 0,
+      "fetched": 20,
+      "candidates": 1,
+      "verified": 1,
+      "final": 1,
       "error": ""
     },
     {
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
-      "verified": 1,
+      "candidates": 2,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
@@ -616,16 +616,16 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 1,
+      "candidates": 0,
+      "verified": 0,
       "final": 0,
       "error": ""
     },
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 15,
-      "candidates": 1,
+      "fetched": 20,
+      "candidates": 2,
       "verified": 1,
       "final": 1,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 10,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -643,7 +643,7 @@
       "name": "Google Backup - Global Funded Founder Travel",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
+      "candidates": 6,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -773,9 +773,9 @@
     {
       "title": "Google News",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Google Backup - India founder programs with applications",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM0hTSVRwRndRVzdqWmtXeFBtU09sbHY2YjVqaEtyMmJWX0d1Mk0tcFozdm8tZEdJT1lNaUVWQUNmeVRQSXVZYTZ4MWxUTVhNVEl1ellCclViSktBMzlBS2hwN0FQdzU5VEZVbjg0dDUwY1lfVnhHQ0VwQ1hQdjNHRjRNVHluTXBJSDdjRmM2YkhCbFhhY0lZRFZyendObldOZlg1aHR2RWVXQzZaOHZKZ01NRG1UZXcwdjFsN3Q3c3pqa210bW42Qmh4RmhMU0haYlJfc3NmcHUtOHVhTl9Fclo5RdIB6AFBVV95cUxON3NxazBRbnhXRTlhSXQ3eXZKRUhBbFJXM1IxTUxfSUJoTU54eEdUeFVtUlY5UXZOU3JhMl9oUVdjeFh3NUFpU1dkallZRHJyOXRWX2JpZUZRNjQ5TVJnZS1FaXpSb1NVR2dDWXhoQUZISlNJZ1p1akpQWGVYd21kclcxSlRiTnMwS3hJUVpWTy1QRm1qeTlJYWJCNXNFNGZIeUpXck1WendzOFBGLURMOGJ5LVlkY1RPR09FWXBhSnNBcUw5SlZ6MmZRc1JSa29QVkE1dTNlSHkzUkZpc3BDMzY2eExGMGZs?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "Thu, 19 Nov 2026 18:09:00 GMT",
+      "source": "Google Backup - Government startup delegations",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPM2thN3dGV0RHX2h6el81cEpRb193U3JmRHJlTmJMVkJUWUJocFRFM3F0NGJSVTVBa243UG1ac2xHNGFtSXNXQnZPY0otMkN0MWZHa3J4d1RLbWJwd3NRQ3FHZU9zMWNrU0RKT3gxVkduU1JQODdkY3pwYU1EUTIyZkh0djRJdFlmRlJVdEVuWTZ4YS1hRkNhcVp5d3NqY2pEVmZDYnFld2J3dHJTXzFqbGtqd21ja0o5S1NWUGdwejJQR0UtRXREWXRwZ1VpMWNhUHVTaENYWDFpSUYwQTdCbzBRT21tcmRtTFpBYjBsa21VRjRjd2xwV0RJT1FGYUdVME5jM1B6UzExTklFV0E?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "date": "Sat, 21 Nov 2026 07:35:00 GMT",
       "location": "India",
       "sourceType": "Aggregator Backup",
       "id": "google-news",
