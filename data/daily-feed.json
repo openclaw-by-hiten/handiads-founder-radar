@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:50:04.977Z",
+  "generatedAt": "2026-11-26T04:00:25.707Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,12 +8,12 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 885,
-    "uniqueSignals": 775,
-    "recentSignals": 560,
-    "candidatePagesQueued": 398,
-    "candidatePagesVerified": 45,
-    "finalItems": 3,
+    "fetchedSignals": 891,
+    "uniqueSignals": 779,
+    "recentSignals": 568,
+    "candidatePagesQueued": 405,
+    "candidatePagesVerified": 50,
+    "finalItems": 4,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
   },
@@ -78,7 +78,7 @@
       "fetched": 13,
       "candidates": 4,
       "verified": 2,
-      "final": 1,
+      "final": 2,
       "error": ""
     },
     {
@@ -95,7 +95,7 @@
       "type": "html",
       "fetched": 20,
       "candidates": 11,
-      "verified": 0,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -300,8 +300,8 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 12,
-      "candidates": 11,
+      "fetched": 20,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -454,7 +454,7 @@
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
       "fetched": 20,
-      "candidates": 19,
+      "candidates": 18,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -462,9 +462,9 @@
     {
       "name": "Techmeme Events",
       "type": "html",
-      "fetched": 62,
-      "candidates": 27,
-      "verified": 25,
+      "fetched": 61,
+      "candidates": 25,
+      "verified": 23,
       "final": 1,
       "error": ""
     },
@@ -490,8 +490,8 @@
       "name": "TechCrunch Startups",
       "type": "rss",
       "fetched": 20,
-      "candidates": 0,
-      "verified": 0,
+      "candidates": 1,
+      "verified": 1,
       "final": 0,
       "error": ""
     },
@@ -570,8 +570,8 @@
     {
       "name": "Google Backup - Gujarat events and investor networking",
       "type": "rss",
-      "fetched": 18,
-      "candidates": 2,
+      "fetched": 15,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
-      "verified": 0,
+      "candidates": 7,
+      "verified": 5,
       "final": 0,
       "error": ""
     },
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 1,
+      "candidates": 2,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 4,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -624,8 +624,8 @@
     {
       "name": "Google Backup - Google AI startup events India",
       "type": "rss",
-      "fetched": 18,
-      "candidates": 6,
+      "fetched": 20,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 5,
+      "candidates": 3,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -735,6 +735,46 @@
       "location": "India",
       "sourceType": "Official",
       "id": "helping-founders-build-stronger-ai-products-introducing-google-for-startups-imme",
+      "tags": [
+        "ai",
+        "market",
+        "founder"
+      ],
+      "sponsorship": "No sponsorship found in headline or snippet.",
+      "distanceFromIndia": "near",
+      "airTravel": "unknown",
+      "influencerValue": "high",
+      "authenticity": "Official source scan. Verify exact eligibility and dates before applying.",
+      "fit": "High fit",
+      "why": "This may reveal a market, partnership, or founder network that HandiAds can use for growth.",
+      "cost": "No sponsorship found in headline or snippet.",
+      "nextMoves": [
+        "Open the source and verify the official application page.",
+        "Prepare an AI and performance marketing partnership angle for HandiAds.",
+        "Save the lead if it can create meetings, content, or revenue."
+      ],
+      "priority": {
+        "score": 93,
+        "reasons": [
+          "Top-Tier Ecosystem / Sponsored Priority",
+          "Rank 2: Near India / Low Travel Cost Location (+30)",
+          "Founder and business growth relevance",
+          "Strong influencer and networking value",
+          "AI relevance for HandiAds positioning",
+          "Official source"
+        ],
+        "label": "Priority 1"
+      }
+    },
+    {
+      "title": "AI & ML 5 new ways Google is advancing sustainable innovation in India Posted by Vrushali Gaud",
+      "summary": "Google is advancing five new sustainability initiatives in India, leveraging digital innovation and AI to deliver tangible climate solutions across agriculture, clean energy, and green workforce development.",
+      "source": "Google for Startups Immersion",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/5-new-ways-google-is-advancing-sustainable-innovation-in-india/",
+      "date": "Recent",
+      "location": "India",
+      "sourceType": "Official",
+      "id": "ai-ml-5-new-ways-google-is-advancing-sustainable-innovation-in-india-posted-by-v",
       "tags": [
         "ai",
         "market",
