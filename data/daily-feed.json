@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:00:25.707Z",
+  "generatedAt": "2026-11-27T03:59:42.511Z",
   "timezone": "Asia/Kolkata",
   "status": "multi-source-fetched-needs-human-verification",
   "searchedFeeds": 72,
@@ -8,11 +8,11 @@
     "trustedRssFeeds": 8,
     "gdeltQueries": 6,
     "googleBackupFeeds": 11,
-    "fetchedSignals": 891,
-    "uniqueSignals": 779,
-    "recentSignals": 568,
-    "candidatePagesQueued": 405,
-    "candidatePagesVerified": 50,
+    "fetchedSignals": 903,
+    "uniqueSignals": 793,
+    "recentSignals": 574,
+    "candidatePagesQueued": 410,
+    "candidatePagesVerified": 49,
     "finalItems": 4,
     "newsApiEnabled": false,
     "theNewsApiEnabled": false
@@ -300,8 +300,8 @@
     {
       "name": "Salesforce Dreamforce",
       "type": "html",
-      "fetched": 20,
-      "candidates": 17,
+      "fetched": 12,
+      "candidates": 11,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -435,11 +435,11 @@
     {
       "name": "India AI Events",
       "type": "html",
-      "fetched": 0,
-      "candidates": 0,
+      "fetched": 20,
+      "candidates": 17,
       "verified": 0,
       "final": 0,
-      "error": "India AI Events failed with 403"
+      "error": ""
     },
     {
       "name": "ITU AI for Good Global Summit",
@@ -454,7 +454,7 @@
       "name": "UNIDIR Global Conference on AI",
       "type": "html",
       "fetched": 20,
-      "candidates": 18,
+      "candidates": 19,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -580,8 +580,8 @@
       "name": "Google Backup - India founder programs with applications",
       "type": "rss",
       "fetched": 20,
-      "candidates": 7,
-      "verified": 5,
+      "candidates": 6,
+      "verified": 4,
       "final": 0,
       "error": ""
     },
@@ -589,7 +589,7 @@
       "name": "Google Backup - India AI and startup conferences",
       "type": "rss",
       "fetched": 20,
-      "candidates": 2,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -607,7 +607,7 @@
       "name": "Google Backup - Startup grants and accelerators near India",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 2,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -616,7 +616,7 @@
       "name": "Google Backup - MNC startup credits and founder programs",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 3,
       "verified": 1,
       "final": 0,
       "error": ""
@@ -634,7 +634,7 @@
       "name": "Google Backup - Ad tech and performance marketing intelligence",
       "type": "rss",
       "fetched": 20,
-      "candidates": 3,
+      "candidates": 4,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -652,7 +652,7 @@
       "name": "Google Backup - Top MNC Startup Events",
       "type": "rss",
       "fetched": 20,
-      "candidates": 4,
+      "candidates": 1,
       "verified": 0,
       "final": 0,
       "error": ""
@@ -719,10 +719,6 @@
     {
       "name": "European AI Alliance",
       "error": "European AI Alliance failed with 403"
-    },
-    {
-      "name": "India AI Events",
-      "error": "India AI Events failed with 403"
     }
   ],
   "items": [
